@@ -1,6 +1,6 @@
 # Chatvis2 — Requirement evolution visualization
 
-Visualizes requirement evolution from dialogue: outcome boards, requirement graphs, and related utterances. Data is loaded from `static/wine3/` by default (run subfolders: chenyang, jessie, vijay_1, etc.).
+Visualizes requirement evolution from dialogue: outcome boards, requirement graphs, and related utterances. .
 
 ## Using another dataset
 
