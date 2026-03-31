@@ -1,0 +1,12 @@
+{
+  "dialogue_id": "poe_share_YJGGhvvkRbecliFUahQW",
+  "forward_labels": {},
+  "enriched_counts": {
+    "implements": 0,
+    "contributes": 0,
+    "revises": 0
+  },
+  "metadata": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}

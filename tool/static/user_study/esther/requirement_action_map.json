@@ -1,0 +1,2029 @@
+{
+  "r1": {
+    "origin_actions": [
+      {
+        "action_id": "0-1",
+        "role": "SHAPER",
+        "action_text": "User asks the assistant to plan a one-day trip for their parents with morning, afternoon, evening plans (8am-8pm)."
+      }
+    ],
+    "contributing_actions": [
+      {
+        "action_id": "1-11",
+        "role": "EXECUTOR",
+        "action_text": "Assistant recommends a rest break returning to the hotel at 4:15 PM."
+      },
+      {
+        "action_id": "1-6",
+        "role": "EXECUTOR",
+        "action_text": "Assistant recommends a coffee/tea rest break around 10:30 AM."
+      },
+      {
+        "action_id": "1-5",
+        "role": "EXECUTOR",
+        "action_text": "Assistant suggests a gentle stroll through Chinatown & Little Italy after breakfast."
+      },
+      {
+        "action_id": "1-7",
+        "role": "EXECUTOR",
+        "action_text": "Assistant recommends visiting One World Observatory and gives tips on crowd timing and tickets."
+      },
+      {
+        "action_id": "1-9",
+        "role": "EXECUTOR",
+        "action_text": "Assistant suggests a leisurely West Village neighborhood stroll."
+      },
+      {
+        "action_id": "1-4",
+        "role": "EXECUTOR",
+        "action_text": "Assistant advises going early (8–9 AM) to beat weekend crowds and notes Golden Unicorn accepts reservations on weekdays."
+      },
+      {
+        "action_id": "1-15",
+        "role": "EXECUTOR",
+        "action_text": "Assistant advises using taxis or Uber/Lyft between neighborhoods to keep the day relaxed."
+      },
+      {
+        "action_id": "1-10",
+        "role": "EXECUTOR",
+        "action_text": "Assistant offers optional activities: Magnolia Bakery stop and the High Line as optional extras."
+      },
+      {
+        "action_id": "1-3",
+        "role": "EXECUTOR",
+        "action_text": "Assistant recommends dim sum breakfast at Nom Wah Tea Parlor or Golden Unicorn in Chinatown."
+      },
+      {
+        "action_id": "0-7",
+        "role": "SHAPER",
+        "action_text": "User asks the assistant to create the one-day trip itinerary."
+      },
+      {
+        "action_id": "1-2",
+        "role": "EXECUTOR",
+        "action_text": "Assistant organized the day's movement from downtown in the morning to uptown in the evening to keep transitions smooth."
+      },
+      {
+        "action_id": "1-12",
+        "role": "EXECUTOR",
+        "action_text": "Assistant recommends Ethiopian dinner at Awash and suggests dishes to try."
+      },
+      {
+        "action_id": "1-8",
+        "role": "EXECUTOR",
+        "action_text": "Assistant suggests taking a cab/Uber to West Village for lunch and describes the neighborhood as low-key and charming."
+      },
+      {
+        "action_id": "1-13",
+        "role": "EXECUTOR",
+        "action_text": "Assistant suggests an evening stroll or heading back to the hotel depending on energy."
+      }
+    ],
+    "implementation_actions": [
+      {
+        "action_id": "1-1",
+        "role": "EXECUTOR",
+        "action_text": "Assistant provides a full, detailed one-day NYC itinerary organized by morning, afternoon, and evening."
+      },
+      {
+        "action_id": "1-14",
+        "role": "EXECUTOR",
+        "action_text": "Assistant provides a quick day summary table listing times and activities."
+      }
+    ],
+    "revise_actions": [],
+    "related_actions": [
+      {
+        "action_id": "1-1",
+        "role": "EXECUTOR",
+        "action_text": "Assistant provides a full, detailed one-day NYC itinerary organized by morning, afternoon, and evening.",
+        "relationship_type": "IMPLEMENTS",
+        "influence": "indirect",
+        "relationship_score": 5,
+        "explanation": "Delivers a full one-day itinerary explicitly structured into morning, afternoon, and evening, satisfying the 8am–8pm day-plan requirement."
+      },
+      {
+        "action_id": "1-14",
+        "role": "EXECUTOR",
+        "action_text": "Assistant provides a quick day summary table listing times and activities.",
+        "relationship_type": "IMPLEMENTS",
+        "influence": "indirect",
+        "relationship_score": 4,
+        "explanation": "Summarizes the day in a time-based table, directly expressing the required day-plan structure (morning/afternoon/evening across the day)."
+      },
+      {
+        "action_id": "1-2",
+        "role": "EXECUTOR",
+        "action_text": "Assistant organized the day's movement from downtown in the morning to uptown in the evening to keep transitions smooth.",
+        "relationship_type": "CONTRIBUTES",
+        "influence": "indirect",
+        "relationship_score": 2,
+        "explanation": "Improves internal sequencing of the day but does not itself ensure the required 8am–8pm morning/afternoon/evening coverage."
+      },
+      {
+        "action_id": "1-7",
+        "role": "EXECUTOR",
+        "action_text": "Assistant recommends visiting One World Observatory and gives tips on crowd timing and tickets.",
+        "relationship_type": "CONTRIBUTES",
+        "influence": "indirect",
+        "relationship_score": 2,
+        "explanation": "Adds a major planned visit with timing/ticketing that helps build out a substantial portion of the day schedule."
+      },
+      {
+        "action_id": "1-8",
+        "role": "EXECUTOR",
+        "action_text": "Assistant suggests taking a cab/Uber to West Village for lunch and describes the neighborhood as low-key and charming.",
+        "relationship_type": "CONTRIBUTES",
+        "influence": "indirect",
+        "relationship_score": 2,
+        "explanation": "Specifies a transition and lunch plan that supports the afternoon structure of the itinerary."
+      },
+      {
+        "action_id": "1-11",
+        "role": "EXECUTOR",
+        "action_text": "Assistant recommends a rest break returning to the hotel at 4:15 PM.",
+        "relationship_type": "CONTRIBUTES",
+        "influence": "indirect",
+        "relationship_score": 2,
+        "explanation": "Adds an explicit late-afternoon rest break, helping shape the timeline toward evening."
+      },
+      {
+        "action_id": "1-12",
+        "role": "EXECUTOR",
+        "action_text": "Assistant recommends Ethiopian dinner at Awash and suggests dishes to try.",
+        "relationship_type": "CONTRIBUTES",
+        "influence": "indirect",
+        "relationship_score": 2,
+        "explanation": "Provides a clear dinner plan that anchors the evening portion of the itinerary."
+      },
+      {
+        "action_id": "1-3",
+        "role": "EXECUTOR",
+        "action_text": "Assistant recommends dim sum breakfast at Nom Wah Tea Parlor or Golden Unicorn in Chinatown.",
+        "relationship_type": "CONTRIBUTES",
+        "influence": "indirect",
+        "relationship_score": 1,
+        "explanation": "Adds a morning-specific recommendation, which can be part of the morning block but is only one component of the full-day structure."
+      },
+      {
+        "action_id": "1-4",
+        "role": "EXECUTOR",
+        "action_text": "Assistant advises going early (8–9 AM) to beat weekend crowds and notes Golden Unicorn accepts reservations on weekdays.",
+        "relationship_type": "CONTRIBUTES",
+        "influence": "indirect",
+        "relationship_score": 1,
+        "explanation": "Adds timing advice for the morning slot, indirectly supporting the schedule but not defining the required full-day plan segments."
+      },
+      {
+        "action_id": "1-5",
+        "role": "EXECUTOR",
+        "action_text": "Assistant suggests a gentle stroll through Chinatown & Little Italy after breakfast.",
+        "relationship_type": "CONTRIBUTES",
+        "influence": "indirect",
+        "relationship_score": 1,
+        "explanation": "Provides an additional morning activity suggestion that can populate the morning portion of the itinerary."
+      },
+      {
+        "action_id": "1-6",
+        "role": "EXECUTOR",
+        "action_text": "Assistant recommends a coffee/tea rest break around 10:30 AM.",
+        "relationship_type": "CONTRIBUTES",
+        "influence": "indirect",
+        "relationship_score": 1,
+        "explanation": "Adds a mid-morning break that helps flesh out the morning timeline but does not ensure the full 8am–8pm structure."
+      },
+      {
+        "action_id": "1-9",
+        "role": "EXECUTOR",
+        "action_text": "Assistant suggests a leisurely West Village neighborhood stroll.",
+        "relationship_type": "CONTRIBUTES",
+        "influence": "indirect",
+        "relationship_score": 1,
+        "explanation": "Adds an afternoon stroll option that helps populate the afternoon block of the day plan."
+      },
+      {
+        "action_id": "1-10",
+        "role": "EXECUTOR",
+        "action_text": "Assistant offers optional activities: Magnolia Bakery stop and the High Line as optional extras.",
+        "relationship_type": "CONTRIBUTES",
+        "influence": "indirect",
+        "relationship_score": 1,
+        "explanation": "Offers optional add-ons that can fill time within the day, but are not required to meet the morning/afternoon/evening structure."
+      },
+      {
+        "action_id": "1-13",
+        "role": "EXECUTOR",
+        "action_text": "Assistant suggests an evening stroll or heading back to the hotel depending on energy.",
+        "relationship_type": "CONTRIBUTES",
+        "influence": "indirect",
+        "relationship_score": 1,
+        "explanation": "Suggests an evening wrap-up activity option, supporting completion of the evening segment."
+      },
+      {
+        "action_id": "1-15",
+        "role": "EXECUTOR",
+        "action_text": "Assistant advises using taxis or Uber/Lyft between neighborhoods to keep the day relaxed.",
+        "relationship_type": "CONTRIBUTES",
+        "influence": "indirect",
+        "relationship_score": 1,
+        "explanation": "Transportation advice supports feasibility of sticking to the day timeline but does not itself define the required plan structure."
+      }
+    ]
+  },
+  "r2": {
+    "origin_actions": [
+      {
+        "action_id": "0-2",
+        "role": "SHAPER",
+        "action_text": "User specifies that the parents will be staying in Manhattan."
+      }
+    ],
+    "contributing_actions": [
+      {
+        "action_id": "1-5",
+        "role": "EXECUTOR",
+        "action_text": "Assistant suggests a gentle stroll through Chinatown & Little Italy after breakfast."
+      },
+      {
+        "action_id": "1-7",
+        "role": "EXECUTOR",
+        "action_text": "Assistant recommends visiting One World Observatory and gives tips on crowd timing and tickets."
+      },
+      {
+        "action_id": "1-9",
+        "role": "EXECUTOR",
+        "action_text": "Assistant suggests a leisurely West Village neighborhood stroll."
+      },
+      {
+        "action_id": "1-15",
+        "role": "EXECUTOR",
+        "action_text": "Assistant advises using taxis or Uber/Lyft between neighborhoods to keep the day relaxed."
+      },
+      {
+        "action_id": "1-10",
+        "role": "EXECUTOR",
+        "action_text": "Assistant offers optional activities: Magnolia Bakery stop and the High Line as optional extras."
+      },
+      {
+        "action_id": "1-3",
+        "role": "EXECUTOR",
+        "action_text": "Assistant recommends dim sum breakfast at Nom Wah Tea Parlor or Golden Unicorn in Chinatown."
+      },
+      {
+        "action_id": "1-2",
+        "role": "EXECUTOR",
+        "action_text": "Assistant organized the day's movement from downtown in the morning to uptown in the evening to keep transitions smooth."
+      },
+      {
+        "action_id": "1-12",
+        "role": "EXECUTOR",
+        "action_text": "Assistant recommends Ethiopian dinner at Awash and suggests dishes to try."
+      },
+      {
+        "action_id": "1-8",
+        "role": "EXECUTOR",
+        "action_text": "Assistant suggests taking a cab/Uber to West Village for lunch and describes the neighborhood as low-key and charming."
+      }
+    ],
+    "implementation_actions": [
+      {
+        "action_id": "1-1",
+        "role": "EXECUTOR",
+        "action_text": "Assistant provides a full, detailed one-day NYC itinerary organized by morning, afternoon, and evening."
+      }
+    ],
+    "revise_actions": [],
+    "related_actions": [
+      {
+        "action_id": "1-1",
+        "role": "EXECUTOR",
+        "action_text": "Assistant provides a full, detailed one-day NYC itinerary organized by morning, afternoon, and evening.",
+        "relationship_type": "IMPLEMENTS",
+        "influence": "indirect",
+        "relationship_score": 4,
+        "explanation": "Delivers an itinerary whose locations are (as presented) in Manhattan, thereby executing the 'staying in Manhattan' constraint as part of the overall plan."
+      },
+      {
+        "action_id": "1-11",
+        "role": "EXECUTOR",
+        "action_text": "Assistant recommends a rest break returning to the hotel at 4:15 PM.",
+        "relationship_type": "DIRECT_CONNECTION",
+        "influence": "direct",
+        "relationship_score": 4,
+        "explanation": "Explicitly recommends returning to the hotel mid-afternoon, directly operationalizing that the parents are staying in Manhattan (hotel location as an anchor)."
+      },
+      {
+        "action_id": "5-14",
+        "role": "EXECUTOR",
+        "action_text": "Assistant clarifies that all listed destinations are within Manhattan.",
+        "relationship_type": "DIRECT_CONNECTION",
+        "influence": "direct",
+        "relationship_score": 4,
+        "explanation": "Explicitly clarifies that all destinations are within Manhattan, directly evaluating/confirming compliance with the 'staying in Manhattan' requirement."
+      },
+      {
+        "action_id": "1-8",
+        "role": "EXECUTOR",
+        "action_text": "Assistant suggests taking a cab/Uber to West Village for lunch and describes the neighborhood as low-key and charming.",
+        "relationship_type": "CONTRIBUTES",
+        "influence": "indirect",
+        "relationship_score": 3,
+        "explanation": "Suggests intra-Manhattan cab/Uber movement to West Village, reinforcing that the plan operates within Manhattan while accounting for parents staying there."
+      },
+      {
+        "action_id": "1-2",
+        "role": "EXECUTOR",
+        "action_text": "Assistant organized the day's movement from downtown in the morning to uptown in the evening to keep transitions smooth.",
+        "relationship_type": "CONTRIBUTES",
+        "influence": "indirect",
+        "relationship_score": 2,
+        "explanation": "The downtown-to-uptown flow is an internal Manhattan-geography sequencing choice that supports a Manhattan-based day but does not explicitly address the stay-in-Manhattan requirement."
+      },
+      {
+        "action_id": "1-3",
+        "role": "EXECUTOR",
+        "action_text": "Assistant recommends dim sum breakfast at Nom Wah Tea Parlor or Golden Unicorn in Chinatown.",
+        "relationship_type": "CONTRIBUTES",
+        "influence": "indirect",
+        "relationship_score": 2,
+        "explanation": "Recommends Chinatown dim sum spots, which are Manhattan locations consistent with the parents staying in Manhattan."
+      },
+      {
+        "action_id": "1-5",
+        "role": "EXECUTOR",
+        "action_text": "Assistant suggests a gentle stroll through Chinatown & Little Italy after breakfast.",
+        "relationship_type": "CONTRIBUTES",
+        "influence": "indirect",
+        "relationship_score": 2,
+        "explanation": "Suggests strolling Chinatown/Little Italy, both in Manhattan, aligning with a Manhattan-based itinerary."
+      },
+      {
+        "action_id": "1-7",
+        "role": "EXECUTOR",
+        "action_text": "Assistant recommends visiting One World Observatory and gives tips on crowd timing and tickets.",
+        "relationship_type": "CONTRIBUTES",
+        "influence": "indirect",
+        "relationship_score": 2,
+        "explanation": "Recommends One World Observatory, a Manhattan destination, consistent with staying in Manhattan."
+      },
+      {
+        "action_id": "1-9",
+        "role": "EXECUTOR",
+        "action_text": "Assistant suggests a leisurely West Village neighborhood stroll.",
+        "relationship_type": "CONTRIBUTES",
+        "influence": "indirect",
+        "relationship_score": 2,
+        "explanation": "West Village stroll is a Manhattan activity that fits a Manhattan-based stay."
+      },
+      {
+        "action_id": "1-10",
+        "role": "EXECUTOR",
+        "action_text": "Assistant offers optional activities: Magnolia Bakery stop and the High Line as optional extras.",
+        "relationship_type": "CONTRIBUTES",
+        "influence": "indirect",
+        "relationship_score": 2,
+        "explanation": "Optional stops (e.g., High Line) are Manhattan-based options that keep the itinerary within Manhattan."
+      },
+      {
+        "action_id": "1-12",
+        "role": "EXECUTOR",
+        "action_text": "Assistant recommends Ethiopian dinner at Awash and suggests dishes to try.",
+        "relationship_type": "CONTRIBUTES",
+        "influence": "indirect",
+        "relationship_score": 2,
+        "explanation": "Dinner recommendation (Awash in Manhattan) is consistent with keeping the day in Manhattan for parents based there."
+      },
+      {
+        "action_id": "1-15",
+        "role": "EXECUTOR",
+        "action_text": "Assistant advises using taxis or Uber/Lyft between neighborhoods to keep the day relaxed.",
+        "relationship_type": "CONTRIBUTES",
+        "influence": "indirect",
+        "relationship_score": 2,
+        "explanation": "Advising taxis/Uber between neighborhoods supports a Manhattan-centric plan but does not explicitly assert the stay-in-Manhattan requirement."
+      }
+    ]
+  },
+  "r3": {
+    "origin_actions": [
+      {
+        "action_id": "0-4",
+        "role": "SHAPER",
+        "action_text": "User states activity preferences: parents enjoy laidback activities and do not want crowded places or a lot of walking."
+      }
+    ],
+    "contributing_actions": [
+      {
+        "action_id": "1-11",
+        "role": "EXECUTOR",
+        "action_text": "Assistant recommends a rest break returning to the hotel at 4:15 PM."
+      },
+      {
+        "action_id": "1-6",
+        "role": "EXECUTOR",
+        "action_text": "Assistant recommends a coffee/tea rest break around 10:30 AM."
+      },
+      {
+        "action_id": "1-5",
+        "role": "EXECUTOR",
+        "action_text": "Assistant suggests a gentle stroll through Chinatown & Little Italy after breakfast."
+      },
+      {
+        "action_id": "1-7",
+        "role": "EXECUTOR",
+        "action_text": "Assistant recommends visiting One World Observatory and gives tips on crowd timing and tickets."
+      },
+      {
+        "action_id": "1-9",
+        "role": "EXECUTOR",
+        "action_text": "Assistant suggests a leisurely West Village neighborhood stroll."
+      },
+      {
+        "action_id": "1-4",
+        "role": "EXECUTOR",
+        "action_text": "Assistant advises going early (8–9 AM) to beat weekend crowds and notes Golden Unicorn accepts reservations on weekdays."
+      },
+      {
+        "action_id": "1-10",
+        "role": "EXECUTOR",
+        "action_text": "Assistant offers optional activities: Magnolia Bakery stop and the High Line as optional extras."
+      },
+      {
+        "action_id": "1-2",
+        "role": "EXECUTOR",
+        "action_text": "Assistant organized the day's movement from downtown in the morning to uptown in the evening to keep transitions smooth."
+      },
+      {
+        "action_id": "1-8",
+        "role": "EXECUTOR",
+        "action_text": "Assistant suggests taking a cab/Uber to West Village for lunch and describes the neighborhood as low-key and charming."
+      },
+      {
+        "action_id": "1-13",
+        "role": "EXECUTOR",
+        "action_text": "Assistant suggests an evening stroll or heading back to the hotel depending on energy."
+      }
+    ],
+    "implementation_actions": [
+      {
+        "action_id": "1-15",
+        "role": "EXECUTOR",
+        "action_text": "Assistant advises using taxis or Uber/Lyft between neighborhoods to keep the day relaxed."
+      },
+      {
+        "action_id": "1-1",
+        "role": "EXECUTOR",
+        "action_text": "Assistant provides a full, detailed one-day NYC itinerary organized by morning, afternoon, and evening."
+      }
+    ],
+    "revise_actions": [],
+    "related_actions": [
+      {
+        "action_id": "1-1",
+        "role": "EXECUTOR",
+        "action_text": "Assistant provides a full, detailed one-day NYC itinerary organized by morning, afternoon, and evening.",
+        "relationship_type": "IMPLEMENTS",
+        "influence": "indirect",
+        "relationship_score": 4,
+        "explanation": "The overall itinerary output is intended to satisfy the laidback/low-walking constraint via pacing and structure."
+      },
+      {
+        "action_id": "1-15",
+        "role": "EXECUTOR",
+        "action_text": "Assistant advises using taxis or Uber/Lyft between neighborhoods to keep the day relaxed.",
+        "relationship_type": "IMPLEMENTS",
+        "influence": "indirect",
+        "relationship_score": 4,
+        "explanation": "Explicitly recommending taxis/rideshares between neighborhoods directly operationalizes 'avoid a lot of walking' to keep it laidback."
+      },
+      {
+        "action_id": "1-2",
+        "role": "EXECUTOR",
+        "action_text": "Assistant organized the day's movement from downtown in the morning to uptown in the evening to keep transitions smooth.",
+        "relationship_type": "CONTRIBUTES",
+        "influence": "indirect",
+        "relationship_score": 3,
+        "explanation": "Sequencing downtown-to-uptown reduces backtracking and travel friction, supporting a more relaxed, lower-effort day."
+      },
+      {
+        "action_id": "1-4",
+        "role": "EXECUTOR",
+        "action_text": "Assistant advises going early (8–9 AM) to beat weekend crowds and notes Golden Unicorn accepts reservations on weekdays.",
+        "relationship_type": "CONTRIBUTES",
+        "influence": "indirect",
+        "relationship_score": 3,
+        "explanation": "Suggesting early timing and reservations is aimed at avoiding crowds, directly supporting the laidback requirement."
+      },
+      {
+        "action_id": "1-6",
+        "role": "EXECUTOR",
+        "action_text": "Assistant recommends a coffee/tea rest break around 10:30 AM.",
+        "relationship_type": "CONTRIBUTES",
+        "influence": "indirect",
+        "relationship_score": 3,
+        "explanation": "Adding a planned rest break directly supports a laidback pace and reduces fatigue from walking."
+      },
+      {
+        "action_id": "1-8",
+        "role": "EXECUTOR",
+        "action_text": "Assistant suggests taking a cab/Uber to West Village for lunch and describes the neighborhood as low-key and charming.",
+        "relationship_type": "CONTRIBUTES",
+        "influence": "indirect",
+        "relationship_score": 3,
+        "explanation": "Recommending a cab/Uber and a low-key neighborhood reduces walking and avoids more hectic areas."
+      },
+      {
+        "action_id": "1-11",
+        "role": "EXECUTOR",
+        "action_text": "Assistant recommends a rest break returning to the hotel at 4:15 PM.",
+        "relationship_type": "CONTRIBUTES",
+        "influence": "indirect",
+        "relationship_score": 3,
+        "explanation": "A scheduled hotel rest break directly reduces intensity and supports a relaxed, low-walking day."
+      },
+      {
+        "action_id": "1-13",
+        "role": "EXECUTOR",
+        "action_text": "Assistant suggests an evening stroll or heading back to the hotel depending on energy.",
+        "relationship_type": "CONTRIBUTES",
+        "influence": "indirect",
+        "relationship_score": 3,
+        "explanation": "Offering an energy-based choice to stroll or return to hotel supports keeping the pace laidback."
+      },
+      {
+        "action_id": "1-5",
+        "role": "EXECUTOR",
+        "action_text": "Assistant suggests a gentle stroll through Chinatown & Little Italy after breakfast.",
+        "relationship_type": "CONTRIBUTES",
+        "influence": "indirect",
+        "relationship_score": 2,
+        "explanation": "A 'gentle stroll' is framed as low-intensity, but still adds walking; it partially supports laidback pacing."
+      },
+      {
+        "action_id": "1-7",
+        "role": "EXECUTOR",
+        "action_text": "Assistant recommends visiting One World Observatory and gives tips on crowd timing and tickets.",
+        "relationship_type": "CONTRIBUTES",
+        "influence": "indirect",
+        "relationship_score": 2,
+        "explanation": "Crowd-timing and ticket tips help avoid peak crowds, though the attraction itself can still be busy."
+      },
+      {
+        "action_id": "1-9",
+        "role": "EXECUTOR",
+        "action_text": "Assistant suggests a leisurely West Village neighborhood stroll.",
+        "relationship_type": "CONTRIBUTES",
+        "influence": "indirect",
+        "relationship_score": 2,
+        "explanation": "A 'leisurely' stroll supports relaxed pacing but still involves walking, so it only partially aligns."
+      },
+      {
+        "action_id": "1-10",
+        "role": "EXECUTOR",
+        "action_text": "Assistant offers optional activities: Magnolia Bakery stop and the High Line as optional extras.",
+        "relationship_type": "CONTRIBUTES",
+        "influence": "indirect",
+        "relationship_score": 2,
+        "explanation": "Providing optional extras lets the user skip more walking/crowds, supporting a laidback approach indirectly."
+      }
+    ]
+  },
+  "r4": {
+    "origin_actions": [
+      {
+        "action_id": "0-5",
+        "role": "SHAPER",
+        "action_text": "User states preference to visit a few famous landmarks."
+      }
+    ],
+    "contributing_actions": [
+      {
+        "action_id": "1-1",
+        "role": "EXECUTOR",
+        "action_text": "Assistant provides a full, detailed one-day NYC itinerary organized by morning, afternoon, and evening."
+      },
+      {
+        "action_id": "1-10",
+        "role": "EXECUTOR",
+        "action_text": "Assistant offers optional activities: Magnolia Bakery stop and the High Line as optional extras."
+      },
+      {
+        "action_id": "1-14",
+        "role": "EXECUTOR",
+        "action_text": "Assistant provides a quick day summary table listing times and activities."
+      }
+    ],
+    "implementation_actions": [
+      {
+        "action_id": "1-7",
+        "role": "EXECUTOR",
+        "action_text": "Assistant recommends visiting One World Observatory and gives tips on crowd timing and tickets."
+      }
+    ],
+    "revise_actions": [],
+    "related_actions": [
+      {
+        "action_id": "1-7",
+        "role": "EXECUTOR",
+        "action_text": "Assistant recommends visiting One World Observatory and gives tips on crowd timing and tickets.",
+        "relationship_type": "IMPLEMENTS",
+        "influence": "indirect",
+        "relationship_score": 4,
+        "explanation": "Intent-Reveal: Recommending a visit to One World Observatory explicitly adds a well-known NYC landmark visit to the itinerary."
+      },
+      {
+        "action_id": "1-1",
+        "role": "EXECUTOR",
+        "action_text": "Assistant provides a full, detailed one-day NYC itinerary organized by morning, afternoon, and evening.",
+        "relationship_type": "CONTRIBUTES",
+        "influence": "indirect",
+        "relationship_score": 3,
+        "explanation": "Intent-Reveal: A full itinerary likely includes landmarks, but the action is broadly about the whole day plan rather than explicitly ensuring 'a few famous landmarks.'"
+      },
+      {
+        "action_id": "1-10",
+        "role": "EXECUTOR",
+        "action_text": "Assistant offers optional activities: Magnolia Bakery stop and the High Line as optional extras.",
+        "relationship_type": "CONTRIBUTES",
+        "influence": "indirect",
+        "relationship_score": 2,
+        "explanation": "Intent-Reveal: Optional extras include the High Line, a notable NYC attraction; this partially supports having landmark-type stops but is optional and not framed as 'famous landmarks.'"
+      },
+      {
+        "action_id": "1-14",
+        "role": "EXECUTOR",
+        "action_text": "Assistant provides a quick day summary table listing times and activities.",
+        "relationship_type": "CONTRIBUTES",
+        "influence": "indirect",
+        "relationship_score": 2,
+        "explanation": "Intent-Reveal: The summary table reiterates scheduled items (including the observatory), indirectly reinforcing the landmark visit but not adding new landmark content."
+      }
+    ]
+  },
+  "r5": {
+    "origin_actions": [
+      {
+        "action_id": "0-6",
+        "role": "SHAPER",
+        "action_text": "User states food preference: try cultural (non-American) food only available in NYC."
+      }
+    ],
+    "contributing_actions": [
+      {
+        "action_id": "1-1",
+        "role": "EXECUTOR",
+        "action_text": "Assistant provides a full, detailed one-day NYC itinerary organized by morning, afternoon, and evening."
+      },
+      {
+        "action_id": "1-14",
+        "role": "EXECUTOR",
+        "action_text": "Assistant provides a quick day summary table listing times and activities."
+      }
+    ],
+    "implementation_actions": [
+      {
+        "action_id": "1-12",
+        "role": "EXECUTOR",
+        "action_text": "Assistant recommends Ethiopian dinner at Awash and suggests dishes to try."
+      },
+      {
+        "action_id": "1-3",
+        "role": "EXECUTOR",
+        "action_text": "Assistant recommends dim sum breakfast at Nom Wah Tea Parlor or Golden Unicorn in Chinatown."
+      }
+    ],
+    "revise_actions": [],
+    "related_actions": [
+      {
+        "action_id": "1-3",
+        "role": "EXECUTOR",
+        "action_text": "Assistant recommends dim sum breakfast at Nom Wah Tea Parlor or Golden Unicorn in Chinatown.",
+        "relationship_type": "IMPLEMENTS",
+        "influence": "indirect",
+        "relationship_score": 4,
+        "explanation": "Recommending dim sum in Chinatown is a concrete inclusion of non-American cultural food and is a direct step toward fulfilling the requirement (even if 'only available in NYC' is not explicitly proven)."
+      },
+      {
+        "action_id": "1-12",
+        "role": "EXECUTOR",
+        "action_text": "Assistant recommends Ethiopian dinner at Awash and suggests dishes to try.",
+        "relationship_type": "IMPLEMENTS",
+        "influence": "indirect",
+        "relationship_score": 4,
+        "explanation": "Recommending Ethiopian dinner and specific dishes is a direct inclusion of non-American cultural food, contributing substantively toward satisfying the requirement (though exclusivity to NYC is not explicitly established)."
+      },
+      {
+        "action_id": "1-1",
+        "role": "EXECUTOR",
+        "action_text": "Assistant provides a full, detailed one-day NYC itinerary organized by morning, afternoon, and evening.",
+        "relationship_type": "CONTRIBUTES",
+        "influence": "indirect",
+        "relationship_score": 2,
+        "explanation": "The full itinerary may include cultural (non-American) NYC-unique food components, but the action is not explicitly focused on satisfying that specific food requirement."
+      },
+      {
+        "action_id": "1-5",
+        "role": "EXECUTOR",
+        "action_text": "Assistant suggests a gentle stroll through Chinatown & Little Italy after breakfast.",
+        "relationship_type": "IMPLICIT_CONNECTION",
+        "influence": "indirect",
+        "relationship_score": 1,
+        "explanation": "Strolling Chinatown/Little Italy provides contextual proximity to cultural food options but does not itself add a specific NYC-only cultural food item."
+      },
+      {
+        "action_id": "1-14",
+        "role": "EXECUTOR",
+        "action_text": "Assistant provides a quick day summary table listing times and activities.",
+        "relationship_type": "CONTRIBUTES",
+        "influence": "indirect",
+        "relationship_score": 1,
+        "explanation": "The summary table may reflect the included cultural food stops, but it does not itself add or evaluate NYC-only cultural food."
+      }
+    ]
+  },
+  "r6": {
+    "origin_actions": [
+      {
+        "action_id": "2-2",
+        "role": "SHAPER",
+        "action_text": "User asks for a simplified, one-sheet, high-level overview by reducing excessive text."
+      }
+    ],
+    "contributing_actions": [
+      {
+        "action_id": "3-1",
+        "role": "SHAPER",
+        "action_text": "Assistant restates the user's requests (simplify, mark priorities, remove excess text, keep it flexible)."
+      },
+      {
+        "action_id": "3-2",
+        "role": "SHAPER",
+        "action_text": "Assistant commits to redesigning the itinerary as a clean, concise format with priority markers."
+      },
+      {
+        "action_id": "3-4",
+        "role": "SHAPER",
+        "action_text": "Assistant decides to keep descriptions to 1-2 sentences max and produce a clean, scannable format."
+      },
+      {
+        "action_id": "3-3",
+        "role": "SHAPER",
+        "action_text": "Assistant decides which items are High Priority versus Optional and lists them."
+      }
+    ],
+    "implementation_actions": [
+      {
+        "action_id": "3-6",
+        "role": "EXECUTOR",
+        "action_text": "Assistant provides a short legend explaining must-do (red) vs optional (yellow) and a transport tip."
+      },
+      {
+        "action_id": "3-5",
+        "role": "EXECUTOR",
+        "action_text": "Assistant provides a concise one-sheet style NYC one-day itinerary with priority markers and brief descriptions."
+      }
+    ],
+    "revise_actions": [],
+    "related_actions": [
+      {
+        "action_id": "3-5",
+        "role": "EXECUTOR",
+        "action_text": "Assistant provides a concise one-sheet style NYC one-day itinerary with priority markers and brief descriptions.",
+        "relationship_type": "IMPLEMENTS",
+        "influence": "indirect",
+        "relationship_score": 5,
+        "explanation": "Feedback-Adopt — delivers the simplified, one-sheet, high-level itinerary overview with priority markings, satisfying r6."
+      },
+      {
+        "action_id": "3-6",
+        "role": "EXECUTOR",
+        "action_text": "Assistant provides a short legend explaining must-do (red) vs optional (yellow) and a transport tip.",
+        "relationship_type": "IMPLEMENTS",
+        "influence": "indirect",
+        "relationship_score": 4,
+        "explanation": "Preference-Accumulate — provides a compact legend/transport note that supports the one-sheet overview’s usability while remaining concise."
+      },
+      {
+        "action_id": "1-1",
+        "role": "EXECUTOR",
+        "action_text": "Assistant provides a full, detailed one-day NYC itinerary organized by morning, afternoon, and evening.",
+        "relationship_type": "IMPLICIT_CONNECTION",
+        "influence": "indirect",
+        "relationship_score": 3,
+        "explanation": "Failure-Triggered-Requirement-Add — the detailed itinerary sets the context that likely prompted the later need to simplify into a one-sheet overview."
+      },
+      {
+        "action_id": "3-1",
+        "role": "SHAPER",
+        "action_text": "Assistant restates the user's requests (simplify, mark priorities, remove excess text, keep it flexible).",
+        "relationship_type": "CONTRIBUTES",
+        "influence": "indirect",
+        "relationship_score": 3,
+        "explanation": "Intent-Reveal — restates the simplification/one-sheet goal and reduced-text constraint, shaping how r6 will be met but not yet delivering the overview."
+      },
+      {
+        "action_id": "3-2",
+        "role": "SHAPER",
+        "action_text": "Assistant commits to redesigning the itinerary as a clean, concise format with priority markers.",
+        "relationship_type": "CONTRIBUTES",
+        "influence": "indirect",
+        "relationship_score": 3,
+        "explanation": "Feedback-Adopt — commits to a concise one-sheet redesign with priority markers, directly planning the execution of r6."
+      },
+      {
+        "action_id": "3-3",
+        "role": "SHAPER",
+        "action_text": "Assistant decides which items are High Priority versus Optional and lists them.",
+        "relationship_type": "CONTRIBUTES",
+        "influence": "indirect",
+        "relationship_score": 3,
+        "explanation": "Option-Select — classifies content into high priority vs optional, a key structuring step toward the simplified overview required by r6."
+      },
+      {
+        "action_id": "3-4",
+        "role": "SHAPER",
+        "action_text": "Assistant decides to keep descriptions to 1-2 sentences max and produce a clean, scannable format.",
+        "relationship_type": "CONTRIBUTES",
+        "influence": "indirect",
+        "relationship_score": 3,
+        "explanation": "Option-Select — sets brevity/scannability constraints (reduced text), directly advancing r6’s simplification requirement."
+      },
+      {
+        "action_id": "1-2",
+        "role": "EXECUTOR",
+        "action_text": "Assistant organized the day's movement from downtown in the morning to uptown in the evening to keep transitions smooth.",
+        "relationship_type": "IMPLICIT_CONNECTION",
+        "influence": "indirect",
+        "relationship_score": 2,
+        "explanation": "Preference-Accumulate — organizing transitions smoothly supports a later desire for a high-level overview, but does not itself simplify or remove text."
+      }
+    ]
+  },
+  "r7": {
+    "origin_actions": [
+      {
+        "action_id": "2-1",
+        "role": "SHAPER",
+        "action_text": "User asks the assistant to mark which items are high priority and which are optional."
+      }
+    ],
+    "contributing_actions": [
+      {
+        "action_id": "3-1",
+        "role": "SHAPER",
+        "action_text": "Assistant restates the user's requests (simplify, mark priorities, remove excess text, keep it flexible)."
+      },
+      {
+        "action_id": "3-2",
+        "role": "SHAPER",
+        "action_text": "Assistant commits to redesigning the itinerary as a clean, concise format with priority markers."
+      },
+      {
+        "action_id": "3-4",
+        "role": "SHAPER",
+        "action_text": "Assistant decides to keep descriptions to 1-2 sentences max and produce a clean, scannable format."
+      },
+      {
+        "action_id": "3-3",
+        "role": "SHAPER",
+        "action_text": "Assistant decides which items are High Priority versus Optional and lists them."
+      }
+    ],
+    "implementation_actions": [
+      {
+        "action_id": "3-5",
+        "role": "EXECUTOR",
+        "action_text": "Assistant provides a concise one-sheet style NYC one-day itinerary with priority markers and brief descriptions."
+      },
+      {
+        "action_id": "3-6",
+        "role": "EXECUTOR",
+        "action_text": "Assistant provides a short legend explaining must-do (red) vs optional (yellow) and a transport tip."
+      },
+      {
+        "action_id": "3-3",
+        "role": "SHAPER",
+        "action_text": "Assistant decides which items are High Priority versus Optional and lists them."
+      }
+    ],
+    "revise_actions": [],
+    "related_actions": [
+      {
+        "action_id": "3-5",
+        "role": "EXECUTOR",
+        "action_text": "Assistant provides a concise one-sheet style NYC one-day itinerary with priority markers and brief descriptions.",
+        "relationship_type": "IMPLEMENTS",
+        "influence": "indirect",
+        "relationship_score": 5,
+        "explanation": "Outputs the itinerary with explicit high-priority vs optional markings, fulfilling r7."
+      },
+      {
+        "action_id": "3-6",
+        "role": "EXECUTOR",
+        "action_text": "Assistant provides a short legend explaining must-do (red) vs optional (yellow) and a transport tip.",
+        "relationship_type": "IMPLEMENTS",
+        "influence": "indirect",
+        "relationship_score": 4,
+        "explanation": "Provides the legend that defines/communicates the high priority vs optional labels, completing the marking system required by r7."
+      },
+      {
+        "action_id": "3-1",
+        "role": "SHAPER",
+        "action_text": "Assistant restates the user's requests (simplify, mark priorities, remove excess text, keep it flexible).",
+        "relationship_type": "CONTRIBUTES",
+        "influence": "indirect",
+        "relationship_score": 3,
+        "explanation": "Restates the need to mark HIGH PRIORITY vs OPTIONAL, aligning the response toward fulfilling r7."
+      },
+      {
+        "action_id": "3-2",
+        "role": "SHAPER",
+        "action_text": "Assistant commits to redesigning the itinerary as a clean, concise format with priority markers.",
+        "relationship_type": "CONTRIBUTES",
+        "influence": "indirect",
+        "relationship_score": 3,
+        "explanation": "Plans to redesign output with priority markers, a concrete step toward satisfying r7."
+      },
+      {
+        "action_id": "3-3",
+        "role": "SHAPER",
+        "action_text": "Assistant decides which items are High Priority versus Optional and lists them.",
+        "relationship_type": "CONTRIBUTES",
+        "influence": "indirect",
+        "relationship_score": 3,
+        "explanation": "Determines which items are high priority vs optional, preparing the content required by r7."
+      },
+      {
+        "action_id": "1-1",
+        "role": "EXECUTOR",
+        "action_text": "Assistant provides a full, detailed one-day NYC itinerary organized by morning, afternoon, and evening.",
+        "relationship_type": "IMPLICIT_CONNECTION",
+        "influence": "indirect",
+        "relationship_score": 2,
+        "explanation": "A full itinerary creates the context in which the need to distinguish must-do vs optional items can later be realized."
+      },
+      {
+        "action_id": "3-4",
+        "role": "SHAPER",
+        "action_text": "Assistant decides to keep descriptions to 1-2 sentences max and produce a clean, scannable format.",
+        "relationship_type": "CONTRIBUTES",
+        "influence": "indirect",
+        "relationship_score": 2,
+        "explanation": "Chooses a concise format that makes priority vs optional markers clearer, indirectly aiding r7 implementation."
+      },
+      {
+        "action_id": "1-2",
+        "role": "EXECUTOR",
+        "action_text": "Assistant organized the day's movement from downtown in the morning to uptown in the evening to keep transitions smooth.",
+        "relationship_type": "IMPLICIT_CONNECTION",
+        "influence": "indirect",
+        "relationship_score": 1,
+        "explanation": "Organizing flow (downtown→uptown) is general itinerary structuring, only indirectly related to later priority labeling."
+      }
+    ]
+  },
+  "r8": {
+    "origin_actions": [
+      {
+        "action_id": "4-1",
+        "role": "SHAPER",
+        "action_text": "User asks the assistant to mark which activities require reservations/tickets and how early to book."
+      }
+    ],
+    "contributing_actions": [],
+    "implementation_actions": [
+      {
+        "action_id": "5-4",
+        "role": "EXECUTOR",
+        "action_text": "Assistant recommends buying One World Observatory tickets in advance (days to weeks) to save time/money."
+      },
+      {
+        "action_id": "5-7",
+        "role": "EXECUTOR",
+        "action_text": "Assistant states The High Line is free and requires no tickets."
+      },
+      {
+        "action_id": "5-8",
+        "role": "EXECUTOR",
+        "action_text": "Assistant states a West Village stroll requires no reservations."
+      },
+      {
+        "action_id": "5-3",
+        "role": "EXECUTOR",
+        "action_text": "Assistant states that Nom Wah Tea Parlor is usually walk-in and typically does not require reservations."
+      },
+      {
+        "action_id": "5-5",
+        "role": "EXECUTOR",
+        "action_text": "Assistant recommends Awash can be walked into or reserved a day or two ahead and notes OpenTable availability."
+      },
+      {
+        "action_id": "5-6",
+        "role": "EXECUTOR",
+        "action_text": "Assistant states Magnolia Bakery does not need reservations and is walk-in."
+      },
+      {
+        "action_id": "5-2",
+        "role": "EXECUTOR",
+        "action_text": "Assistant recommends booking a few days in advance for Golden Unicorn and notes it can accept reservations."
+      }
+    ],
+    "revise_actions": [],
+    "related_actions": [
+      {
+        "action_id": "5-4",
+        "role": "EXECUTOR",
+        "action_text": "Assistant recommends buying One World Observatory tickets in advance (days to weeks) to save time/money.",
+        "relationship_type": "IMPLEMENTS",
+        "influence": "indirect",
+        "relationship_score": 5,
+        "explanation": "Intent-Reveal: explicitly flags ticket requirement and recommends advance purchase for One World Observatory, a core example of reservation/ticket annotation."
+      },
+      {
+        "action_id": "5-7",
+        "role": "EXECUTOR",
+        "action_text": "Assistant states The High Line is free and requires no tickets.",
+        "relationship_type": "IMPLEMENTS",
+        "influence": "indirect",
+        "relationship_score": 5,
+        "explanation": "Intent-Reveal: explicitly states the High Line is free and needs no tickets, directly fulfilling the ticket-annotation part of the requirement."
+      },
+      {
+        "action_id": "5-2",
+        "role": "EXECUTOR",
+        "action_text": "Assistant recommends booking a few days in advance for Golden Unicorn and notes it can accept reservations.",
+        "relationship_type": "IMPLEMENTS",
+        "influence": "indirect",
+        "relationship_score": 4,
+        "explanation": "Intent-Reveal: explicitly annotates an activity (Golden Unicorn) with reservation guidance, directly fulfilling the requirement to mark reservation needs."
+      },
+      {
+        "action_id": "5-3",
+        "role": "EXECUTOR",
+        "action_text": "Assistant states that Nom Wah Tea Parlor is usually walk-in and typically does not require reservations.",
+        "relationship_type": "IMPLEMENTS",
+        "influence": "indirect",
+        "relationship_score": 4,
+        "explanation": "Intent-Reveal: states walk-in/no-reservation status for Nom Wah, directly annotating reservation requirement status."
+      },
+      {
+        "action_id": "5-5",
+        "role": "EXECUTOR",
+        "action_text": "Assistant recommends Awash can be walked into or reserved a day or two ahead and notes OpenTable availability.",
+        "relationship_type": "IMPLEMENTS",
+        "influence": "indirect",
+        "relationship_score": 4,
+        "explanation": "Intent-Reveal: annotates Awash with optional reservation info and timing, directly addressing which activities need reservations."
+      },
+      {
+        "action_id": "5-6",
+        "role": "EXECUTOR",
+        "action_text": "Assistant states Magnolia Bakery does not need reservations and is walk-in.",
+        "relationship_type": "IMPLEMENTS",
+        "influence": "indirect",
+        "relationship_score": 4,
+        "explanation": "Intent-Reveal: states Magnolia Bakery is walk-in/no reservation, directly annotating reservation requirement status."
+      },
+      {
+        "action_id": "5-8",
+        "role": "EXECUTOR",
+        "action_text": "Assistant states a West Village stroll requires no reservations.",
+        "relationship_type": "IMPLEMENTS",
+        "influence": "indirect",
+        "relationship_score": 4,
+        "explanation": "Intent-Reveal: states a West Village stroll needs no reservations, directly annotating reservation requirement status."
+      },
+      {
+        "action_id": "3-1",
+        "role": "SHAPER",
+        "action_text": "Assistant restates the user's requests (simplify, mark priorities, remove excess text, keep it flexible).",
+        "relationship_type": "IMPLICIT_CONNECTION",
+        "influence": "indirect",
+        "relationship_score": 2,
+        "explanation": "Preference-Accumulate: restating desires to simplify and clearly mark items creates pressure for added annotations (like reservation/ticket needs) but does not itself target reservations/tickets."
+      }
+    ]
+  },
+  "r9": {
+    "origin_actions": [
+      {
+        "action_id": "4-1",
+        "role": "SHAPER",
+        "action_text": "User asks the assistant to mark which activities require reservations/tickets and how early to book."
+      }
+    ],
+    "contributing_actions": [
+      {
+        "action_id": "5-8",
+        "role": "EXECUTOR",
+        "action_text": "Assistant states a West Village stroll requires no reservations."
+      },
+      {
+        "action_id": "5-6",
+        "role": "EXECUTOR",
+        "action_text": "Assistant states Magnolia Bakery does not need reservations and is walk-in."
+      },
+      {
+        "action_id": "5-7",
+        "role": "EXECUTOR",
+        "action_text": "Assistant states The High Line is free and requires no tickets."
+      },
+      {
+        "action_id": "5-3",
+        "role": "EXECUTOR",
+        "action_text": "Assistant states that Nom Wah Tea Parlor is usually walk-in and typically does not require reservations."
+      }
+    ],
+    "implementation_actions": [
+      {
+        "action_id": "5-4",
+        "role": "EXECUTOR",
+        "action_text": "Assistant recommends buying One World Observatory tickets in advance (days to weeks) to save time/money."
+      },
+      {
+        "action_id": "5-5",
+        "role": "EXECUTOR",
+        "action_text": "Assistant recommends Awash can be walked into or reserved a day or two ahead and notes OpenTable availability."
+      },
+      {
+        "action_id": "5-2",
+        "role": "EXECUTOR",
+        "action_text": "Assistant recommends booking a few days in advance for Golden Unicorn and notes it can accept reservations."
+      }
+    ],
+    "revise_actions": [],
+    "related_actions": [
+      {
+        "action_id": "5-2",
+        "role": "EXECUTOR",
+        "action_text": "Assistant recommends booking a few days in advance for Golden Unicorn and notes it can accept reservations.",
+        "relationship_type": "IMPLEMENTS",
+        "influence": "indirect",
+        "relationship_score": 4,
+        "explanation": "Intent-Reveal: Provides an explicit 'how far in advance to book' recommendation for an activity that can take reservations (Golden Unicorn), directly satisfying r9 for that item."
+      },
+      {
+        "action_id": "5-4",
+        "role": "EXECUTOR",
+        "action_text": "Assistant recommends buying One World Observatory tickets in advance (days to weeks) to save time/money.",
+        "relationship_type": "IMPLEMENTS",
+        "influence": "indirect",
+        "relationship_score": 4,
+        "explanation": "Intent-Reveal: Specifies ticket purchase timing (days to weeks in advance) for One World Observatory, directly fulfilling r9 for that ticketed activity."
+      },
+      {
+        "action_id": "5-5",
+        "role": "EXECUTOR",
+        "action_text": "Assistant recommends Awash can be walked into or reserved a day or two ahead and notes OpenTable availability.",
+        "relationship_type": "IMPLEMENTS",
+        "influence": "indirect",
+        "relationship_score": 4,
+        "explanation": "Intent-Reveal: Gives a concrete advance-booking window (walk-in or reserve 1–2 days ahead) for Awash, directly satisfying r9 for that reservation-possible activity."
+      },
+      {
+        "action_id": "5-3",
+        "role": "EXECUTOR",
+        "action_text": "Assistant states that Nom Wah Tea Parlor is usually walk-in and typically does not require reservations.",
+        "relationship_type": "CONTRIBUTES",
+        "influence": "indirect",
+        "relationship_score": 3,
+        "explanation": "Intent-Reveal: Clarifies that Nom Wah is typically walk-in (no reservation needed), which partially supports r9 by identifying reservation requirements, though it does not give an advance-booking window."
+      },
+      {
+        "action_id": "5-6",
+        "role": "EXECUTOR",
+        "action_text": "Assistant states Magnolia Bakery does not need reservations and is walk-in.",
+        "relationship_type": "CONTRIBUTES",
+        "influence": "indirect",
+        "relationship_score": 3,
+        "explanation": "Intent-Reveal: States Magnolia is walk-in/no reservations, helping annotate reservation requirements, but does not provide an advance-booking window for a reservation-required activity."
+      },
+      {
+        "action_id": "5-7",
+        "role": "EXECUTOR",
+        "action_text": "Assistant states The High Line is free and requires no tickets.",
+        "relationship_type": "CONTRIBUTES",
+        "influence": "indirect",
+        "relationship_score": 3,
+        "explanation": "Intent-Reveal: Indicates the High Line requires no tickets/reservations, contributing to the reservations/tickets annotation portion adjacent to r9 but not adding advance-book timing for a required item."
+      },
+      {
+        "action_id": "5-8",
+        "role": "EXECUTOR",
+        "action_text": "Assistant states a West Village stroll requires no reservations.",
+        "relationship_type": "CONTRIBUTES",
+        "influence": "indirect",
+        "relationship_score": 3,
+        "explanation": "Intent-Reveal: Notes the West Village stroll needs no reservations, contributing to identifying which activities do/don't require booking, though not specifying lead time for required bookings."
+      },
+      {
+        "action_id": "3-1",
+        "role": "SHAPER",
+        "action_text": "Assistant restates the user's requests (simplify, mark priorities, remove excess text, keep it flexible).",
+        "relationship_type": "IMPLICIT_CONNECTION",
+        "influence": "indirect",
+        "relationship_score": 2,
+        "explanation": "Preference-Accumulate: Restating simplification/formatting and priority-marking preferences sets the stage for later adding booking-advance annotations, but does not mention reservation lead times."
+      }
+    ]
+  },
+  "r10": {
+    "origin_actions": [
+      {
+        "action_id": "4-2",
+        "role": "SHAPER",
+        "action_text": "User asks the assistant to write commute times and indicate if they need to ride the subway between locations."
+      }
+    ],
+    "contributing_actions": [
+      {
+        "action_id": "5-15",
+        "role": "EXECUTOR",
+        "action_text": "Assistant states an intent to keep the itinerary tight and readable and to present transit options concisely with icons."
+      },
+      {
+        "action_id": "5-1",
+        "role": "EXECUTOR",
+        "action_text": "Assistant summarizes the three additions the user requested for the itinerary."
+      },
+      {
+        "action_id": "5-13",
+        "role": "EXECUTOR",
+        "action_text": "Assistant frames the day's neighborhoods: Lower Manhattan morning, West Village/Chelsea afternoon, Upper West Side evening."
+      }
+    ],
+    "implementation_actions": [
+      {
+        "action_id": "5-10",
+        "role": "EXECUTOR",
+        "action_text": "Assistant provides commute time estimates from One World Observatory to West Village (subway A/C/E or cab)."
+      },
+      {
+        "action_id": "5-11",
+        "role": "EXECUTOR",
+        "action_text": "Assistant provides commute time estimates from West Village back to a Midtown hotel (15-20 minutes by cab or subway)."
+      },
+      {
+        "action_id": "5-16",
+        "role": "EXECUTOR",
+        "action_text": "Assistant provides a full one-day NYC itinerary with times, activities, reservation notes, commute hints, and neighborhood labels."
+      },
+      {
+        "action_id": "5-9",
+        "role": "EXECUTOR",
+        "action_text": "Assistant provides commute time estimates from Chinatown to One World Observatory (walk/subway/cab options)."
+      },
+      {
+        "action_id": "5-12",
+        "role": "EXECUTOR",
+        "action_text": "Assistant provides commute time estimates from the hotel to Awash on the Upper West Side (roughly 15-25 minutes by cab or subway)."
+      }
+    ],
+    "revise_actions": [],
+    "related_actions": [
+      {
+        "action_id": "5-9",
+        "role": "EXECUTOR",
+        "action_text": "Assistant provides commute time estimates from Chinatown to One World Observatory (walk/subway/cab options).",
+        "relationship_type": "IMPLEMENTS",
+        "influence": "indirect",
+        "relationship_score": 5,
+        "explanation": "Explicitly provides commute time estimates between two itinerary locations (Chinatown → One World Observatory), directly fulfilling r10 for that segment. (Intent-Reveal)"
+      },
+      {
+        "action_id": "5-10",
+        "role": "EXECUTOR",
+        "action_text": "Assistant provides commute time estimates from One World Observatory to West Village (subway A/C/E or cab).",
+        "relationship_type": "IMPLEMENTS",
+        "influence": "indirect",
+        "relationship_score": 5,
+        "explanation": "Explicitly provides commute time estimates for One World Observatory → West Village, fulfilling r10 for that segment. (Intent-Reveal)"
+      },
+      {
+        "action_id": "5-11",
+        "role": "EXECUTOR",
+        "action_text": "Assistant provides commute time estimates from West Village back to a Midtown hotel (15-20 minutes by cab or subway).",
+        "relationship_type": "IMPLEMENTS",
+        "influence": "indirect",
+        "relationship_score": 5,
+        "explanation": "Gives a time estimate for West Village → Midtown hotel, directly implementing r10 for that leg. (Intent-Reveal)"
+      },
+      {
+        "action_id": "5-12",
+        "role": "EXECUTOR",
+        "action_text": "Assistant provides commute time estimates from the hotel to Awash on the Upper West Side (roughly 15-25 minutes by cab or subway).",
+        "relationship_type": "IMPLEMENTS",
+        "influence": "indirect",
+        "relationship_score": 5,
+        "explanation": "Provides time estimates for hotel → Awash (UWS), directly implementing r10 for that leg. (Intent-Reveal)"
+      },
+      {
+        "action_id": "5-16",
+        "role": "EXECUTOR",
+        "action_text": "Assistant provides a full one-day NYC itinerary with times, activities, reservation notes, commute hints, and neighborhood labels.",
+        "relationship_type": "IMPLEMENTS",
+        "influence": "indirect",
+        "relationship_score": 4,
+        "explanation": "Provides the full itinerary including 'commute hints'; to the extent it includes time estimates between stops, it executes r10 (though some estimates may have been provided in the earlier specific legs). (Intent-Reveal)"
+      },
+      {
+        "action_id": "3-1",
+        "role": "SHAPER",
+        "action_text": "Assistant restates the user's requests (simplify, mark priorities, remove excess text, keep it flexible).",
+        "relationship_type": "IMPLICIT_CONNECTION",
+        "influence": "indirect",
+        "relationship_score": 2,
+        "explanation": "By restating goals to simplify and make the itinerary scannable, it implicitly motivates adding practical transit details later (like commute times) to keep it usable without extra prose. (Preference-Accumulate)"
+      },
+      {
+        "action_id": "5-1",
+        "role": "EXECUTOR",
+        "action_text": "Assistant summarizes the three additions the user requested for the itinerary.",
+        "relationship_type": "CONTRIBUTES",
+        "influence": "indirect",
+        "relationship_score": 2,
+        "explanation": "Summarizing requested additions sets up the transit/commute information to be added, but does not itself provide commute time estimates. (Intent-Reveal)"
+      },
+      {
+        "action_id": "5-15",
+        "role": "EXECUTOR",
+        "action_text": "Assistant states an intent to keep the itinerary tight and readable and to present transit options concisely with icons.",
+        "relationship_type": "CONTRIBUTES",
+        "influence": "indirect",
+        "relationship_score": 2,
+        "explanation": "States an intent/plan to present transit options concisely, which supports delivering commute time estimates but is not the estimates themselves. (Intent-Reveal)"
+      },
+      {
+        "action_id": "5-13",
+        "role": "EXECUTOR",
+        "action_text": "Assistant frames the day's neighborhoods: Lower Manhattan morning, West Village/Chelsea afternoon, Upper West Side evening.",
+        "relationship_type": "CONTRIBUTES",
+        "influence": "indirect",
+        "relationship_score": 1,
+        "explanation": "Neighborhood framing helps contextualize likely travel patterns but does not provide commute time estimates itself. (Preference-Accumulate)"
+      }
+    ]
+  },
+  "r11": {
+    "origin_actions": [
+      {
+        "action_id": "4-2",
+        "role": "SHAPER",
+        "action_text": "User asks the assistant to write commute times and indicate if they need to ride the subway between locations."
+      }
+    ],
+    "contributing_actions": [],
+    "implementation_actions": [
+      {
+        "action_id": "5-10",
+        "role": "EXECUTOR",
+        "action_text": "Assistant provides commute time estimates from One World Observatory to West Village (subway A/C/E or cab)."
+      },
+      {
+        "action_id": "5-11",
+        "role": "EXECUTOR",
+        "action_text": "Assistant provides commute time estimates from West Village back to a Midtown hotel (15-20 minutes by cab or subway)."
+      },
+      {
+        "action_id": "5-16",
+        "role": "EXECUTOR",
+        "action_text": "Assistant provides a full one-day NYC itinerary with times, activities, reservation notes, commute hints, and neighborhood labels."
+      },
+      {
+        "action_id": "5-9",
+        "role": "EXECUTOR",
+        "action_text": "Assistant provides commute time estimates from Chinatown to One World Observatory (walk/subway/cab options)."
+      },
+      {
+        "action_id": "5-12",
+        "role": "EXECUTOR",
+        "action_text": "Assistant provides commute time estimates from the hotel to Awash on the Upper West Side (roughly 15-25 minutes by cab or subway)."
+      }
+    ],
+    "revise_actions": [],
+    "related_actions": [
+      {
+        "action_id": "5-9",
+        "role": "EXECUTOR",
+        "action_text": "Assistant provides commute time estimates from Chinatown to One World Observatory (walk/subway/cab options).",
+        "relationship_type": "IMPLEMENTS",
+        "influence": "indirect",
+        "relationship_score": 5,
+        "explanation": "Intent-Reveal: Providing route options (walk/subway/cab) for a leg directly indicates whether subway is needed between those stops, fulfilling r11 for that segment."
+      },
+      {
+        "action_id": "5-10",
+        "role": "EXECUTOR",
+        "action_text": "Assistant provides commute time estimates from One World Observatory to West Village (subway A/C/E or cab).",
+        "relationship_type": "IMPLEMENTS",
+        "influence": "indirect",
+        "relationship_score": 5,
+        "explanation": "Intent-Reveal: Giving subway-specific directions/options for the leg explicitly signals subway necessity, implementing r11 for that segment."
+      },
+      {
+        "action_id": "5-16",
+        "role": "EXECUTOR",
+        "action_text": "Assistant provides a full one-day NYC itinerary with times, activities, reservation notes, commute hints, and neighborhood labels.",
+        "relationship_type": "IMPLEMENTS",
+        "influence": "indirect",
+        "relationship_score": 5,
+        "explanation": "Intent-Reveal: Delivering the full itinerary with commute hints/transit notes provides the per-leg indication of subway usage, fulfilling r11 within the final output."
+      },
+      {
+        "action_id": "5-1",
+        "role": "EXECUTOR",
+        "action_text": "Assistant summarizes the three additions the user requested for the itinerary.",
+        "relationship_type": "DIRECT_CONNECTION",
+        "influence": "direct",
+        "relationship_score": 4,
+        "explanation": "Intent-Reveal: Summarizing the requested additions explicitly includes the need to indicate subway usage, directly operating on/confirming r11."
+      },
+      {
+        "action_id": "5-11",
+        "role": "EXECUTOR",
+        "action_text": "Assistant provides commute time estimates from West Village back to a Midtown hotel (15-20 minutes by cab or subway).",
+        "relationship_type": "IMPLEMENTS",
+        "influence": "indirect",
+        "relationship_score": 4,
+        "explanation": "Intent-Reveal: Offering cab or subway (with time) communicates subway as an option/need depending on choice; it implements r11 but less explicitly than a yes/no flag."
+      },
+      {
+        "action_id": "5-12",
+        "role": "EXECUTOR",
+        "action_text": "Assistant provides commute time estimates from the hotel to Awash on the Upper West Side (roughly 15-25 minutes by cab or subway).",
+        "relationship_type": "IMPLEMENTS",
+        "influence": "indirect",
+        "relationship_score": 4,
+        "explanation": "Intent-Reveal: Providing cab/subway commute options indicates subway use as part of the between-stops guidance, implementing r11 though not necessarily as a binary indicator."
+      },
+      {
+        "action_id": "5-15",
+        "role": "EXECUTOR",
+        "action_text": "Assistant states an intent to keep the itinerary tight and readable and to present transit options concisely with icons.",
+        "relationship_type": "DIRECT_CONNECTION",
+        "influence": "direct",
+        "relationship_score": 4,
+        "explanation": "Intent-Reveal: Stating intent to present transit options concisely (e.g., with icons) directly targets how subway-needed information will be shown, shaping r11’s implementation."
+      },
+      {
+        "action_id": "3-1",
+        "role": "SHAPER",
+        "action_text": "Assistant restates the user's requests (simplify, mark priorities, remove excess text, keep it flexible).",
+        "relationship_type": "IMPLICIT_CONNECTION",
+        "influence": "indirect",
+        "relationship_score": 2,
+        "explanation": "Preference-Accumulate: Restating the desire for a simplified, scannable itinerary sets up later additions like transit annotations, but does not yet mention indicating subway usage."
+      }
+    ]
+  },
+  "r12": {
+    "origin_actions": [
+      {
+        "action_id": "4-3",
+        "role": "SHAPER",
+        "action_text": "User asks the assistant to mark which neighborhood they'll be in during morning, afternoon, and evening."
+      }
+    ],
+    "contributing_actions": [
+      {
+        "action_id": "5-15",
+        "role": "EXECUTOR",
+        "action_text": "Assistant states an intent to keep the itinerary tight and readable and to present transit options concisely with icons."
+      },
+      {
+        "action_id": "5-1",
+        "role": "EXECUTOR",
+        "action_text": "Assistant summarizes the three additions the user requested for the itinerary."
+      }
+    ],
+    "implementation_actions": [
+      {
+        "action_id": "5-16",
+        "role": "EXECUTOR",
+        "action_text": "Assistant provides a full one-day NYC itinerary with times, activities, reservation notes, commute hints, and neighborhood labels."
+      },
+      {
+        "action_id": "5-13",
+        "role": "EXECUTOR",
+        "action_text": "Assistant frames the day's neighborhoods: Lower Manhattan morning, West Village/Chelsea afternoon, Upper West Side evening."
+      }
+    ],
+    "revise_actions": [],
+    "related_actions": [
+      {
+        "action_id": "5-13",
+        "role": "EXECUTOR",
+        "action_text": "Assistant frames the day's neighborhoods: Lower Manhattan morning, West Village/Chelsea afternoon, Upper West Side evening.",
+        "relationship_type": "IMPLEMENTS",
+        "influence": "indirect",
+        "relationship_score": 5,
+        "explanation": "Intent-Reveal: Explicitly frames the day’s neighborhoods by morning/afternoon/evening, directly fulfilling r12."
+      },
+      {
+        "action_id": "5-16",
+        "role": "EXECUTOR",
+        "action_text": "Assistant provides a full one-day NYC itinerary with times, activities, reservation notes, commute hints, and neighborhood labels.",
+        "relationship_type": "IMPLEMENTS",
+        "influence": "indirect",
+        "relationship_score": 5,
+        "explanation": "Intent-Reveal: Provides the itinerary including neighborhood labels aligned to dayparts, thereby executing r12."
+      },
+      {
+        "action_id": "3-1",
+        "role": "SHAPER",
+        "action_text": "Assistant restates the user's requests (simplify, mark priorities, remove excess text, keep it flexible).",
+        "relationship_type": "IMPLICIT_CONNECTION",
+        "influence": "indirect",
+        "relationship_score": 2,
+        "explanation": "Preference-Accumulate: Restating the need for a simplified, scannable itinerary sets up later labeling/structuring needs (like neighborhood-by-daypart), but does not mention morning/afternoon/evening neighborhoods explicitly."
+      },
+      {
+        "action_id": "5-1",
+        "role": "EXECUTOR",
+        "action_text": "Assistant summarizes the three additions the user requested for the itinerary.",
+        "relationship_type": "CONTRIBUTES",
+        "influence": "indirect",
+        "relationship_score": 2,
+        "explanation": "Intent-Reveal: Summarizing requested additions provides planning context that can include neighborhood-by-daypart, but does not itself mark the neighborhoods."
+      },
+      {
+        "action_id": "5-15",
+        "role": "EXECUTOR",
+        "action_text": "Assistant states an intent to keep the itinerary tight and readable and to present transit options concisely with icons.",
+        "relationship_type": "CONTRIBUTES",
+        "influence": "indirect",
+        "relationship_score": 1,
+        "explanation": "Preference-Accumulate: Planning to present items concisely with icons supports readable labeling (including neighborhoods), but does not itself mark neighborhoods."
+      }
+    ]
+  },
+  "r13": {
+    "origin_actions": [
+      {
+        "action_id": "8-2",
+        "role": "SHAPER",
+        "action_text": "User requests updating the full itinerary sheet with the discussed swaps."
+      },
+      {
+        "action_id": "8-3",
+        "role": "SHAPER",
+        "action_text": "User asks to include a few more hole-in-the-wall lunch spots."
+      }
+    ],
+    "contributing_actions": [
+      {
+        "action_id": "9-7",
+        "role": "SHAPER",
+        "action_text": "Assistant decides to finalize the itinerary with Oriental Garden for dim sum and then slot in the hole-in-the-wall spots."
+      },
+      {
+        "action_id": "9-5",
+        "role": "OTHER",
+        "action_text": "Assistant comments that RedFarm is trendy (not strictly hole-in-the-wall)."
+      },
+      {
+        "action_id": "9-3",
+        "role": "EXECUTOR",
+        "action_text": "Assistant provides a list of candidate hole-in-the-wall lunch spots."
+      },
+      {
+        "action_id": "8-1",
+        "role": "SHAPER",
+        "action_text": "User accepts the previous suggestion/plan."
+      },
+      {
+        "action_id": "9-4",
+        "role": "SHAPER",
+        "action_text": "Assistant notes Joe's Shanghai would be in the morning/Chinatown area rather than West Village."
+      },
+      {
+        "action_id": "9-6",
+        "role": "SHAPER",
+        "action_text": "Assistant refocuses on genuinely hole-in-the-wall spots in the West Village, highlighting Taïm and Xi'an Famous Foods."
+      },
+      {
+        "action_id": "6-1",
+        "role": "SHAPER",
+        "action_text": "User asks the assistant to check Reddit threads for hole-in-the-wall restaurant recommendations and update the itinerary."
+      }
+    ],
+    "implementation_actions": [
+      {
+        "action_id": "9-3",
+        "role": "EXECUTOR",
+        "action_text": "Assistant provides a list of candidate hole-in-the-wall lunch spots."
+      },
+      {
+        "action_id": "11-6",
+        "role": "EXECUTOR",
+        "action_text": "Assistant provides an updated, detailed one-day itinerary that includes the added rest breaks and adjusted times."
+      }
+    ],
+    "revise_actions": [],
+    "related_actions": [
+      {
+        "action_id": "9-1",
+        "role": "OTHER",
+        "action_text": "Assistant restates the user's request to update the itinerary and add hole-in-the-wall lunch options.",
+        "relationship_type": "DIRECT_CONNECTION",
+        "influence": "direct",
+        "relationship_score": 4,
+        "explanation": "Restates r13 explicitly (update itinerary with hole-in-the-wall swaps and add lunch options), directly operating on the requirement as an object of acknowledgment."
+      },
+      {
+        "action_id": "9-2",
+        "role": "EXECUTOR",
+        "action_text": "Assistant commits to put together the updated itinerary keeping the same format as before.",
+        "relationship_type": "DIRECT_CONNECTION",
+        "influence": "direct",
+        "relationship_score": 4,
+        "explanation": "Commits to producing an updated itinerary, directly targeting fulfillment of r13 though not yet executing it."
+      },
+      {
+        "action_id": "6-2",
+        "role": "SHAPER",
+        "action_text": "User states a preference to avoid trendy or overly crowded spots.",
+        "relationship_type": "IMPLICIT_CONNECTION",
+        "influence": "indirect",
+        "relationship_score": 3,
+        "explanation": "Avoiding trendy/overcrowded spots is a key preference that drives the hole-in-the-wall swap requirement."
+      },
+      {
+        "action_id": "9-3",
+        "role": "EXECUTOR",
+        "action_text": "Assistant provides a list of candidate hole-in-the-wall lunch spots.",
+        "relationship_type": "CONTRIBUTES",
+        "influence": "indirect",
+        "relationship_score": 3,
+        "explanation": "Provides candidate hole-in-the-wall lunch spots that can be inserted into the itinerary; partial progress toward r13."
+      },
+      {
+        "action_id": "9-6",
+        "role": "SHAPER",
+        "action_text": "Assistant refocuses on genuinely hole-in-the-wall spots in the West Village, highlighting Taïm and Xi'an Famous Foods.",
+        "relationship_type": "CONTRIBUTES",
+        "influence": "indirect",
+        "relationship_score": 3,
+        "explanation": "Refocuses the selection toward genuinely hole-in-the-wall West Village options, tightening alignment with r13."
+      },
+      {
+        "action_id": "9-7",
+        "role": "SHAPER",
+        "action_text": "Assistant decides to finalize the itinerary with Oriental Garden for dim sum and then slot in the hole-in-the-wall spots.",
+        "relationship_type": "CONTRIBUTES",
+        "influence": "indirect",
+        "relationship_score": 3,
+        "explanation": "Selects a specific swap (Oriental Garden for dim sum) and plans to slot in hole-in-the-wall spots, advancing r13 toward execution."
+      },
+      {
+        "action_id": "7-7",
+        "role": "EXECUTOR",
+        "action_text": "Assistant invites the user to confirm whether they'd like the full itinerary updated with the suggested swaps.",
+        "relationship_type": "IMPLICIT_CONNECTION",
+        "influence": "indirect",
+        "relationship_score": 2,
+        "explanation": "Invites confirmation to update the full itinerary with swaps, prompting the explicit establishment of the requirement."
+      },
+      {
+        "action_id": "9-4",
+        "role": "SHAPER",
+        "action_text": "Assistant notes Joe's Shanghai would be in the morning/Chinatown area rather than West Village.",
+        "relationship_type": "CONTRIBUTES",
+        "influence": "indirect",
+        "relationship_score": 2,
+        "explanation": "Adds location-fit constraints for a proposed lunch option, helping shape which hole-in-the-wall lunch swaps are appropriate for the itinerary."
+      },
+      {
+        "action_id": "9-5",
+        "role": "OTHER",
+        "action_text": "Assistant comments that RedFarm is trendy (not strictly hole-in-the-wall).",
+        "relationship_type": "CONTRIBUTES",
+        "influence": "indirect",
+        "relationship_score": 2,
+        "explanation": "Flags a suggested restaurant as trendy, reinforcing the hole-in-the-wall constraint and filtering options for r13."
+      }
+    ]
+  },
+  "r14": {
+    "origin_actions": [
+      {
+        "action_id": "6-2",
+        "role": "SHAPER",
+        "action_text": "User states a preference to avoid trendy or overly crowded spots."
+      }
+    ],
+    "contributing_actions": [
+      {
+        "action_id": "7-7",
+        "role": "EXECUTOR",
+        "action_text": "Assistant invites the user to confirm whether they'd like the full itinerary updated with the suggested swaps."
+      },
+      {
+        "action_id": "8-3",
+        "role": "SHAPER",
+        "action_text": "User asks to include a few more hole-in-the-wall lunch spots."
+      },
+      {
+        "action_id": "8-1",
+        "role": "SHAPER",
+        "action_text": "User accepts the previous suggestion/plan."
+      },
+      {
+        "action_id": "9-1",
+        "role": "OTHER",
+        "action_text": "Assistant restates the user's request to update the itinerary and add hole-in-the-wall lunch options."
+      },
+      {
+        "action_id": "9-2",
+        "role": "EXECUTOR",
+        "action_text": "Assistant commits to put together the updated itinerary keeping the same format as before."
+      },
+      {
+        "action_id": "7-4",
+        "role": "EXECUTOR",
+        "action_text": "Assistant suggests Ethiopian alternatives (Awash, Zoma, Tsion Cafe) and characterizes their atmospheres."
+      },
+      {
+        "action_id": "11-6",
+        "role": "EXECUTOR",
+        "action_text": "Assistant provides an updated, detailed one-day itinerary that includes the added rest breaks and adjusted times."
+      }
+    ],
+    "implementation_actions": [
+      {
+        "action_id": "7-6",
+        "role": "EXECUTOR",
+        "action_text": "Assistant recommends quieter West Village alternatives (Buvette, Taïm, or wandering toward Perry/Grove St) over perpetually packed spots."
+      },
+      {
+        "action_id": "7-3",
+        "role": "EXECUTOR",
+        "action_text": "Assistant suggests dim sum alternatives (Dim Sum Go Go, Jing Fong, Ping's Seafood, Oriental Garden) as less touristy options."
+      },
+      {
+        "action_id": "9-3",
+        "role": "EXECUTOR",
+        "action_text": "Assistant provides a list of candidate hole-in-the-wall lunch spots."
+      }
+    ],
+    "revise_actions": [],
+    "related_actions": [
+      {
+        "action_id": "9-7",
+        "role": "SHAPER",
+        "action_text": "Assistant decides to finalize the itinerary with Oriental Garden for dim sum and then slot in the hole-in-the-wall spots.",
+        "relationship_type": "DIRECT_CONNECTION",
+        "influence": "direct",
+        "relationship_score": 5,
+        "explanation": "Chooses a specific under-the-radar dim sum swap (Oriental Garden), concretely satisfying the avoid-trendy/crowded restaurant requirement for that meal."
+      },
+      {
+        "action_id": "7-3",
+        "role": "EXECUTOR",
+        "action_text": "Assistant suggests dim sum alternatives (Dim Sum Go Go, Jing Fong, Ping's Seafood, Oriental Garden) as less touristy options.",
+        "relationship_type": "IMPLEMENTS",
+        "influence": "indirect",
+        "relationship_score": 4,
+        "explanation": "Provides less touristy dim sum alternatives intended to avoid trendy/overly crowded spots."
+      },
+      {
+        "action_id": "7-5",
+        "role": "EXECUTOR",
+        "action_text": "Assistant evaluates Nom Wah as touristy and recommends Oriental Garden and other under-the-radar spots as Reddit-approved swaps.",
+        "relationship_type": "DIRECT_CONNECTION",
+        "influence": "direct",
+        "relationship_score": 4,
+        "explanation": "Explicitly evaluates a restaurant as touristy and recommends under-the-radar swaps aligned with avoiding trendy/crowded spots."
+      },
+      {
+        "action_id": "7-6",
+        "role": "EXECUTOR",
+        "action_text": "Assistant recommends quieter West Village alternatives (Buvette, Taïm, or wandering toward Perry/Grove St) over perpetually packed spots.",
+        "relationship_type": "IMPLEMENTS",
+        "influence": "indirect",
+        "relationship_score": 4,
+        "explanation": "Recommends quieter alternatives explicitly framed as avoiding perpetually packed spots."
+      },
+      {
+        "action_id": "8-2",
+        "role": "SHAPER",
+        "action_text": "User requests updating the full itinerary sheet with the discussed swaps.",
+        "relationship_type": "DIRECT_CONNECTION",
+        "influence": "direct",
+        "relationship_score": 4,
+        "explanation": "Requests updating the itinerary with the discussed swaps whose purpose is to avoid trendy/crowded restaurants."
+      },
+      {
+        "action_id": "9-3",
+        "role": "EXECUTOR",
+        "action_text": "Assistant provides a list of candidate hole-in-the-wall lunch spots.",
+        "relationship_type": "IMPLEMENTS",
+        "influence": "indirect",
+        "relationship_score": 4,
+        "explanation": "Provides candidate hole-in-the-wall lunch spots, directly supporting avoidance of trendy/crowded restaurants."
+      },
+      {
+        "action_id": "9-5",
+        "role": "OTHER",
+        "action_text": "Assistant comments that RedFarm is trendy (not strictly hole-in-the-wall).",
+        "relationship_type": "DIRECT_CONNECTION",
+        "influence": "direct",
+        "relationship_score": 4,
+        "explanation": "Flags a suggested restaurant as trendy, directly applying the requirement to avoid trendy/crowded spots."
+      },
+      {
+        "action_id": "9-6",
+        "role": "SHAPER",
+        "action_text": "Assistant refocuses on genuinely hole-in-the-wall spots in the West Village, highlighting Taïm and Xi'an Famous Foods.",
+        "relationship_type": "DIRECT_CONNECTION",
+        "influence": "direct",
+        "relationship_score": 4,
+        "explanation": "Refocuses selection criteria on genuinely hole-in-the-wall options, explicitly steering away from trendy/crowded venues."
+      },
+      {
+        "action_id": "7-4",
+        "role": "EXECUTOR",
+        "action_text": "Assistant suggests Ethiopian alternatives (Awash, Zoma, Tsion Cafe) and characterizes their atmospheres.",
+        "relationship_type": "CONTRIBUTES",
+        "influence": "indirect",
+        "relationship_score": 3,
+        "explanation": "Offers alternative Ethiopian restaurants with atmosphere notes, partially supporting selection away from crowded/trendy places."
+      },
+      {
+        "action_id": "8-1",
+        "role": "SHAPER",
+        "action_text": "User accepts the previous suggestion/plan.",
+        "relationship_type": "CONTRIBUTES",
+        "influence": "indirect",
+        "relationship_score": 3,
+        "explanation": "User acceptance green-lights applying the less-crowded swaps, enabling fulfillment of the requirement."
+      },
+      {
+        "action_id": "7-7",
+        "role": "EXECUTOR",
+        "action_text": "Assistant invites the user to confirm whether they'd like the full itinerary updated with the suggested swaps.",
+        "relationship_type": "CONTRIBUTES",
+        "influence": "indirect",
+        "relationship_score": 2,
+        "explanation": "Invites confirmation to apply the swaps; advances execution of the anti-crowded swap intent but does not itself select/implement."
+      },
+      {
+        "action_id": "8-3",
+        "role": "SHAPER",
+        "action_text": "User asks to include a few more hole-in-the-wall lunch spots.",
+        "relationship_type": "CONTRIBUTES",
+        "influence": "indirect",
+        "relationship_score": 2,
+        "explanation": "Asks for more hole-in-the-wall lunch spots, which typically aligns with avoiding trendy/crowded venues though not explicitly stated here."
+      },
+      {
+        "action_id": "9-1",
+        "role": "OTHER",
+        "action_text": "Assistant restates the user's request to update the itinerary and add hole-in-the-wall lunch options.",
+        "relationship_type": "CONTRIBUTES",
+        "influence": "indirect",
+        "relationship_score": 2,
+        "explanation": "Restates the swap + hole-in-the-wall request, maintaining the direction to avoid crowded/trendy spots."
+      },
+      {
+        "action_id": "9-2",
+        "role": "EXECUTOR",
+        "action_text": "Assistant commits to put together the updated itinerary keeping the same format as before.",
+        "relationship_type": "CONTRIBUTES",
+        "influence": "indirect",
+        "relationship_score": 2,
+        "explanation": "Commits to producing the updated itinerary; procedural progress toward implementing the restaurant-avoid-crowds requirement."
+      },
+      {
+        "action_id": "11-6",
+        "role": "EXECUTOR",
+        "action_text": "Assistant provides an updated, detailed one-day itinerary that includes the added rest breaks and adjusted times.",
+        "relationship_type": "CONTRIBUTES",
+        "influence": "indirect",
+        "relationship_score": 2,
+        "explanation": "Provides the updated itinerary (including swaps as part of the same outcome), indirectly advancing the avoid-trendy/crowded requirement though the described focus here is breaks."
+      }
+    ]
+  },
+  "r15": {
+    "origin_actions": [
+      {
+        "action_id": "10-1",
+        "role": "SHAPER",
+        "action_text": "User asks the assistant to include breaks in between activities."
+      },
+      {
+        "action_id": "10-2",
+        "role": "SHAPER",
+        "action_text": "User specifies the breaks should be about ~30 minutes to allow time to rest."
+      }
+    ],
+    "contributing_actions": [
+      {
+        "action_id": "11-3",
+        "role": "EXECUTOR",
+        "action_text": "Assistant reviews the itinerary and identifies existing breaks (coffee break at 10:30) and available rest windows."
+      },
+      {
+        "action_id": "11-2",
+        "role": "EXECUTOR",
+        "action_text": "Assistant analyzes the current timeline and estimates dim sum taking ~1.5 hours ending ~9:30 AM."
+      }
+    ],
+    "implementation_actions": [
+      {
+        "action_id": "11-6",
+        "role": "EXECUTOR",
+        "action_text": "Assistant provides an updated, detailed one-day itinerary that includes the added rest breaks and adjusted times."
+      }
+    ],
+    "revise_actions": [],
+    "related_actions": [
+      {
+        "action_id": "11-6",
+        "role": "EXECUTOR",
+        "action_text": "Assistant provides an updated, detailed one-day itinerary that includes the added rest breaks and adjusted times.",
+        "relationship_type": "IMPLEMENTS",
+        "influence": "indirect",
+        "relationship_score": 5,
+        "explanation": "Intent-Reveal: produces the updated itinerary containing the inserted rest breaks (~30 minutes) between activities, fulfilling r15."
+      },
+      {
+        "action_id": "11-1",
+        "role": "OTHER",
+        "action_text": "Assistant restates the user's request to add ~30 minute rest breaks and expresses intent to think about placement.",
+        "relationship_type": "DIRECT_CONNECTION",
+        "influence": "direct",
+        "relationship_score": 4,
+        "explanation": "Intent-Reveal: explicitly restates the newly stated need to add ~30-minute rest breaks and sets out to address it."
+      },
+      {
+        "action_id": "11-4",
+        "role": "SHAPER",
+        "action_text": "Assistant plans where to add additional ~30 minute rest breaks (after arriving in West Village, after the stroll around 3:00 PM, and a longer hotel rest before dinner).",
+        "relationship_type": "DIRECT_CONNECTION",
+        "influence": "direct",
+        "relationship_score": 4,
+        "explanation": "Intent-Reveal: directly plans specific placements for additional ~30-minute rest breaks to satisfy r15."
+      },
+      {
+        "action_id": "11-5",
+        "role": "SHAPER",
+        "action_text": "Assistant locks in a hotel rest at 4:30 PM for at least 90 minutes and adds other specific break times.",
+        "relationship_type": "DIRECT_CONNECTION",
+        "influence": "direct",
+        "relationship_score": 4,
+        "explanation": "Option-Select: locks in concrete break times/durations (including selecting a longer rest block), operationalizing the break requirement."
+      },
+      {
+        "action_id": "11-7",
+        "role": "OTHER",
+        "action_text": "Assistant double-checks that the breaks land naturally between activities to avoid a rushed day.",
+        "relationship_type": "DIRECT_CONNECTION",
+        "influence": "direct",
+        "relationship_score": 4,
+        "explanation": "Feedback-Adopt: explicitly checks that breaks are placed naturally between activities, evaluating compliance with r15."
+      },
+      {
+        "action_id": "11-2",
+        "role": "EXECUTOR",
+        "action_text": "Assistant analyzes the current timeline and estimates dim sum taking ~1.5 hours ending ~9:30 AM.",
+        "relationship_type": "CONTRIBUTES",
+        "influence": "indirect",
+        "relationship_score": 3,
+        "explanation": "Intent-Reveal: estimates activity duration to create feasible gaps where ~30-minute breaks can be inserted."
+      },
+      {
+        "action_id": "11-3",
+        "role": "EXECUTOR",
+        "action_text": "Assistant reviews the itinerary and identifies existing breaks (coffee break at 10:30) and available rest windows.",
+        "relationship_type": "CONTRIBUTES",
+        "influence": "indirect",
+        "relationship_score": 3,
+        "explanation": "Intent-Reveal: identifies existing breaks and open windows, helping ensure breaks are included between activities."
+      }
+    ]
+  },
+  "others": [
+    {
+      "action_id": "0-3",
+      "role": "SHAPER",
+      "action_text": "User provides demographic detail: parents are in their late 50s."
+    },
+    {
+      "action_id": "1-16",
+      "role": "EXECUTOR",
+      "action_text": "Assistant provides a long list of reference links for further reading."
+    },
+    {
+      "action_id": "7-1",
+      "role": "EXECUTOR",
+      "action_text": "Assistant clarifies it cannot browse the internet or access Reddit in real time."
+    },
+    {
+      "action_id": "7-2",
+      "role": "EXECUTOR",
+      "action_text": "Assistant states its knowledge cutoff and that it can share training-data-based recommendations but cannot actively search Reddit now."
+    }
+  ]
+}

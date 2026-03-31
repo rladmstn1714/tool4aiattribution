@@ -1,0 +1,44 @@
+{
+  "others": [
+    {
+      "action_id": "0-1",
+      "role": "SHAPER",
+      "action_text": "User states intent to write a paper on evaluating human–AI collaboration"
+    },
+    {
+      "action_id": "0-2",
+      "role": "SHAPER",
+      "action_text": "User requests to write one paragraph collaboratively"
+    },
+    {
+      "action_id": "1-1",
+      "role": "OTHER",
+      "action_text": "Assistant indicates it is thinking"
+    },
+    {
+      "action_id": "1-2",
+      "role": "SHAPER",
+      "action_text": "Assistant proposes starting by either drafting a paragraph or asking how the user wants to approach the collaboration"
+    },
+    {
+      "action_id": "1-3",
+      "role": "SHAPER",
+      "action_text": "Assistant decides to engage the user in the process rather than just dumping a full paragraph"
+    },
+    {
+      "action_id": "1-4",
+      "role": "SHAPER",
+      "action_text": "Assistant offers a positive opening remark about the topic"
+    },
+    {
+      "action_id": "1-5",
+      "role": "SHAPER",
+      "action_text": "Assistant asks clarifying questions about the domain focus and the paragraph's intended role"
+    },
+    {
+      "action_id": "1-6",
+      "role": "SHAPER",
+      "action_text": "Assistant offers to draft a solid opening paragraph for the user to shape if they prefer"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "dialogue_id": "slack_export_dummy",
+  "final_turn": 11,
+  "requirement_to_outcome": {
+    "r1": "outcome_1",
+    "r2": "outcome_2",
+    "r3": "outcome_3",
+    "r4": "outcome_5"
+  }
+}

@@ -1,0 +1,543 @@
+{
+  "dialogue_id": "poe_share_FBlhJYdViieizoGjBkbP",
+  "outcome_action_map": {
+    "outcome_1": {
+      "outcome_id": "outcome_1",
+      "description": "Comfort-focused one-day NYC itinerary (morning-to-evening) for visiting parents including meals, sightseeing, breaks, and minimal travel",
+      "created_at_turn": 0,
+      "actions": [
+        {
+          "turn_id": 0,
+          "action_type": "Instruct",
+          "action_text": "User instructs assistant to adopt a specific role as an exchange student from South Korea with 5+ years in New York.",
+          "role": "SHAPER",
+          "evidence_quote": "Your role: You are an exchange international student from South Korea, staying in newyork for more than 5 years. You are very knowledgeable about restaurants and tourist attractions of New York.",
+          "speaker": "user",
+          "action_id": "0-1",
+          "bound_outcome_id": "outcome_1"
+        },
+        {
+          "turn_id": 0,
+          "action_type": "Provide",
+          "action_text": "User provides the situational context that parents are visiting NYC, arriving in the morning, hotel in Manhattan, and travel time should be reasonable.",
+          "role": "SHAPER",
+          "evidence_quote": "Situation: Your parents are visiting New York City. They will arrive in the morning and stay for a short trip, and you want to plan a one-day itinerary for them. Their hotel is in Manhattan, so please use that as the starting point and keep travel time reasonable.",
+          "speaker": "user",
+          "action_id": "0-2",
+          "bound_outcome_id": "outcome_1"
+        },
+        {
+          "turn_id": 0,
+          "action_type": "List",
+          "action_text": "User lists parents' preferences for the day (relaxed pace, famous landmarks, nice views, comfortable food, places to sit/rest, balanced iconic experiences).",
+          "role": "SHAPER",
+          "evidence_quote": "They prefer a relaxed pace and do not want to walk too much\nThey enjoy famous landmarks, nice views, and pleasant neighborhoods\nThey like good food, but would prefer reliable and comfortable places over trendy or overly crowded spots\nThey would appreciate chances to sit down and rest during the day\nTry to balance iconic NYC experiences with a schedule that feels smooth and not tiring",
+          "speaker": "user",
+          "action_id": "0-3",
+          "bound_outcome_id": "outcome_1"
+        },
+        {
+          "turn_id": 0,
+          "action_type": "Request",
+          "action_text": "User requests a plan for the day from morning to evening including meals, sightseeing, and breaks, emphasizing parents' comfort.",
+          "role": "SHAPER",
+          "evidence_quote": "Instruction: Plan the day from morning to evening, including meals, sightseeing, and breaks. Think carefully about what would make the trip comfortable and enjoyable for parents, rather than for young tourists.",
+          "speaker": "user",
+          "action_id": "0-4",
+          "bound_outcome_id": "outcome_1"
+        },
+        {
+          "turn_id": 1,
+          "action_type": "Acknowledge",
+          "action_text": "Assistant acknowledges the user's request to role-play and plan a comfortable itinerary for visiting parents.",
+          "role": "EXECUTOR",
+          "evidence_quote": "> The user wants me to role-play as a Korean exchange student who has lived in New York for 5 years, planning a one-day itinerary for their parents.",
+          "speaker": "assistant",
+          "action_id": "1-1",
+          "bound_outcome_id": "outcome_1"
+        },
+        {
+          "turn_id": 1,
+          "action_type": "List",
+          "action_text": "Assistant lists key considerations for the itinerary (starting point, relaxed pace, landmarks, comfortable dining, seating, smooth flow).",
+          "role": "SHAPER",
+          "evidence_quote": "**Key considerations:**\n- Starting from Manhattan hotel\n- Relaxed pace, minimal walking\n- Famous landmarks and nice views\n- Comfortable, reliable restaurants (not trendy/crowded)\n- Sitting/rest opportunities\n- Smooth flow, not tiring",
+          "speaker": "assistant",
+          "action_id": "1-2",
+          "bound_outcome_id": "outcome_1"
+        },
+        {
+          "turn_id": 1,
+          "action_type": "Plan",
+          "action_text": "Assistant states intent to plan a thoughtful itinerary and thinks through the day's structure.",
+          "role": "EXECUTOR",
+          "evidence_quote": "Let me plan a thoughtful itinerary:",
+          "speaker": "assistant",
+          "action_id": "1-3",
+          "bound_outcome_id": "outcome_1"
+        },
+        {
+          "turn_id": 1,
+          "action_type": "Constrain",
+          "action_text": "Assistant rules out walking- and waiting-heavy attractions like the Brooklyn Bridge walk, High Line, and Battery Park for this itinerary.",
+          "role": "SHAPER",
+          "evidence_quote": "I'm weighing other options like a gentle Central Park stroll or carriage ride",
+          "speaker": "assistant",
+          "action_id": "1-6",
+          "bound_outcome_id": "outcome_1"
+        },
+        {
+          "turn_id": 1,
+          "action_type": "Recommend",
+          "action_text": "Assistant recommends returning to the hotel in the early afternoon for a 1.5–2 hour rest break.",
+          "role": "SHAPER",
+          "evidence_quote": "**2:30 PM - Rest / Hotel break** - Return to hotel for rest (1.5-2 hours) - This is very important for older parents\"",
+          "speaker": "assistant",
+          "action_id": "1-9",
+          "bound_outcome_id": "outcome_1"
+        },
+        {
+          "turn_id": 1,
+          "action_type": "Recommend",
+          "action_text": "Assistant recommends buying Top of the Rock tickets online in advance to avoid lines.",
+          "role": "EXECUTOR",
+          "evidence_quote": "- Buy tickets in advance to avoid lines\"",
+          "speaker": "assistant",
+          "action_id": "1-12",
+          "bound_outcome_id": "outcome_1"
+        },
+        {
+          "turn_id": 1,
+          "action_type": "Emphasize",
+          "action_text": "Assistant emphasizes keeping the day's activities concentrated in Midtown and the Upper East Side to minimize travel and walking.",
+          "role": "SHAPER",
+          "evidence_quote": "I'm keeping everything concentrated in Midtown and the Upper East Side so my parents don't have to travel far or deal with too much walking.\"",
+          "speaker": "assistant",
+          "action_id": "1-13",
+          "bound_outcome_id": "outcome_1"
+        },
+        {
+          "turn_id": 1,
+          "action_type": "Draft",
+          "action_text": "Assistant drafts a full detailed one-day itinerary from morning through evening with specific times, activities, and restaurants.",
+          "role": "EXECUTOR",
+          "evidence_quote": "# A Day in New York City — My Plan for Mom and Dad 🗽 ... Here's the plan I put together.\"",
+          "speaker": "assistant",
+          "action_id": "1-15",
+          "bound_outcome_id": "outcome_1"
+        },
+        {
+          "turn_id": 3,
+          "action_type": "Acknowledge",
+          "action_text": "Assistant acknowledges the seven feedback points and states intent to address each systematically.",
+          "role": "EXECUTOR",
+          "evidence_quote": "The user is asking me to revise and improve the itinerary based on 7 points of feedback. Let me address each one carefully:\"",
+          "speaker": "assistant",
+          "action_id": "3-1",
+          "bound_outcome_id": "outcome_1"
+        },
+        {
+          "turn_id": 3,
+          "action_type": "Recommend",
+          "action_text": "Assistant recommends making reservations and buying tickets in advance for popular restaurants and attractions.",
+          "role": "EXECUTOR",
+          "evidence_quote": "A reservation in advance is essential.\"",
+          "speaker": "assistant",
+          "action_id": "3-22",
+          "bound_outcome_id": "outcome_1"
+        },
+        {
+          "turn_id": 3,
+          "action_type": "Plan",
+          "action_text": "Assistant proposes a single smooth recommended combination itinerary (Palm Court → Top of the Rock → Brasserie 8½ → Café Sabarsky → Circle Line Cruise → Gallagher's → Times Square).",
+          "role": "SHAPER",
+          "evidence_quote": "If I were putting together the single smoothest version of this day based on everything above",
+          "with": "The Palm Court at The Plaza for breakfast → Top of the Rock → Brasserie 8½ for lunch → Café Sabarsky for the afternoon break → Circle Line Cruise → Gallagher's Steakhouse for dinner → a brief look at Times Square to close the night.**\"\n    }",
+          "speaker": "assistant",
+          "action_id": "3-24",
+          "bound_outcome_id": "outcome_1"
+        }
+      ]
+    },
+    "outcome_2": {
+      "outcome_id": "outcome_2",
+      "description": "Morning plan options (breakfast + morning activity alternatives) suitable for parents' relaxed pace",
+      "created_at_turn": 2,
+      "actions": [
+        {
+          "turn_id": 1,
+          "action_type": "Suggest",
+          "action_text": "Assistant suggests a late morning start around 9:00–9:30 so the parents aren't rushed.",
+          "role": "SHAPER",
+          "evidence_quote": "For the morning",
+          "9": 30,
+          "speaker": "assistant",
+          "action_id": "1-4",
+          "bound_outcome_id": "outcome_2"
+        },
+        {
+          "turn_id": 1,
+          "action_type": "Suggest",
+          "action_text": "Assistant suggests Sarabeth's as a relaxed breakfast spot near the hotel.",
+          "role": "EXECUTOR",
+          "evidence_quote": "For breakfast at a relaxed spot like Sarabeth's,\"",
+          "speaker": "assistant",
+          "action_id": "1-7",
+          "bound_outcome_id": "outcome_2"
+        },
+        {
+          "turn_id": 2,
+          "action_type": "Ask",
+          "action_text": "User asks for at least three additional morning recommendation options.",
+          "role": "SHAPER",
+          "evidence_quote": "1. Is there any other recommendations for Morning? Suggest at least three options",
+          "speaker": "user",
+          "action_id": "2-1",
+          "bound_outcome_id": "outcome_2"
+        },
+        {
+          "turn_id": 3,
+          "action_type": "Suggest",
+          "action_text": "Assistant suggests Norma's at The Parker New York as an upscale breakfast option.",
+          "role": "SHAPER",
+          "evidence_quote": "**Norma's at The Parker New York (West 56th Street)** ... The menu is wildly creative ... A reservation is recommended.\"",
+          "speaker": "assistant",
+          "action_id": "3-2",
+          "bound_outcome_id": "outcome_2"
+        },
+        {
+          "turn_id": 3,
+          "action_type": "Suggest",
+          "action_text": "Assistant suggests The Palm Court at The Plaza Hotel for a luxurious breakfast experience.",
+          "role": "SHAPER",
+          "evidence_quote": "**The Palm Court at The Plaza Hotel (Fifth Avenue at 59th Street)** is for when you want the grandeur of New York to hit them right from the start.\"",
+          "speaker": "assistant",
+          "action_id": "3-3",
+          "bound_outcome_id": "outcome_2"
+        },
+        {
+          "turn_id": 3,
+          "action_type": "Suggest",
+          "action_text": "Assistant suggests Pershing Square near Grand Central as a reliable, no-fuss breakfast option.",
+          "role": "SHAPER",
+          "evidence_quote": "**Pershing Square (East 42nd Street",
+          "speaker": "assistant",
+          "action_id": "3-4",
+          "bound_outcome_id": "outcome_2"
+        },
+        {
+          "turn_id": 3,
+          "action_type": "Suggest",
+          "action_text": "Assistant suggests The Smith as a warm, welcoming breakfast/brunch choice.",
+          "role": "SHAPER",
+          "evidence_quote": "**The Smith (Midtown East)** hits the sweet spot between lively and relaxed.\"",
+          "speaker": "assistant",
+          "action_id": "3-5",
+          "bound_outcome_id": "outcome_2"
+        }
+      ]
+    },
+    "outcome_3": {
+      "outcome_id": "outcome_3",
+      "description": "Decision support comparing Rockefeller Center/Top of the Rock vs Empire State Building for best parent-friendly choice",
+      "created_at_turn": 2,
+      "actions": [
+        {
+          "turn_id": 1,
+          "action_type": "Recommend",
+          "action_text": "Assistant recommends Top of the Rock at Rockefeller Center for morning sightseeing because it has excellent views and minimal walking (elevators, seating).",
+          "role": "SHAPER",
+          "evidence_quote": "For sightseeing",
+          "speaker": "assistant",
+          "action_id": "1-5",
+          "bound_outcome_id": "outcome_3"
+        },
+        {
+          "turn_id": 2,
+          "action_type": "Ask",
+          "action_text": "User asks whether Rockefeller Center is a better option compared to the Empire State Building.",
+          "role": "SHAPER",
+          "evidence_quote": "2. Is Rockefellter center  better option compared to the empire states building?",
+          "speaker": "user",
+          "action_id": "2-2",
+          "bound_outcome_id": "outcome_3"
+        },
+        {
+          "turn_id": 3,
+          "action_type": "Compare",
+          "action_text": "Assistant compares Top of the Rock and the Empire State Building, listing pros and cons and offering a verdict that Top of the Rock edges ahead for comfort and photography.",
+          "role": "SHAPER",
+          "evidence_quote": "My honest verdict: For parents focused on comfort and the best overall photography experience",
+          "we stood inside the Empire State Building,": "hen the ESB is the right choice.\"",
+          "speaker": "assistant",
+          "action_id": "3-6",
+          "bound_outcome_id": "outcome_3"
+        }
+      ]
+    },
+    "outcome_4": {
+      "outcome_id": "outcome_4",
+      "description": "Food and rest recommendations: non-Korean lunch options and New York–mood café break options aligned to itinerary locations",
+      "created_at_turn": 2,
+      "actions": [
+        {
+          "turn_id": 1,
+          "action_type": "Suggest",
+          "action_text": "Assistant suggests Koreatown (e.g., Kunjip, Gaonnuri) as a comfortable lunch option near Midtown.",
+          "role": "EXECUTOR",
+          "evidence_quote": "For lunch",
+          "speaker": "assistant",
+          "action_id": "1-8",
+          "bound_outcome_id": "outcome_4"
+        },
+        {
+          "turn_id": 2,
+          "action_type": "Ask",
+          "action_text": "User asks for at least three non-Korean lunch options, noting parents just arrived from Korea.",
+          "role": "SHAPER",
+          "evidence_quote": "3. They might not want korean as they came from korea right away. Please provide other options. Give at least three options\"",
+          "speaker": "user",
+          "action_id": "2-3",
+          "bound_outcome_id": "outcome_4"
+        },
+        {
+          "turn_id": 2,
+          "action_type": "Ask",
+          "action_text": "User asks about taking a rest at a nice café that captures New York's mood.",
+          "role": "SHAPER",
+          "evidence_quote": "4. How about taking a rest at a nice cafe where we can feel the mood of New york?\"",
+          "speaker": "user",
+          "action_id": "2-4",
+          "bound_outcome_id": "outcome_4"
+        },
+        {
+          "turn_id": 3,
+          "action_type": "Suggest",
+          "action_text": "Assistant suggests The Modern Bar Room at MoMA as an elegant, approachable non-Korean lunch option near Rockefeller Center.",
+          "role": "SHAPER",
+          "evidence_quote": "**The Modern Bar Room at MoMA (West 53rd Street)** is a short walk from Rockefeller Center and offers one of the most sophisticated yet approachable lunch experiences in Midtown.\"",
+          "speaker": "assistant",
+          "action_id": "3-7",
+          "bound_outcome_id": "outcome_4"
+        },
+        {
+          "turn_id": 3,
+          "action_type": "Suggest",
+          "action_text": "Assistant suggests Brasserie 8½ as a comfortable French brasserie lunch option.",
+          "role": "SHAPER",
+          "evidence_quote": "**Brasserie 8½ (West 57th Street)** has a wonderful personality ... The pace of service is unhurried and gracious.\"",
+          "speaker": "assistant",
+          "action_id": "3-8",
+          "bound_outcome_id": "outcome_4"
+        },
+        {
+          "turn_id": 3,
+          "action_type": "Suggest",
+          "action_text": "Assistant suggests Patsy's Italian Restaurant as an old-school Italian lunch choice with authentic New York character.",
+          "role": "SHAPER",
+          "evidence_quote": "**Patsy's Italian Restaurant (West 56th Street)** has been open since 1944 ... The old-school red-sauce Italian charm is completely genuine.\"",
+          "speaker": "assistant",
+          "action_id": "3-9",
+          "bound_outcome_id": "outcome_4"
+        },
+        {
+          "turn_id": 3,
+          "action_type": "Suggest",
+          "action_text": "Assistant suggests P.J. Clarke's as a casual, characterful American lunch option.",
+          "role": "SHAPER",
+          "evidence_quote": "**P.J. Clarke's (East 55th Street)** has been a New York saloon since 1884 and is the rare place that feels genuinely lived-in.\"",
+          "speaker": "assistant",
+          "action_id": "3-10",
+          "bound_outcome_id": "outcome_4"
+        },
+        {
+          "turn_id": 3,
+          "action_type": "Suggest",
+          "action_text": "Assistant suggests The Campbell at Grand Central as a unique, historic café for an atmospheric rest.",
+          "role": "SHAPER",
+          "evidence_quote": "**The Campbell at Grand Central Terminal (42nd Street)** is one of the most unique café and bar spaces in all of New York.\"",
+          "speaker": "assistant",
+          "action_id": "3-11",
+          "bound_outcome_id": "outcome_4"
+        },
+        {
+          "turn_id": 3,
+          "action_type": "Suggest",
+          "action_text": "Assistant suggests Café Sabarsky at the Neue Galerie for a refined Viennese café experience suitable for parents.",
+          "role": "SHAPER",
+          "evidence_quote": "**Café Sabarsky at the Neue Galerie (Fifth Avenue at 86th Street)** is one of my personal favorites ... modeled meticulously after a classic Viennese coffeehouse.\"",
+          "speaker": "assistant",
+          "action_id": "3-12",
+          "bound_outcome_id": "outcome_4"
+        },
+        {
+          "turn_id": 3,
+          "action_type": "Suggest",
+          "action_text": "Assistant suggests Sant Ambroeus on Madison Avenue for an elegant Milanese café atmosphere.",
+          "role": "SHAPER",
+          "evidence_quote": "**Sant Ambroeus (Madison Avenue",
+          "speaker": "assistant",
+          "action_id": "3-13",
+          "bound_outcome_id": "outcome_4"
+        }
+      ]
+    },
+    "outcome_5": {
+      "outcome_id": "outcome_5",
+      "description": "Late-afternoon sightseeing alternatives (beyond Central Park ground visit) with nearby dinner pairings and after-dinner wrap-up plan",
+      "created_at_turn": 2,
+      "actions": [
+        {
+          "turn_id": 1,
+          "action_type": "Suggest",
+          "action_text": "Assistant suggests a gentle Central Park stroll in the late afternoon, with the option of a horse-drawn carriage ride.",
+          "role": "SHAPER",
+          "evidence_quote": "**4:30 PM - Central Park afternoon stroll** - Gentle walk to a nearby Central Park entrance ... A horse-drawn carriage ride could be nice if they want to rest their feet\"",
+          "speaker": "assistant",
+          "action_id": "1-10",
+          "bound_outcome_id": "outcome_5"
+        },
+        {
+          "turn_id": 1,
+          "action_type": "Recommend",
+          "action_text": "Assistant recommends dinner options including classic steakhouses (Keens or Gallagher's) or alternatives such as Korean, The Smith, or Italian depending on preferences.",
+          "role": "SHAPER",
+          "evidence_quote": "For dinner",
+          "speaker": "assistant",
+          "action_id": "1-11",
+          "bound_outcome_id": "outcome_5"
+        },
+        {
+          "turn_id": 1,
+          "action_type": "Invite",
+          "action_text": "Assistant offers both steakhouse and Korean dinner options and invites choosing based on parents' mood after the day.",
+          "role": "SHAPER",
+          "evidence_quote": "I think I'll offer both options and see what they're in the mood for after a full day.\"",
+          "speaker": "assistant",
+          "action_id": "1-14",
+          "bound_outcome_id": "outcome_5"
+        },
+        {
+          "turn_id": 2,
+          "action_type": "Ask",
+          "action_text": "User asks for alternatives to seeing Central Park on the ground, mentioning Statue of Liberty or Brooklyn Bridge as possibilities.",
+          "role": "SHAPER",
+          "evidence_quote": "5. We can see the central park at the top of the buildings",
+          "speaker": "user",
+          "action_id": "2-5",
+          "bound_outcome_id": "outcome_5"
+        },
+        {
+          "turn_id": 2,
+          "action_type": "Ask",
+          "action_text": "User asks to select restaurants that are not far from the chosen late-afternoon location.",
+          "role": "SHAPER",
+          "evidence_quote": "6. Select restaruants that's not far way from place where we plan to go at late afternoon (5)\"",
+          "speaker": "user",
+          "action_id": "2-6",
+          "bound_outcome_id": "outcome_5"
+        },
+        {
+          "turn_id": 2,
+          "action_type": "Confirm",
+          "action_text": "User gives positive feedback that the after-dinner plan seems nice.",
+          "role": "SHAPER",
+          "evidence_quote": "7. Aterdinner plan seems nice.\"",
+          "speaker": "user",
+          "action_id": "2-7",
+          "bound_outcome_id": "outcome_5"
+        },
+        {
+          "turn_id": 3,
+          "action_type": "Suggest",
+          "action_text": "Assistant recommends the Circle Line Sightseeing Cruise as the top afternoon option for parents who prefer to sit and see many landmarks without walking.",
+          "role": "SHAPER",
+          "evidence_quote": "**Circle Line Sightseeing Cruise — My Top Recommendation for Your Parents** ... the key advantage is simple: you sit down the entire time while New York comes to you.\"",
+          "speaker": "assistant",
+          "action_id": "3-14",
+          "bound_outcome_id": "outcome_5"
+        },
+        {
+          "turn_id": 3,
+          "action_type": "Suggest",
+          "action_text": "Assistant suggests Brooklyn Bridge Park in DUMBO as a low-walking option with spectacular skyline views.",
+          "role": "SHAPER",
+          "evidence_quote": "**Brooklyn Bridge Park in DUMBO",
+          "speaker": "assistant",
+          "action_id": "3-15",
+          "bound_outcome_id": "outcome_5"
+        },
+        {
+          "turn_id": 3,
+          "action_type": "Suggest",
+          "action_text": "Assistant suggests the Roosevelt Island Tram as a short scenic ride with peaceful promenade views.",
+          "role": "SHAPER",
+          "evidence_quote": "**Roosevelt Island Tram (59th Street and 2nd Avenue)** ... An aerial tramway ... The views looking back at the Manhattan skyline are gorgeous.\"",
+          "speaker": "assistant",
+          "action_id": "3-16",
+          "bound_outcome_id": "outcome_5"
+        },
+        {
+          "turn_id": 3,
+          "action_type": "Suggest",
+          "action_text": "Assistant suggests One World Observatory as an alternative indoor observation experience with different views of the harbor and Statue of Liberty.",
+          "role": "SHAPER",
+          "evidence_quote": "**One World Observatory at the Freedom Tower (Lower Manhattan)** ... One World Observatory offers a completely different perspective in the afternoon.\"",
+          "speaker": "assistant",
+          "action_id": "3-17",
+          "bound_outcome_id": "outcome_5"
+        },
+        {
+          "turn_id": 3,
+          "action_type": "Recommend",
+          "action_text": "Assistant recommends Gallagher's Steakhouse or Becco for dinner if the Circle Line Cruise (Midtown West) is chosen.",
+          "role": "SHAPER",
+          "evidence_quote": "**If you choose the Circle Line Cruise:** ... **Gallagher's Steakhouse** on West 52nd Street ... or they could go with **Becco** on West 46th Street\"",
+          "speaker": "assistant",
+          "action_id": "3-18",
+          "bound_outcome_id": "outcome_5"
+        },
+        {
+          "turn_id": 3,
+          "action_type": "Recommend",
+          "action_text": "Assistant recommends The River Café or Juliana's Pizza for dinner if spending the afternoon in DUMBO/Brooklyn Bridge Park.",
+          "role": "SHAPER",
+          "evidence_quote": "**If you choose Brooklyn Bridge Park in DUMBO:** ... **The River Café** ... For something more casual and fun",
+          "speaker": "assistant",
+          "action_id": "3-19",
+          "bound_outcome_id": "outcome_5"
+        },
+        {
+          "turn_id": 3,
+          "action_type": "Recommend",
+          "action_text": "Assistant recommends The Grill or Il Mulino for dinner if returning from Roosevelt Island Tram to Midtown East.",
+          "role": "SHAPER",
+          "evidence_quote": "**If you choose Roosevelt Island Tram:** ... **The Grill** ... or **Il Mulino** on East 60th Street\"",
+          "speaker": "assistant",
+          "action_id": "3-20",
+          "bound_outcome_id": "outcome_5"
+        },
+        {
+          "turn_id": 3,
+          "action_type": "Recommend",
+          "action_text": "Assistant recommends Manhatta or Fraunces Tavern for dinner if pairing with One World Observatory in Lower Manhattan.",
+          "role": "SHAPER",
+          "evidence_quote": "**If you choose One World Observatory:** ... **Manhatta** on the 60th floor ... or **Fraunces Tavern** on Pearl Street\"",
+          "speaker": "assistant",
+          "action_id": "3-21",
+          "bound_outcome_id": "outcome_5"
+        },
+        {
+          "turn_id": 3,
+          "action_type": "Confirm",
+          "action_text": "Assistant confirms the after-dinner plan (brief Times Square stop and taxi back) remains a good way to end the day.",
+          "role": "EXECUTOR",
+          "evidence_quote": "## 7. After-Dinner Plan ✅ The Times Square finale stays exactly as planned — a brief",
+          "speaker": "assistant",
+          "action_id": "3-23",
+          "bound_outcome_id": "outcome_5"
+        }
+      ]
+    }
+  }
+}

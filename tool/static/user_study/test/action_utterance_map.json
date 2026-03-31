@@ -1,0 +1,34 @@
+{
+  "0-1": {
+    "evidence_quote": "I want to write a paper on evaluating human–AI collaboration.",
+    "turn_id": 0
+  },
+  "0-2": {
+    "evidence_quote": "Let’s write one paragraph about it together.",
+    "turn_id": 0
+  },
+  "1-1": {
+    "evidence_quote": "*Thinking...*",
+    "turn_id": 1
+  },
+  "1-2": {
+    "evidence_quote": "Let me start by either drafting a paragraph or asking them how they'd like to approach this collaboration.",
+    "turn_id": 1
+  },
+  "1-3": {
+    "evidence_quote": "Since they said \"together,\" I should probably engage them in the process rather than just dumping a full paragraph.",
+    "turn_id": 1
+  },
+  "1-4": {
+    "evidence_quote": "Great topic!",
+    "turn_id": 1
+  },
+  "1-5": {
+    "evidence_quote": "For instance, are you focusing on a specific domain (like healthcare, creative work, or decision-making), or are you thinking about evaluation frameworks in a more general sense? And is this paragraph meant to serve as an introduction, a literature review piece, or something else?",
+    "turn_id": 1
+  },
+  "1-6": {
+    "evidence_quote": "If you'd prefer, I can also just draft a solid opening paragraph and you can shape it from there — whatever feels more useful to you.",
+    "turn_id": 1
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "dialogue_id": "poe_share_FBlhJYdViieizoGjBkbP",
+  "requirements": [
+    {
+      "id": "r1",
+      "is_dismissed": false,
+      "dismissed_by_action_ids": [],
+      "dismissed_at_turn": null,
+      "is_executed": true
+    },
+    {
+      "id": "r2",
+      "is_dismissed": false,
+      "dismissed_by_action_ids": [],
+      "dismissed_at_turn": null,
+      "is_executed": true
+    },
+    {
+      "id": "r3",
+      "is_dismissed": false,
+      "dismissed_by_action_ids": [],
+      "dismissed_at_turn": null,
+      "is_executed": true
+    },
+    {
+      "id": "r4",
+      "is_dismissed": false,
+      "dismissed_by_action_ids": [],
+      "dismissed_at_turn": null,
+      "is_executed": true
+    },
+    {
+      "id": "r5",
+      "is_dismissed": false,
+      "dismissed_by_action_ids": [],
+      "dismissed_at_turn": null,
+      "is_executed": true
+    },
+    {
+      "id": "r6",
+      "is_dismissed": false,
+      "dismissed_by_action_ids": [],
+      "dismissed_at_turn": null,
+      "is_executed": true
+    },
+    {
+      "id": "r7",
+      "is_dismissed": false,
+      "dismissed_by_action_ids": [],
+      "dismissed_at_turn": null,
+      "is_executed": true
+    },
+    {
+      "id": "r8",
+      "is_dismissed": false,
+      "dismissed_by_action_ids": [],
+      "dismissed_at_turn": null,
+      "is_executed": true
+    }
+  ]
+}

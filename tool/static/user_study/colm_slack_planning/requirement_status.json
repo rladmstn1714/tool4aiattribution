@@ -1,0 +1,33 @@
+{
+  "dialogue_id": "slack_export_dummy",
+  "requirements": [
+    {
+      "id": "r1",
+      "is_dismissed": false,
+      "dismissed_by_action_ids": [],
+      "dismissed_at_turn": null,
+      "is_executed": false
+    },
+    {
+      "id": "r2",
+      "is_dismissed": false,
+      "dismissed_by_action_ids": [],
+      "dismissed_at_turn": null,
+      "is_executed": true
+    },
+    {
+      "id": "r3",
+      "is_dismissed": false,
+      "dismissed_by_action_ids": [],
+      "dismissed_at_turn": null,
+      "is_executed": false
+    },
+    {
+      "id": "r4",
+      "is_dismissed": false,
+      "dismissed_by_action_ids": [],
+      "dismissed_at_turn": null,
+      "is_executed": false
+    }
+  ]
+}

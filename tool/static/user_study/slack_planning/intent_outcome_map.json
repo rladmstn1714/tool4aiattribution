@@ -1,0 +1,37 @@
+{
+  "dialogue_id": "slack_export_user_study1",
+  "intentions": [
+    {
+      "intention_id": "I1",
+      "intention": "Plan overall one-day itinerary and activity flow"
+    },
+    {
+      "intention_id": "I2",
+      "intention": "Decide transportation/logistics for the day"
+    },
+    {
+      "intention_id": "I3",
+      "intention": "Plan sightseeing stops and timing"
+    },
+    {
+      "intention_id": "I4",
+      "intention": "Plan meals (lunch/dinner) within budget and nearby constraints"
+    },
+    {
+      "intention_id": "I5",
+      "intention": "Plan campus + museum/coffee outing details"
+    }
+  ],
+  "outcome_to_intention": {
+    "outcome_1": "I1",
+    "outcome_2": "I2",
+    "outcome_3": "I3",
+    "outcome_4": "I4",
+    "outcome_5": "I4",
+    "outcome_6": "I5"
+  },
+  "metadata": {
+    "num_intentions": 5,
+    "model": "gpt-5.2-2025-12-11"
+  }
+}

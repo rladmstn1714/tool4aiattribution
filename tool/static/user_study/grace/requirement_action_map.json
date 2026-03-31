@@ -1,0 +1,827 @@
+{
+  "r1": {
+    "origin_actions": [
+      {
+        "action_id": "4-2",
+        "role": "SHAPER",
+        "action_text": "User specifies preference for reliable and comfortable venues rather than trendy or overly crowded spots."
+      }
+    ],
+    "contributing_actions": [
+      {
+        "action_id": "5-5",
+        "role": "EXECUTOR",
+        "action_text": "Assistant refines itinerary details, considering restaurant timings and locations and planning to add review snippets and ratings."
+      },
+      {
+        "action_id": "5-11",
+        "role": "EXECUTOR",
+        "action_text": "Assistant recommends making reservations 2–3 weeks in advance on OpenTable or Resy for the recommended restaurants."
+      },
+      {
+        "action_id": "5-4",
+        "role": "EXECUTOR",
+        "action_text": "Assistant integrates selected restaurants into a cohesive itinerary and prepares to synthesize ratings and review snippets for inclusion."
+      },
+      {
+        "action_id": "4-1",
+        "role": "SHAPER",
+        "action_text": "User asks the assistant to recommend good food places."
+      },
+      {
+        "action_id": "9-11",
+        "role": "SHAPER",
+        "action_text": "Assistant suggests booking a reservation a few weeks in advance."
+      }
+    ],
+    "implementation_actions": [
+      {
+        "action_id": "5-9",
+        "role": "EXECUTOR",
+        "action_text": "Assistant recommends Becco for dinner on Restaurant Row, giving ratings, a review summary, and why it is suitable for parents."
+      },
+      {
+        "action_id": "5-6",
+        "role": "EXECUTOR",
+        "action_text": "Assistant provides an updated itinerary and reports it swaps dining suggestions for spacious, comfortable, reliable places and includes average ratings and review summaries."
+      },
+      {
+        "action_id": "5-8",
+        "role": "EXECUTOR",
+        "action_text": "Assistant provides La Grande Boucherie as the recommended lunch spot with ratings, review excerpt, and reason it works for parents."
+      },
+      {
+        "action_id": "11-6",
+        "role": "EXECUTOR",
+        "action_text": "Assistant recommends Tavern on the Green for a sit-down lunch and notes ratings and rest-stop benefits."
+      },
+      {
+        "action_id": "7-7",
+        "role": "EXECUTOR",
+        "action_text": "Assistant recommends Queensyard at Hudson Yards for a spacious, comfortable lunch and provides ratings and a review summary."
+      },
+      {
+        "action_id": "5-7",
+        "role": "EXECUTOR",
+        "action_text": "Assistant recommends Sarabeth's for a comfortable sit-down breakfast and provides ratings and a review summary explaining why it suits parents."
+      }
+    ],
+    "revise_actions": [],
+    "related_actions": [
+      {
+        "action_id": "5-6",
+        "role": "EXECUTOR",
+        "action_text": "Assistant provides an updated itinerary and reports it swaps dining suggestions for spacious, comfortable, reliable places and includes average ratings and review summaries.",
+        "relationship_type": "IMPLEMENTS",
+        "influence": "indirect",
+        "relationship_score": 5,
+        "explanation": "Delivers the updated itinerary with dining swaps explicitly chosen for spacious/comfortable/reliable and includes ratings/review summaries—core fulfillment of r1."
+      },
+      {
+        "action_id": "5-7",
+        "role": "EXECUTOR",
+        "action_text": "Assistant recommends Sarabeth's for a comfortable sit-down breakfast and provides ratings and a review summary explaining why it suits parents.",
+        "relationship_type": "IMPLEMENTS",
+        "influence": "indirect",
+        "relationship_score": 5,
+        "explanation": "Recommends a breakfast venue with comfort/reliability rationale plus ratings/review summary, directly satisfying r1 for breakfast."
+      },
+      {
+        "action_id": "5-8",
+        "role": "EXECUTOR",
+        "action_text": "Assistant provides La Grande Boucherie as the recommended lunch spot with ratings, review excerpt, and reason it works for parents.",
+        "relationship_type": "IMPLEMENTS",
+        "influence": "indirect",
+        "relationship_score": 5,
+        "explanation": "Provides a lunch recommendation with ratings/review excerpt and comfort justification, directly fulfilling r1 for lunch."
+      },
+      {
+        "action_id": "5-9",
+        "role": "EXECUTOR",
+        "action_text": "Assistant recommends Becco for dinner on Restaurant Row, giving ratings, a review summary, and why it is suitable for parents.",
+        "relationship_type": "IMPLEMENTS",
+        "influence": "indirect",
+        "relationship_score": 5,
+        "explanation": "Recommends a dinner venue with ratings/review summary and suitability-for-parents (quiet/comfortable) reasoning, directly fulfilling r1 for dinner."
+      },
+      {
+        "action_id": "7-7",
+        "role": "EXECUTOR",
+        "action_text": "Assistant recommends Queensyard at Hudson Yards for a spacious, comfortable lunch and provides ratings and a review summary.",
+        "relationship_type": "IMPLEMENTS",
+        "influence": "indirect",
+        "relationship_score": 5,
+        "explanation": "Adds another spacious/comfortable lunch recommendation with ratings and review summary, directly executing r1."
+      },
+      {
+        "action_id": "11-6",
+        "role": "EXECUTOR",
+        "action_text": "Assistant recommends Tavern on the Green for a sit-down lunch and notes ratings and rest-stop benefits.",
+        "relationship_type": "IMPLEMENTS",
+        "influence": "indirect",
+        "relationship_score": 5,
+        "explanation": "Provides a sit-down lunch venue framed as a rest/comfort benefit with ratings noted, directly fulfilling r1's comfortable/reliable dining recommendation."
+      },
+      {
+        "action_id": "5-1",
+        "role": "EXECUTOR",
+        "action_text": "Assistant evaluates the request's scope and frames the core focus as creating a list of comfortable, reliable restaurants for parents in Midtown Manhattan.",
+        "relationship_type": "DIRECT_CONNECTION",
+        "influence": "direct",
+        "relationship_score": 4,
+        "explanation": "Explicitly frames the task as finding comfortable, reliable restaurants (i.e., directly operates on the requirement by scoping it)."
+      },
+      {
+        "action_id": "5-2",
+        "role": "EXECUTOR",
+        "action_text": "Assistant assesses specific restaurant options, considering Bill's Bar & Burger but noting crowding concerns.",
+        "relationship_type": "DIRECT_CONNECTION",
+        "influence": "direct",
+        "relationship_score": 4,
+        "explanation": "Evaluates a candidate restaurant specifically against crowding/comfort, directly applying the requirement as the evaluation criterion."
+      },
+      {
+        "action_id": "5-3",
+        "role": "EXECUTOR",
+        "action_text": "Assistant decides Carmine's is likely too loud for parents and pivots toward quieter dinner options like Becco.",
+        "relationship_type": "DIRECT_CONNECTION",
+        "influence": "direct",
+        "relationship_score": 4,
+        "explanation": "Rejects a loud option and pivots to quieter ones, explicitly tightening selection to meet 'comfortable' and 'not overly crowded/loud'."
+      },
+      {
+        "action_id": "5-4",
+        "role": "EXECUTOR",
+        "action_text": "Assistant integrates selected restaurants into a cohesive itinerary and prepares to synthesize ratings and review snippets for inclusion.",
+        "relationship_type": "CONTRIBUTES",
+        "influence": "indirect",
+        "relationship_score": 3,
+        "explanation": "Integrates chosen venues into the itinerary and prepares ratings/reviews, which is partial progress toward fulfilling reliable/comfortable recommendations."
+      },
+      {
+        "action_id": "5-5",
+        "role": "EXECUTOR",
+        "action_text": "Assistant refines itinerary details, considering restaurant timings and locations and planning to add review snippets and ratings.",
+        "relationship_type": "CONTRIBUTES",
+        "influence": "indirect",
+        "relationship_score": 3,
+        "explanation": "Refines timing/location and plans review/ratings additions, improving usability and confidence (reliability) but not itself the final recommendation output."
+      },
+      {
+        "action_id": "5-11",
+        "role": "EXECUTOR",
+        "action_text": "Assistant recommends making reservations 2–3 weeks in advance on OpenTable or Resy for the recommended restaurants.",
+        "relationship_type": "CONTRIBUTES",
+        "influence": "indirect",
+        "relationship_score": 3,
+        "explanation": "Reservation guidance supports reliability/comfort (reduces waiting/crowding risk) but is ancillary to the venue recommendation itself."
+      },
+      {
+        "action_id": "3-1",
+        "role": "OTHER",
+        "action_text": "Assistant affirms and agrees to include built-in rest stops",
+        "relationship_type": "IMPLICIT_CONNECTION",
+        "influence": "indirect",
+        "relationship_score": 2,
+        "explanation": "Affirming built-in rest stops signals a comfort-first itinerary style that later motivates specifying comfortable/reliable (not crowded) food venues."
+      },
+      {
+        "action_id": "9-11",
+        "role": "SHAPER",
+        "action_text": "Assistant suggests booking a reservation a few weeks in advance.",
+        "relationship_type": "CONTRIBUTES",
+        "influence": "indirect",
+        "relationship_score": 2,
+        "explanation": "Further reservation timing suggestion supports ensuring a reliable, low-stress dining experience but does not itself recommend venues."
+      }
+    ]
+  },
+  "r2": {
+    "origin_actions": [
+      {
+        "action_id": "4-3",
+        "role": "SHAPER",
+        "action_text": "User requests inclusion of reviews and ratings in the itinerary."
+      }
+    ],
+    "contributing_actions": [
+      {
+        "action_id": "5-3",
+        "role": "EXECUTOR",
+        "action_text": "Assistant decides Carmine's is likely too loud for parents and pivots toward quieter dinner options like Becco."
+      },
+      {
+        "action_id": "4-1",
+        "role": "SHAPER",
+        "action_text": "User asks the assistant to recommend good food places."
+      },
+      {
+        "action_id": "5-1",
+        "role": "EXECUTOR",
+        "action_text": "Assistant evaluates the request's scope and frames the core focus as creating a list of comfortable, reliable restaurants for parents in Midtown Manhattan."
+      },
+      {
+        "action_id": "5-2",
+        "role": "EXECUTOR",
+        "action_text": "Assistant assesses specific restaurant options, considering Bill's Bar & Burger but noting crowding concerns."
+      }
+    ],
+    "implementation_actions": [
+      {
+        "action_id": "5-9",
+        "role": "EXECUTOR",
+        "action_text": "Assistant recommends Becco for dinner on Restaurant Row, giving ratings, a review summary, and why it is suitable for parents."
+      },
+      {
+        "action_id": "5-6",
+        "role": "EXECUTOR",
+        "action_text": "Assistant provides an updated itinerary and reports it swaps dining suggestions for spacious, comfortable, reliable places and includes average ratings and review summaries."
+      },
+      {
+        "action_id": "5-8",
+        "role": "EXECUTOR",
+        "action_text": "Assistant provides La Grande Boucherie as the recommended lunch spot with ratings, review excerpt, and reason it works for parents."
+      },
+      {
+        "action_id": "11-6",
+        "role": "EXECUTOR",
+        "action_text": "Assistant recommends Tavern on the Green for a sit-down lunch and notes ratings and rest-stop benefits."
+      },
+      {
+        "action_id": "7-7",
+        "role": "EXECUTOR",
+        "action_text": "Assistant recommends Queensyard at Hudson Yards for a spacious, comfortable lunch and provides ratings and a review summary."
+      },
+      {
+        "action_id": "5-7",
+        "role": "EXECUTOR",
+        "action_text": "Assistant recommends Sarabeth's for a comfortable sit-down breakfast and provides ratings and a review summary explaining why it suits parents."
+      }
+    ],
+    "revise_actions": [],
+    "related_actions": [
+      {
+        "action_id": "5-6",
+        "role": "EXECUTOR",
+        "action_text": "Assistant provides an updated itinerary and reports it swaps dining suggestions for spacious, comfortable, reliable places and includes average ratings and review summaries.",
+        "relationship_type": "IMPLEMENTS",
+        "influence": "indirect",
+        "relationship_score": 5,
+        "explanation": "Delivers an updated itinerary that includes average ratings and review summaries, fulfilling the requirement."
+      },
+      {
+        "action_id": "5-7",
+        "role": "EXECUTOR",
+        "action_text": "Assistant recommends Sarabeth's for a comfortable sit-down breakfast and provides ratings and a review summary explaining why it suits parents.",
+        "relationship_type": "IMPLEMENTS",
+        "influence": "indirect",
+        "relationship_score": 5,
+        "explanation": "Provides a breakfast recommendation with ratings and review summary, directly satisfying the requirement for that place."
+      },
+      {
+        "action_id": "5-8",
+        "role": "EXECUTOR",
+        "action_text": "Assistant provides La Grande Boucherie as the recommended lunch spot with ratings, review excerpt, and reason it works for parents.",
+        "relationship_type": "IMPLEMENTS",
+        "influence": "indirect",
+        "relationship_score": 5,
+        "explanation": "Provides a lunch recommendation with ratings and review excerpt/summary, directly satisfying the requirement for that place."
+      },
+      {
+        "action_id": "5-9",
+        "role": "EXECUTOR",
+        "action_text": "Assistant recommends Becco for dinner on Restaurant Row, giving ratings, a review summary, and why it is suitable for parents.",
+        "relationship_type": "IMPLEMENTS",
+        "influence": "indirect",
+        "relationship_score": 5,
+        "explanation": "Provides a dinner recommendation with ratings and review summary, directly satisfying the requirement for that place."
+      },
+      {
+        "action_id": "7-7",
+        "role": "EXECUTOR",
+        "action_text": "Assistant recommends Queensyard at Hudson Yards for a spacious, comfortable lunch and provides ratings and a review summary.",
+        "relationship_type": "IMPLEMENTS",
+        "influence": "indirect",
+        "relationship_score": 5,
+        "explanation": "Recommends a lunch spot and includes ratings and a review summary, directly fulfilling the requirement for that recommendation."
+      },
+      {
+        "action_id": "5-4",
+        "role": "EXECUTOR",
+        "action_text": "Assistant integrates selected restaurants into a cohesive itinerary and prepares to synthesize ratings and review snippets for inclusion.",
+        "relationship_type": "DIRECT_CONNECTION",
+        "influence": "direct",
+        "relationship_score": 4,
+        "explanation": "Explicitly plans to synthesize ratings and review snippets for inclusion, directly operating on the requirement intent (though not yet producing the content)."
+      },
+      {
+        "action_id": "5-5",
+        "role": "EXECUTOR",
+        "action_text": "Assistant refines itinerary details, considering restaurant timings and locations and planning to add review snippets and ratings.",
+        "relationship_type": "DIRECT_CONNECTION",
+        "influence": "direct",
+        "relationship_score": 4,
+        "explanation": "States an intention/plan to add review snippets and ratings while refining the itinerary, directly addressing the requirement at the planning level."
+      },
+      {
+        "action_id": "11-6",
+        "role": "EXECUTOR",
+        "action_text": "Assistant recommends Tavern on the Green for a sit-down lunch and notes ratings and rest-stop benefits.",
+        "relationship_type": "IMPLEMENTS",
+        "influence": "indirect",
+        "relationship_score": 4,
+        "explanation": "Provides a restaurant recommendation and notes ratings, partially/explicitly meeting the requirement (though less clearly described as a full review-summary inclusion)."
+      },
+      {
+        "action_id": "3-8",
+        "role": "EXECUTOR",
+        "action_text": "Assistant recommends a long, relaxed dinner as REST STOP 6 and advises making a reservation",
+        "relationship_type": "IMPLICIT_CONNECTION",
+        "influence": "indirect",
+        "relationship_score": 2,
+        "explanation": "Adds dinner recommendation/reservation guidance, setting up restaurant selections that later benefit from ratings/reviews, but does not provide them."
+      },
+      {
+        "action_id": "5-1",
+        "role": "EXECUTOR",
+        "action_text": "Assistant evaluates the request's scope and frames the core focus as creating a list of comfortable, reliable restaurants for parents in Midtown Manhattan.",
+        "relationship_type": "CONTRIBUTES",
+        "influence": "indirect",
+        "relationship_score": 2,
+        "explanation": "Frames the goal as reliable/comfortable restaurant picks, which motivates using reviews/ratings as evidence, but doesn't add them yet."
+      },
+      {
+        "action_id": "5-2",
+        "role": "EXECUTOR",
+        "action_text": "Assistant assesses specific restaurant options, considering Bill's Bar & Burger but noting crowding concerns.",
+        "relationship_type": "CONTRIBUTES",
+        "influence": "indirect",
+        "relationship_score": 2,
+        "explanation": "Evaluates a candidate restaurant (crowding concerns), helping decide which places will later receive ratings/reviews, but not providing them."
+      },
+      {
+        "action_id": "5-3",
+        "role": "EXECUTOR",
+        "action_text": "Assistant decides Carmine's is likely too loud for parents and pivots toward quieter dinner options like Becco.",
+        "relationship_type": "CONTRIBUTES",
+        "influence": "indirect",
+        "relationship_score": 2,
+        "explanation": "Selects/pivots among dinner options (too loud vs quieter), shaping which recommendations will carry ratings/review summaries."
+      }
+    ]
+  },
+  "r3": {
+    "origin_actions": [
+      {
+        "action_id": "8-1",
+        "role": "SHAPER",
+        "action_text": "User requests swapping the dinner choice to something non-Italian."
+      }
+    ],
+    "contributing_actions": [
+      {
+        "action_id": "9-3",
+        "role": "SHAPER",
+        "action_text": "Assistant compares Joe Allen against Gallagher's, the steakhouse, and Victor's Cafe (Cuban) weighing merits."
+      },
+      {
+        "action_id": "9-2",
+        "role": "SHAPER",
+        "action_text": "Assistant assesses potential non-Italian dinner replacements for Becco."
+      },
+      {
+        "action_id": "11-11",
+        "role": "EXECUTOR",
+        "action_text": "Assistant provides a post-dinner Times Square visit and the TKTS Red Steps rest stop."
+      },
+      {
+        "action_id": "9-9",
+        "role": "EXECUTOR",
+        "action_text": "Assistant explains why Gallagher's works for parents (upscale, spacious, attentive service)."
+      },
+      {
+        "action_id": "9-1",
+        "role": "SHAPER",
+        "action_text": "Assistant agrees to skip Italian and proceed with alternatives."
+      },
+      {
+        "action_id": "9-8",
+        "role": "EXECUTOR",
+        "action_text": "Assistant explains why Joe Allen works for parents (comfort, atmosphere, reviews)."
+      },
+      {
+        "action_id": "9-10",
+        "role": "EXECUTOR",
+        "action_text": "Assistant provides post-dinner plan (walk to Times Square, TKTS Red Steps rest stop, head back to hotel)."
+      },
+      {
+        "action_id": "9-12",
+        "role": "OTHER",
+        "action_text": "Assistant asks for the user's feedback on the updated evening plan."
+      },
+      {
+        "action_id": "9-4",
+        "role": "SHAPER",
+        "action_text": "Assistant narrows choices and prioritizes Joe Allen and Gallagher's."
+      },
+      {
+        "action_id": "10-1",
+        "role": "OTHER",
+        "action_text": "User affirms the plan with positive feedback."
+      }
+    ],
+    "implementation_actions": [
+      {
+        "action_id": "11-10",
+        "role": "EXECUTOR",
+        "action_text": "Assistant provides the evening plan with the same two dinner options (Joe Allen and Gallagher's) and rest-stop notes."
+      },
+      {
+        "action_id": "9-5",
+        "role": "SHAPER",
+        "action_text": "Assistant recommends Joe Allen as the primary non-Italian dinner replacement."
+      },
+      {
+        "action_id": "9-7",
+        "role": "EXECUTOR",
+        "action_text": "Assistant provides an updated evening section of the itinerary with times and options."
+      },
+      {
+        "action_id": "9-6",
+        "role": "SHAPER",
+        "action_text": "Assistant presents Gallagher's as a solid alternative."
+      }
+    ],
+    "revise_actions": [],
+    "related_actions": [
+      {
+        "action_id": "9-5",
+        "role": "SHAPER",
+        "action_text": "Assistant recommends Joe Allen as the primary non-Italian dinner replacement.",
+        "relationship_type": "IMPLEMENTS",
+        "influence": "indirect",
+        "relationship_score": 5,
+        "explanation": "Chooses a specific non-Italian restaurant as the replacement, directly satisfying the swap requirement."
+      },
+      {
+        "action_id": "9-6",
+        "role": "SHAPER",
+        "action_text": "Assistant presents Gallagher's as a solid alternative.",
+        "relationship_type": "IMPLEMENTS",
+        "influence": "indirect",
+        "relationship_score": 5,
+        "explanation": "Provides a concrete non-Italian backup replacement, fulfilling the requirement with an alternative."
+      },
+      {
+        "action_id": "9-7",
+        "role": "EXECUTOR",
+        "action_text": "Assistant provides an updated evening section of the itinerary with times and options.",
+        "relationship_type": "IMPLEMENTS",
+        "influence": "indirect",
+        "relationship_score": 5,
+        "explanation": "Produces the updated itinerary section where dinner is swapped to non-Italian options."
+      },
+      {
+        "action_id": "11-10",
+        "role": "EXECUTOR",
+        "action_text": "Assistant provides the evening plan with the same two dinner options (Joe Allen and Gallagher's) and rest-stop notes.",
+        "relationship_type": "IMPLEMENTS",
+        "influence": "indirect",
+        "relationship_score": 5,
+        "explanation": "Reissues the evening plan containing the non-Italian dinner options, maintaining the swapped dinner requirement in the itinerary."
+      },
+      {
+        "action_id": "9-1",
+        "role": "SHAPER",
+        "action_text": "Assistant agrees to skip Italian and proceed with alternatives.",
+        "relationship_type": "CONTRIBUTES",
+        "influence": "indirect",
+        "relationship_score": 3,
+        "explanation": "Explicitly adopts the non-Italian constraint, setting direction toward fulfilling the dinner swap."
+      },
+      {
+        "action_id": "9-2",
+        "role": "SHAPER",
+        "action_text": "Assistant assesses potential non-Italian dinner replacements for Becco.",
+        "relationship_type": "CONTRIBUTES",
+        "influence": "indirect",
+        "relationship_score": 3,
+        "explanation": "Evaluates replacement candidates to satisfy the non-Italian dinner swap requirement."
+      },
+      {
+        "action_id": "9-3",
+        "role": "SHAPER",
+        "action_text": "Assistant compares Joe Allen against Gallagher's, the steakhouse, and Victor's Cafe (Cuban) weighing merits.",
+        "relationship_type": "CONTRIBUTES",
+        "influence": "indirect",
+        "relationship_score": 3,
+        "explanation": "Comparison work advances selection of a non-Italian dinner to replace the Italian option."
+      },
+      {
+        "action_id": "9-4",
+        "role": "SHAPER",
+        "action_text": "Assistant narrows choices and prioritizes Joe Allen and Gallagher's.",
+        "relationship_type": "CONTRIBUTES",
+        "influence": "indirect",
+        "relationship_score": 3,
+        "explanation": "Narrowing options is partial progress toward implementing the non-Italian dinner substitution."
+      },
+      {
+        "action_id": "9-8",
+        "role": "EXECUTOR",
+        "action_text": "Assistant explains why Joe Allen works for parents (comfort, atmosphere, reviews).",
+        "relationship_type": "CONTRIBUTES",
+        "influence": "indirect",
+        "relationship_score": 2,
+        "explanation": "Rationale supports acceptance of the non-Italian replacement but is not the swap itself."
+      },
+      {
+        "action_id": "9-9",
+        "role": "EXECUTOR",
+        "action_text": "Assistant explains why Gallagher's works for parents (upscale, spacious, attentive service).",
+        "relationship_type": "CONTRIBUTES",
+        "influence": "indirect",
+        "relationship_score": 2,
+        "explanation": "Rationale supports the alternative non-Italian replacement choice."
+      },
+      {
+        "action_id": "9-12",
+        "role": "OTHER",
+        "action_text": "Assistant asks for the user's feedback on the updated evening plan.",
+        "relationship_type": "CONTRIBUTES",
+        "influence": "indirect",
+        "relationship_score": 2,
+        "explanation": "Asks for feedback to confirm/finalize the non-Italian dinner substitution in the itinerary."
+      },
+      {
+        "action_id": "10-1",
+        "role": "OTHER",
+        "action_text": "User affirms the plan with positive feedback.",
+        "relationship_type": "CONTRIBUTES",
+        "influence": "indirect",
+        "relationship_score": 2,
+        "explanation": "User affirmation functions as acceptance of the non-Italian dinner substitution plan."
+      },
+      {
+        "action_id": "9-10",
+        "role": "EXECUTOR",
+        "action_text": "Assistant provides post-dinner plan (walk to Times Square, TKTS Red Steps rest stop, head back to hotel).",
+        "relationship_type": "CONTRIBUTES",
+        "influence": "indirect",
+        "relationship_score": 1,
+        "explanation": "After-dinner activities are downstream of dinner choice but do not enact the non-Italian swap."
+      },
+      {
+        "action_id": "11-11",
+        "role": "EXECUTOR",
+        "action_text": "Assistant provides a post-dinner Times Square visit and the TKTS Red Steps rest stop.",
+        "relationship_type": "CONTRIBUTES",
+        "influence": "indirect",
+        "relationship_score": 1,
+        "explanation": "Post-dinner Times Square/rest-stop details are ancillary and only loosely tied to the dinner substitution."
+      }
+    ]
+  },
+  "others": [
+    {
+      "action_id": "0-1",
+      "role": "OTHER",
+      "action_text": "User greets the assistant"
+    },
+    {
+      "action_id": "0-2",
+      "role": "SHAPER",
+      "action_text": "User asks for help planning a 1-day NYC itinerary"
+    },
+    {
+      "action_id": "0-3",
+      "role": "SHAPER",
+      "action_text": "User states they will be travelling with their parents"
+    },
+    {
+      "action_id": "1-1",
+      "role": "OTHER",
+      "action_text": "Assistant acknowledges receipt of the request and focus on NYC"
+    },
+    {
+      "action_id": "1-2",
+      "role": "SHAPER",
+      "action_text": "Assistant explains priorities: accessibility and a balanced pace for traveling with parents"
+    },
+    {
+      "action_id": "1-3",
+      "role": "SHAPER",
+      "action_text": "Assistant outlines a framework (morning, lunch, afternoon, dinner, evening) and focuses on Midtown"
+    },
+    {
+      "action_id": "1-4",
+      "role": "EXECUTOR",
+      "action_text": "Assistant offers help to plan the itinerary"
+    },
+    {
+      "action_id": "1-5",
+      "role": "SHAPER",
+      "action_text": "Assistant recommends focusing on Midtown Manhattan for a single day"
+    },
+    {
+      "action_id": "1-6",
+      "role": "EXECUTOR",
+      "action_text": "Assistant provides a morning plan including breakfast and Central Park (pedicab option)"
+    },
+    {
+      "action_id": "1-7",
+      "role": "EXECUTOR",
+      "action_text": "Assistant provides a lunch suggestion around Rockefeller Center or Hell's Kitchen"
+    },
+    {
+      "action_id": "1-8",
+      "role": "EXECUTOR",
+      "action_text": "Assistant provides an afternoon plan including St. Patrick's, Top of the Rock, Bryant Park, and NY Public Library"
+    },
+    {
+      "action_id": "1-9",
+      "role": "EXECUTOR",
+      "action_text": "Assistant justifies preferring Top of the Rock over the Empire State Building"
+    },
+    {
+      "action_id": "1-10",
+      "role": "EXECUTOR",
+      "action_text": "Assistant provides evening options: dinner choices, Times Square visit, optional Broadway show"
+    },
+    {
+      "action_id": "1-11",
+      "role": "EXECUTOR",
+      "action_text": "Assistant suggests using taxis/rideshares strategically to reduce walking"
+    },
+    {
+      "action_id": "1-12",
+      "role": "EXECUTOR",
+      "action_text": "Assistant warns that public restrooms are hard to find and suggests alternatives"
+    },
+    {
+      "action_id": "1-13",
+      "role": "EXECUTOR",
+      "action_text": "Assistant suggests wearing comfortable shoes"
+    },
+    {
+      "action_id": "1-14",
+      "role": "SHAPER",
+      "action_text": "Assistant asks a clarifying question about the desired pace or alternative focuses (museums or downtown)"
+    },
+    {
+      "action_id": "2-1",
+      "role": "SHAPER",
+      "action_text": "User requests inclusion of chances to sit down and rest during the day"
+    },
+    {
+      "action_id": "3-2",
+      "role": "EXECUTOR",
+      "action_text": "Assistant provides a revised 1-day Midtown itinerary highlighting places to sit and rest"
+    },
+    {
+      "action_id": "3-3",
+      "role": "EXECUTOR",
+      "action_text": "Assistant identifies Bethesda Terrace as REST STOP 1 and offers pedicab alternative"
+    },
+    {
+      "action_id": "3-4",
+      "role": "EXECUTOR",
+      "action_text": "Assistant identifies St. Patrick's Cathedral as REST STOP 2 where parents can sit in the pews"
+    },
+    {
+      "action_id": "3-5",
+      "role": "EXECUTOR",
+      "action_text": "Assistant prescribes a sit-down lunch as REST STOP 3 with restaurant options (Lodi, Ellen's Stardust, Bill's Bar & Burger)"
+    },
+    {
+      "action_id": "3-6",
+      "role": "EXECUTOR",
+      "action_text": "Assistant highlights indoor benches on Top of the Rock as REST STOP 4"
+    },
+    {
+      "action_id": "3-7",
+      "role": "EXECUTOR",
+      "action_text": "Assistant identifies Bryant Park and NY Public Library marble benches as REST STOP 5"
+    },
+    {
+      "action_id": "3-9",
+      "role": "EXECUTOR",
+      "action_text": "Assistant points to the TKTS Red Steps as REST STOP 7 for sitting and photos in Times Square"
+    },
+    {
+      "action_id": "3-10",
+      "role": "EXECUTOR",
+      "action_text": "Assistant offers the option to head back to the hotel or catch a Broadway show (sitting for ~2.5 hours)"
+    },
+    {
+      "action_id": "3-11",
+      "role": "EXECUTOR",
+      "action_text": "Assistant suggests using hotel lobbies as quick resting spots with plush seating and facilities"
+    },
+    {
+      "action_id": "5-10",
+      "role": "EXECUTOR",
+      "action_text": "Assistant includes multiple timed rest stops and sightseeing items (Central Park, Top of the Rock, Bryant Park, TKTS Red Steps) in the itinerary to minimize walking and provide seating opportunities."
+    },
+    {
+      "action_id": "6-1",
+      "role": "SHAPER",
+      "action_text": "User states that their parents' hotel is based in Manhattan."
+    },
+    {
+      "action_id": "6-2",
+      "role": "SHAPER",
+      "action_text": "User asks whether they can visit the Statue of Liberty without making the itinerary overly tight or requiring too much walking."
+    },
+    {
+      "action_id": "7-1",
+      "role": "EXECUTOR",
+      "action_text": "Assistant assesses the core challenge of fitting a Statue of Liberty visit into a one-day itinerary without exhausting the parents, focusing on minimizing travel time and walking."
+    },
+    {
+      "action_id": "7-2",
+      "role": "EXECUTOR",
+      "action_text": "Assistant analyzes options and identifies the Staten Island Ferry and sightseeing cruises as alternatives to the official Liberty Island visit."
+    },
+    {
+      "action_id": "7-3",
+      "role": "EXECUTOR",
+      "action_text": "Assistant devises a focused strategy recommending a sightseeing cruise (preferably Classic Harbor Line) as a parent-friendly way to see the Statue of Liberty."
+    },
+    {
+      "action_id": "7-4",
+      "role": "EXECUTOR",
+      "action_text": "Assistant warns that actually stepping foot on Liberty Island will make the 1-day itinerary very tight and requires a lot of walking and standing, estimating 3–4 hours."
+    },
+    {
+      "action_id": "7-5",
+      "role": "EXECUTOR",
+      "action_text": "Assistant recommends booking a Sightseeing Boat Tour as a 'cheat code' to see the Statue comfortably in 1–1.5 hours with no security lines."
+    },
+    {
+      "action_id": "7-6",
+      "role": "EXECUTOR",
+      "action_text": "Assistant provides an adjusted morning itinerary including arriving downtown, taking the Classic Harbor Line Statue & Skyline Cruise from Chelsea Piers, and timing details."
+    },
+    {
+      "action_id": "7-8",
+      "role": "EXECUTOR",
+      "action_text": "Assistant provides an afternoon and evening plan (Top of the Rock, Bryant Park, Becco for dinner, Times Square) with rest stops to minimize walking."
+    },
+    {
+      "action_id": "7-9",
+      "role": "EXECUTOR",
+      "action_text": "Assistant decides to remove Central Park from the original itinerary to make room for the comfortable Statue of Liberty cruise."
+    },
+    {
+      "action_id": "10-2",
+      "role": "SHAPER",
+      "action_text": "User requests swapping the Midtown afternoon for a visit to Central Park with their parents."
+    },
+    {
+      "action_id": "11-1",
+      "role": "SHAPER",
+      "action_text": "Assistant confirms that swapping Midtown for Central Park is possible."
+    },
+    {
+      "action_id": "11-2",
+      "role": "SHAPER",
+      "action_text": "Assistant recommends a pedicab tour as the best, low-walk way to see Central Park with parents."
+    },
+    {
+      "action_id": "11-3",
+      "role": "EXECUTOR",
+      "action_text": "Assistant provides a complete updated one-day itinerary integrating Statue of Liberty, Central Park, rest stops, and non-Italian dinner."
+    },
+    {
+      "action_id": "11-4",
+      "role": "EXECUTOR",
+      "action_text": "Assistant provides the morning downtown plan and recommends the Classic Harbor Line cruise as a parent-friendly Statue experience."
+    },
+    {
+      "action_id": "11-5",
+      "role": "EXECUTOR",
+      "action_text": "Assistant provides taxi suggestion to get uptown to Central Park West after the boat."
+    },
+    {
+      "action_id": "11-7",
+      "role": "EXECUTOR",
+      "action_text": "Assistant provides details for a Central Park pedicab tour meeting time and logistics."
+    },
+    {
+      "action_id": "11-8",
+      "role": "SHAPER",
+      "action_text": "Assistant suggests booking the pedicab tour online in advance."
+    },
+    {
+      "action_id": "11-9",
+      "role": "EXECUTOR",
+      "action_text": "Assistant provides an afternoon rest stop at Columbus Circle and a coffee suggestion."
+    },
+    {
+      "action_id": "11-12",
+      "role": "EXECUTOR",
+      "action_text": "Assistant summarizes the plan's balance of iconic sights and low-walking methods to protect the parents' energy."
+    }
+  ]
+}

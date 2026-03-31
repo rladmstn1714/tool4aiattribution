@@ -1,0 +1,616 @@
+{
+  "r1": {
+    "created_by": "user",
+    "turn_id": 0,
+    "influential_utterances": [
+      {
+        "turn_id": 0,
+        "relationship_type": "DIRECT_CONNECTION",
+        "relationship_score": 5
+      }
+    ],
+    "role_contributions": {
+      "user": {
+        "SHAPER": {
+          "M_dir": 1.0,
+          "M_ind": 0.0,
+          "M_total": 1.0,
+          "count": 1
+        }
+      },
+      "assistant": {
+        "EXECUTOR": {
+          "M_dir": 8.0,
+          "M_ind": 0.0,
+          "M_total": 8.0,
+          "count": 8
+        }
+      }
+    },
+    "overall": {
+      "user": {
+        "rate": 0.1111111111111111,
+        "M_total": 1.0,
+        "count": 1
+      },
+      "assistant": {
+        "rate": 0.8888888888888888,
+        "M_total": 8.0,
+        "count": 8
+      }
+    }
+  },
+  "r2": {
+    "created_by": "user",
+    "turn_id": 0,
+    "influential_utterances": [
+      {
+        "turn_id": 0,
+        "relationship_type": "DIRECT_CONNECTION",
+        "relationship_score": 5
+      }
+    ],
+    "role_contributions": {
+      "user": {
+        "SHAPER": {
+          "M_dir": 1.0,
+          "M_ind": 0.0,
+          "M_total": 1.0,
+          "count": 1
+        }
+      },
+      "assistant": {
+        "EXECUTOR": {
+          "M_dir": 8.0,
+          "M_ind": 0.0,
+          "M_total": 8.0,
+          "count": 8
+        }
+      }
+    },
+    "overall": {
+      "user": {
+        "rate": 0.1111111111111111,
+        "M_total": 1.0,
+        "count": 1
+      },
+      "assistant": {
+        "rate": 0.8888888888888888,
+        "M_total": 8.0,
+        "count": 8
+      }
+    }
+  },
+  "r3": {
+    "created_by": "user",
+    "turn_id": 0,
+    "influential_utterances": [
+      {
+        "turn_id": 0,
+        "relationship_type": "DIRECT_CONNECTION",
+        "relationship_score": 5
+      }
+    ],
+    "role_contributions": {
+      "user": {
+        "SHAPER": {
+          "M_dir": 1.0,
+          "M_ind": 0.0,
+          "M_total": 1.0,
+          "count": 1
+        }
+      },
+      "assistant": {
+        "EXECUTOR": {
+          "M_dir": 7.0,
+          "M_ind": 0.0,
+          "M_total": 7.0,
+          "count": 7
+        }
+      }
+    },
+    "overall": {
+      "user": {
+        "rate": 0.125,
+        "M_total": 1.0,
+        "count": 1
+      },
+      "assistant": {
+        "rate": 0.875,
+        "M_total": 7.0,
+        "count": 7
+      }
+    }
+  },
+  "r4": {
+    "created_by": "user",
+    "turn_id": 0,
+    "influential_utterances": [
+      {
+        "turn_id": 0,
+        "relationship_type": "DIRECT_CONNECTION",
+        "relationship_score": 5
+      }
+    ],
+    "role_contributions": {
+      "user": {
+        "SHAPER": {
+          "M_dir": 1.0,
+          "M_ind": 0.0,
+          "M_total": 1.0,
+          "count": 1
+        }
+      },
+      "assistant": {
+        "EXECUTOR": {
+          "M_dir": 4.0,
+          "M_ind": 0.0,
+          "M_total": 4.0,
+          "count": 4
+        }
+      }
+    },
+    "overall": {
+      "user": {
+        "rate": 0.2,
+        "M_total": 1.0,
+        "count": 1
+      },
+      "assistant": {
+        "rate": 0.8,
+        "M_total": 4.0,
+        "count": 4
+      }
+    }
+  },
+  "r5": {
+    "created_by": "user",
+    "turn_id": 0,
+    "influential_utterances": [
+      {
+        "turn_id": 0,
+        "relationship_type": "DIRECT_CONNECTION",
+        "relationship_score": 5
+      }
+    ],
+    "role_contributions": {
+      "user": {
+        "SHAPER": {
+          "M_dir": 1.0,
+          "M_ind": 0.0,
+          "M_total": 1.0,
+          "count": 1
+        }
+      },
+      "assistant": {
+        "EXECUTOR": {
+          "M_dir": 5.0,
+          "M_ind": 0.0,
+          "M_total": 5.0,
+          "count": 5
+        }
+      }
+    },
+    "overall": {
+      "user": {
+        "rate": 0.16666666666666666,
+        "M_total": 1.0,
+        "count": 1
+      },
+      "assistant": {
+        "rate": 0.8333333333333334,
+        "M_total": 5.0,
+        "count": 5
+      }
+    }
+  },
+  "r6": {
+    "created_by": "user",
+    "turn_id": 0,
+    "influential_utterances": [
+      {
+        "turn_id": 0,
+        "relationship_type": "DIRECT_CONNECTION",
+        "relationship_score": 5
+      }
+    ],
+    "role_contributions": {
+      "user": {
+        "SHAPER": {
+          "M_dir": 1.0,
+          "M_ind": 0.0,
+          "M_total": 1.0,
+          "count": 1
+        }
+      },
+      "assistant": {
+        "EXECUTOR": {
+          "M_dir": 4.0,
+          "M_ind": 0.0,
+          "M_total": 4.0,
+          "count": 4
+        }
+      }
+    },
+    "overall": {
+      "user": {
+        "rate": 0.2,
+        "M_total": 1.0,
+        "count": 1
+      },
+      "assistant": {
+        "rate": 0.8,
+        "M_total": 4.0,
+        "count": 4
+      }
+    }
+  },
+  "r7": {
+    "created_by": "user",
+    "turn_id": 0,
+    "influential_utterances": [
+      {
+        "turn_id": 0,
+        "relationship_type": "DIRECT_CONNECTION",
+        "relationship_score": 5
+      }
+    ],
+    "role_contributions": {
+      "user": {
+        "SHAPER": {
+          "M_dir": 1.0,
+          "M_ind": 0.0,
+          "M_total": 1.0,
+          "count": 1
+        }
+      },
+      "assistant": {
+        "EXECUTOR": {
+          "M_dir": 8.0,
+          "M_ind": 0.0,
+          "M_total": 8.0,
+          "count": 8
+        }
+      }
+    },
+    "overall": {
+      "user": {
+        "rate": 0.1111111111111111,
+        "M_total": 1.0,
+        "count": 1
+      },
+      "assistant": {
+        "rate": 0.8888888888888888,
+        "M_total": 8.0,
+        "count": 8
+      }
+    }
+  },
+  "r8": {
+    "created_by": "user",
+    "turn_id": 2,
+    "influential_utterances": [
+      {
+        "turn_id": 2,
+        "relationship_type": "DIRECT_CONNECTION",
+        "relationship_score": 5
+      }
+    ],
+    "role_contributions": {
+      "user": {
+        "SHAPER": {
+          "M_dir": 1.0,
+          "M_ind": 0.0,
+          "M_total": 1.0,
+          "count": 1
+        }
+      },
+      "assistant": {
+        "EXECUTOR": {
+          "M_dir": 7.0,
+          "M_ind": 0.0,
+          "M_total": 7.0,
+          "count": 7
+        },
+        "SHAPER": {
+          "M_dir": 1.0,
+          "M_ind": 0.0,
+          "M_total": 1.0,
+          "count": 1
+        }
+      }
+    },
+    "overall": {
+      "user": {
+        "rate": 0.1111111111111111,
+        "M_total": 1.0,
+        "count": 1
+      },
+      "assistant": {
+        "rate": 0.8888888888888888,
+        "M_total": 8.0,
+        "count": 8
+      }
+    }
+  },
+  "r9": {
+    "created_by": "user",
+    "turn_id": 4,
+    "influential_utterances": [
+      {
+        "turn_id": 3,
+        "relationship_type": "IMPLICIT_CONNECTION",
+        "relationship_score": 2
+      },
+      {
+        "turn_id": 4,
+        "relationship_type": "DIRECT_CONNECTION",
+        "relationship_score": 5
+      }
+    ],
+    "role_contributions": {
+      "user": {
+        "SHAPER": {
+          "M_dir": 1.0,
+          "M_ind": 0.0,
+          "M_total": 1.0,
+          "count": 1
+        }
+      },
+      "assistant": {
+        "SHAPER": {
+          "M_dir": 0.0,
+          "M_ind": 1.6,
+          "M_total": 1.6,
+          "count": 4
+        },
+        "EXECUTOR": {
+          "M_dir": 2.0,
+          "M_ind": 2.0,
+          "M_total": 4.0,
+          "count": 7
+        }
+      }
+    },
+    "overall": {
+      "user": {
+        "rate": 0.15151515151515152,
+        "M_total": 1.0,
+        "count": 1
+      },
+      "assistant": {
+        "rate": 0.8484848484848485,
+        "M_total": 5.6,
+        "count": 11
+      }
+    }
+  },
+  "r10": {
+    "created_by": "user",
+    "turn_id": 6,
+    "influential_utterances": [
+      {
+        "turn_id": 6,
+        "relationship_type": "DIRECT_CONNECTION",
+        "relationship_score": 5
+      }
+    ],
+    "role_contributions": {
+      "user": {
+        "SHAPER": {
+          "M_dir": 2.0,
+          "M_ind": 0.0,
+          "M_total": 2.0,
+          "count": 2
+        }
+      },
+      "assistant": {
+        "EXECUTOR": {
+          "M_dir": 3.0,
+          "M_ind": 0.0,
+          "M_total": 3.0,
+          "count": 3
+        }
+      }
+    },
+    "overall": {
+      "user": {
+        "rate": 0.4,
+        "M_total": 2.0,
+        "count": 2
+      },
+      "assistant": {
+        "rate": 0.6,
+        "M_total": 3.0,
+        "count": 3
+      }
+    }
+  },
+  "r11": {
+    "created_by": "user",
+    "turn_id": 6,
+    "influential_utterances": [
+      {
+        "turn_id": 6,
+        "relationship_type": "DIRECT_CONNECTION",
+        "relationship_score": 5
+      }
+    ],
+    "role_contributions": {
+      "user": {
+        "SHAPER": {
+          "M_dir": 2.0,
+          "M_ind": 0.0,
+          "M_total": 2.0,
+          "count": 2
+        }
+      },
+      "assistant": {
+        "SHAPER": {
+          "M_dir": 1.0,
+          "M_ind": 0.0,
+          "M_total": 1.0,
+          "count": 1
+        },
+        "EXECUTOR": {
+          "M_dir": 4.0,
+          "M_ind": 0.0,
+          "M_total": 4.0,
+          "count": 4
+        }
+      }
+    },
+    "overall": {
+      "user": {
+        "rate": 0.2857142857142857,
+        "M_total": 2.0,
+        "count": 2
+      },
+      "assistant": {
+        "rate": 0.7142857142857143,
+        "M_total": 5.0,
+        "count": 5
+      }
+    }
+  },
+  "r12": {
+    "created_by": "user",
+    "turn_id": 6,
+    "influential_utterances": [
+      {
+        "turn_id": 6,
+        "relationship_type": "DIRECT_CONNECTION",
+        "relationship_score": 5
+      }
+    ],
+    "role_contributions": {
+      "user": {
+        "SHAPER": {
+          "M_dir": 1.0,
+          "M_ind": 0.0,
+          "M_total": 1.0,
+          "count": 1
+        }
+      },
+      "assistant": {
+        "EXECUTOR": {
+          "M_dir": 3.0,
+          "M_ind": 0.0,
+          "M_total": 3.0,
+          "count": 3
+        }
+      }
+    },
+    "overall": {
+      "user": {
+        "rate": 0.25,
+        "M_total": 1.0,
+        "count": 1
+      },
+      "assistant": {
+        "rate": 0.75,
+        "M_total": 3.0,
+        "count": 3
+      }
+    }
+  },
+  "r13": {
+    "created_by": "user",
+    "turn_id": 8,
+    "influential_utterances": [
+      {
+        "turn_id": 7,
+        "relationship_type": "IMPLICIT_CONNECTION",
+        "relationship_score": 2
+      },
+      {
+        "turn_id": 8,
+        "relationship_type": "DIRECT_CONNECTION",
+        "relationship_score": 5
+      }
+    ],
+    "role_contributions": {
+      "user": {
+        "SHAPER": {
+          "M_dir": 1.0,
+          "M_ind": 0.0,
+          "M_total": 1.0,
+          "count": 1
+        }
+      },
+      "assistant": {
+        "EXECUTOR": {
+          "M_dir": 3.0,
+          "M_ind": 3.1999999999999997,
+          "M_total": 6.199999999999999,
+          "count": 11
+        },
+        "SHAPER": {
+          "M_dir": 0.0,
+          "M_ind": 0.8,
+          "M_total": 0.8,
+          "count": 2
+        },
+        "OTHER": {
+          "M_dir": 0.0,
+          "M_ind": 0.4,
+          "M_total": 0.4,
+          "count": 1
+        }
+      }
+    },
+    "overall": {
+      "user": {
+        "rate": 0.11904761904761907,
+        "M_total": 1.0,
+        "count": 1
+      },
+      "assistant": {
+        "rate": 0.880952380952381,
+        "M_total": 7.3999999999999995,
+        "count": 14
+      }
+    }
+  },
+  "r14": {
+    "created_by": "user",
+    "turn_id": 10,
+    "influential_utterances": [
+      {
+        "turn_id": 10,
+        "relationship_type": "DIRECT_CONNECTION",
+        "relationship_score": 5
+      }
+    ],
+    "role_contributions": {
+      "user": {
+        "SHAPER": {
+          "M_dir": 1.0,
+          "M_ind": 0.0,
+          "M_total": 1.0,
+          "count": 1
+        }
+      },
+      "assistant": {
+        "EXECUTOR": {
+          "M_dir": 5.0,
+          "M_ind": 0.0,
+          "M_total": 5.0,
+          "count": 5
+        }
+      }
+    },
+    "overall": {
+      "user": {
+        "rate": 0.16666666666666666,
+        "M_total": 1.0,
+        "count": 1
+      },
+      "assistant": {
+        "rate": 0.8333333333333334,
+        "M_total": 5.0,
+        "count": 5
+      }
+    }
+  }
+}

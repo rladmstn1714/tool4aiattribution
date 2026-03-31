@@ -1,0 +1,134 @@
+{
+  "1": {
+    "thread_id": 1,
+    "outcome_id": "outcome_1",
+    "outcome": "Clarification on thinking versus acting in research context",
+    "speaker_contributions": {
+      "Xinran (Vodka) Zhao": {
+        "direct_influence": 1.0,
+        "indirect_influence": 0.0,
+        "total_influence": 1.0,
+        "requirement_count": 1
+      },
+      "Eunsu": {
+        "direct_influence": 0.0,
+        "indirect_influence": 1.2000000000000002,
+        "total_influence": 1.2000000000000002,
+        "requirement_count": 1
+      }
+    },
+    "role_contributions": {
+      "Xinran (Vodka) Zhao": {
+        "OTHER": {
+          "M_dir": 1.0,
+          "M_ind": 0.0,
+          "M_total": 1.0,
+          "count": 1
+        }
+      },
+      "Eunsu": {
+        "OTHER": {
+          "M_dir": 0.0,
+          "M_ind": 0.8,
+          "M_total": 0.8,
+          "count": 2
+        },
+        "SHAPER": {
+          "M_dir": 0.0,
+          "M_ind": 0.4,
+          "M_total": 0.4,
+          "count": 1
+        }
+      }
+    },
+    "requirements": [
+      "r1"
+    ]
+  },
+  "2": {
+    "thread_id": 2,
+    "outcome_id": "outcome_2",
+    "outcome": "Plan to think about research approach",
+    "speaker_contributions": {
+      "Eunsu": {
+        "direct_influence": 3.0,
+        "indirect_influence": 1.2,
+        "total_influence": 4.2,
+        "requirement_count": 1
+      }
+    },
+    "role_contributions": {
+      "Eunsu": {
+        "OTHER": {
+          "M_dir": 3.0,
+          "M_ind": 1.2,
+          "M_total": 4.2,
+          "count": 5
+        }
+      }
+    },
+    "requirements": [
+      "r2"
+    ]
+  },
+  "3": {
+    "thread_id": 3,
+    "outcome_id": "outcome_3",
+    "outcome": "Develop understanding of model aspirations in the field",
+    "speaker_contributions": {
+      "Eunsu": {
+        "direct_influence": 1.0,
+        "indirect_influence": 0.0,
+        "total_influence": 1.0,
+        "requirement_count": 1
+      }
+    },
+    "role_contributions": {
+      "Eunsu": {
+        "SHAPER": {
+          "M_dir": 1.0,
+          "M_ind": 0.0,
+          "M_total": 1.0,
+          "count": 1
+        }
+      }
+    },
+    "requirements": [
+      "r3"
+    ]
+  },
+  "4": {
+    "thread_id": 4,
+    "outcome_id": "outcome_4",
+    "outcome": "Networking suggestion with industry directors",
+    "speaker_contributions": {},
+    "role_contributions": {},
+    "requirements": []
+  },
+  "5": {
+    "thread_id": 5,
+    "outcome_id": "outcome_5",
+    "outcome": "Advice on PhD resource management",
+    "speaker_contributions": {
+      "Xinran (Vodka) Zhao": {
+        "direct_influence": 1.0,
+        "indirect_influence": 0.0,
+        "total_influence": 1.0,
+        "requirement_count": 1
+      }
+    },
+    "role_contributions": {
+      "Xinran (Vodka) Zhao": {
+        "SHAPER": {
+          "M_dir": 1.0,
+          "M_ind": 0.0,
+          "M_total": 1.0,
+          "count": 1
+        }
+      }
+    },
+    "requirements": [
+      "r4"
+    ]
+  }
+}

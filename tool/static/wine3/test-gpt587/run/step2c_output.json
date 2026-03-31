@@ -1,0 +1,1820 @@
+{
+  "dialogue_id": "chatgpt_gpt4_10plus_turns_Practical_Guidance_Planning_114",
+  "forward_labels": {
+    "r1": {
+      "implementation_action_ids": [
+        "2-1",
+        "2-2",
+        "2-3",
+        "2-4",
+        "2-5",
+        "2-6"
+      ],
+      "contributing_action_ids": [
+        "2-7"
+      ],
+      "revise_action_ids": [],
+      "all_labels": [
+        {
+          "action_id": "2-1",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 5,
+          "explanation": "Explicitly provides the five additional activity ideas, directly fulfilling r1.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "2-2",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "One of the concrete activity ideas offered as part of delivering the requested five more ideas.",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "2-3",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Provides a specific additional activity idea contributing directly to the set of five requested.",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "2-4",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Adds a distinct activity idea that is part of the delivered 'five more' activities.",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "2-5",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Provides an additional activity idea as part of meeting the requirement for five more ideas.",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "2-6",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Supplies another activity idea within the set intended to satisfy the 'five more activity ideas' requirement.",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "2-7",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 1,
+          "explanation": "A benefit summary that supports/frames the provided ideas but is not itself required to satisfy 'provide five more activity ideas.'",
+          "contribution_role": "EXECUTOR"
+        }
+      ]
+    },
+    "r10": {
+      "implementation_action_ids": [
+        "10-1",
+        "10-2",
+        "10-3",
+        "10-4",
+        "10-5",
+        "10-6",
+        "10-7",
+        "10-8",
+        "10-9",
+        "10-10",
+        "10-11",
+        "10-12",
+        "10-13"
+      ],
+      "contributing_action_ids": [
+        "10-14"
+      ],
+      "revise_action_ids": [],
+      "all_labels": [
+        {
+          "action_id": "10-1",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 5,
+          "explanation": "Directly provides the requested roadmap of actions to organize the event, fulfilling r10.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "10-2",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "One concrete step within the roadmap (finalizing attendees), directly part of delivering a roadmap of actions.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "10-3",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "A roadmap step (research/choose villa) that constitutes part of the action roadmap required by r10.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "10-4",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "A roadmap step (book villa/understand terms) that is part of the actions to organize the event.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "10-5",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "A roadmap step (create schedule/itinerary) directly contributing to the organized action plan.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "10-6",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "A roadmap step (coordinate transportation) that is explicitly part of organizing the event.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "10-7",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "A roadmap step (plan meals/refreshments and dietary needs) included as an organizing action.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "10-8",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "A roadmap step (organize materials/equipment) that is part of the actionable organization plan.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "10-9",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "A roadmap step (delegate tasks/roles) that directly contributes to the event-organization roadmap.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "10-10",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "A roadmap step (communicate updates/packing/info) included as part of organizing actions.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "10-11",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "A roadmap step (collect payments with deadlines) that is part of organizing the event.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "10-12",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "A roadmap step (contingency planning) that is directly an action for event organization.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "10-13",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "A roadmap step (final confirmations leading up to event) that is part of the planned action sequence.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "10-14",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 1,
+          "explanation": "General encouragement about following the roadmap; supports execution but is not itself an organizing action step.",
+          "contribution_role": "EXECUTOR"
+        }
+      ]
+    },
+    "r11": {
+      "implementation_action_ids": [
+        "12-1",
+        "12-2"
+      ],
+      "contributing_action_ids": [
+        "12-3"
+      ],
+      "revise_action_ids": [],
+      "all_labels": [
+        {
+          "action_id": "12-1",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Directly explains what information to include when briefing a designer, which is the core of r11.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "12-2",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 5,
+          "explanation": "Provides the actual checklist of key points for the design brief, effectively fulfilling r11.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "12-3",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Adds reinforcing guidance about being comprehensive; supports how to meet r11 but does not itself list the required information.",
+          "contribution_role": "SHAPER"
+        }
+      ]
+    },
+    "r12": {
+      "implementation_action_ids": [
+        "14-3"
+      ],
+      "contributing_action_ids": [
+        "14-2",
+        "14-4"
+      ],
+      "revise_action_ids": [],
+      "all_labels": [
+        {
+          "action_id": "14-1",
+          "relationship": "DIRECT_CONNECTION",
+          "relationship_score": 4,
+          "explanation": "The refusal explicitly targets the requirement to provide reference links via an internet search, stating it cannot be performed as requested (i.e., it directly responds to/blocks fulfillment).",
+          "contribution_role": "OTHER"
+        },
+        {
+          "action_id": "14-2",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 3,
+          "explanation": "Suggesting relevant companies is strong partial progress toward the requirement, but it does not itself perform an internet search or provide verified reference links.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "14-3",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Listing example companies with their URLs produces reference links for the requested kind of programs; although not truly internet-searched/verified in real time (per the refusal), it is the closest direct output satisfying the requirement’s deliverable.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "14-4",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "The verification caveat helps shape how the links should be used and acknowledges potential staleness, supporting the requirement’s intent but not providing the links/search itself.",
+          "contribution_role": "SHAPER"
+        }
+      ]
+    },
+    "r13": {
+      "implementation_action_ids": [
+        "16-1",
+        "17-2"
+      ],
+      "contributing_action_ids": [],
+      "revise_action_ids": [
+        "17-1",
+        "17-4"
+      ],
+      "all_labels": [
+        {
+          "action_id": "16-1",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 5,
+          "explanation": "Directly produces the relaxed 7-day group schedule, matching the requirement to create a 7-day timeline including meals/rest.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "16-2",
+          "relationship": "DIRECT_CONNECTION",
+          "relationship_score": 4,
+          "explanation": "Explains how the produced schedule meets the relaxed pace and includes meals/relaxation, explicitly evaluating alignment with the requirement.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "17-1",
+          "relationship": "REVISES",
+          "relationship_score": 5,
+          "explanation": "Revises the schedule output to reflect updated preferences, modifying the instantiated plan that fulfills the requirement.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "17-2",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 5,
+          "explanation": "Provides the revised multi-day schedule (the concrete 7-day timeline), continuing to fulfill the requirement after revisions.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "17-3",
+          "relationship": "DIRECT_CONNECTION",
+          "relationship_score": 4,
+          "explanation": "Explicitly states the schedule includes all activities while staying relaxed, i.e., an assessment/justification of meeting the requirement.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "17-4",
+          "relationship": "REVISES",
+          "relationship_score": 5,
+          "explanation": "Confirms omissions (yoga, art therapy, cocktail-making), which are specific content changes to the schedule that fulfills the requirement.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "17-5",
+          "relationship": "DIRECT_CONNECTION",
+          "relationship_score": 4,
+          "explanation": "Invites further adjustments to the schedule, keeping the requirement's artifact (the 7-day timeline) open for additional revision.",
+          "contribution_role": "SHAPER"
+        }
+      ]
+    },
+    "r14": {
+      "implementation_action_ids": [
+        "17-4"
+      ],
+      "contributing_action_ids": [
+        "16-1",
+        "17-1",
+        "17-2"
+      ],
+      "revise_action_ids": [],
+      "all_labels": [
+        {
+          "action_id": "16-1",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Providing a relaxed 7-day schedule can surface whether there are 'too many activities', but it does not explicitly exclude items and list them separately.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "16-2",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "General explanation about adjustability and allowing time does not specifically address excluding excess activities and listing excluded items.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "17-1",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Revising the schedule based on preferences may involve dropping activities, but the action as described does not explicitly note listing excluded items separately due to overcapacity.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "17-2",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Providing a revised schedule supports managing activity load, but does not explicitly perform the requirement of excluding some activities and listing them separately because there are too many.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "17-3",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Claiming all activities were incorporated conflicts with the scenario 'too many activities' and does not address exclusion/listing excluded items.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "17-4",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Explicitly confirms omitting specific activities (yoga, art therapy, cocktail-making), which is an instance of excluding activities; however, it is per user request and does not clearly state a separately listed 'excluded items' section, so fulfillment is partial.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "17-5",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Inviting further adjustments is generic and does not specifically ensure excluded items are listed separately when there are too many activities.",
+          "contribution_role": "SHAPER"
+        }
+      ]
+    },
+    "r15": {
+      "implementation_action_ids": [],
+      "contributing_action_ids": [
+        "16-1",
+        "17-1",
+        "17-2"
+      ],
+      "revise_action_ids": [],
+      "all_labels": [
+        {
+          "action_id": "16-1",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 3,
+          "explanation": "Providing a relaxed 7-day schedule is the core artifact where placeholders would be inserted if needed; it sets up (and may partially satisfy) the 'full enough' requirement depending on whether placeholders were actually added.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "16-2",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Explaining pacing and adjustability does not explicitly add or address placeholder timeslots for insufficient fullness.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "17-1",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Revising the schedule based on preferences could affect whether the plan becomes 'not full enough' and thus whether placeholders are needed, but it does not explicitly operate on placeholders.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "17-2",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 3,
+          "explanation": "Providing the revised schedule is another opportunity where placeholders could be included to ensure the plan is full enough; it advances the outcome artifact relevant to the requirement.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "17-3",
+          "relationship": "IMPLICIT_CONNECTION",
+          "relationship_score": 2,
+          "explanation": "Stating the schedule incorporates all activities and remains relaxed implicitly bears on whether the plan might feel 'full enough,' but it does not mention adding placeholders.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "17-4",
+          "relationship": "IMPLICIT_CONNECTION",
+          "relationship_score": 1,
+          "explanation": "Confirming omissions could reduce schedule density and thereby indirectly relate to the need for placeholders, but the action itself does not address placeholders or timeslots.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "17-5",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Inviting further adjustments is a general interaction move and does not specifically concern adding placeholder timeslots when the plan is not full enough.",
+          "contribution_role": "SHAPER"
+        }
+      ]
+    },
+    "r16": {
+      "implementation_action_ids": [
+        "16-1",
+        "17-2"
+      ],
+      "contributing_action_ids": [],
+      "revise_action_ids": [],
+      "all_labels": [
+        {
+          "action_id": "16-1",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Providing the 7-day schedule is the artifact that should encode Monday as an arrival day with only a relaxed evening planning activity (i.e., directly fulfills the requirement if reflected in the schedule).",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "16-2",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "General explanation about relaxed pacing and adjustability does not specifically implement or modify the Monday arrival-only evening-planning constraint.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "17-1",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Revising the schedule based on other preferences is not explicitly tied to changing or ensuring the Monday arrival-day-only requirement.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "17-2",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Providing the revised schedule again is an output that should reflect Monday as arrival day with only relaxed evening planning, thereby executing the requirement if included.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "17-3",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Stating that all activities are incorporated and pace is relaxed does not directly address or verify the Monday arrival/evening-only planning constraint.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "17-4",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Confirming omission of specific activities (yoga, art therapy, cocktail-making) is unrelated to the Monday arrival-day restriction.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "17-5",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Inviting further adjustments is generic shaping and not specifically about the Monday arrival/evening-planning-only requirement.",
+          "contribution_role": "SHAPER"
+        }
+      ]
+    },
+    "r17": {
+      "implementation_action_ids": [],
+      "contributing_action_ids": [
+        "16-1",
+        "17-1",
+        "17-2"
+      ],
+      "revise_action_ids": [],
+      "all_labels": [
+        {
+          "action_id": "16-1",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Providing a 7-day schedule is part of the overall scheduling task, but it is not explicitly stated here that Sunday is left empty as an ending day.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "16-2",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "General explanation about flexibility/relaxed pacing does not specifically implement or address leaving Sunday empty due to villa return.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "17-1",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Revising the schedule based on preferences could accommodate the empty-Sunday constraint, but the action description does not explicitly mention Sunday being an ending day with no activities.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "17-2",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 3,
+          "explanation": "Providing the revised schedule is a concrete step toward meeting the constraint; however, the action description does not explicitly confirm Sunday is left activity-free as required.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "17-3",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Stating that activities were incorporated at a relaxed pace does not directly relate to ensuring Sunday is empty due to villa return.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "17-4",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Confirming omission of specific activities is unrelated to the constraint that Sunday must be an ending day with no activities planned.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "17-5",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Inviting further adjustments is a generic next-step prompt and does not specifically implement or address the empty-Sunday ending-day requirement.",
+          "contribution_role": "SHAPER"
+        }
+      ]
+    },
+    "r18": {
+      "implementation_action_ids": [
+        "20-1",
+        "20-2",
+        "20-3",
+        "20-4",
+        "20-5",
+        "20-6",
+        "20-7",
+        "20-8"
+      ],
+      "contributing_action_ids": [],
+      "revise_action_ids": [],
+      "all_labels": [
+        {
+          "action_id": "19-1",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Changing translation/output language to English does not address removing duration phrases like '(3 hours)'.",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "20-1",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Providing the revised schedule is the step where the assistant can fulfill r18 by omitting duration phrases in the output.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "20-2",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Detailing Monday itinerary in the final output contributes to fulfilling r18 insofar as it should avoid duration phrases in the text.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "20-3",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Detailing Tuesday itinerary is part of the schedule output that must comply with r18 by not including parenthetical duration phrases.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "20-4",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Detailing Wednesday itinerary is part of the produced schedule and should reflect r18 by omitting duration phrases.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "20-5",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Detailing Thursday itinerary is part of the final schedule output that needs to avoid '(X hours)'-style phrases per r18.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "20-6",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Detailing Friday itinerary is part of the schedule output and should comply with r18 by not printing duration phrases.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "20-7",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Detailing Saturday itinerary is part of the produced schedule that must follow r18 by removing duration phrases from the text.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "20-8",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Detailing Sunday itinerary is part of the final schedule output and should avoid duration phrases per r18.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "20-9",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Confirming relaxed pace and requested changes does not specifically evaluate or mention removal of duration phrases.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "20-10",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Inviting further adjustments is generic and not specifically about removing duration phrases.",
+          "contribution_role": "SHAPER"
+        }
+      ]
+    },
+    "r19": {
+      "implementation_action_ids": [
+        "20-1",
+        "20-3"
+      ],
+      "contributing_action_ids": [
+        "20-9"
+      ],
+      "revise_action_ids": [],
+      "all_labels": [
+        {
+          "action_id": "19-1",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Changing translation/output language to English does not modify or fulfill the requirement about moving presentations and the pool party to Tuesday after lunch.",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "20-1",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Provides a revised schedule incorporating the user's adjustments; this is the primary execution step expected to include moving participant presentations and the swim pool party to Tuesday after lunch.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "20-2",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Detailing Monday's itinerary does not affect the placement of presentations/pool party on Tuesday after lunch.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "20-3",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 5,
+          "explanation": "Detailing Tuesday's itinerary with times is the direct fulfillment point where the participant presentations and swim pool party would be placed after lunch as required.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "20-4",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Detailing Wednesday's itinerary does not relate to moving activities to Tuesday after lunch.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "20-5",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Detailing Thursday's itinerary does not relate to moving activities to Tuesday after lunch.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "20-6",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Detailing Friday's itinerary does not relate to moving activities to Tuesday after lunch.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "20-7",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Detailing Saturday's itinerary does not relate to moving activities to Tuesday after lunch.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "20-8",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Detailing Sunday's departure-day itinerary does not relate to moving activities to Tuesday after lunch.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "20-9",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 1,
+          "explanation": "A general confirmation that changes were incorporated indirectly supports that r19 was satisfied, but does not specifically evidence or execute the Tuesday-after-lunch move.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "20-10",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Inviting further adjustments does not implement or revise the requirement to place presentations and the pool party on Tuesday after lunch.",
+          "contribution_role": "SHAPER"
+        }
+      ]
+    },
+    "r2": {
+      "implementation_action_ids": [
+        "4-1",
+        "4-2",
+        "4-3",
+        "4-4",
+        "4-5",
+        "4-6",
+        "4-7",
+        "4-8",
+        "4-9",
+        "4-10"
+      ],
+      "contributing_action_ids": [
+        "4-11"
+      ],
+      "revise_action_ids": [],
+      "all_labels": [
+        {
+          "action_id": "4-1",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Supplies one of the requested additional activity ideas, directly contributing to fulfilling r2.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "4-2",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Provides another activity idea as part of the set of ten more ideas required by r2.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "4-3",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Adds an activity idea; directly executes the requirement to provide more ideas.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "4-4",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Adds an additional activity idea toward the ten requested by r2.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "4-5",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Provides an activity suggestion; directly part of fulfilling the 'ten more ideas' requirement.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "4-6",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Offers a further activity idea, implementing r2 by generating requested ideas.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "4-7",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Contributes another activity idea; direct execution toward fulfilling r2.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "4-8",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Adds an activity idea, implementing the requirement to provide ten more ideas.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "4-9",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Provides another idea; directly fulfills part of r2's requested output.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "4-10",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Supplies an additional activity idea; directly implements r2.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "4-11",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Summarizes and frames the set of ideas as low-resource and connection-building; supports the delivery but is not itself one of the ten activity ideas.",
+          "contribution_role": "EXECUTOR"
+        }
+      ]
+    },
+    "r20": {
+      "implementation_action_ids": [
+        "20-1",
+        "20-5",
+        "20-6"
+      ],
+      "contributing_action_ids": [
+        "20-9"
+      ],
+      "revise_action_ids": [],
+      "all_labels": [
+        {
+          "action_id": "19-1",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Changes translation/output language preference, not hiking timing or ensuring a draining activity.",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "20-1",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 5,
+          "explanation": "Provides the revised weekly schedule reflecting requested adjustments, including moving hiking to around Thursday/Friday and ensuring a physically draining activity that day.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "20-2",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Monday itinerary details do not affect hiking being moved to Thu/Fri or ensuring a draining activity that day.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "20-3",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Tuesday itinerary details are not the target day for the moved hiking requirement (Thu/Fri) and do not implement r20.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "20-4",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Wednesday itinerary details do not implement moving hiking to Thu/Fri or ensuring a draining activity that day.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "20-5",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 5,
+          "explanation": "Thursday itinerary details are where hiking would be placed 'around Thursday/Friday' and should include a physically draining activity; detailing that day directly fulfills r20 when it includes the hike/draining activity.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "20-6",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 5,
+          "explanation": "Friday itinerary details likewise directly implement r20 if hiking (or the physically draining activity) is scheduled on Friday; it is the explicit target window.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "20-7",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Saturday itinerary details are not part of moving hiking to Thu/Fri or ensuring a draining activity that specific day.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "20-8",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Sunday departure-day itinerary is unrelated to hiking placement on Thu/Fri or ensuring a draining activity that day.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "20-9",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "A global confirmation that changes were incorporated; it supports that r20 was satisfied but does not itself place hiking or specify the draining activity.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "20-10",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Invitation for further adjustments does not act on the hiking-move/draining-activity requirement.",
+          "contribution_role": "SHAPER"
+        }
+      ]
+    },
+    "r21": {
+      "implementation_action_ids": [],
+      "contributing_action_ids": [
+        "20-1",
+        "20-9"
+      ],
+      "revise_action_ids": [],
+      "all_labels": [
+        {
+          "action_id": "19-1",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Language/translation preference change is unrelated to removing/replacing Beer Pong as an activity.",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "20-1",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "A revised schedule may incorporate the Beer Pong replacement, but this action description does not explicitly state Beer Pong was removed/replaced; it indicates general revision work.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "20-2",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Detailing Monday itinerary is not specifically tied to deleting/replacing Beer Pong.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "20-3",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Detailing Tuesday itinerary is not specifically tied to deleting/replacing Beer Pong.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "20-4",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Detailing Wednesday itinerary is not specifically tied to deleting/replacing Beer Pong.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "20-5",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Detailing Thursday itinerary is not specifically tied to deleting/replacing Beer Pong.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "20-6",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Detailing Friday itinerary is not specifically tied to deleting/replacing Beer Pong.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "20-7",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Detailing Saturday itinerary is not specifically tied to deleting/replacing Beer Pong.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "20-8",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Detailing Sunday departure itinerary is not specifically tied to deleting/replacing Beer Pong.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "20-9",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "General confirmation that changes were incorporated could include the Beer Pong replacement, but it does not explicitly confirm deletion/replacement of Beer Pong.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "20-10",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Invitation for further adjustments does not act on the Beer Pong deletion/replacement requirement.",
+          "contribution_role": "SHAPER"
+        }
+      ]
+    },
+    "r22": {
+      "implementation_action_ids": [
+        "20-1",
+        "20-2",
+        "20-3",
+        "20-4",
+        "20-5",
+        "20-6",
+        "20-7",
+        "20-8"
+      ],
+      "contributing_action_ids": [],
+      "revise_action_ids": [],
+      "all_labels": [
+        {
+          "action_id": "20-1",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 5,
+          "explanation": "Provides the revised schedule in English, directly fulfilling r22.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "20-2",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Monday itinerary is presented in English, implementing r22 for that portion of the schedule.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "20-3",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Tuesday itinerary is presented in English, implementing r22 for that portion of the schedule.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "20-4",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Wednesday itinerary is presented in English, implementing r22 for that portion of the schedule.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "20-5",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Thursday itinerary is presented in English, implementing r22 for that portion of the schedule.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "20-6",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Friday itinerary is presented in English, implementing r22 for that portion of the schedule.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "20-7",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Saturday itinerary is presented in English, implementing r22 for that portion of the schedule.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "20-8",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Sunday departure-day itinerary is presented in English, implementing r22 for that portion of the schedule.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "20-9",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Confirmation focuses on incorporating changes and pace; it does not evaluate or modify the English-language requirement itself.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "20-10",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Inviting further adjustments is general process guidance and does not pertain specifically to output being in English.",
+          "contribution_role": "SHAPER"
+        }
+      ]
+    },
+    "r3": {
+      "implementation_action_ids": [
+        "4-1",
+        "4-2",
+        "4-3",
+        "4-4",
+        "4-5",
+        "4-6",
+        "4-7",
+        "4-8",
+        "4-9",
+        "4-10"
+      ],
+      "contributing_action_ids": [],
+      "revise_action_ids": [],
+      "all_labels": [
+        {
+          "action_id": "4-1",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Beach Olympics is an activity idea that avoids a teacher-led workshop format, aligning with and fulfilling the constraint in the produced suggestions.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "4-2",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Campfire night is a non-workshop social activity and therefore satisfies the requirement to avoid teacher-required workshops.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "4-3",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "A board game tournament is self-run/peer-run and not a teacher-led workshop, implementing the requirement via the suggested activity.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "4-4",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "A themed potluck dinner is not a workshop and requires no teacher, matching the requirement.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "4-5",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Group workout/sports activities can be participant-led and are not inherently workshops requiring a teacher, so the suggestion satisfies the constraint.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "4-6",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Outdoor sketching/painting with basic supplies is a self-directed activity (not a formal workshop requiring instruction), implementing the requirement.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "4-7",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "A musical jam session is collaborative and does not require a teacher-led workshop structure, satisfying the requirement.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "4-8",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Trivia night/quiz competition is not a teacher-led workshop and can be facilitated by participants, aligning with the constraint.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "4-9",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Nature walks/birdwatching are non-workshop activities that do not require a teacher, fulfilling the requirement in the suggestion set.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "4-10",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Icebreaker games are simple participant-run activities and not teacher-led workshops, satisfying the requirement.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "4-11",
+          "relationship": "DIRECT_CONNECTION",
+          "relationship_score": 4,
+          "explanation": "The summary evaluates/frames the suggestions as easily organized and low-resource, implicitly confirming alignment with avoiding structured teacher-led workshops (though it does not change the requirement).",
+          "contribution_role": "EXECUTOR"
+        }
+      ]
+    },
+    "r4": {
+      "implementation_action_ids": [
+        "4-1",
+        "4-2",
+        "4-5",
+        "4-8",
+        "4-9",
+        "4-10"
+      ],
+      "contributing_action_ids": [
+        "4-3",
+        "4-4",
+        "4-6",
+        "4-7"
+      ],
+      "revise_action_ids": [],
+      "all_labels": [
+        {
+          "action_id": "4-1",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Beach Olympics can be run with little to no equipment (or minimal props), aligning with avoiding extensive materials.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "4-2",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Campfire night generally needs minimal materials (fire setup, simple snacks), fitting the constraint to avoid extensive materials.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "4-3",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 3,
+          "explanation": "A board game tournament avoids extensive materials if games are already available, but it can require bringing/owning multiple games; it partially supports the requirement rather than unequivocally fulfilling it.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "4-4",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "A themed potluck avoids specialized activity materials but does involve food/utensils and coordination; it somewhat aligns with avoiding extensive materials but may still require many items.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "4-5",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Group workout/sports activities can be done bodyweight or with minimal gear, directly supporting the no-extensive-materials requirement.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "4-6",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Sketching/painting requires art supplies; even if 'basic,' it still depends on materials, so it only partially aligns with avoiding extensive materials.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "4-7",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "A musical jam session can be low-material if participants bring instruments, but instruments are still material-dependent, so it only partially supports the requirement.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "4-8",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Trivia night typically needs minimal materials (questions, maybe paper/phone), fitting the requirement to avoid extensive materials.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "4-9",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Nature walks/birdwatching generally require little more than optional binoculars, directly aligning with avoiding extensive materials.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "4-10",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Icebreaker games are typically designed to be low- or no-material, directly satisfying the constraint to avoid extensive materials.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "4-11",
+          "relationship": "DIRECT_CONNECTION",
+          "relationship_score": 4,
+          "explanation": "The summary explicitly frames the activities as low-resource/easy to organize, directly evaluating/affirming alignment with the 'avoid extensive materials' requirement.",
+          "contribution_role": "EXECUTOR"
+        }
+      ]
+    },
+    "r5": {
+      "implementation_action_ids": [
+        "4-1",
+        "4-2",
+        "4-3",
+        "4-4",
+        "4-5",
+        "4-6",
+        "4-7",
+        "4-8",
+        "4-10"
+      ],
+      "contributing_action_ids": [
+        "4-9"
+      ],
+      "revise_action_ids": [],
+      "all_labels": [
+        {
+          "action_id": "4-1",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Beach Olympics is a local on-site activity, directly aligning with avoiding long trips for a large group.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "4-2",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Campfire night is an on-site activity that requires no travel, satisfying the 'avoid long trips' constraint.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "4-3",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "A board game tournament is an indoor/local activity and therefore complies with the requirement to avoid long trips.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "4-4",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "A themed potluck dinner is hosted where the group already is, avoiding any long-distance travel.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "4-5",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Group workout/sports activities can be run on-site and thus meet the no-long-trips constraint.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "4-6",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Outdoor sketching/painting with basic supplies is a nearby/on-site activity, consistent with avoiding long trips.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "4-7",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "A musical jam session is run where participants are gathered and does not require travel.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "4-8",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Trivia night/quiz competition is an on-site activity, fulfilling the requirement to avoid long trips.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "4-9",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Nature walks/birdwatching can be local, but could also drift into longer excursions depending on planning; it generally supports the intent to keep travel minimal without explicitly enforcing it.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "4-10",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Icebreaker games are on-site and inherently avoid long trips, aligning with the constraint.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "4-11",
+          "relationship": "DIRECT_CONNECTION",
+          "relationship_score": 4,
+          "explanation": "The summary explicitly characterizes the activities as easy to organize/low-resource, reinforcing that they avoid burdens like long trips (though not revising the requirement itself).",
+          "contribution_role": "EXECUTOR"
+        }
+      ]
+    },
+    "r6": {
+      "implementation_action_ids": [
+        "6-2",
+        "6-3",
+        "6-4",
+        "6-5",
+        "6-6",
+        "6-7",
+        "6-8",
+        "6-9",
+        "6-10",
+        "6-11"
+      ],
+      "contributing_action_ids": [
+        "6-12"
+      ],
+      "revise_action_ids": [],
+      "all_labels": [
+        {
+          "action_id": "6-1",
+          "relationship": "DIRECT_CONNECTION",
+          "relationship_score": 4,
+          "explanation": "Explicitly states the intent to provide 10 more unique activity ideas, directly operating on r6 as an announced fulfillment plan (but not the actual list).",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "6-2",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Provides one additional activity idea that counts toward the required set of 10 more without repetition.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "6-3",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Provides another distinct activity idea, directly contributing to fulfilling the '10 more' requirement.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "6-4",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Supplies an additional unique activity idea as part of the required 10 more ideas.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "6-5",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Adds a new activity idea, directly executing r6 by expanding the list without repeating prior items.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "6-6",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Provides another activity idea that is part of the required additional ten.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "6-7",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Contributes a further unique activity idea, directly satisfying part of r6.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "6-8",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Supplies one more distinct activity idea toward the total of 10 required by r6.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "6-9",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Provides another unique activity idea, directly implementing the requirement for 10 more ideas.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "6-10",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Adds a new activity idea, counting toward fulfilling the ten additional ideas in r6.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "6-11",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Provides the tenth additional idea in the post-requirement list, completing the '10 more activity ideas' portion of r6 (assuming no repeats).",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "6-12",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Summarizes the set of ideas and their intent; it supports the delivery but is not itself one of the required activity ideas.",
+          "contribution_role": "EXECUTOR"
+        }
+      ]
+    },
+    "r7": {
+      "implementation_action_ids": [
+        "8-1",
+        "8-2",
+        "8-3",
+        "8-4",
+        "8-5",
+        "8-6",
+        "8-7",
+        "8-8",
+        "8-9",
+        "8-10",
+        "8-11"
+      ],
+      "contributing_action_ids": [
+        "8-12"
+      ],
+      "revise_action_ids": [],
+      "all_labels": [
+        {
+          "action_id": "8-1",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 5,
+          "explanation": "Directly fulfills r7 by providing the requested final round list of 10 additional activity ideas.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "8-2",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "One of the concrete activity ideas included in the final-round list, thereby helping satisfy the '10 more ideas' requirement.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "8-3",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Provides another distinct activity idea as part of the required set of 10 more ideas.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "8-4",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Adds an activity idea to the final-round list, contributing directly to meeting the count of 10.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "8-5",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Supplies an additional idea within the final-round set requested by r7.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "8-6",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Provides an activity idea as part of the '10 more' fulfillment for r7.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "8-7",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Another idea included in the final set, directly implementing r7.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "8-8",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Adds an activity idea toward fulfilling the required total of 10 more ideas.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "8-9",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Provides another distinct idea in the final-round list, implementing r7.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "8-10",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Contributes one of the ten requested activity ideas, directly executing the requirement.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "8-11",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Adds an additional activity idea as part of the final-round set, implementing r7.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "8-12",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 1,
+          "explanation": "Summarizes the provided ideas; it supports presentation/closure but does not itself supply additional ideas beyond the required ten.",
+          "contribution_role": "EXECUTOR"
+        }
+      ]
+    },
+    "r8": {
+      "implementation_action_ids": [
+        "8-1",
+        "8-2",
+        "8-3",
+        "8-4",
+        "8-5",
+        "8-6",
+        "8-7",
+        "8-8",
+        "8-9",
+        "8-10",
+        "8-11"
+      ],
+      "contributing_action_ids": [],
+      "revise_action_ids": [],
+      "all_labels": [
+        {
+          "action_id": "8-1",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 5,
+          "explanation": "Providing '10 additional unique activity ideas' is the direct attempt to fulfill the no-repeats requirement by outputting a new set without repeats.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "8-2",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "A distinct suggested activity contributes to fulfilling the 'no repeats' constraint as part of the new list.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "8-3",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "A distinct suggested activity contributes to fulfilling the 'no repeats' constraint as part of the new list.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "8-4",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "A distinct suggested activity contributes to fulfilling the 'no repeats' constraint as part of the new list.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "8-5",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "A distinct suggested activity contributes to fulfilling the 'no repeats' constraint as part of the new list.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "8-6",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "A distinct suggested activity contributes to fulfilling the 'no repeats' constraint as part of the new list.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "8-7",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "A distinct suggested activity contributes to fulfilling the 'no repeats' constraint as part of the new list.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "8-8",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "A distinct suggested activity contributes to fulfilling the 'no repeats' constraint as part of the new list.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "8-9",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "A distinct suggested activity contributes to fulfilling the 'no repeats' constraint as part of the new list.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "8-10",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "A distinct suggested activity contributes to fulfilling the 'no repeats' constraint as part of the new list.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "8-11",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "A distinct suggested activity contributes to fulfilling the 'no repeats' constraint as part of the new list.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "8-12",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "A thematic summary about the mix of activities does not itself enforce or operate on the no-repeats requirement.",
+          "contribution_role": "EXECUTOR"
+        }
+      ]
+    },
+    "r9": {
+      "implementation_action_ids": [
+        "8-1",
+        "8-2",
+        "8-4",
+        "8-5",
+        "8-8",
+        "8-10",
+        "8-11"
+      ],
+      "contributing_action_ids": [
+        "8-3",
+        "8-6",
+        "8-7",
+        "8-9"
+      ],
+      "revise_action_ids": [],
+      "all_labels": [
+        {
+          "action_id": "8-1",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 5,
+          "explanation": "Providing a list explicitly framed as requiring minimal preparation/organization directly fulfills r9 within the outcome.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "8-2",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "A group meditation is typically minimal-prep, directly serving the low-preparation requirement.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "8-3",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Geocaching/treasure hunts often require planning/clues/devices; it only partially aligns and may increase organization, so it weakly supports r9.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "8-4",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "A DIY photo booth can be set up with minimal materials and organization, generally meeting r9.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "8-5",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 5,
+          "explanation": "Charades/Pictionary are classic low-prep games requiring minimal setup, strongly fulfilling r9.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "8-6",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "A silent disco typically needs headphones/app setup and coordination; it somewhat conflicts with minimal organization, so it only weakly contributes.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "8-7",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "A puppet show can be improvised but may require props and coordination; it partially satisfies r9 depending on execution.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "8-8",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Origami/paper crafts can be run with simple materials and little planning, generally satisfying r9.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "8-9",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 3,
+          "explanation": "Blind taste-testing needs items prepared and possibly labeling; still can be fairly simple, so it moderately supports r9.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "8-10",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "A storytelling circle is usually low-prep and low-organization, directly aligning with r9.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "8-11",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "A clean-up competition can be organized quickly with minimal materials, generally meeting r9.",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "8-12",
+          "relationship": "DIRECT_CONNECTION",
+          "relationship_score": 4,
+          "explanation": "The summary explicitly evaluates the set as easy to organize and minimal-prep, directly referencing and affirming r9.",
+          "contribution_role": "EXECUTOR"
+        }
+      ]
+    }
+  },
+  "enriched_counts": {
+    "implements": 122,
+    "contributes": 30,
+    "revises": 2
+  },
+  "metadata": {
+    "model": "gpt-5.2-2025-12-11"
+  }
+}

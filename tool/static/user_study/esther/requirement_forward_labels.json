@@ -1,0 +1,1723 @@
+{
+  "dialogue_id": "poe_share_xSre2IMOrUdL56974V1w",
+  "forward_labels": {
+    "r1": {
+      "implementation_action_ids": [
+        "1-1",
+        "1-14"
+      ],
+      "contributing_action_ids": [
+        "1-2",
+        "1-3",
+        "1-4",
+        "1-5",
+        "1-6",
+        "1-7",
+        "1-8",
+        "1-9",
+        "1-10",
+        "1-11",
+        "1-12",
+        "1-13",
+        "1-15"
+      ],
+      "revise_action_ids": [],
+      "all_labels": [
+        {
+          "action_id": "1-1",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 5,
+          "explanation": "Delivers a full one-day itinerary explicitly structured into morning, afternoon, and evening, satisfying the 8am–8pm day-plan requirement.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-2",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Improves internal sequencing of the day but does not itself ensure the required 8am–8pm morning/afternoon/evening coverage.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-3",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 1,
+          "explanation": "Adds a morning-specific recommendation, which can be part of the morning block but is only one component of the full-day structure.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-4",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 1,
+          "explanation": "Adds timing advice for the morning slot, indirectly supporting the schedule but not defining the required full-day plan segments.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-5",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 1,
+          "explanation": "Provides an additional morning activity suggestion that can populate the morning portion of the itinerary.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-6",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 1,
+          "explanation": "Adds a mid-morning break that helps flesh out the morning timeline but does not ensure the full 8am–8pm structure.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-7",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Adds a major planned visit with timing/ticketing that helps build out a substantial portion of the day schedule.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-8",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Specifies a transition and lunch plan that supports the afternoon structure of the itinerary.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-9",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 1,
+          "explanation": "Adds an afternoon stroll option that helps populate the afternoon block of the day plan.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-10",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 1,
+          "explanation": "Offers optional add-ons that can fill time within the day, but are not required to meet the morning/afternoon/evening structure.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-11",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Adds an explicit late-afternoon rest break, helping shape the timeline toward evening.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-12",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Provides a clear dinner plan that anchors the evening portion of the itinerary.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-13",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 1,
+          "explanation": "Suggests an evening wrap-up activity option, supporting completion of the evening segment.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-14",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Summarizes the day in a time-based table, directly expressing the required day-plan structure (morning/afternoon/evening across the day).",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-15",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 1,
+          "explanation": "Transportation advice supports feasibility of sticking to the day timeline but does not itself define the required plan structure.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-16",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Reference links are supplementary and do not affect whether the itinerary covers 8am–8pm with morning/afternoon/evening plans.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-14",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Clarifying geography (all in Manhattan) does not bear on the requirement of having an 8am–8pm itinerary with three dayparts.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        }
+      ]
+    },
+    "r10": {
+      "implementation_action_ids": [
+        "5-9",
+        "5-10",
+        "5-11",
+        "5-12",
+        "5-16"
+      ],
+      "contributing_action_ids": [
+        "5-1",
+        "5-13",
+        "5-15"
+      ],
+      "revise_action_ids": [],
+      "all_labels": [
+        {
+          "action_id": "5-1",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Summarizing requested additions sets up the transit/commute information to be added, but does not itself provide commute time estimates. (Intent-Reveal)",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-9",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 5,
+          "explanation": "Explicitly provides commute time estimates between two itinerary locations (Chinatown → One World Observatory), directly fulfilling r10 for that segment. (Intent-Reveal)",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-10",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 5,
+          "explanation": "Explicitly provides commute time estimates for One World Observatory → West Village, fulfilling r10 for that segment. (Intent-Reveal)",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-11",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 5,
+          "explanation": "Gives a time estimate for West Village → Midtown hotel, directly implementing r10 for that leg. (Intent-Reveal)",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-12",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 5,
+          "explanation": "Provides time estimates for hotel → Awash (UWS), directly implementing r10 for that leg. (Intent-Reveal)",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-13",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 1,
+          "explanation": "Neighborhood framing helps contextualize likely travel patterns but does not provide commute time estimates itself. (Preference-Accumulate)",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-15",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "States an intent/plan to present transit options concisely, which supports delivering commute time estimates but is not the estimates themselves. (Intent-Reveal)",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-16",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Provides the full itinerary including 'commute hints'; to the extent it includes time estimates between stops, it executes r10 (though some estimates may have been provided in the earlier specific legs). (Intent-Reveal)",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        }
+      ]
+    },
+    "r11": {
+      "implementation_action_ids": [
+        "5-9",
+        "5-10",
+        "5-11",
+        "5-12",
+        "5-16"
+      ],
+      "contributing_action_ids": [],
+      "revise_action_ids": [],
+      "all_labels": [
+        {
+          "action_id": "5-1",
+          "relationship": "DIRECT_CONNECTION",
+          "relationship_score": 4,
+          "explanation": "Intent-Reveal: Summarizing the requested additions explicitly includes the need to indicate subway usage, directly operating on/confirming r11.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-9",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 5,
+          "explanation": "Intent-Reveal: Providing route options (walk/subway/cab) for a leg directly indicates whether subway is needed between those stops, fulfilling r11 for that segment.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-10",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 5,
+          "explanation": "Intent-Reveal: Giving subway-specific directions/options for the leg explicitly signals subway necessity, implementing r11 for that segment.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-11",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Intent-Reveal: Offering cab or subway (with time) communicates subway as an option/need depending on choice; it implements r11 but less explicitly than a yes/no flag.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-12",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Intent-Reveal: Providing cab/subway commute options indicates subway use as part of the between-stops guidance, implementing r11 though not necessarily as a binary indicator.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-13",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Neighborhood framing does not address whether subway is needed between stops.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-15",
+          "relationship": "DIRECT_CONNECTION",
+          "relationship_score": 4,
+          "explanation": "Intent-Reveal: Stating intent to present transit options concisely (e.g., with icons) directly targets how subway-needed information will be shown, shaping r11’s implementation.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-16",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 5,
+          "explanation": "Intent-Reveal: Delivering the full itinerary with commute hints/transit notes provides the per-leg indication of subway usage, fulfilling r11 within the final output.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        }
+      ]
+    },
+    "r12": {
+      "implementation_action_ids": [
+        "5-13",
+        "5-16"
+      ],
+      "contributing_action_ids": [
+        "5-1",
+        "5-15"
+      ],
+      "revise_action_ids": [],
+      "all_labels": [
+        {
+          "action_id": "5-1",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Intent-Reveal: Summarizing requested additions provides planning context that can include neighborhood-by-daypart, but does not itself mark the neighborhoods.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-9",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Commute estimates do not address which neighborhood they are in during morning/afternoon/evening.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-10",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Commute estimates do not address morning/afternoon/evening neighborhood labeling.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-11",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Commute estimates do not address morning/afternoon/evening neighborhood labeling.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-12",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Commute estimates do not address morning/afternoon/evening neighborhood labeling.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-13",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 5,
+          "explanation": "Intent-Reveal: Explicitly frames the day’s neighborhoods by morning/afternoon/evening, directly fulfilling r12.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-15",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 1,
+          "explanation": "Preference-Accumulate: Planning to present items concisely with icons supports readable labeling (including neighborhoods), but does not itself mark neighborhoods.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-16",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 5,
+          "explanation": "Intent-Reveal: Provides the itinerary including neighborhood labels aligned to dayparts, thereby executing r12.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        }
+      ]
+    },
+    "r13": {
+      "implementation_action_ids": [],
+      "contributing_action_ids": [
+        "9-3",
+        "9-4",
+        "9-5",
+        "9-6",
+        "9-7"
+      ],
+      "revise_action_ids": [],
+      "all_labels": [
+        {
+          "action_id": "9-1",
+          "relationship": "DIRECT_CONNECTION",
+          "relationship_score": 4,
+          "explanation": "Restates r13 explicitly (update itinerary with hole-in-the-wall swaps and add lunch options), directly operating on the requirement as an object of acknowledgment.",
+          "explanation_type": "",
+          "contribution_role": "OTHER"
+        },
+        {
+          "action_id": "9-2",
+          "relationship": "DIRECT_CONNECTION",
+          "relationship_score": 4,
+          "explanation": "Commits to producing an updated itinerary, directly targeting fulfillment of r13 though not yet executing it.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "9-3",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 3,
+          "explanation": "Provides candidate hole-in-the-wall lunch spots that can be inserted into the itinerary; partial progress toward r13.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "9-4",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Adds location-fit constraints for a proposed lunch option, helping shape which hole-in-the-wall lunch swaps are appropriate for the itinerary.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "9-5",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Flags a suggested restaurant as trendy, reinforcing the hole-in-the-wall constraint and filtering options for r13.",
+          "explanation_type": "",
+          "contribution_role": "OTHER"
+        },
+        {
+          "action_id": "9-6",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 3,
+          "explanation": "Refocuses the selection toward genuinely hole-in-the-wall West Village options, tightening alignment with r13.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "9-7",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 3,
+          "explanation": "Selects a specific swap (Oriental Garden for dim sum) and plans to slot in hole-in-the-wall spots, advancing r13 toward execution.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "10-1",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Request is about adding breaks between activities, not about restaurant swaps or lunch options.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "10-2",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Specifies break duration (~30 minutes), unrelated to hole-in-the-wall restaurant swaps/lunch options.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "11-1",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Acknowledges the breaks request only; does not touch restaurant swaps/lunch additions.",
+          "explanation_type": "",
+          "contribution_role": "OTHER"
+        },
+        {
+          "action_id": "11-2",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Time analysis for dim sum duration is in service of breaks scheduling, not specifically about swapping/adding hole-in-the-wall lunch options.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "11-3",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Identifies existing breaks and windows; not related to restaurant swap/lunch option requirement.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "11-4",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Plans additional rest breaks placement; unrelated to r13’s restaurant swaps and lunch options.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "11-5",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Decides on specific rest break times/durations; does not address hole-in-the-wall restaurant swaps or lunch options.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "11-6",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Provides updated itinerary focused on adding rest breaks; does not clearly implement the hole-in-the-wall restaurant swaps/lunch additions of r13.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "11-7",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Evaluates break placement and pacing, not restaurant swaps or additional lunch options.",
+          "explanation_type": "",
+          "contribution_role": "OTHER"
+        }
+      ]
+    },
+    "r14": {
+      "implementation_action_ids": [
+        "7-3",
+        "7-6",
+        "9-3"
+      ],
+      "contributing_action_ids": [
+        "7-4",
+        "7-7",
+        "8-1",
+        "8-3",
+        "9-1",
+        "9-2",
+        "11-6"
+      ],
+      "revise_action_ids": [],
+      "all_labels": [
+        {
+          "action_id": "7-1",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Browsing limitation does not directly affect the requirement to avoid trendy/crowded spots.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "7-2",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Knowledge cutoff statement is unrelated to the anti-trendy/crowded constraint itself.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "7-3",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Provides less touristy dim sum alternatives intended to avoid trendy/overly crowded spots.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "7-4",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 3,
+          "explanation": "Offers alternative Ethiopian restaurants with atmosphere notes, partially supporting selection away from crowded/trendy places.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "7-5",
+          "relationship": "DIRECT_CONNECTION",
+          "relationship_score": 4,
+          "explanation": "Explicitly evaluates a restaurant as touristy and recommends under-the-radar swaps aligned with avoiding trendy/crowded spots.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "7-6",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Recommends quieter alternatives explicitly framed as avoiding perpetually packed spots.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "7-7",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Invites confirmation to apply the swaps; advances execution of the anti-crowded swap intent but does not itself select/implement.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "8-1",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 3,
+          "explanation": "User acceptance green-lights applying the less-crowded swaps, enabling fulfillment of the requirement.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "8-2",
+          "relationship": "DIRECT_CONNECTION",
+          "relationship_score": 4,
+          "explanation": "Requests updating the itinerary with the discussed swaps whose purpose is to avoid trendy/crowded restaurants.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "8-3",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Asks for more hole-in-the-wall lunch spots, which typically aligns with avoiding trendy/crowded venues though not explicitly stated here.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "9-1",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Restates the swap + hole-in-the-wall request, maintaining the direction to avoid crowded/trendy spots.",
+          "explanation_type": "",
+          "contribution_role": "OTHER"
+        },
+        {
+          "action_id": "9-2",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Commits to producing the updated itinerary; procedural progress toward implementing the restaurant-avoid-crowds requirement.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "9-3",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Provides candidate hole-in-the-wall lunch spots, directly supporting avoidance of trendy/crowded restaurants.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "9-4",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Location-fit qualification (which neighborhood/time) does not address trendiness/crowding.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "9-5",
+          "relationship": "DIRECT_CONNECTION",
+          "relationship_score": 4,
+          "explanation": "Flags a suggested restaurant as trendy, directly applying the requirement to avoid trendy/crowded spots.",
+          "explanation_type": "",
+          "contribution_role": "OTHER"
+        },
+        {
+          "action_id": "9-6",
+          "relationship": "DIRECT_CONNECTION",
+          "relationship_score": 4,
+          "explanation": "Refocuses selection criteria on genuinely hole-in-the-wall options, explicitly steering away from trendy/crowded venues.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "9-7",
+          "relationship": "DIRECT_CONNECTION",
+          "relationship_score": 5,
+          "explanation": "Chooses a specific under-the-radar dim sum swap (Oriental Garden), concretely satisfying the avoid-trendy/crowded restaurant requirement for that meal.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "10-1",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Request for breaks between activities is unrelated to restaurant trendiness/crowding.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "10-2",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Specifying break length (~30 minutes) does not relate to avoiding trendy/crowded restaurants.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "11-1",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Acknowledging/restating break request does not concern restaurant recommendations constraint.",
+          "explanation_type": "",
+          "contribution_role": "OTHER"
+        },
+        {
+          "action_id": "11-2",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Timeline analysis for meal duration is not about avoiding trendy/crowded spots.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "11-3",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Identifying existing breaks is unrelated to restaurant trendiness/crowding.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "11-4",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Planning rest-break placement does not affect the restaurant anti-trendy/crowded requirement.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "11-5",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Deciding specific rest timing is unrelated to restaurant recommendation constraints.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "11-6",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Provides the updated itinerary (including swaps as part of the same outcome), indirectly advancing the avoid-trendy/crowded requirement though the described focus here is breaks.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "11-7",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Double-checking pacing/break placement does not concern avoiding trendy/crowded restaurants.",
+          "explanation_type": "",
+          "contribution_role": "OTHER"
+        }
+      ]
+    },
+    "r15": {
+      "implementation_action_ids": [
+        "11-6"
+      ],
+      "contributing_action_ids": [
+        "11-2",
+        "11-3"
+      ],
+      "revise_action_ids": [],
+      "all_labels": [
+        {
+          "action_id": "11-1",
+          "relationship": "DIRECT_CONNECTION",
+          "relationship_score": 4,
+          "explanation": "Intent-Reveal: explicitly restates the newly stated need to add ~30-minute rest breaks and sets out to address it.",
+          "explanation_type": "",
+          "contribution_role": "OTHER"
+        },
+        {
+          "action_id": "11-2",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 3,
+          "explanation": "Intent-Reveal: estimates activity duration to create feasible gaps where ~30-minute breaks can be inserted.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "11-3",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 3,
+          "explanation": "Intent-Reveal: identifies existing breaks and open windows, helping ensure breaks are included between activities.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "11-4",
+          "relationship": "DIRECT_CONNECTION",
+          "relationship_score": 4,
+          "explanation": "Intent-Reveal: directly plans specific placements for additional ~30-minute rest breaks to satisfy r15.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "11-5",
+          "relationship": "DIRECT_CONNECTION",
+          "relationship_score": 4,
+          "explanation": "Option-Select: locks in concrete break times/durations (including selecting a longer rest block), operationalizing the break requirement.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "11-6",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 5,
+          "explanation": "Intent-Reveal: produces the updated itinerary containing the inserted rest breaks (~30 minutes) between activities, fulfilling r15.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "11-7",
+          "relationship": "DIRECT_CONNECTION",
+          "relationship_score": 4,
+          "explanation": "Feedback-Adopt: explicitly checks that breaks are placed naturally between activities, evaluating compliance with r15.",
+          "explanation_type": "",
+          "contribution_role": "OTHER"
+        }
+      ]
+    },
+    "r2": {
+      "implementation_action_ids": [
+        "1-1"
+      ],
+      "contributing_action_ids": [
+        "1-2",
+        "1-3",
+        "1-5",
+        "1-7",
+        "1-8",
+        "1-9",
+        "1-10",
+        "1-12",
+        "1-15"
+      ],
+      "revise_action_ids": [],
+      "all_labels": [
+        {
+          "action_id": "1-1",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Delivers an itinerary whose locations are (as presented) in Manhattan, thereby executing the 'staying in Manhattan' constraint as part of the overall plan.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-2",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "The downtown-to-uptown flow is an internal Manhattan-geography sequencing choice that supports a Manhattan-based day but does not explicitly address the stay-in-Manhattan requirement.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-3",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Recommends Chinatown dim sum spots, which are Manhattan locations consistent with the parents staying in Manhattan.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-4",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Crowd-avoidance timing and reservation notes do not meaningfully bear on the 'staying in Manhattan' requirement.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-5",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Suggests strolling Chinatown/Little Italy, both in Manhattan, aligning with a Manhattan-based itinerary.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-6",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "A generic rest break suggestion is not specific to being in Manhattan.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-7",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Recommends One World Observatory, a Manhattan destination, consistent with staying in Manhattan.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-8",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 3,
+          "explanation": "Suggests intra-Manhattan cab/Uber movement to West Village, reinforcing that the plan operates within Manhattan while accounting for parents staying there.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-9",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "West Village stroll is a Manhattan activity that fits a Manhattan-based stay.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-10",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Optional stops (e.g., High Line) are Manhattan-based options that keep the itinerary within Manhattan.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-11",
+          "relationship": "DIRECT_CONNECTION",
+          "relationship_score": 4,
+          "explanation": "Explicitly recommends returning to the hotel mid-afternoon, directly operationalizing that the parents are staying in Manhattan (hotel location as an anchor).",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-12",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Dinner recommendation (Awash in Manhattan) is consistent with keeping the day in Manhattan for parents based there.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-13",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Generic energy-based evening suggestion does not relate specifically to staying in Manhattan.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-14",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Summarizing the schedule table does not affect or address the Manhattan-stay constraint.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-15",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Advising taxis/Uber between neighborhoods supports a Manhattan-centric plan but does not explicitly assert the stay-in-Manhattan requirement.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-16",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Providing reference links does not bear on whether the itinerary is for parents staying in Manhattan.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-14",
+          "relationship": "DIRECT_CONNECTION",
+          "relationship_score": 4,
+          "explanation": "Explicitly clarifies that all destinations are within Manhattan, directly evaluating/confirming compliance with the 'staying in Manhattan' requirement.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        }
+      ]
+    },
+    "r3": {
+      "implementation_action_ids": [
+        "1-1",
+        "1-15"
+      ],
+      "contributing_action_ids": [
+        "1-2",
+        "1-4",
+        "1-5",
+        "1-6",
+        "1-7",
+        "1-8",
+        "1-9",
+        "1-10",
+        "1-11",
+        "1-13"
+      ],
+      "revise_action_ids": [],
+      "all_labels": [
+        {
+          "action_id": "1-1",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "The overall itinerary output is intended to satisfy the laidback/low-walking constraint via pacing and structure.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-2",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 3,
+          "explanation": "Sequencing downtown-to-uptown reduces backtracking and travel friction, supporting a more relaxed, lower-effort day.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-3",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-4",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 3,
+          "explanation": "Suggesting early timing and reservations is aimed at avoiding crowds, directly supporting the laidback requirement.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-5",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "A 'gentle stroll' is framed as low-intensity, but still adds walking; it partially supports laidback pacing.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-6",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 3,
+          "explanation": "Adding a planned rest break directly supports a laidback pace and reduces fatigue from walking.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-7",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Crowd-timing and ticket tips help avoid peak crowds, though the attraction itself can still be busy.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-8",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 3,
+          "explanation": "Recommending a cab/Uber and a low-key neighborhood reduces walking and avoids more hectic areas.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-9",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "A 'leisurely' stroll supports relaxed pacing but still involves walking, so it only partially aligns.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-10",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Providing optional extras lets the user skip more walking/crowds, supporting a laidback approach indirectly.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-11",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 3,
+          "explanation": "A scheduled hotel rest break directly reduces intensity and supports a relaxed, low-walking day.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-12",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-13",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 3,
+          "explanation": "Offering an energy-based choice to stroll or return to hotel supports keeping the pace laidback.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-14",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-15",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Explicitly recommending taxis/rideshares between neighborhoods directly operationalizes 'avoid a lot of walking' to keep it laidback.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-16",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-14",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        }
+      ]
+    },
+    "r4": {
+      "implementation_action_ids": [
+        "1-7"
+      ],
+      "contributing_action_ids": [
+        "1-1",
+        "1-10",
+        "1-14"
+      ],
+      "revise_action_ids": [],
+      "all_labels": [
+        {
+          "action_id": "1-1",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 3,
+          "explanation": "Intent-Reveal: A full itinerary likely includes landmarks, but the action is broadly about the whole day plan rather than explicitly ensuring 'a few famous landmarks.'",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-2",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Route smoothness and sequencing are about logistics/pacing, not about including famous landmarks.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-3",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Food recommendation does not relate to including famous landmarks.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-4",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Crowd/timing advice is unrelated to the inclusion of famous landmarks.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-5",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Neighborhood stroll suggestion is not explicitly a famous landmark inclusion.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-6",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Rest break recommendation does not affect whether landmarks are included.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-7",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Intent-Reveal: Recommending a visit to One World Observatory explicitly adds a well-known NYC landmark visit to the itinerary.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-8",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Transport to lunch neighborhood is logistical and not about landmark inclusion.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-9",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Leisurely neighborhood stroll is not explicitly a famous landmark visit.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-10",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Intent-Reveal: Optional extras include the High Line, a notable NYC attraction; this partially supports having landmark-type stops but is optional and not framed as 'famous landmarks.'",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-11",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Rest break recommendation does not relate to adding famous landmarks.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-12",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Dinner recommendation is unrelated to famous landmarks.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-13",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Evening flexibility suggestion is about pacing/energy, not landmark inclusion.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-14",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Intent-Reveal: The summary table reiterates scheduled items (including the observatory), indirectly reinforcing the landmark visit but not adding new landmark content.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-15",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Taxi/Uber advice concerns comfort and pacing, not landmark inclusion.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-16",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Reference links are general resources and do not specifically ensure famous landmarks are included.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-14",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Clarifying geography (all in Manhattan) does not pertain to including famous landmarks.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        }
+      ]
+    },
+    "r5": {
+      "implementation_action_ids": [
+        "1-3",
+        "1-12"
+      ],
+      "contributing_action_ids": [
+        "1-1",
+        "1-14"
+      ],
+      "revise_action_ids": [],
+      "all_labels": [
+        {
+          "action_id": "1-1",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "The full itinerary may include cultural (non-American) NYC-unique food components, but the action is not explicitly focused on satisfying that specific food requirement.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-2",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Route optimization (downtown to uptown) concerns logistics and does not address including NYC-only cultural food.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-3",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Recommending dim sum in Chinatown is a concrete inclusion of non-American cultural food and is a direct step toward fulfilling the requirement (even if 'only available in NYC' is not explicitly proven).",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-4",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Crowd-avoidance/reservation timing advice does not materially relate to NYC-only cultural food inclusion.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-5",
+          "relationship": "IMPLICIT_CONNECTION",
+          "relationship_score": 1,
+          "explanation": "Strolling Chinatown/Little Italy provides contextual proximity to cultural food options but does not itself add a specific NYC-only cultural food item.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-6",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "A generic coffee/tea break is not tied to NYC-only cultural (non-American) food.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-7",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Landmark observation deck recommendation is unrelated to cultural NYC-only food inclusion.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-8",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Suggesting a cab/Uber to West Village for lunch is about transport/neighborhood choice, not about NYC-only cultural food content.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-9",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "A neighborhood stroll does not concern adding NYC-only cultural food.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-10",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Optional bakery/High Line activities are not about cultural (non-American) NYC-only food.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-11",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Recommending a rest break is not related to the cultural NYC-only food requirement.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-12",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Recommending Ethiopian dinner and specific dishes is a direct inclusion of non-American cultural food, contributing substantively toward satisfying the requirement (though exclusivity to NYC is not explicitly established).",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-13",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Evening stroll/return-to-hotel suggestion does not address cultural NYC-only food.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-14",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 1,
+          "explanation": "The summary table may reflect the included cultural food stops, but it does not itself add or evaluate NYC-only cultural food.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-15",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Taxi/Uber advice concerns pacing/logistics, not cultural NYC-only food inclusion.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-16",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Providing reference links is not specifically tied to including NYC-only cultural food.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-14",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Clarifying that destinations are within Manhattan does not relate to NYC-only cultural food inclusion.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        }
+      ]
+    },
+    "r6": {
+      "implementation_action_ids": [
+        "3-5",
+        "3-6"
+      ],
+      "contributing_action_ids": [
+        "3-1",
+        "3-2",
+        "3-3",
+        "3-4"
+      ],
+      "revise_action_ids": [],
+      "all_labels": [
+        {
+          "action_id": "3-1",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 3,
+          "explanation": "Intent-Reveal — restates the simplification/one-sheet goal and reduced-text constraint, shaping how r6 will be met but not yet delivering the overview.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "3-2",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 3,
+          "explanation": "Feedback-Adopt — commits to a concise one-sheet redesign with priority markers, directly planning the execution of r6.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "3-3",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 3,
+          "explanation": "Option-Select — classifies content into high priority vs optional, a key structuring step toward the simplified overview required by r6.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "3-4",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 3,
+          "explanation": "Option-Select — sets brevity/scannability constraints (reduced text), directly advancing r6’s simplification requirement.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "3-5",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 5,
+          "explanation": "Feedback-Adopt — delivers the simplified, one-sheet, high-level itinerary overview with priority markings, satisfying r6.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "3-6",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Preference-Accumulate — provides a compact legend/transport note that supports the one-sheet overview’s usability while remaining concise.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        }
+      ]
+    },
+    "r7": {
+      "implementation_action_ids": [
+        "3-5",
+        "3-6"
+      ],
+      "contributing_action_ids": [
+        "3-1",
+        "3-2",
+        "3-3",
+        "3-4"
+      ],
+      "revise_action_ids": [],
+      "all_labels": [
+        {
+          "action_id": "3-1",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 3,
+          "explanation": "Restates the need to mark HIGH PRIORITY vs OPTIONAL, aligning the response toward fulfilling r7.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "3-2",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 3,
+          "explanation": "Plans to redesign output with priority markers, a concrete step toward satisfying r7.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "3-3",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 3,
+          "explanation": "Determines which items are high priority vs optional, preparing the content required by r7.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "3-4",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Chooses a concise format that makes priority vs optional markers clearer, indirectly aiding r7 implementation.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "3-5",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 5,
+          "explanation": "Outputs the itinerary with explicit high-priority vs optional markings, fulfilling r7.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "3-6",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Provides the legend that defines/communicates the high priority vs optional labels, completing the marking system required by r7.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        }
+      ]
+    },
+    "r8": {
+      "implementation_action_ids": [
+        "5-2",
+        "5-3",
+        "5-4",
+        "5-5",
+        "5-6",
+        "5-7",
+        "5-8"
+      ],
+      "contributing_action_ids": [],
+      "revise_action_ids": [],
+      "all_labels": [
+        {
+          "action_id": "5-2",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Intent-Reveal: explicitly annotates an activity (Golden Unicorn) with reservation guidance, directly fulfilling the requirement to mark reservation needs.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-3",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Intent-Reveal: states walk-in/no-reservation status for Nom Wah, directly annotating reservation requirement status.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-4",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 5,
+          "explanation": "Intent-Reveal: explicitly flags ticket requirement and recommends advance purchase for One World Observatory, a core example of reservation/ticket annotation.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-5",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Intent-Reveal: annotates Awash with optional reservation info and timing, directly addressing which activities need reservations.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-6",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Intent-Reveal: states Magnolia Bakery is walk-in/no reservation, directly annotating reservation requirement status.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-7",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 5,
+          "explanation": "Intent-Reveal: explicitly states the High Line is free and needs no tickets, directly fulfilling the ticket-annotation part of the requirement.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-8",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Intent-Reveal: states a West Village stroll needs no reservations, directly annotating reservation requirement status.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        }
+      ]
+    },
+    "r9": {
+      "implementation_action_ids": [
+        "5-2",
+        "5-4",
+        "5-5"
+      ],
+      "contributing_action_ids": [
+        "5-3",
+        "5-6",
+        "5-7",
+        "5-8"
+      ],
+      "revise_action_ids": [],
+      "all_labels": [
+        {
+          "action_id": "5-2",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Intent-Reveal: Provides an explicit 'how far in advance to book' recommendation for an activity that can take reservations (Golden Unicorn), directly satisfying r9 for that item.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-3",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 3,
+          "explanation": "Intent-Reveal: Clarifies that Nom Wah is typically walk-in (no reservation needed), which partially supports r9 by identifying reservation requirements, though it does not give an advance-booking window.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-4",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Intent-Reveal: Specifies ticket purchase timing (days to weeks in advance) for One World Observatory, directly fulfilling r9 for that ticketed activity.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-5",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Intent-Reveal: Gives a concrete advance-booking window (walk-in or reserve 1–2 days ahead) for Awash, directly satisfying r9 for that reservation-possible activity.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-6",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 3,
+          "explanation": "Intent-Reveal: States Magnolia is walk-in/no reservations, helping annotate reservation requirements, but does not provide an advance-booking window for a reservation-required activity.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-7",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 3,
+          "explanation": "Intent-Reveal: Indicates the High Line requires no tickets/reservations, contributing to the reservations/tickets annotation portion adjacent to r9 but not adding advance-book timing for a required item.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-8",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 3,
+          "explanation": "Intent-Reveal: Notes the West Village stroll needs no reservations, contributing to identifying which activities do/don't require booking, though not specifying lead time for required bookings.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        }
+      ]
+    }
+  },
+  "enriched_counts": {
+    "implements": 38,
+    "contributes": 68,
+    "revises": 0
+  },
+  "metadata": {
+    "model": "gpt-5.2-2025-12-11"
+  }
+}

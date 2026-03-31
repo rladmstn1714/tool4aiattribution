@@ -1,0 +1,958 @@
+{
+  "dialogue_id": "slack_export_dummy",
+  "dialogue_summary": "The purpose of the dialogue is to explore research directions and personal approaches to PhD studies, with an emphasis on networking and resource management.",
+  "outcomes": [
+    {
+      "outcome_id": "outcome_1",
+      "description": "Clarification on thinking versus acting in research context",
+      "outcome_type": "artifact",
+      "confidence": 0.8,
+      "created_at_turn": 0,
+      "parent_outcome_id": null,
+      "child_outcome_ids": [],
+      "related_outcome_ids": [],
+      "actions": [
+        {
+          "turn_id": 0,
+          "action_type": "Ask",
+          "action_text": "Asks for clarification about what the other meant",
+          "role": "OTHER",
+          "evidence_quote": "haha like what?",
+          "speaker": "Xinran (Vodka) Zhao",
+          "action_id": "0-1",
+          "bound_outcome_id": "outcome_1"
+        },
+        {
+          "turn_id": 0,
+          "action_type": "State",
+          "action_text": "States they are usually a person who does the bare minimum of thinking and more actions",
+          "role": "OTHER",
+          "evidence_quote": "I am usually a person with bare minimum thinking and more actions",
+          "speaker": "Xinran (Vodka) Zhao",
+          "action_id": "0-2",
+          "bound_outcome_id": "outcome_1"
+        },
+        {
+          "turn_id": 0,
+          "action_type": "Explain",
+          "action_text": "Explains that thinking is grounded with actions",
+          "role": "OTHER",
+          "evidence_quote": "(thinking is grounded with actions)",
+          "speaker": "Xinran (Vodka) Zhao",
+          "action_id": "0-3",
+          "bound_outcome_id": "outcome_1"
+        },
+        {
+          "turn_id": 1,
+          "action_type": "Acknowledge",
+          "action_text": "Agrees with the previous speaker",
+          "role": "OTHER",
+          "evidence_quote": "Agreed haha",
+          "speaker": "Eunsu",
+          "action_id": "1-1",
+          "bound_outcome_id": "outcome_1"
+        },
+        {
+          "turn_id": 1,
+          "action_type": "State",
+          "action_text": "Admits not being good at long-term thinking while acting",
+          "role": "OTHER",
+          "evidence_quote": "but i'm not good at thinking in long term while i act sth so",
+          "speaker": "Eunsu",
+          "action_id": "1-2",
+          "bound_outcome_id": "outcome_1"
+        },
+        {
+          "turn_id": 2,
+          "action_type": "Acknowledge",
+          "action_text": "Comments that the topic is interesting",
+          "role": "OTHER",
+          "evidence_quote": "interesting,",
+          "speaker": "Xinran (Vodka) Zhao",
+          "action_id": "2-1",
+          "bound_outcome_id": "outcome_1"
+        },
+        {
+          "turn_id": 2,
+          "action_type": "State",
+          "action_text": "Expresses curiosity",
+          "role": "OTHER",
+          "evidence_quote": "I am curious",
+          "speaker": "Xinran (Vodka) Zhao",
+          "action_id": "2-2",
+          "bound_outcome_id": "outcome_1"
+        },
+        {
+          "turn_id": 2,
+          "action_type": "Ask",
+          "action_text": "Asks for clarification on what 'just to think' means",
+          "role": "OTHER",
+          "evidence_quote": "what does that mean (just to think)?",
+          "speaker": "Xinran (Vodka) Zhao",
+          "action_id": "2-3",
+          "bound_outcome_id": "outcome_1"
+        },
+        {
+          "turn_id": 3,
+          "action_type": "Acknowledge",
+          "action_text": "Acknowledges the previous turn",
+          "role": "OTHER",
+          "evidence_quote": "Ohh so",
+          "speaker": "Eunsu",
+          "action_id": "3-1",
+          "bound_outcome_id": "outcome_1"
+        },
+        {
+          "turn_id": 4,
+          "action_type": "Report",
+          "action_text": "Reports having received an interesting quote from Chenglei Si and feeling they should have known it earlier",
+          "role": "OTHER",
+          "evidence_quote": "maybe I have mentioned it, but one interesting quote I got from Chenglei Si, which I feel I should have known it way earlier is that",
+          "speaker": "Xinran (Vodka) Zhao",
+          "action_id": "4-1",
+          "bound_outcome_id": "outcome_1"
+        },
+        {
+          "turn_id": 5,
+          "action_type": "Observe",
+          "action_text": "Observes that when working for conference deadlines and focusing on specific RQs they sometimes move toward local minima",
+          "role": "OTHER",
+          "evidence_quote": "When i work for the conf deadline, as i'm focusing on specific RQs i feel like sometimes i'm going toward local minima",
+          "speaker": "Eunsu",
+          "action_id": "5-2",
+          "bound_outcome_id": "outcome_1"
+        },
+        {
+          "turn_id": 6,
+          "action_type": "List",
+          "action_text": "Describes Chenglei's approach to choosing a PhD direction and lists his three criteria",
+          "role": "OTHER",
+          "evidence_quote": "he think about what he wanted to do for the whole PhD it starts (the AI ideation thing). His criterion was: (1) something he cares about and he will be happy if it becomes true even not from his hand; (2) it is impactful enough with many ppl care about and it is something within his reach; (3) can not be solved in the near future",
+          "speaker": "Xinran (Vodka) Zhao",
+          "action_id": "6-1",
+          "bound_outcome_id": "outcome_1"
+        },
+        {
+          "turn_id": 6,
+          "action_type": "Emphasize",
+          "action_text": "Expresses surprise at learning this",
+          "role": "OTHER",
+          "evidence_quote": "I was so surprised",
+          "speaker": "Xinran (Vodka) Zhao",
+          "action_id": "6-2",
+          "bound_outcome_id": "outcome_1"
+        },
+        {
+          "turn_id": 7,
+          "action_type": "Explain",
+          "action_text": "Explains that this approach made his work and effort very focused",
+          "role": "OTHER",
+          "evidence_quote": "but this makes his work and effort very focuses.",
+          "speaker": "Xinran (Vodka) Zhao",
+          "action_id": "7-1",
+          "bound_outcome_id": "outcome_1"
+        },
+        {
+          "turn_id": 7,
+          "action_type": "Report",
+          "action_text": "Reports that he earned his reputation from this approach",
+          "role": "OTHER",
+          "evidence_quote": "Also, he earned his name out of it.",
+          "speaker": "Xinran (Vodka) Zhao",
+          "action_id": "7-2",
+          "bound_outcome_id": "outcome_1"
+        },
+        {
+          "turn_id": 8,
+          "action_type": "Observe",
+          "action_text": "Says that chatting with top PhD students is fun.",
+          "role": "OTHER",
+          "evidence_quote": "so chat with the best PhD students are indeed fun.",
+          "speaker": "Xinran (Vodka) Zhao",
+          "action_id": "8-1",
+          "bound_outcome_id": "outcome_1"
+        },
+        {
+          "turn_id": 9,
+          "action_type": "State",
+          "action_text": "Expresses desire to find someone optimistic about the field to chat with.",
+          "role": "OTHER",
+          "evidence_quote": "I want to find someone who are optimistic to this field and chat..",
+          "speaker": "Eunsu",
+          "action_id": "9-1",
+          "bound_outcome_id": "outcome_1"
+        },
+        {
+          "turn_id": 9,
+          "action_type": "Report",
+          "action_text": "Reports that most people they recently met had a negative view.",
+          "role": "OTHER",
+          "evidence_quote": "Haha mostly everyone I met recently had negative view",
+          "speaker": "Eunsu",
+          "action_id": "9-2",
+          "bound_outcome_id": "outcome_1"
+        },
+        {
+          "turn_id": 11,
+          "action_type": "State",
+          "action_text": "States optimism about the field (NLP).",
+          "role": "OTHER",
+          "evidence_quote": "I am optimistic about the field (NLP?)",
+          "speaker": "Xinran (Vodka) Zhao",
+          "action_id": "11-1",
+          "bound_outcome_id": "outcome_1"
+        },
+        {
+          "turn_id": 11,
+          "action_type": "State",
+          "action_text": "States lack of optimism about academia.",
+          "role": "OTHER",
+          "evidence_quote": "just not optimistic about academia",
+          "speaker": "Xinran (Vodka) Zhao",
+          "action_id": "11-2",
+          "bound_outcome_id": "outcome_1"
+        }
+      ]
+    },
+    {
+      "outcome_id": "outcome_2",
+      "description": "Plan to think about research approach",
+      "outcome_type": "artifact",
+      "confidence": 0.8,
+      "created_at_turn": 3,
+      "parent_outcome_id": null,
+      "child_outcome_ids": [],
+      "related_outcome_ids": [],
+      "actions": [
+        {
+          "turn_id": 1,
+          "action_type": "Request",
+          "action_text": "Expresses a need for time to think",
+          "role": "OTHER",
+          "evidence_quote": "I need time to just think lol",
+          "speaker": "Eunsu",
+          "action_id": "1-3",
+          "bound_outcome_id": "outcome_2"
+        },
+        {
+          "turn_id": 3,
+          "action_type": "Plan",
+          "action_text": "States an intention to continue thinking about it",
+          "role": "OTHER",
+          "evidence_quote": "I want to keep thinking about",
+          "speaker": "Eunsu",
+          "action_id": "3-2",
+          "bound_outcome_id": "outcome_2"
+        },
+        {
+          "turn_id": 5,
+          "action_type": "State",
+          "action_text": "States that they sometimes want to stop working and just think",
+          "role": "OTHER",
+          "evidence_quote": "So i sometimes want to stop working and just think haha",
+          "speaker": "Eunsu",
+          "action_id": "5-3",
+          "bound_outcome_id": "outcome_2"
+        }
+      ]
+    },
+    {
+      "outcome_id": "outcome_3",
+      "description": "Develop understanding of model aspirations in the field",
+      "outcome_type": "artifact",
+      "confidence": 0.8,
+      "created_at_turn": 5,
+      "parent_outcome_id": null,
+      "child_outcome_ids": [],
+      "related_outcome_ids": [],
+      "actions": [
+        {
+          "turn_id": 5,
+          "action_type": "State",
+          "action_text": "States what they want the models to be in the field and what type of research might be needed",
+          "role": "SHAPER",
+          "evidence_quote": "What i want the models to be in this field what type of research might be needed etc",
+          "speaker": "Eunsu",
+          "action_id": "5-1",
+          "bound_outcome_id": "outcome_3"
+        }
+      ]
+    },
+    {
+      "outcome_id": "outcome_4",
+      "description": "Networking suggestion with industry directors",
+      "outcome_type": "artifact",
+      "confidence": 0.8,
+      "created_at_turn": 8,
+      "parent_outcome_id": null,
+      "child_outcome_ids": [],
+      "related_outcome_ids": [],
+      "actions": [
+        {
+          "turn_id": 8,
+          "action_type": "Suggest",
+          "action_text": "Suggests chatting with directors at Samsung or LG to learn their thoughts on PhD outside academia.",
+          "role": "SHAPER",
+          "evidence_quote": "I can tell it is similarly fun if you chat with some directors at Samsung or LG to learn about their thoughts of PhD outside of PhD stratosphere",
+          "speaker": "Xinran (Vodka) Zhao",
+          "action_id": "8-2",
+          "bound_outcome_id": "outcome_4"
+        }
+      ]
+    },
+    {
+      "outcome_id": "outcome_5",
+      "description": "Advice on PhD resource management",
+      "outcome_type": "artifact",
+      "confidence": 0.8,
+      "created_at_turn": 10,
+      "parent_outcome_id": null,
+      "child_outcome_ids": [],
+      "related_outcome_ids": [],
+      "actions": [
+        {
+          "turn_id": 10,
+          "action_type": "State",
+          "action_text": "Admits they are not a successful one.",
+          "role": "OTHER",
+          "evidence_quote": "I am not a successful one",
+          "speaker": "Xinran (Vodka) Zhao",
+          "action_id": "10-1",
+          "bound_outcome_id": "outcome_5"
+        },
+        {
+          "turn_id": 10,
+          "action_type": "Report",
+          "action_text": "States they studied the placement and trajectory of many PhD students before starting.",
+          "role": "OTHER",
+          "evidence_quote": "I have studied the placement and trajectory of many PhD students before I start.",
+          "speaker": "Xinran (Vodka) Zhao",
+          "action_id": "10-2",
+          "bound_outcome_id": "outcome_5"
+        },
+        {
+          "turn_id": 10,
+          "action_type": "Recommend",
+          "action_text": "Advises not to expect sufficient resources from the department.",
+          "role": "SHAPER",
+          "evidence_quote": "you should never expect enough resource from the department.",
+          "speaker": "Xinran (Vodka) Zhao",
+          "action_id": "10-3",
+          "bound_outcome_id": "outcome_5"
+        },
+        {
+          "turn_id": 10,
+          "action_type": "Recommend",
+          "action_text": "Advises bringing one's own resources to a PhD rather than assuming limited resources.",
+          "role": "SHAPER",
+          "evidence_quote": "You should bring your resource to your PhD, not work under the assumption of limited resource, like the hunter of the tribe",
+          "speaker": "Xinran (Vodka) Zhao",
+          "action_id": "10-4",
+          "bound_outcome_id": "outcome_5"
+        }
+      ]
+    }
+  ],
+  "outcome_versions": [],
+  "outcome_actions": {
+    "outcome_1": [
+      {
+        "turn_id": 0,
+        "action_type": "Ask",
+        "action_text": "Asks for clarification about what the other meant",
+        "role": "OTHER",
+        "evidence_quote": "haha like what?",
+        "speaker": "Xinran (Vodka) Zhao",
+        "action_id": "0-1",
+        "bound_outcome_id": "outcome_1"
+      },
+      {
+        "turn_id": 0,
+        "action_type": "State",
+        "action_text": "States they are usually a person who does the bare minimum of thinking and more actions",
+        "role": "OTHER",
+        "evidence_quote": "I am usually a person with bare minimum thinking and more actions",
+        "speaker": "Xinran (Vodka) Zhao",
+        "action_id": "0-2",
+        "bound_outcome_id": "outcome_1"
+      },
+      {
+        "turn_id": 0,
+        "action_type": "Explain",
+        "action_text": "Explains that thinking is grounded with actions",
+        "role": "OTHER",
+        "evidence_quote": "(thinking is grounded with actions)",
+        "speaker": "Xinran (Vodka) Zhao",
+        "action_id": "0-3",
+        "bound_outcome_id": "outcome_1"
+      },
+      {
+        "turn_id": 1,
+        "action_type": "Acknowledge",
+        "action_text": "Agrees with the previous speaker",
+        "role": "OTHER",
+        "evidence_quote": "Agreed haha",
+        "speaker": "Eunsu",
+        "action_id": "1-1",
+        "bound_outcome_id": "outcome_1"
+      },
+      {
+        "turn_id": 1,
+        "action_type": "State",
+        "action_text": "Admits not being good at long-term thinking while acting",
+        "role": "OTHER",
+        "evidence_quote": "but i'm not good at thinking in long term while i act sth so",
+        "speaker": "Eunsu",
+        "action_id": "1-2",
+        "bound_outcome_id": "outcome_1"
+      },
+      {
+        "turn_id": 2,
+        "action_type": "Acknowledge",
+        "action_text": "Comments that the topic is interesting",
+        "role": "OTHER",
+        "evidence_quote": "interesting,",
+        "speaker": "Xinran (Vodka) Zhao",
+        "action_id": "2-1",
+        "bound_outcome_id": "outcome_1"
+      },
+      {
+        "turn_id": 2,
+        "action_type": "State",
+        "action_text": "Expresses curiosity",
+        "role": "OTHER",
+        "evidence_quote": "I am curious",
+        "speaker": "Xinran (Vodka) Zhao",
+        "action_id": "2-2",
+        "bound_outcome_id": "outcome_1"
+      },
+      {
+        "turn_id": 2,
+        "action_type": "Ask",
+        "action_text": "Asks for clarification on what 'just to think' means",
+        "role": "OTHER",
+        "evidence_quote": "what does that mean (just to think)?",
+        "speaker": "Xinran (Vodka) Zhao",
+        "action_id": "2-3",
+        "bound_outcome_id": "outcome_1"
+      },
+      {
+        "turn_id": 3,
+        "action_type": "Acknowledge",
+        "action_text": "Acknowledges the previous turn",
+        "role": "OTHER",
+        "evidence_quote": "Ohh so",
+        "speaker": "Eunsu",
+        "action_id": "3-1",
+        "bound_outcome_id": "outcome_1"
+      },
+      {
+        "turn_id": 4,
+        "action_type": "Report",
+        "action_text": "Reports having received an interesting quote from Chenglei Si and feeling they should have known it earlier",
+        "role": "OTHER",
+        "evidence_quote": "maybe I have mentioned it, but one interesting quote I got from Chenglei Si, which I feel I should have known it way earlier is that",
+        "speaker": "Xinran (Vodka) Zhao",
+        "action_id": "4-1",
+        "bound_outcome_id": "outcome_1"
+      },
+      {
+        "turn_id": 5,
+        "action_type": "Observe",
+        "action_text": "Observes that when working for conference deadlines and focusing on specific RQs they sometimes move toward local minima",
+        "role": "OTHER",
+        "evidence_quote": "When i work for the conf deadline, as i'm focusing on specific RQs i feel like sometimes i'm going toward local minima",
+        "speaker": "Eunsu",
+        "action_id": "5-2",
+        "bound_outcome_id": "outcome_1"
+      },
+      {
+        "turn_id": 6,
+        "action_type": "List",
+        "action_text": "Describes Chenglei's approach to choosing a PhD direction and lists his three criteria",
+        "role": "OTHER",
+        "evidence_quote": "he think about what he wanted to do for the whole PhD it starts (the AI ideation thing). His criterion was: (1) something he cares about and he will be happy if it becomes true even not from his hand; (2) it is impactful enough with many ppl care about and it is something within his reach; (3) can not be solved in the near future",
+        "speaker": "Xinran (Vodka) Zhao",
+        "action_id": "6-1",
+        "bound_outcome_id": "outcome_1"
+      },
+      {
+        "turn_id": 6,
+        "action_type": "Emphasize",
+        "action_text": "Expresses surprise at learning this",
+        "role": "OTHER",
+        "evidence_quote": "I was so surprised",
+        "speaker": "Xinran (Vodka) Zhao",
+        "action_id": "6-2",
+        "bound_outcome_id": "outcome_1"
+      },
+      {
+        "turn_id": 7,
+        "action_type": "Explain",
+        "action_text": "Explains that this approach made his work and effort very focused",
+        "role": "OTHER",
+        "evidence_quote": "but this makes his work and effort very focuses.",
+        "speaker": "Xinran (Vodka) Zhao",
+        "action_id": "7-1",
+        "bound_outcome_id": "outcome_1"
+      },
+      {
+        "turn_id": 7,
+        "action_type": "Report",
+        "action_text": "Reports that he earned his reputation from this approach",
+        "role": "OTHER",
+        "evidence_quote": "Also, he earned his name out of it.",
+        "speaker": "Xinran (Vodka) Zhao",
+        "action_id": "7-2",
+        "bound_outcome_id": "outcome_1"
+      },
+      {
+        "turn_id": 8,
+        "action_type": "Observe",
+        "action_text": "Says that chatting with top PhD students is fun.",
+        "role": "OTHER",
+        "evidence_quote": "so chat with the best PhD students are indeed fun.",
+        "speaker": "Xinran (Vodka) Zhao",
+        "action_id": "8-1",
+        "bound_outcome_id": "outcome_1"
+      },
+      {
+        "turn_id": 9,
+        "action_type": "State",
+        "action_text": "Expresses desire to find someone optimistic about the field to chat with.",
+        "role": "OTHER",
+        "evidence_quote": "I want to find someone who are optimistic to this field and chat..",
+        "speaker": "Eunsu",
+        "action_id": "9-1",
+        "bound_outcome_id": "outcome_1"
+      },
+      {
+        "turn_id": 9,
+        "action_type": "Report",
+        "action_text": "Reports that most people they recently met had a negative view.",
+        "role": "OTHER",
+        "evidence_quote": "Haha mostly everyone I met recently had negative view",
+        "speaker": "Eunsu",
+        "action_id": "9-2",
+        "bound_outcome_id": "outcome_1"
+      },
+      {
+        "turn_id": 11,
+        "action_type": "State",
+        "action_text": "States optimism about the field (NLP).",
+        "role": "OTHER",
+        "evidence_quote": "I am optimistic about the field (NLP?)",
+        "speaker": "Xinran (Vodka) Zhao",
+        "action_id": "11-1",
+        "bound_outcome_id": "outcome_1"
+      },
+      {
+        "turn_id": 11,
+        "action_type": "State",
+        "action_text": "States lack of optimism about academia.",
+        "role": "OTHER",
+        "evidence_quote": "just not optimistic about academia",
+        "speaker": "Xinran (Vodka) Zhao",
+        "action_id": "11-2",
+        "bound_outcome_id": "outcome_1"
+      }
+    ],
+    "outcome_2": [
+      {
+        "turn_id": 1,
+        "action_type": "Request",
+        "action_text": "Expresses a need for time to think",
+        "role": "OTHER",
+        "evidence_quote": "I need time to just think lol",
+        "speaker": "Eunsu",
+        "action_id": "1-3",
+        "bound_outcome_id": "outcome_2"
+      },
+      {
+        "turn_id": 3,
+        "action_type": "Plan",
+        "action_text": "States an intention to continue thinking about it",
+        "role": "OTHER",
+        "evidence_quote": "I want to keep thinking about",
+        "speaker": "Eunsu",
+        "action_id": "3-2",
+        "bound_outcome_id": "outcome_2"
+      },
+      {
+        "turn_id": 5,
+        "action_type": "State",
+        "action_text": "States that they sometimes want to stop working and just think",
+        "role": "OTHER",
+        "evidence_quote": "So i sometimes want to stop working and just think haha",
+        "speaker": "Eunsu",
+        "action_id": "5-3",
+        "bound_outcome_id": "outcome_2"
+      }
+    ],
+    "outcome_3": [
+      {
+        "turn_id": 5,
+        "action_type": "State",
+        "action_text": "States what they want the models to be in the field and what type of research might be needed",
+        "role": "SHAPER",
+        "evidence_quote": "What i want the models to be in this field what type of research might be needed etc",
+        "speaker": "Eunsu",
+        "action_id": "5-1",
+        "bound_outcome_id": "outcome_3"
+      }
+    ],
+    "outcome_4": [
+      {
+        "turn_id": 8,
+        "action_type": "Suggest",
+        "action_text": "Suggests chatting with directors at Samsung or LG to learn their thoughts on PhD outside academia.",
+        "role": "SHAPER",
+        "evidence_quote": "I can tell it is similarly fun if you chat with some directors at Samsung or LG to learn about their thoughts of PhD outside of PhD stratosphere",
+        "speaker": "Xinran (Vodka) Zhao",
+        "action_id": "8-2",
+        "bound_outcome_id": "outcome_4"
+      }
+    ],
+    "outcome_5": [
+      {
+        "turn_id": 10,
+        "action_type": "State",
+        "action_text": "Admits they are not a successful one.",
+        "role": "OTHER",
+        "evidence_quote": "I am not a successful one",
+        "speaker": "Xinran (Vodka) Zhao",
+        "action_id": "10-1",
+        "bound_outcome_id": "outcome_5"
+      },
+      {
+        "turn_id": 10,
+        "action_type": "Report",
+        "action_text": "States they studied the placement and trajectory of many PhD students before starting.",
+        "role": "OTHER",
+        "evidence_quote": "I have studied the placement and trajectory of many PhD students before I start.",
+        "speaker": "Xinran (Vodka) Zhao",
+        "action_id": "10-2",
+        "bound_outcome_id": "outcome_5"
+      },
+      {
+        "turn_id": 10,
+        "action_type": "Recommend",
+        "action_text": "Advises not to expect sufficient resources from the department.",
+        "role": "SHAPER",
+        "evidence_quote": "you should never expect enough resource from the department.",
+        "speaker": "Xinran (Vodka) Zhao",
+        "action_id": "10-3",
+        "bound_outcome_id": "outcome_5"
+      },
+      {
+        "turn_id": 10,
+        "action_type": "Recommend",
+        "action_text": "Advises bringing one's own resources to a PhD rather than assuming limited resources.",
+        "role": "SHAPER",
+        "evidence_quote": "You should bring your resource to your PhD, not work under the assumption of limited resource, like the hunter of the tribe",
+        "speaker": "Xinran (Vodka) Zhao",
+        "action_id": "10-4",
+        "bound_outcome_id": "outcome_5"
+      }
+    ]
+  },
+  "all_actions": [
+    {
+      "turn_id": 0,
+      "action_type": "Ask",
+      "action_text": "Asks for clarification about what the other meant",
+      "role": "OTHER",
+      "evidence_quote": "haha like what?",
+      "speaker": "Xinran (Vodka) Zhao",
+      "action_id": "0-1",
+      "bound_outcome_id": "outcome_1"
+    },
+    {
+      "turn_id": 0,
+      "action_type": "State",
+      "action_text": "States they are usually a person who does the bare minimum of thinking and more actions",
+      "role": "OTHER",
+      "evidence_quote": "I am usually a person with bare minimum thinking and more actions",
+      "speaker": "Xinran (Vodka) Zhao",
+      "action_id": "0-2",
+      "bound_outcome_id": "outcome_1"
+    },
+    {
+      "turn_id": 0,
+      "action_type": "Explain",
+      "action_text": "Explains that thinking is grounded with actions",
+      "role": "OTHER",
+      "evidence_quote": "(thinking is grounded with actions)",
+      "speaker": "Xinran (Vodka) Zhao",
+      "action_id": "0-3",
+      "bound_outcome_id": "outcome_1"
+    },
+    {
+      "turn_id": 1,
+      "action_type": "Acknowledge",
+      "action_text": "Agrees with the previous speaker",
+      "role": "OTHER",
+      "evidence_quote": "Agreed haha",
+      "speaker": "Eunsu",
+      "action_id": "1-1",
+      "bound_outcome_id": "outcome_1"
+    },
+    {
+      "turn_id": 1,
+      "action_type": "State",
+      "action_text": "Admits not being good at long-term thinking while acting",
+      "role": "OTHER",
+      "evidence_quote": "but i'm not good at thinking in long term while i act sth so",
+      "speaker": "Eunsu",
+      "action_id": "1-2",
+      "bound_outcome_id": "outcome_1"
+    },
+    {
+      "turn_id": 1,
+      "action_type": "Request",
+      "action_text": "Expresses a need for time to think",
+      "role": "OTHER",
+      "evidence_quote": "I need time to just think lol",
+      "speaker": "Eunsu",
+      "action_id": "1-3",
+      "bound_outcome_id": "outcome_2"
+    },
+    {
+      "turn_id": 2,
+      "action_type": "Acknowledge",
+      "action_text": "Comments that the topic is interesting",
+      "role": "OTHER",
+      "evidence_quote": "interesting,",
+      "speaker": "Xinran (Vodka) Zhao",
+      "action_id": "2-1",
+      "bound_outcome_id": "outcome_1"
+    },
+    {
+      "turn_id": 2,
+      "action_type": "State",
+      "action_text": "Expresses curiosity",
+      "role": "OTHER",
+      "evidence_quote": "I am curious",
+      "speaker": "Xinran (Vodka) Zhao",
+      "action_id": "2-2",
+      "bound_outcome_id": "outcome_1"
+    },
+    {
+      "turn_id": 2,
+      "action_type": "Ask",
+      "action_text": "Asks for clarification on what 'just to think' means",
+      "role": "OTHER",
+      "evidence_quote": "what does that mean (just to think)?",
+      "speaker": "Xinran (Vodka) Zhao",
+      "action_id": "2-3",
+      "bound_outcome_id": "outcome_1"
+    },
+    {
+      "turn_id": 3,
+      "action_type": "Acknowledge",
+      "action_text": "Acknowledges the previous turn",
+      "role": "OTHER",
+      "evidence_quote": "Ohh so",
+      "speaker": "Eunsu",
+      "action_id": "3-1",
+      "bound_outcome_id": "outcome_1"
+    },
+    {
+      "turn_id": 3,
+      "action_type": "Plan",
+      "action_text": "States an intention to continue thinking about it",
+      "role": "OTHER",
+      "evidence_quote": "I want to keep thinking about",
+      "speaker": "Eunsu",
+      "action_id": "3-2",
+      "bound_outcome_id": "outcome_2"
+    },
+    {
+      "turn_id": 4,
+      "action_type": "Report",
+      "action_text": "Reports having received an interesting quote from Chenglei Si and feeling they should have known it earlier",
+      "role": "OTHER",
+      "evidence_quote": "maybe I have mentioned it, but one interesting quote I got from Chenglei Si, which I feel I should have known it way earlier is that",
+      "speaker": "Xinran (Vodka) Zhao",
+      "action_id": "4-1",
+      "bound_outcome_id": "outcome_1"
+    },
+    {
+      "turn_id": 5,
+      "action_type": "State",
+      "action_text": "States what they want the models to be in the field and what type of research might be needed",
+      "role": "SHAPER",
+      "evidence_quote": "What i want the models to be in this field what type of research might be needed etc",
+      "speaker": "Eunsu",
+      "action_id": "5-1",
+      "bound_outcome_id": "outcome_3"
+    },
+    {
+      "turn_id": 5,
+      "action_type": "Observe",
+      "action_text": "Observes that when working for conference deadlines and focusing on specific RQs they sometimes move toward local minima",
+      "role": "OTHER",
+      "evidence_quote": "When i work for the conf deadline, as i'm focusing on specific RQs i feel like sometimes i'm going toward local minima",
+      "speaker": "Eunsu",
+      "action_id": "5-2",
+      "bound_outcome_id": "outcome_1"
+    },
+    {
+      "turn_id": 5,
+      "action_type": "State",
+      "action_text": "States that they sometimes want to stop working and just think",
+      "role": "OTHER",
+      "evidence_quote": "So i sometimes want to stop working and just think haha",
+      "speaker": "Eunsu",
+      "action_id": "5-3",
+      "bound_outcome_id": "outcome_2"
+    },
+    {
+      "turn_id": 6,
+      "action_type": "List",
+      "action_text": "Describes Chenglei's approach to choosing a PhD direction and lists his three criteria",
+      "role": "OTHER",
+      "evidence_quote": "he think about what he wanted to do for the whole PhD it starts (the AI ideation thing). His criterion was: (1) something he cares about and he will be happy if it becomes true even not from his hand; (2) it is impactful enough with many ppl care about and it is something within his reach; (3) can not be solved in the near future",
+      "speaker": "Xinran (Vodka) Zhao",
+      "action_id": "6-1",
+      "bound_outcome_id": "outcome_1"
+    },
+    {
+      "turn_id": 6,
+      "action_type": "Emphasize",
+      "action_text": "Expresses surprise at learning this",
+      "role": "OTHER",
+      "evidence_quote": "I was so surprised",
+      "speaker": "Xinran (Vodka) Zhao",
+      "action_id": "6-2",
+      "bound_outcome_id": "outcome_1"
+    },
+    {
+      "turn_id": 7,
+      "action_type": "Explain",
+      "action_text": "Explains that this approach made his work and effort very focused",
+      "role": "OTHER",
+      "evidence_quote": "but this makes his work and effort very focuses.",
+      "speaker": "Xinran (Vodka) Zhao",
+      "action_id": "7-1",
+      "bound_outcome_id": "outcome_1"
+    },
+    {
+      "turn_id": 7,
+      "action_type": "Report",
+      "action_text": "Reports that he earned his reputation from this approach",
+      "role": "OTHER",
+      "evidence_quote": "Also, he earned his name out of it.",
+      "speaker": "Xinran (Vodka) Zhao",
+      "action_id": "7-2",
+      "bound_outcome_id": "outcome_1"
+    },
+    {
+      "turn_id": 8,
+      "action_type": "Observe",
+      "action_text": "Says that chatting with top PhD students is fun.",
+      "role": "OTHER",
+      "evidence_quote": "so chat with the best PhD students are indeed fun.",
+      "speaker": "Xinran (Vodka) Zhao",
+      "action_id": "8-1",
+      "bound_outcome_id": "outcome_1"
+    },
+    {
+      "turn_id": 8,
+      "action_type": "Suggest",
+      "action_text": "Suggests chatting with directors at Samsung or LG to learn their thoughts on PhD outside academia.",
+      "role": "SHAPER",
+      "evidence_quote": "I can tell it is similarly fun if you chat with some directors at Samsung or LG to learn about their thoughts of PhD outside of PhD stratosphere",
+      "speaker": "Xinran (Vodka) Zhao",
+      "action_id": "8-2",
+      "bound_outcome_id": "outcome_4"
+    },
+    {
+      "turn_id": 9,
+      "action_type": "State",
+      "action_text": "Expresses desire to find someone optimistic about the field to chat with.",
+      "role": "OTHER",
+      "evidence_quote": "I want to find someone who are optimistic to this field and chat..",
+      "speaker": "Eunsu",
+      "action_id": "9-1",
+      "bound_outcome_id": "outcome_1"
+    },
+    {
+      "turn_id": 9,
+      "action_type": "Report",
+      "action_text": "Reports that most people they recently met had a negative view.",
+      "role": "OTHER",
+      "evidence_quote": "Haha mostly everyone I met recently had negative view",
+      "speaker": "Eunsu",
+      "action_id": "9-2",
+      "bound_outcome_id": "outcome_1"
+    },
+    {
+      "turn_id": 10,
+      "action_type": "State",
+      "action_text": "Admits they are not a successful one.",
+      "role": "OTHER",
+      "evidence_quote": "I am not a successful one",
+      "speaker": "Xinran (Vodka) Zhao",
+      "action_id": "10-1",
+      "bound_outcome_id": "outcome_5"
+    },
+    {
+      "turn_id": 10,
+      "action_type": "Report",
+      "action_text": "States they studied the placement and trajectory of many PhD students before starting.",
+      "role": "OTHER",
+      "evidence_quote": "I have studied the placement and trajectory of many PhD students before I start.",
+      "speaker": "Xinran (Vodka) Zhao",
+      "action_id": "10-2",
+      "bound_outcome_id": "outcome_5"
+    },
+    {
+      "turn_id": 10,
+      "action_type": "Recommend",
+      "action_text": "Advises not to expect sufficient resources from the department.",
+      "role": "SHAPER",
+      "evidence_quote": "you should never expect enough resource from the department.",
+      "speaker": "Xinran (Vodka) Zhao",
+      "action_id": "10-3",
+      "bound_outcome_id": "outcome_5"
+    },
+    {
+      "turn_id": 10,
+      "action_type": "Recommend",
+      "action_text": "Advises bringing one's own resources to a PhD rather than assuming limited resources.",
+      "role": "SHAPER",
+      "evidence_quote": "You should bring your resource to your PhD, not work under the assumption of limited resource, like the hunter of the tribe",
+      "speaker": "Xinran (Vodka) Zhao",
+      "action_id": "10-4",
+      "bound_outcome_id": "outcome_5"
+    },
+    {
+      "turn_id": 11,
+      "action_type": "State",
+      "action_text": "States optimism about the field (NLP).",
+      "role": "OTHER",
+      "evidence_quote": "I am optimistic about the field (NLP?)",
+      "speaker": "Xinran (Vodka) Zhao",
+      "action_id": "11-1",
+      "bound_outcome_id": "outcome_1"
+    },
+    {
+      "turn_id": 11,
+      "action_type": "State",
+      "action_text": "States lack of optimism about academia.",
+      "role": "OTHER",
+      "evidence_quote": "just not optimistic about academia",
+      "speaker": "Xinran (Vodka) Zhao",
+      "action_id": "11-2",
+      "bound_outcome_id": "outcome_1"
+    }
+  ],
+  "metadata": {
+    "num_outcomes": 5,
+    "num_outcome_versions": 0,
+    "num_actions": 29,
+    "model": "gpt-4o-2024-08-06",
+    "step1c_requirements": true
+  }
+}

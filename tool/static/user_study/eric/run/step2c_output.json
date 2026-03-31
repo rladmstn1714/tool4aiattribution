@@ -1,0 +1,483 @@
+{
+  "dialogue_id": "poe_share_CyVwv5i2CUHU3Z02IXxk",
+  "forward_labels": {
+    "r1": {
+      "implementation_action_ids": [
+        "7-8"
+      ],
+      "contributing_action_ids": [
+        "7-1",
+        "7-5",
+        "7-7",
+        "7-16",
+        "7-17",
+        "7-18",
+        "9-18",
+        "9-19",
+        "9-20"
+      ],
+      "revise_action_ids": [],
+      "all_labels": [
+        {
+          "action_id": "6-1",
+          "relationship": "DIRECT_CONNECTION",
+          "relationship_score": 4,
+          "explanation": "User requests a complete start-to-finish plan, directly invoking the need to satisfy the timed schedule constraint.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "7-1",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 1,
+          "explanation": "Acknowledging the request is a conversational step toward producing the timed schedule but does not itself define or fulfill it.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "7-2",
+          "relationship": "DIRECT_CONNECTION",
+          "relationship_score": 4,
+          "explanation": "Assistant explicitly focuses on the 11:00 AM to 8:30 PM time markers, directly operating on the requirement.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "7-3",
+          "relationship": "DIRECT_CONNECTION",
+          "relationship_score": 4,
+          "explanation": "Refining the timeline/transition times directly adjusts the timed schedule structure needed to meet 11:00 AM–8:30 PM.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "7-4",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Locks in specific activities (breakfast/cruise/rest) but does not address the requirement of a timed schedule from 11:00 AM to 8:30 PM.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "7-5",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Adding a buffer is partial scheduling work that helps the day fit the required time window but does not itself specify the full 11:00 AM–8:30 PM schedule.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "7-6",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Choosing a lunch venue is about content, not the requirement to specify the overall timed schedule from 11:00 AM to 8:30 PM.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "7-7",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 3,
+          "explanation": "Planning precise transport timings is direct progress toward meeting the required timed schedule endpoints and structure.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "7-8",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 5,
+          "explanation": "Provides the complete start-to-finish itinerary output, which is the artifact that fulfills the timed 11:00 AM–8:30 PM schedule requirement.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "7-9",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Breakfast proximity/leisurely pacing are not about specifying the itinerary’s 11:00 AM–8:30 PM timed schedule.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "7-16",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Specific transit instruction supports keeping the schedule on time, contributing to meeting the overall time window without defining it.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "7-17",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "A 1:45 PM reservation time is a concrete time anchor that helps implement a timed day, but it is only a partial component of the full 11:00 AM–8:30 PM schedule.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "7-18",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Post-lunch cab instruction helps preserve timing continuity, contributing indirectly to maintaining the required schedule window.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "7-19",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Suggesting an afternoon rest is about activity pacing, not explicitly about specifying the 11:00 AM–8:30 PM timed schedule requirement.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "7-24",
+          "relationship": "DIRECT_CONNECTION",
+          "relationship_score": 4,
+          "explanation": "Explicitly targets an 8:30 PM arrival back at the hotel, directly addressing the required end time of the schedule window.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "9-18",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Cab duration guidance supports keeping the itinerary within the required time window but does not itself specify the full schedule.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "9-19",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Recommending a timed reservation provides a scheduling detail that helps realize the timed itinerary but is not the full 11:00 AM–8:30 PM schedule.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "9-20",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Instruction to hail a cab after lunch supports schedule adherence, contributing to fitting within the day’s required timing.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "9-28",
+          "relationship": "DIRECT_CONNECTION",
+          "relationship_score": 4,
+          "explanation": "States the expected arrival time back at the hotel (8:30 PM), directly addressing the end time specified in the requirement.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        }
+      ]
+    },
+    "r2": {
+      "implementation_action_ids": [
+        "7-10",
+        "7-11",
+        "9-11",
+        "9-12"
+      ],
+      "contributing_action_ids": [
+        "7-12",
+        "9-13"
+      ],
+      "revise_action_ids": [],
+      "all_labels": [
+        {
+          "action_id": "7-10",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Provides direct travel instruction to go to the Circle Line Terminal, satisfying the requirement to direct them there (Pier 83 implied via terminal).",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "7-11",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 5,
+          "explanation": "Explicitly tells them to instruct the driver to take them to Pier 83 / Circle Line Terminal, fully fulfilling the requirement.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "7-12",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Adds rationale for the drop-off but does not add or refine the Pier 83 direction itself.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "7-13",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Boarding/ticket-window instructions do not pertain to directing them to Pier 83.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "7-14",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "On-boat deck/amenity guidance is unrelated to the requirement about going to Pier 83.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "7-15",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Seating recommendation does not affect directing them to Pier 83.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "9-11",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Repeats/strengthens the instruction to travel to the Circle Line Terminal, implementing the required direction.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "9-12",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 5,
+          "explanation": "Provides an exact script to tell the driver to reach the Circle Line Terminal (Pier 83), directly fulfilling the requirement.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "9-13",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Supports the travel-to-terminal instruction with convenience details, but does not itself specify the Pier 83 destination.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "9-14",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Boarding-line/ticket-window instructions occur after arrival and do not relate to directing them to Pier 83.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "9-15",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Instructions about boarding and where to sit do not concern the requirement to go to Pier 83.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        }
+      ]
+    },
+    "r3": {
+      "implementation_action_ids": [],
+      "contributing_action_ids": [
+        "7-13",
+        "9-14"
+      ],
+      "revise_action_ids": [],
+      "all_labels": [
+        {
+          "action_id": "7-10",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Transportation instruction to the terminal does not address online advance ticket purchase or bypassing ticket windows.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "7-11",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Driver script (destination) is unrelated to the ticketing/bypass requirement.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "7-12",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Explaining convenience of taxi drop-off does not concern advance online tickets or skipping ticket windows.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "7-13",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 3,
+          "explanation": "States/uses the premise that tickets are purchased and instructs bypassing ticket windows; however it does not explicitly specify purchasing tickets online in advance.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "7-14",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Deck/amenities guidance is unrelated to the advance online ticket and bypass-windows requirement.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "7-15",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Seating recommendation does not relate to ticket purchase method or bypassing ticket windows.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "9-11",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Repeat of transport instruction; not about online advance ticket purchase or bypassing ticket windows.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "9-12",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Driver script again does not address ticketing or bypassing windows.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "9-13",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Drop-off accessibility statement does not connect to ticket purchase/bypass instructions.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "9-14",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 3,
+          "explanation": "Explicitly instructs bypassing ticket windows because tickets are already purchased, but still does not explicitly state 'purchased online in advance.'",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "9-15",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Boarding/lower deck instruction does not mention online advance purchase or bypassing ticket windows.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        }
+      ]
+    },
+    "r4": {
+      "implementation_action_ids": [
+        "7-22",
+        "9-25"
+      ],
+      "contributing_action_ids": [
+        "7-20",
+        "7-23",
+        "9-22"
+      ],
+      "revise_action_ids": [],
+      "all_labels": [
+        {
+          "action_id": "7-20",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 1,
+          "explanation": "Preference-Accumulate: Gets the plan to Madison Square Park but does not address dinner distance from the park.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "7-21",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "No meaningful relationship to the dinner walking-distance constraint.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "7-22",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 5,
+          "explanation": "Option-Select: Directs walking from Madison Square Park to the chosen restaurant in about one block, executing the <5-minute walk requirement.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "7-23",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Option-Select: Confirms the dinner choice/reservation; this supports the overall plan but only indirectly evidences the <5-minute walk constraint.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "9-22",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 1,
+          "explanation": "Preference-Accumulate: Reiterates getting to the park; does not itself ensure the restaurant is within a 5-minute walk.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "9-23",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Describes the park terrain/bench suggestion; unrelated to restaurant walking distance.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "9-25",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 5,
+          "explanation": "Option-Select: Explicitly states the restaurant is a short one-block walk from Madison Square Park, directly fulfilling the <5-minute walk requirement.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "9-26",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Ambiance and reservation confirmation do not affect whether the restaurant is within a 5-minute walk.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "9-27",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Post-dinner taxi hailing instructions are unrelated to the restaurant’s walking distance from the park.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        }
+      ]
+    },
+    "r5": {
+      "implementation_action_ids": [],
+      "contributing_action_ids": [],
+      "revise_action_ids": [],
+      "all_labels": []
+    },
+    "r6": {
+      "implementation_action_ids": [],
+      "contributing_action_ids": [],
+      "revise_action_ids": [],
+      "all_labels": []
+    }
+  },
+  "enriched_counts": {
+    "implements": 7,
+    "contributes": 16,
+    "revises": 0
+  },
+  "metadata": {
+    "model": "gpt-5.2-2025-12-11"
+  }
+}

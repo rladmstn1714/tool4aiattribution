@@ -1,0 +1,2684 @@
+{
+  "dialogue_id": "poe_share_qrgcoo4i2ouueqvLIwXR",
+  "forward_labels": {
+    "r1": {
+      "implementation_action_ids": [
+        "1-9",
+        "1-10",
+        "1-11",
+        "1-12",
+        "1-13",
+        "1-14",
+        "1-15",
+        "1-16"
+      ],
+      "contributing_action_ids": [
+        "1-1",
+        "1-2",
+        "1-3",
+        "1-4",
+        "1-5",
+        "1-6",
+        "1-8",
+        "1-17",
+        "1-18",
+        "1-19"
+      ],
+      "revise_action_ids": [],
+      "all_labels": [
+        {
+          "action_id": "1-1",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "States intent/progress toward producing the one-day NYC itinerary but does not itself deliver it.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "1-2",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Refines candidate activities for the itinerary, supporting creation of a one-day NYC plan without directly fulfilling it.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "1-3",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Selects low-walking transport options that shape what the one-day NYC itinerary will include.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "1-4",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 3,
+          "explanation": "Proposes a concrete set of NYC activities to include, materially forming the one-day itinerary content.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "1-5",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Finds meal options near planned stops, supporting completion of the one-day NYC itinerary.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "1-6",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 3,
+          "explanation": "Works on ordering and timing of the day, directly advancing the one-day itinerary structure.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "1-7",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "General positive evaluation does not operate on or advance the specific requirement of being a one-day NYC itinerary.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "1-8",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Adds mobility-focused constraints that shape how the one-day NYC itinerary will be executed.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "1-9",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 5,
+          "explanation": "Delivers the relaxed, tailored one-day NYC itinerary, fulfilling the requirement.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-10",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Provides a specific breakfast stop as part of the one-day NYC itinerary output.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-11",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Adds a morning activity stop in NYC as part of the one-day itinerary.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-12",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Provides a specific NYC museum visit with transport guidance as an itinerary component.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-13",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Supplies a lunch stop, contributing directly to the day-plan itinerary content.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-14",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Adds an afternoon cruise activity in NYC, a direct itinerary element for the one-day plan.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-15",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Provides dinner options to complete the one-day NYC itinerary.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-16",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Specifies end-of-day return-to-hotel step, part of the one-day itinerary plan.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-17",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Adds transit constraint guidance affecting how the one-day NYC itinerary should be carried out.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "1-18",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 1,
+          "explanation": "Operational tip (call ahead/heart condition) supports feasibility but is not central to defining it as a one-day NYC itinerary.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "1-19",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 1,
+          "explanation": "Mobility-prep recommendation supports executing the day plan but only indirectly relates to the core one-day NYC itinerary requirement.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "2-1",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "User praise/acknowledgment does not modify or add to the requirement of being a one-day NYC itinerary.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        }
+      ]
+    },
+    "r10": {
+      "implementation_action_ids": [
+        "8-1",
+        "9-1",
+        "9-10",
+        "9-15"
+      ],
+      "contributing_action_ids": [
+        "7-1",
+        "7-2",
+        "7-3",
+        "7-4",
+        "7-5",
+        "7-6",
+        "7-8",
+        "7-9",
+        "7-11",
+        "9-5",
+        "9-8",
+        "9-9"
+      ],
+      "revise_action_ids": [],
+      "all_labels": [
+        {
+          "action_id": "7-1",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Acknowledging a new dinner preference (avoid pasta) provides rationale for switching away from the prior dinner suggestion.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "7-2",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Emphasizing variety motivates changing the dinner to something different than before.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "7-3",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 1,
+          "explanation": "Planning to review Zanmi Soho is preparatory; it supports decision-making but does not itself change dinner.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "7-4",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 1,
+          "explanation": "Providing a review summary for the prior option supports evaluating whether to change, but does not directly perform the change.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "7-5",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 1,
+          "explanation": "Listing positives of Zanmi Soho informs comparison; indirectly supports the change decision process.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "7-6",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Warnings about Zanmi Soho add reasons to move to a different dinner option than previously suggested.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "7-7",
+          "relationship": "DIRECT_CONNECTION",
+          "relationship_score": 4,
+          "explanation": "Suggesting alternative non-pasta restaurants explicitly proposes replacing the prior dinner suggestion.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "7-8",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Describing an alternative option provides substance for the replacement dinner choice.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "7-9",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Describing Boucherie as an alternative supports selecting a new dinner, enabling the required change.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "7-10",
+          "relationship": "DIRECT_CONNECTION",
+          "relationship_score": 4,
+          "explanation": "Summarizing and guiding among alternatives explicitly advances replacing the prior dinner suggestion with a different option.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "7-11",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Asking which option appeals solicits the decision needed to enact the dinner change.",
+          "explanation_type": "",
+          "contribution_role": "OTHER"
+        },
+        {
+          "action_id": "8-1",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 5,
+          "explanation": "User selects Boucherie, directly effectuating the change to a different dinner option than the prior suggestion. (Option-Select)",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "9-1",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Assistant states the new dinner preference (Boucherie), reflecting the replacement dinner decision.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "9-2",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Reviewing previous context is general and not specifically about changing dinner.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "9-3",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Framing the audience (parents) does not address the dinner-change requirement.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "9-4",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Accessibility/minimal walking constraints affect itinerary quality but not specifically the requirement to change dinner.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "9-5",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Evaluating Boucherie supports validating the newly selected replacement dinner option.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "9-6",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Checking alignment with 'relaxed pace' is separate from the requirement to change dinner to a different option.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "9-7",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Noting proximity to Parsons is logistical and not about changing dinner per se.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "9-8",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Integrating itinerary and logistics incorporates the new dinner choice into the plan, helping complete the change.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "9-9",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 1,
+          "explanation": "Additional description of Boucherie supports the new dinner selection but is not the change itself.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "9-10",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 5,
+          "explanation": "Final itinerary is produced with the dinner updated, fulfilling the requirement to change to a different dinner option.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "9-11",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Breakfast recommendation does not relate to changing dinner.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "9-12",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Park recommendation is unrelated to dinner change.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "9-13",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Midday museum/lunch options do not address changing dinner.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "9-14",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Boat tour recommendation is unrelated to changing dinner.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "9-15",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 5,
+          "explanation": "Recommending dinner at Boucherie operationalizes the replacement of the prior dinner suggestion.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "9-16",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Reservation note about a heart condition is not about changing dinner to a different option.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "9-17",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Invitation for further tweaks is generic and not specifically tied to the dinner-change requirement.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        }
+      ]
+    },
+    "r11": {
+      "implementation_action_ids": [
+        "7-7",
+        "8-1",
+        "9-10",
+        "9-15"
+      ],
+      "contributing_action_ids": [
+        "7-8",
+        "7-9",
+        "7-10",
+        "7-11",
+        "9-5"
+      ],
+      "revise_action_ids": [],
+      "all_labels": [
+        {
+          "action_id": "7-1",
+          "relationship": "DIRECT_CONNECTION",
+          "relationship_score": 4,
+          "explanation": "Explicitly acknowledges the requirement to avoid pasta for dinner.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "7-2",
+          "relationship": "DIRECT_CONNECTION",
+          "relationship_score": 4,
+          "explanation": "Explicitly reiterates the variety/non-repeat objective that the requirement encodes.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "7-3",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Planning to review Zanmi Soho is not inherently about avoiding pasta for dinner.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "7-4",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Overall rating summary of Zanmi Soho does not address pasta repetition.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "7-5",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Listing positives of Zanmi Soho is not tied to the non-pasta dinner constraint.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "7-6",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Cautions about noise/portions do not relate to avoiding pasta.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "7-7",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Provides explicitly non-pasta dinner alternatives, directly operationalizing the requirement.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "7-8",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 3,
+          "explanation": "Describes a (non-pasta-forward) alternative, helping the user choose a dinner that satisfies the variety constraint.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "7-9",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 3,
+          "explanation": "Describes Boucherie as an alternative that supports a non-pasta dinner choice.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "7-10",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Summarizes guidance that helps select a dinner option consistent with variety (including non-pasta).",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "7-11",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 1,
+          "explanation": "Asking which option appeals advances selection of a non-pasta dinner but does not itself address pasta repetition.",
+          "explanation_type": "",
+          "contribution_role": "OTHER"
+        },
+        {
+          "action_id": "8-1",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Selecting Boucherie (French brasserie) effectively chooses a non-pasta dinner, fulfilling the variety constraint.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "9-1",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Restating the chosen restaurant does not explicitly reference the pasta-avoidance requirement.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "9-2",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Reviewing context is procedural and not specifically about pasta avoidance.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "9-3",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Focusing on parents as audience does not relate to dinner pasta variety.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "9-4",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Accessibility/minimize walking is unrelated to avoiding pasta for dinner.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "9-5",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Evaluating Boucherie supports confirming it as a suitable non-pasta dinner choice (though not explicitly framed as pasta avoidance).",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "9-6",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Relaxed pace alignment is separate from the pasta repetition requirement.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "9-7",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Noting proximity to Parsons does not concern dinner menu variety.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "9-8",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Integrating logistics/transportation is unrelated to avoiding pasta at dinner.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "9-9",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Interior/seating/proximity description does not address pasta repetition.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "9-10",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 5,
+          "explanation": "Final itinerary includes dinner at Boucherie (non-pasta), fully satisfying the 'avoid repeating pasta for dinner' requirement in the produced plan.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "9-11",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Breakfast recommendation/reservation is unrelated to dinner pasta avoidance.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "9-12",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Park recommendation is unrelated to dinner menu variety.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "9-13",
+          "relationship": "IMPLICIT_CONNECTION",
+          "relationship_score": 2,
+          "explanation": "Reiterating lunch options provides meal context that underlies the desire not to repeat pasta at dinner.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "9-14",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Boat tour recommendation does not relate to dinner pasta repetition.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "9-15",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 5,
+          "explanation": "Recommending dinner at Boucherie with menu guidance implements a non-pasta dinner plan, fulfilling the requirement.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "9-16",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Health-condition booking note is unrelated to pasta variety.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "9-17",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Invitation for tweaks is generic and not tied to the pasta-avoidance requirement.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        }
+      ]
+    },
+    "r12": {
+      "implementation_action_ids": [
+        "7-4",
+        "7-5",
+        "7-6"
+      ],
+      "contributing_action_ids": [
+        "7-1",
+        "7-2"
+      ],
+      "revise_action_ids": [],
+      "all_labels": [
+        {
+          "action_id": "7-1",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Sets dinner constraints (avoid pasta) that shape how Zanmi Soho reviews will be interpreted/used, but does not itself provide review info (Preference-Accumulate).",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "7-2",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Variety emphasis affects what aspects of reviews matter (e.g., menu variety), indirectly supporting the review-info requirement (Preference-Accumulate).",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "7-3",
+          "relationship": "DIRECT_CONNECTION",
+          "relationship_score": 4,
+          "explanation": "Explicitly commits to reviewing Zanmi Soho first, directly acting on the need to provide Zanmi Soho review information (Intent-Reveal).",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "7-4",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 5,
+          "explanation": "Provides an overall review summary/rating for Zanmi Soho, directly fulfilling the requirement to provide review information.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "7-5",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 5,
+          "explanation": "Lists positives from Zanmi Soho reviews, directly delivering the required review information.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "7-6",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 5,
+          "explanation": "Lists cautions/negatives from Zanmi Soho reviews, directly delivering the required review information.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "7-7",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Suggests alternatives; not providing Zanmi Soho review information itself.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "7-8",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Describes an alternative restaurant; unrelated to Zanmi Soho reviews requirement.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "7-9",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Describes an alternative restaurant; unrelated to Zanmi Soho reviews requirement.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "7-10",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Summarizes dinner recommendations; does not add further Zanmi Soho review info.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "7-11",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Asks user's preference; not about providing Zanmi Soho reviews.",
+          "explanation_type": "",
+          "contribution_role": "OTHER"
+        },
+        {
+          "action_id": "8-1",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "User selects Boucherie; does not concern Zanmi Soho review information (Option-Select).",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "9-1",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Restates chosen dinner; unrelated to Zanmi Soho review requirement.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "9-2",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Reviewing context for itinerary; not about Zanmi Soho reviews.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "9-3",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Frames audience (parents); does not relate to Zanmi Soho reviews.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "9-4",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Accessibility/health constraint; unrelated to providing Zanmi Soho review information.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "9-5",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Evaluates Boucherie; not about Zanmi Soho reviews.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "9-6",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Confirms relaxed pace fit for Boucherie; no Zanmi Soho review content.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "9-7",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Notes Boucherie location; unrelated to Zanmi Soho reviews.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "9-8",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Integrates itinerary logistics; does not concern Zanmi Soho reviews.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "9-9",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Describes Boucherie; unrelated to Zanmi Soho reviews.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "9-10",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Final itinerary output focused on overall day; does not add Zanmi Soho review info.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "9-11",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Breakfast recommendation; no relation to Zanmi Soho reviews.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "9-12",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Park recommendation; unrelated to Zanmi Soho reviews.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "9-13",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Museum/lunch options; unrelated to Zanmi Soho reviews.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "9-14",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Boat tour recommendation; unrelated to Zanmi Soho reviews.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "9-15",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Dinner recommendation for Boucherie; not about Zanmi Soho reviews.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "9-16",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Booking note about heart condition; unrelated to Zanmi Soho reviews.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "9-17",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Invitation for tweaks; no direct link to Zanmi Soho review information.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        }
+      ]
+    },
+    "r13": {
+      "implementation_action_ids": [
+        "9-8",
+        "9-10",
+        "9-15"
+      ],
+      "contributing_action_ids": [
+        "9-3",
+        "9-4",
+        "9-7",
+        "9-9",
+        "9-16"
+      ],
+      "revise_action_ids": [],
+      "all_labels": [
+        {
+          "action_id": "9-1",
+          "relationship": "DIRECT_CONNECTION",
+          "relationship_score": 4,
+          "explanation": "Option-Select: explicitly states/locks in that the user's dinner choice is Boucherie, directly operating on the requirement content.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "9-2",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "9-3",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 1,
+          "explanation": "Preference-Accumulate: audience framing (parents) indirectly influences how the Boucherie dinner will be presented/fit into the itinerary.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "9-4",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Preference-Accumulate: accessibility/low-walking constraint affects practical suitability of keeping Boucherie in the itinerary.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "9-5",
+          "relationship": "DIRECT_CONNECTION",
+          "relationship_score": 4,
+          "explanation": "Feedback-Adopt: evaluates Boucherie Union Square as the selected dinner, directly assessing the requirement target.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "9-6",
+          "relationship": "DIRECT_CONNECTION",
+          "relationship_score": 4,
+          "explanation": "Feedback-Adopt: explicitly checks that Boucherie matches the relaxed-pace need, directly validating the selected dinner requirement.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "9-7",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Intent-Reveal: notes proximity to Parsons to support logistical fit of choosing Boucherie as the dinner stop.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "9-8",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Feedback-Adopt: integrates the chosen dinner (Boucherie) into itinerary logistics, executing the requirement in planning output.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "9-9",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 3,
+          "explanation": "Feedback-Adopt: provides concrete details about Boucherie that support using it as the itinerary's dinner selection.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "9-10",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 5,
+          "explanation": "Option-Select: delivers the finalized itinerary that includes Boucherie for dinner, fully fulfilling the requirement.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "9-11",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "9-12",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "9-13",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "9-14",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "9-15",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 5,
+          "explanation": "Option-Select: explicitly recommends/sets dinner at Boucherie Union Square with supporting suggestions, directly fulfilling the dinner-selection requirement.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "9-16",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 1,
+          "explanation": "Preference-Accumulate: booking note supports executing the Boucherie dinner plan but does not change which restaurant is selected.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "9-17",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        }
+      ]
+    },
+    "r14": {
+      "implementation_action_ids": [
+        "11-4",
+        "11-6",
+        "11-7",
+        "11-8"
+      ],
+      "contributing_action_ids": [
+        "11-1",
+        "11-2",
+        "11-3",
+        "11-9"
+      ],
+      "revise_action_ids": [],
+      "all_labels": [
+        {
+          "action_id": "11-1",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 3,
+          "explanation": "Explicitly focuses planning on rainy-day backup options and nearby low-walking indoor locations—direct progress toward the requirement.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "11-2",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 3,
+          "explanation": "Develops indoor replacements for an outdoor stop (Washington Square Park), aligning with providing specific bad-weather alternatives.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "11-3",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Evaluates whether a weather-sensitive activity should be replaced; contributes to selecting indoor backups but is not itself the backup provision.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "11-4",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Selects concrete indoor backup options (Salmagundi Club, Fotografiska, Barnes & Noble) that satisfy 'specific' indoor alternatives.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "11-5",
+          "relationship": "DIRECT_CONNECTION",
+          "relationship_score": 4,
+          "explanation": "Explicitly evaluates/endorses having a rainy-day backup plan, directly operating on the requirement’s necessity/justification.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "11-6",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Provides a specific indoor morning backup for an outdoor park stop, directly fulfilling part of the bad-weather backup requirement.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "11-7",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Provides specific indoor alternatives to a likely weather-impacted activity (boat tour), satisfying the backup-plan requirement.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "11-8",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 5,
+          "explanation": "Directly provides indoor rest-area options nearby (e.g., Barnes & Noble, Walker Hotel lobby), fully satisfying the 'indoor rest areas nearby' component.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "11-9",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 1,
+          "explanation": "Advises keeping backup options handy; reinforces usage but does not add new specific nearby indoor backups/rest areas.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        }
+      ]
+    },
+    "r2": {
+      "implementation_action_ids": [
+        "1-9",
+        "1-10",
+        "1-11",
+        "1-12",
+        "1-13",
+        "1-14",
+        "1-15",
+        "1-16"
+      ],
+      "contributing_action_ids": [
+        "1-1",
+        "1-3",
+        "1-4",
+        "1-5",
+        "1-6"
+      ],
+      "revise_action_ids": [],
+      "all_labels": [
+        {
+          "action_id": "1-1",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Intent-Reveal: indicates active work on an itinerary, but does not explicitly ensure coverage from morning through evening.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "1-2",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Focuses on walking constraints and museum choice, not the time-span coverage.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "1-3",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 1,
+          "explanation": "Preference-Accumulate: transportation choices support feasibility of a full day, but do not address morning-to-evening coverage directly.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "1-4",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Option-Select: selecting major activities helps build a full-day structure, but does not explicitly span morning through evening.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "1-5",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Preference-Accumulate: restaurant pairing work supports filling the day across meal times, indirectly helping day-long coverage.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "1-6",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 3,
+          "explanation": "Intent-Reveal: explicitly about sequencing events and travel times, which strongly supports covering the full day timeline.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "1-7",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Provides an assessment but does not evaluate or modify the morning-to-evening coverage requirement.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "1-8",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Walking minimization and taxi recommendation affect accessibility, not the temporal span of the itinerary.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "1-9",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 5,
+          "explanation": "Intent-Reveal: provides the actual one-day itinerary output, intended to run from morning through evening.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-10",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Intent-Reveal: schedules breakfast at 10:00 AM, explicitly covering the morning portion.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-11",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Intent-Reveal: adds a morning/late-morning stop after breakfast, helping fill the daytime sequence.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-12",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Intent-Reveal: provides a midday activity block, supporting continuous coverage beyond the morning.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-13",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Intent-Reveal: adds lunch, supporting mid-day coverage in a morning-to-evening plan.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-14",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Intent-Reveal: provides an afternoon activity (cruise), extending the itinerary past lunch toward evening.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-15",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Intent-Reveal: supplies dinner options, explicitly covering the evening portion.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-16",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Intent-Reveal: specifies an after-dinner wrap-up (returning to hotel), completing the evening endpoint.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-17",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Subway avoidance is an accessibility constraint, not about covering morning through evening.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "1-18",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Call-ahead/medical note guidance concerns safety/comfort, not itinerary time span.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "1-19",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Rollator suggestion is mobility support, unrelated to the morning-to-evening coverage requirement.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "2-1",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "User feedback acknowledges the plan but does not address whether it spans morning through evening.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        }
+      ]
+    },
+    "r3": {
+      "implementation_action_ids": [
+        "1-9",
+        "1-10",
+        "1-11",
+        "1-12",
+        "1-13",
+        "1-14",
+        "1-15"
+      ],
+      "contributing_action_ids": [
+        "1-1",
+        "1-2",
+        "1-3",
+        "1-4",
+        "1-5",
+        "1-8",
+        "1-16"
+      ],
+      "revise_action_ids": [],
+      "all_labels": [
+        {
+          "action_id": "1-1",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Intent-Reveal",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "1-2",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Preference-Accumulate",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "1-3",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Preference-Accumulate",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "1-4",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 3,
+          "explanation": "Option-Select",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "1-5",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 3,
+          "explanation": "Option-Select",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "1-6",
+          "relationship": "DIRECT_CONNECTION",
+          "relationship_score": 4,
+          "explanation": "Intent-Reveal",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "1-7",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "1-8",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 1,
+          "explanation": "Preference-Accumulate",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "1-9",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 5,
+          "explanation": "Intent-Reveal",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-10",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Intent-Reveal",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-11",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Intent-Reveal",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-12",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Intent-Reveal",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-13",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Intent-Reveal",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-14",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Intent-Reveal",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-15",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Intent-Reveal",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-16",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 1,
+          "explanation": "Preference-Accumulate",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-17",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "1-18",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "1-19",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "2-1",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        }
+      ]
+    },
+    "r4": {
+      "implementation_action_ids": [
+        "1-10",
+        "1-13",
+        "1-15"
+      ],
+      "contributing_action_ids": [
+        "1-5",
+        "1-9"
+      ],
+      "revise_action_ids": [],
+      "all_labels": [
+        {
+          "action_id": "1-1",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "1-2",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "1-3",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "1-4",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "1-5",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 3,
+          "explanation": "Intent-Reveal",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "1-6",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "1-7",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "1-8",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "1-9",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Intent-Reveal",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-10",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Intent-Reveal",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-11",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-12",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-13",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Intent-Reveal",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-14",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-15",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Intent-Reveal",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-16",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-17",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "1-18",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "1-19",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "2-1",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        }
+      ]
+    },
+    "r5": {
+      "implementation_action_ids": [
+        "1-9",
+        "1-11",
+        "1-12",
+        "1-14",
+        "1-16"
+      ],
+      "contributing_action_ids": [
+        "1-1",
+        "1-2",
+        "1-3",
+        "1-4",
+        "1-5",
+        "1-6",
+        "1-10",
+        "1-13",
+        "1-15",
+        "1-18",
+        "1-19"
+      ],
+      "revise_action_ids": [],
+      "all_labels": [
+        {
+          "action_id": "1-1",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 1,
+          "explanation": "General progress statement about building the itinerary; only indirectly related to minimizing walking.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "1-2",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 3,
+          "explanation": "Reevaluates activity options specifically through the lens of walking constraints, advancing the minimal-walking requirement.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "1-3",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 3,
+          "explanation": "Prioritizes low-exertion transport modes (cruise/ferry) to reduce walking, supporting the dad’s limited-walking constraint.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "1-4",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Chooses a set of activities that are plausibly sit-heavy/low-walk, but not explicitly framed as enforcing minimal walking.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "1-5",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Restaurant pairing analysis can reduce walking by keeping venues near activities, indirectly supporting minimal walking.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "1-6",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 3,
+          "explanation": "Optimizes sequencing/travel times and adds rest periods, directly advancing the goal of minimal exertion/walking.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "1-7",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Positive assessment does not shape or implement the minimal-walking constraint.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "1-8",
+          "relationship": "DIRECT_CONNECTION",
+          "relationship_score": 4,
+          "explanation": "Explicitly emphasizes minimizing walking and maximizing sitting, recommending taxis/rideshares as the mechanism.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "1-9",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 5,
+          "explanation": "Delivers the tailored itinerary in a relaxed, low-walking way, fulfilling the minimal-walking requirement in the output.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-10",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Selecting a specific breakfast stop contributes to a plan that can be arranged to minimize walking, but does not itself enforce it.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-11",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Recommends a short, sit-friendly park stop (sit/people-watch), directly implementing low-walking/rest alignment.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-12",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 5,
+          "explanation": "Provides taxi directions and a museum visit choice, explicitly minimizing walking via low-walk transport guidance.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-13",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Lunch suggestion can be compatible with minimal walking depending on proximity, but isn’t explicitly tied to the constraint here.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-14",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 5,
+          "explanation": "Adds a seated cruise activity that minimizes walking while providing sightseeing, directly fulfilling the constraint.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-15",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Dinner options contribute to the itinerary but do not explicitly ensure minimal walking without additional proximity/transport detail.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-16",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Explicitly suggests returning by short taxi, directly reducing walking at the end of the day.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-17",
+          "relationship": "DIRECT_CONNECTION",
+          "relationship_score": 4,
+          "explanation": "Explicitly constrains transit choice (avoid subway stairs/long underground walks) to meet the minimal-walking requirement.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "1-18",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Calling ahead for seating and noting the heart condition supports reduced exertion (less standing/waiting), aiding minimal walking indirectly.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "1-19",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 3,
+          "explanation": "Recommending a rollator/walker with a seat is a concrete mitigation for limited walking, supporting the requirement strongly.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "2-1",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "User positive feedback does not add, modify, or implement the minimal-walking constraint.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        }
+      ]
+    },
+    "r6": {
+      "implementation_action_ids": [
+        "1-9",
+        "1-12",
+        "1-14",
+        "1-16"
+      ],
+      "contributing_action_ids": [
+        "1-1",
+        "1-2",
+        "1-4",
+        "1-6",
+        "1-19"
+      ],
+      "revise_action_ids": [],
+      "all_labels": [
+        {
+          "action_id": "1-1",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 1,
+          "explanation": "General progress on the itinerary that may later incorporate transport details but does not specifically address low-walking transportation guidance.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "1-2",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Reevaluating options based on walking constraints indirectly shapes what transportation guidance is needed to keep walking low.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "1-3",
+          "relationship": "DIRECT_CONNECTION",
+          "relationship_score": 4,
+          "explanation": "Explicitly recommends transportation modes (cruise/ferry) chosen for low exertion, directly targeting low-walking transport guidance.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "1-4",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Selecting/combining activities affects routing and the need for low-walking transport, but transport guidance is not the explicit object.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "1-5",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Restaurant pairing work is not meaningfully about transportation guidance for low walking.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "1-6",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 3,
+          "explanation": "Optimizing sequencing and travel times with rest periods strongly supports low-walking logistics, including transport choices, though not yet delivering the guidance itself.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "1-7",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "A positive assessment does not address transportation guidance.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "1-8",
+          "relationship": "DIRECT_CONNECTION",
+          "relationship_score": 4,
+          "explanation": "Explicitly constrains the plan to minimize walking and recommends taxis/rideshares—direct guidance aligned with the low-walking transportation requirement.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "1-9",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 5,
+          "explanation": "Provides the tailored itinerary output that includes low-walking transportation guidance as part of the plan.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-10",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Breakfast recommendation alone does not provide transportation guidance.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-11",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Park sitting suggestion is about activity/rest, not transportation guidance.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-12",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Provides taxi directions to an activity, which is explicit low-walking transportation guidance for that leg.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-13",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Lunch recommendation does not materially address transportation guidance.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-14",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Recommends a cruise as a low-walking way to sightsee, directly implementing low-walking transportation guidance.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-15",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Dinner options themselves do not provide transportation guidance.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-16",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Suggests returning by a short taxi ride, which is explicit low-walking transport guidance for the end of the day.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-17",
+          "relationship": "DIRECT_CONNECTION",
+          "relationship_score": 4,
+          "explanation": "Explicitly advises avoiding the subway due to stairs/underground walking—directly specifying low-walking transportation constraints/guidance.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "1-18",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Calling ahead for seating relates to comfort/health accommodation, not transportation guidance.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "1-19",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Suggesting a rollator/walker supports low-walking mobility but is not transportation guidance per se.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "2-1",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "User feedback is general approval and does not add or modify transportation guidance requirements.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        }
+      ]
+    },
+    "r7": {
+      "implementation_action_ids": [
+        "1-9",
+        "1-10",
+        "1-11",
+        "1-12",
+        "1-13",
+        "1-14",
+        "1-15",
+        "1-16"
+      ],
+      "contributing_action_ids": [
+        "1-1",
+        "1-2",
+        "1-3",
+        "1-4",
+        "1-5",
+        "1-18",
+        "1-19"
+      ],
+      "revise_action_ids": [],
+      "all_labels": [
+        {
+          "action_id": "1-1",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 1,
+          "explanation": "General progress statement while building the itinerary; only indirectly supports making it relaxed/smooth.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "1-2",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 3,
+          "explanation": "Reevaluating museum choices based on walking constraints helps keep the day from being tiring.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "1-3",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 3,
+          "explanation": "Prioritizing low-exertion transportation options directly supports a smooth, non-tiring schedule.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "1-4",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Choosing a set of activities (museum + Rose Center + boat tour) can balance iconic experiences with pacing, but not explicitly about relaxed flow.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "1-5",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Restaurant pairing near activities reduces travel friction, supporting a smoother, less tiring day.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "1-6",
+          "relationship": "DIRECT_CONNECTION",
+          "relationship_score": 4,
+          "explanation": "Explicitly sequences events, optimizes travel time, and incorporates rest periods to keep the schedule relaxed and not tiring.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "1-7",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Positive assessment does not meaningfully act on the relaxed/smooth requirement.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "1-8",
+          "relationship": "DIRECT_CONNECTION",
+          "relationship_score": 4,
+          "explanation": "Explicitly constrains the plan to minimize walking/maximize sitting and use taxis, directly targeting a non-tiring, smooth day.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "1-9",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 5,
+          "explanation": "Provides the actual relaxed, tailored itinerary output intended to satisfy the non-tiring/smooth schedule requirement.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-10",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Breakfast placement contributes to a gentle start and overall relaxed pacing as part of the schedule.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-11",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Adds a low-exertion sit-and-rest stop (people-watching) that keeps the day smooth and not tiring.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-12",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Museum visit plus taxi directions reduces walking load and supports a relaxed itinerary flow.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-13",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Lunch choice near the route supports smoother pacing and avoids extra exertion.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-14",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 5,
+          "explanation": "A seated sightseeing cruise is an iconic NYC experience that is inherently low-exertion, strongly fulfilling the relaxed/not-tiring balance.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-15",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Dinner options add flexibility to keep the evening comfortable and not overly demanding.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-16",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Suggesting a short taxi back after dinner supports a smooth, low-fatigue end to the day.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-17",
+          "relationship": "DIRECT_CONNECTION",
+          "relationship_score": 4,
+          "explanation": "Avoiding the subway explicitly reduces stairs/extra walking, directly enforcing a less tiring schedule.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "1-18",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Calling ahead for seating/heart condition helps reduce waiting/strain, indirectly supporting a smoother, less tiring day.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "1-19",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Suggesting a rollator with a seat increases ability to rest, helping keep the itinerary from being tiring.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "2-1",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "User positive feedback does not add, change, or implement the relaxed/smooth requirement.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        }
+      ]
+    },
+    "r8": {
+      "implementation_action_ids": [
+        "3-4",
+        "3-5",
+        "3-6",
+        "3-7",
+        "5-4",
+        "5-8",
+        "5-9",
+        "5-10"
+      ],
+      "contributing_action_ids": [
+        "3-3",
+        "3-9",
+        "5-2",
+        "5-5"
+      ],
+      "revise_action_ids": [],
+      "all_labels": [
+        {
+          "action_id": "3-1",
+          "relationship": "DIRECT_CONNECTION",
+          "relationship_score": 4,
+          "explanation": "Feedback-Adopt: Explicitly processes the user's breakfast feedback that establishes/anchors the 'not Caffe Reggio' constraint.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "3-2",
+          "relationship": "DIRECT_CONNECTION",
+          "relationship_score": 4,
+          "explanation": "Preference-Realize: Acknowledges the explicit dislike of Caffe Reggio, directly reaffirming the requirement to avoid it.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "3-3",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 3,
+          "explanation": "Intent-Reveal: Reframes the task as finding alternatives, which operationalizes the constraint without yet fulfilling it.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "3-4",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Option-Select: Provides a concrete alternative breakfast recommendation that avoids Caffe Reggio.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "3-5",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Option-Select: Offers another non–Caffe Reggio breakfast option, satisfying the 'must not be Caffe Reggio' constraint.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "3-6",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Option-Select: Recommends Rosemary's as a replacement breakfast choice, complying with the avoidance requirement.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "3-7",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Option-Select: Recommends another alternative (not Caffe Reggio), meeting the constraint.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "3-8",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "3-9",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Option-Select: Asks the user to choose among alternatives, progressing toward replacing Caffe Reggio.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "4-1",
+          "relationship": "DIRECT_CONNECTION",
+          "relationship_score": 5,
+          "explanation": "Option-Select: User selects Rosemary's, directly determining the replacement that ensures breakfast is not Caffe Reggio.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "5-1",
+          "relationship": "DIRECT_CONNECTION",
+          "relationship_score": 4,
+          "explanation": "Feedback-Adopt: Confirms the chosen alternative, locking in the avoidance of Caffe Reggio.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "5-2",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Intent-Reveal: States the integration task, preparing to implement the non–Caffe Reggio breakfast in the itinerary.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "5-3",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "5-4",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 5,
+          "explanation": "Feedback-Adopt: Explicitly states that Rosemary's has been integrated, completing the replacement away from Caffe Reggio.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "5-5",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 1,
+          "explanation": "Preference-Accumulate: Positive evaluation supports the selection of Rosemary's but does not itself change the constraint.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-6",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-7",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-8",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 5,
+          "explanation": "Option-Select: Restates Rosemary's as the breakfast recommendation, ensuring the itinerary does not recommend Caffe Reggio.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-9",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 5,
+          "explanation": "Feedback-Adopt: Provides the finalized itinerary with the breakfast slot no longer assigned to Caffe Reggio.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-10",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 5,
+          "explanation": "Option-Select: Explicitly sets morning breakfast to Rosemary's, directly fulfilling 'must not be Caffe Reggio'.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-11",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-12",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-13",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-14",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-15",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-16",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-17",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-18",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "",
+          "explanation_type": "",
+          "contribution_role": "OTHER"
+        }
+      ]
+    },
+    "r9": {
+      "implementation_action_ids": [
+        "5-9",
+        "5-10"
+      ],
+      "contributing_action_ids": [
+        "5-3",
+        "5-7",
+        "5-11"
+      ],
+      "revise_action_ids": [],
+      "all_labels": [
+        {
+          "action_id": "5-1",
+          "relationship": "DIRECT_CONNECTION",
+          "relationship_score": 4,
+          "explanation": "Option-Select",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "5-2",
+          "relationship": "DIRECT_CONNECTION",
+          "relationship_score": 4,
+          "explanation": "Intent-Reveal",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "5-3",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Preference-Accumulate",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "5-4",
+          "relationship": "DIRECT_CONNECTION",
+          "relationship_score": 5,
+          "explanation": "Feedback-Adopt",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "5-5",
+          "relationship": "DIRECT_CONNECTION",
+          "relationship_score": 4,
+          "explanation": "Feedback-Adopt",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-6",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-7",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 1,
+          "explanation": "Intent-Reveal",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-8",
+          "relationship": "DIRECT_CONNECTION",
+          "relationship_score": 4,
+          "explanation": "Feedback-Adopt",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-9",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 5,
+          "explanation": "Feedback-Adopt",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-10",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 5,
+          "explanation": "Feedback-Adopt",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-11",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 1,
+          "explanation": "Preference-Accumulate",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-12",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-13",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-14",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-15",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-16",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-17",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-18",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "",
+          "explanation_type": "",
+          "contribution_role": "OTHER"
+        }
+      ]
+    }
+  },
+  "enriched_counts": {
+    "implements": 71,
+    "contributes": 82,
+    "revises": 0
+  },
+  "metadata": {
+    "model": "gpt-5.2-2025-12-11"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "dialogue_id": "chatgpt_gpt4_10plus_turns_Practical_Guidance_Planning_114",
+  "final_turn": 20,
+  "requirement_to_outcome": {
+    "r1": "outcome_1a",
+    "r2": "outcome_1b",
+    "r3": "outcome_1b",
+    "r4": "outcome_1b",
+    "r5": "outcome_1b",
+    "r6": "outcome_1c",
+    "r7": "outcome_1d",
+    "r8": "outcome_1d",
+    "r9": "outcome_1d",
+    "r10": "outcome_2",
+    "r11": "outcome_3",
+    "r12": "outcome_5",
+    "r13": "outcome_4a",
+    "r14": "outcome_4a",
+    "r15": "outcome_4a",
+    "r16": "outcome_4a",
+    "r17": "outcome_4a",
+    "r18": "outcome_4b",
+    "r19": "outcome_4b",
+    "r20": "outcome_4b",
+    "r21": "outcome_4b",
+    "r22": "outcome_4b"
+  }
+}

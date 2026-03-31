@@ -1,0 +1,36 @@
+{
+  "dialogue_id": "poe_share_eyNOjAwONwnXYy8dputu",
+  "intentions": [
+    {
+      "intention_id": "I1",
+      "intention": "Design a parent-friendly one-day NYC itinerary"
+    },
+    {
+      "intention_id": "I2",
+      "intention": "Adjust itinerary for timing, crowd avoidance, and museum choice"
+    },
+    {
+      "intention_id": "I3",
+      "intention": "Recommend West Village shopping and daytime stops tailored to interests"
+    },
+    {
+      "intention_id": "I4",
+      "intention": "Provide Central Park routing and highlights after the Guggenheim"
+    },
+    {
+      "intention_id": "I5",
+      "intention": "Plan West Village evening logistics (dinner + transit from Uptown)"
+    }
+  ],
+  "outcome_to_intention": {
+    "outcome_1": "I1",
+    "outcome_2": "I2",
+    "outcome_3": "I3",
+    "outcome_4": "I4",
+    "outcome_5": "I5"
+  },
+  "metadata": {
+    "num_intentions": 5,
+    "model": "gpt-5.2-2025-12-11"
+  }
+}

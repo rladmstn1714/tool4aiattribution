@@ -1,0 +1,1352 @@
+{
+  "dialogue_id": "chatgpt_gpt4_10plus_turns_Practical_Guidance_Planning_114",
+  "outcome_action_map": {
+    "outcome_1": {
+      "outcome_id": "outcome_1",
+      "description": "Activity idea lists for a 7-day villa program (multiple rounds, progressively constrained, non-repeating)",
+      "created_at_turn": 0,
+      "actions": [
+        {
+          "turn_id": 0,
+          "action_type": "Provide",
+          "action_text": "Assistant provides additional activity ideas for a 7-day villa program.",
+          "role": "EXECUTOR",
+          "evidence_quote": "Here are some additional activity ideas for your 7-day program at the villa in <REDACTED>:",
+          "speaker": "assistant",
+          "action_id": "0-1",
+          "bound_outcome_id": "outcome_1"
+        },
+        {
+          "turn_id": 0,
+          "action_type": "Suggest",
+          "action_text": "Assistant suggests organizing scuba diving or snorkeling as an activity.",
+          "role": "SHAPER",
+          "evidence_quote": "Scuba diving or snorkeling: Organize a group excursion to explore the beautiful underwater world",
+          "speaker": "assistant",
+          "action_id": "0-2",
+          "bound_outcome_id": "outcome_1"
+        },
+        {
+          "turn_id": 0,
+          "action_type": "Suggest",
+          "action_text": "Assistant suggests hiking and exploring historical sites as an activity.",
+          "role": "SHAPER",
+          "evidence_quote": "Hiking and exploring historical sites: Plan a day trip to visit nearby ancient ruins",
+          "speaker": "assistant",
+          "action_id": "0-3",
+          "bound_outcome_id": "outcome_1"
+        },
+        {
+          "turn_id": 0,
+          "action_type": "Suggest",
+          "action_text": "Assistant suggests hosting an outdoor movie night as an activity.",
+          "role": "SHAPER",
+          "evidence_quote": "Outdoor movie night: Set up a projector and screen outside and host a movie night under the stars.",
+          "speaker": "assistant",
+          "action_id": "0-4",
+          "bound_outcome_id": "outcome_1"
+        },
+        {
+          "turn_id": 0,
+          "action_type": "Suggest",
+          "action_text": "Assistant suggests organizing cooking classes or a food tasting as an activity.",
+          "role": "SHAPER",
+          "evidence_quote": "Cooking classes or food tasting: Organize a cooking class... Alternatively, host a food tasting event",
+          "speaker": "assistant",
+          "action_id": "0-5",
+          "bound_outcome_id": "outcome_1"
+        },
+        {
+          "turn_id": 0,
+          "action_type": "Suggest",
+          "action_text": "Assistant suggests organizing team-building games and challenges as an activity.",
+          "role": "SHAPER",
+          "evidence_quote": "Team-building games and challenges: Organize group games and challenges that encourage teamwork",
+          "speaker": "assistant",
+          "action_id": "0-6",
+          "bound_outcome_id": "outcome_1"
+        },
+        {
+          "turn_id": 0,
+          "action_type": "Suggest",
+          "action_text": "Assistant suggests hosting a talent show or open mic night as an activity.",
+          "role": "SHAPER",
+          "evidence_quote": "Talent show or open mic night: Give everyone a chance to showcase their hidden talents",
+          "speaker": "assistant",
+          "action_id": "0-7",
+          "bound_outcome_id": "outcome_1"
+        },
+        {
+          "turn_id": 0,
+          "action_type": "Suggest",
+          "action_text": "Assistant suggests organizing a photography or videography workshop as an activity.",
+          "role": "SHAPER",
+          "evidence_quote": "Photography or videography workshop: Organize a workshop on photography or videography",
+          "speaker": "assistant",
+          "action_id": "0-8",
+          "bound_outcome_id": "outcome_1"
+        },
+        {
+          "turn_id": 0,
+          "action_type": "Suggest",
+          "action_text": "Assistant suggests organizing a beach cleanup or local community service as an activity.",
+          "role": "SHAPER",
+          "evidence_quote": "Beach cleanup or local community service: Organize a beach cleanup activity or volunteer at a local organization",
+          "speaker": "assistant",
+          "action_id": "0-9",
+          "bound_outcome_id": "outcome_1"
+        },
+        {
+          "turn_id": 0,
+          "action_type": "Suggest",
+          "action_text": "Assistant suggests organizing theme parties as an activity.",
+          "role": "SHAPER",
+          "evidence_quote": "Theme parties: Organize a themed party, such as a costume party, 80s night, or a cultural exchange evening",
+          "speaker": "assistant",
+          "action_id": "0-10",
+          "bound_outcome_id": "outcome_1"
+        },
+        {
+          "turn_id": 0,
+          "action_type": "Suggest",
+          "action_text": "Assistant suggests scheduling meditation and mindfulness sessions as an activity.",
+          "role": "SHAPER",
+          "evidence_quote": "Meditation and mindfulness sessions: Schedule daily meditation or mindfulness sessions",
+          "speaker": "assistant",
+          "action_id": "0-11",
+          "bound_outcome_id": "outcome_1"
+        },
+        {
+          "turn_id": 0,
+          "action_type": "Summarize",
+          "action_text": "Assistant summarizes the purpose/benefit of the suggested activities.",
+          "role": "EXECUTOR",
+          "evidence_quote": "These additional activities can provide a diverse and engaging experience for the participants",
+          "speaker": "assistant",
+          "action_id": "0-12",
+          "bound_outcome_id": "outcome_1"
+        },
+        {
+          "turn_id": 3,
+          "action_type": "Acknowledge",
+          "action_text": "User acknowledges the previous suggestions.",
+          "role": "OTHER",
+          "evidence_quote": "okay",
+          "speaker": "user",
+          "action_id": "3-1",
+          "bound_outcome_id": "outcome_1"
+        },
+        {
+          "turn_id": 5,
+          "action_type": "Feedback",
+          "action_text": "User gives positive feedback on the assistant's performance.",
+          "role": "OTHER",
+          "evidence_quote": "Okay, you are doing very good.",
+          "speaker": "user",
+          "action_id": "5-1",
+          "bound_outcome_id": "outcome_1"
+        }
+      ]
+    },
+    "outcome_1a": {
+      "outcome_id": "outcome_1a",
+      "description": "Five additional activity ideas",
+      "created_at_turn": 1,
+      "actions": [
+        {
+          "turn_id": 1,
+          "action_type": "Request",
+          "action_text": "User requests five more activity ideas.",
+          "role": "SHAPER",
+          "evidence_quote": "give me 5 more",
+          "speaker": "user",
+          "action_id": "1-1",
+          "bound_outcome_id": "outcome_1a"
+        },
+        {
+          "turn_id": 2,
+          "action_type": "Provide",
+          "action_text": "Assistant provides five additional activity ideas.",
+          "role": "EXECUTOR",
+          "evidence_quote": "Guided cultural tour: Arrange a guided tour of the local area",
+          "speaker": "assistant",
+          "action_id": "2-1",
+          "bound_outcome_id": "outcome_1a"
+        },
+        {
+          "turn_id": 2,
+          "action_type": "Suggest",
+          "action_text": "Assistant suggests arranging a guided cultural tour as an activity.",
+          "role": "SHAPER",
+          "evidence_quote": "Guided cultural tour: Arrange a guided tour of the local area",
+          "speaker": "assistant",
+          "action_id": "2-2",
+          "bound_outcome_id": "outcome_1a"
+        },
+        {
+          "turn_id": 2,
+          "action_type": "Suggest",
+          "action_text": "Assistant suggests scheduling sunset yoga or fitness sessions as an activity.",
+          "role": "SHAPER",
+          "evidence_quote": "Sunset yoga or fitness sessions: Schedule group fitness or yoga sessions on the beach during sunset",
+          "speaker": "assistant",
+          "action_id": "2-3",
+          "bound_outcome_id": "outcome_1a"
+        },
+        {
+          "turn_id": 2,
+          "action_type": "Suggest",
+          "action_text": "Assistant suggests organizing a DIY workshop as an activity.",
+          "role": "SHAPER",
+          "evidence_quote": "DIY workshop: Organize a do-it-yourself (DIY) workshop",
+          "speaker": "assistant",
+          "action_id": "2-4",
+          "bound_outcome_id": "outcome_1a"
+        },
+        {
+          "turn_id": 2,
+          "action_type": "Suggest",
+          "action_text": "Assistant suggests a boat building and racing competition as an activity.",
+          "role": "SHAPER",
+          "evidence_quote": "Boat building and racing competition: Divide the group into teams and challenge them to build makeshift boats",
+          "speaker": "assistant",
+          "action_id": "2-5",
+          "bound_outcome_id": "outcome_1a"
+        },
+        {
+          "turn_id": 2,
+          "action_type": "Suggest",
+          "action_text": "Assistant suggests stargazing and storytelling as an activity.",
+          "role": "SHAPER",
+          "evidence_quote": "Stargazing and storytelling: Organize a stargazing night where participants can relax under the stars",
+          "speaker": "assistant",
+          "action_id": "2-6",
+          "bound_outcome_id": "outcome_1a"
+        },
+        {
+          "turn_id": 2,
+          "action_type": "Summarize",
+          "action_text": "Assistant summarizes the intended benefit of the additional activities.",
+          "role": "EXECUTOR",
+          "evidence_quote": "These additional activities can further enhance the experience for participants",
+          "speaker": "assistant",
+          "action_id": "2-7",
+          "bound_outcome_id": "outcome_1a"
+        }
+      ]
+    },
+    "outcome_1b": {
+      "outcome_id": "outcome_1b",
+      "description": "Ten additional activity ideas avoiding teacher-led workshops, extensive materials, and long trips",
+      "created_at_turn": 3,
+      "actions": [
+        {
+          "turn_id": 3,
+          "action_type": "Request",
+          "action_text": "User requests ten more activity ideas.",
+          "role": "SHAPER",
+          "evidence_quote": "give me 10 more",
+          "speaker": "user",
+          "action_id": "3-2",
+          "bound_outcome_id": "outcome_1b"
+        },
+        {
+          "turn_id": 3,
+          "action_type": "Constrain",
+          "action_text": "User constrains the request by asking to avoid workshops that require a teacher.",
+          "role": "SHAPER",
+          "evidence_quote": "avoid workshops that require teacher (like DYI workshops)",
+          "speaker": "user",
+          "action_id": "3-3",
+          "bound_outcome_id": "outcome_1b"
+        },
+        {
+          "turn_id": 3,
+          "action_type": "Constrain",
+          "action_text": "User constrains the request by asking to avoid activities requiring extensive materials.",
+          "role": "SHAPER",
+          "evidence_quote": "or extensive materials (like boat building)",
+          "speaker": "user",
+          "action_id": "3-4",
+          "bound_outcome_id": "outcome_1b"
+        },
+        {
+          "turn_id": 3,
+          "action_type": "Constrain",
+          "action_text": "User constrains the request by asking to avoid long trips due to organizational resource limits for a large group.",
+          "role": "SHAPER",
+          "evidence_quote": "or long trips somewhere (too much people would require a lot of organisational resourse)",
+          "speaker": "user",
+          "action_id": "3-5",
+          "bound_outcome_id": "outcome_1b"
+        },
+        {
+          "turn_id": 4,
+          "action_type": "Suggest",
+          "action_text": "Assistant suggests a 'Beach Olympics' activity for the group.",
+          "role": "EXECUTOR",
+          "evidence_quote": "Beach Olympics: Organize a series of fun and competitive beach games, such as relay races, tug-of-war, and sandcastle building contests.",
+          "speaker": "assistant",
+          "action_id": "4-1",
+          "bound_outcome_id": "outcome_1b"
+        },
+        {
+          "turn_id": 4,
+          "action_type": "Suggest",
+          "action_text": "Assistant suggests a 'Campfire night' activity for the group.",
+          "role": "EXECUTOR",
+          "evidence_quote": "Campfire night: Set up a bonfire on the beach or near the villa, and gather the group for an evening of roasting marshmallows, making s'mores, and sharing stories",
+          "speaker": "assistant",
+          "action_id": "4-2",
+          "bound_outcome_id": "outcome_1b"
+        },
+        {
+          "turn_id": 4,
+          "action_type": "Suggest",
+          "action_text": "Assistant suggests hosting a board game tournament.",
+          "role": "EXECUTOR",
+          "evidence_quote": "Board game tournament: Host a board game tournament, featuring various games that cater to different interests and skill levels.",
+          "speaker": "assistant",
+          "action_id": "4-3",
+          "bound_outcome_id": "outcome_1b"
+        },
+        {
+          "turn_id": 4,
+          "action_type": "Suggest",
+          "action_text": "Assistant suggests organizing a themed potluck dinner.",
+          "role": "EXECUTOR",
+          "evidence_quote": "Themed potluck dinner: Organize a themed potluck dinner where everyone brings a dish related to a specific theme",
+          "speaker": "assistant",
+          "action_id": "4-4",
+          "bound_outcome_id": "outcome_1b"
+        },
+        {
+          "turn_id": 4,
+          "action_type": "Suggest",
+          "action_text": "Assistant suggests planning group workout or sports activities.",
+          "role": "EXECUTOR",
+          "evidence_quote": "Group workout or sports activities: Plan group sports activities, such as soccer, basketball, or ultimate frisbee",
+          "speaker": "assistant",
+          "action_id": "4-5",
+          "bound_outcome_id": "outcome_1b"
+        },
+        {
+          "turn_id": 4,
+          "action_type": "Suggest",
+          "action_text": "Assistant suggests outdoor sketching or painting with basic supplies.",
+          "role": "EXECUTOR",
+          "evidence_quote": "Outdoor sketching or painting: Provide participants with basic art supplies like paper, pencils, and watercolors",
+          "speaker": "assistant",
+          "action_id": "4-6",
+          "bound_outcome_id": "outcome_1b"
+        },
+        {
+          "turn_id": 4,
+          "action_type": "Suggest",
+          "action_text": "Assistant suggests hosting a musical jam session.",
+          "role": "EXECUTOR",
+          "evidence_quote": "Musical jam session: If any of the participants play musical instruments, host an informal jam session",
+          "speaker": "assistant",
+          "action_id": "4-7",
+          "bound_outcome_id": "outcome_1b"
+        },
+        {
+          "turn_id": 4,
+          "action_type": "Suggest",
+          "action_text": "Assistant suggests organizing a trivia night or quiz competition.",
+          "role": "EXECUTOR",
+          "evidence_quote": "Trivia night or quiz competition: Organize a trivia night or quiz competition with questions related to the group's interests",
+          "speaker": "assistant",
+          "action_id": "4-8",
+          "bound_outcome_id": "outcome_1b"
+        },
+        {
+          "turn_id": 4,
+          "action_type": "Suggest",
+          "action_text": "Assistant suggests planning nature walks or birdwatching.",
+          "role": "EXECUTOR",
+          "evidence_quote": "Nature walks or birdwatching: Plan short, guided nature walks in the nearby surroundings",
+          "speaker": "assistant",
+          "action_id": "4-9",
+          "bound_outcome_id": "outcome_1b"
+        },
+        {
+          "turn_id": 4,
+          "action_type": "Suggest",
+          "action_text": "Assistant suggests starting with icebreaker games.",
+          "role": "EXECUTOR",
+          "evidence_quote": "Icebreaker games: Start the event with a series of icebreaker games to help participants get to know each other better",
+          "speaker": "assistant",
+          "action_id": "4-10",
+          "bound_outcome_id": "outcome_1b"
+        },
+        {
+          "turn_id": 4,
+          "action_type": "Summarize",
+          "action_text": "Assistant summarizes that the activities are low-resource and easily organized to build connections.",
+          "role": "EXECUTOR",
+          "evidence_quote": "These additional activities focus on low-resource, easily organized events that can help build connections",
+          "speaker": "assistant",
+          "action_id": "4-11",
+          "bound_outcome_id": "outcome_1b"
+        }
+      ]
+    },
+    "outcome_1c": {
+      "outcome_id": "outcome_1c",
+      "description": "Ten more activity ideas without repetition (with permission to say if not possible)",
+      "created_at_turn": 5,
+      "actions": [
+        {
+          "turn_id": 5,
+          "action_type": "Request",
+          "action_text": "User requests 10 more activity ideas without repetition.",
+          "role": "SHAPER",
+          "evidence_quote": "Try 10 more if you can do it without repetition.",
+          "speaker": "user",
+          "action_id": "5-2",
+          "bound_outcome_id": "outcome_1c"
+        },
+        {
+          "turn_id": 5,
+          "action_type": "Allow",
+          "action_text": "User allows the assistant to say so if it cannot provide 10 more without repetition.",
+          "role": "SHAPER",
+          "evidence_quote": "If not, you can say so",
+          "speaker": "user",
+          "action_id": "5-3",
+          "bound_outcome_id": "outcome_1c"
+        },
+        {
+          "turn_id": 6,
+          "action_type": "State",
+          "action_text": "Assistant states it will provide 10 more unique low-resource activity ideas.",
+          "role": "EXECUTOR",
+          "evidence_quote": "I'll provide you with 10 more unique activity ideas that are low-resource and easy to organize:",
+          "speaker": "assistant",
+          "action_id": "6-1",
+          "bound_outcome_id": "outcome_1c"
+        },
+        {
+          "turn_id": 6,
+          "action_type": "Suggest",
+          "action_text": "Assistant suggests organizing a progressive dinner party.",
+          "role": "EXECUTOR",
+          "evidence_quote": "Progressive dinner party: Organize a dinner party where each course is served at a different location within the villa or surrounding area.",
+          "speaker": "assistant",
+          "action_id": "6-2",
+          "bound_outcome_id": "outcome_1c"
+        },
+        {
+          "turn_id": 6,
+          "action_type": "Suggest",
+          "action_text": "Assistant suggests scheduling a guided relaxation or visualization session.",
+          "role": "EXECUTOR",
+          "evidence_quote": "Guided relaxation or visualization session: Schedule a group relaxation session, where one person guides the others",
+          "speaker": "assistant",
+          "action_id": "6-3",
+          "bound_outcome_id": "outcome_1c"
+        },
+        {
+          "turn_id": 6,
+          "action_type": "Suggest",
+          "action_text": "Assistant suggests setting up a DIY spa day.",
+          "role": "EXECUTOR",
+          "evidence_quote": "DIY spa day: Set up a DIY spa area with simple, natural ingredients for facials, body scrubs, and foot soaks.",
+          "speaker": "assistant",
+          "action_id": "6-4",
+          "bound_outcome_id": "outcome_1c"
+        },
+        {
+          "turn_id": 6,
+          "action_type": "Suggest",
+          "action_text": "Assistant suggests learning and performing a flash mob or group dance routine.",
+          "role": "EXECUTOR",
+          "evidence_quote": "Flash mob or group dance routine: Learn a simple dance routine as a group, and then perform it spontaneously",
+          "speaker": "assistant",
+          "action_id": "6-5",
+          "bound_outcome_id": "outcome_1c"
+        },
+        {
+          "turn_id": 6,
+          "action_type": "Suggest",
+          "action_text": "Assistant suggests inviting poetry or short story readings.",
+          "role": "EXECUTOR",
+          "evidence_quote": "Poetry or short story reading: Invite participants to share their favorite poems or short stories with the group.",
+          "speaker": "assistant",
+          "action_id": "6-6",
+          "bound_outcome_id": "outcome_1c"
+        },
+        {
+          "turn_id": 6,
+          "action_type": "Suggest",
+          "action_text": "Assistant suggests a garden or plant care activity.",
+          "role": "EXECUTOR",
+          "evidence_quote": "Garden or plant care activity: Set aside time for a group gardening activity, such as planting flowers, herbs, or vegetables",
+          "speaker": "assistant",
+          "action_id": "6-7",
+          "bound_outcome_id": "outcome_1c"
+        },
+        {
+          "turn_id": 6,
+          "action_type": "Suggest",
+          "action_text": "Assistant suggests group puzzle-solving with jigsaws or brain teasers.",
+          "role": "EXECUTOR",
+          "evidence_quote": "Group puzzle-solving: Provide large jigsaw puzzles, Sudoku grids, or other brain teasers for the group to solve together",
+          "speaker": "assistant",
+          "action_id": "6-8",
+          "bound_outcome_id": "outcome_1c"
+        },
+        {
+          "turn_id": 6,
+          "action_type": "Suggest",
+          "action_text": "Assistant suggests hosting a mocktail-making competition.",
+          "role": "EXECUTOR",
+          "evidence_quote": "Mocktail-making competition: Host a friendly competition where participants create their own non-alcoholic cocktails (mocktails)",
+          "speaker": "assistant",
+          "action_id": "6-9",
+          "bound_outcome_id": "outcome_1c"
+        },
+        {
+          "turn_id": 6,
+          "action_type": "Suggest",
+          "action_text": "Assistant suggests creating a DIY outdoor movie screen for projecting movies.",
+          "role": "EXECUTOR",
+          "evidence_quote": "DIY outdoor movie screen: Create a simple outdoor movie screen using a white sheet and some rope, and project movies onto it",
+          "speaker": "assistant",
+          "action_id": "6-10",
+          "bound_outcome_id": "outcome_1c"
+        },
+        {
+          "turn_id": 6,
+          "action_type": "Suggest",
+          "action_text": "Assistant suggests holding a memory sharing session.",
+          "role": "EXECUTOR",
+          "evidence_quote": "Memory sharing session: Set aside time for participants to share their favorite memories or life experiences with the group.",
+          "speaker": "assistant",
+          "action_id": "6-11",
+          "bound_outcome_id": "outcome_1c"
+        },
+        {
+          "turn_id": 6,
+          "action_type": "Summarize",
+          "action_text": "Assistant summarizes that the ideas emphasize collaboration, creativity, and bonding while being low-resource.",
+          "role": "EXECUTOR",
+          "evidence_quote": "These additional activity ideas emphasize collaboration, creativity, and bonding while remaining low-resource and easy to organize",
+          "speaker": "assistant",
+          "action_id": "6-12",
+          "bound_outcome_id": "outcome_1c"
+        }
+      ]
+    },
+    "outcome_1d": {
+      "outcome_id": "outcome_1d",
+      "description": "Final round: ten more activity ideas with no repeats and minimal preparation/organization (ignoring earlier boundaries)",
+      "created_at_turn": 7,
+      "actions": [
+        {
+          "turn_id": 7,
+          "action_type": "Request",
+          "action_text": "User requests 10 more activity ideas as a final round.",
+          "role": "SHAPER",
+          "evidence_quote": "okay, last round. Give me 10 more.",
+          "speaker": "user",
+          "action_id": "7-1",
+          "bound_outcome_id": "outcome_1d"
+        },
+        {
+          "turn_id": 7,
+          "action_type": "Constrain",
+          "action_text": "User instructs to ignore boundaries from the initial list but not repeat any previously suggested activities.",
+          "role": "SHAPER",
+          "evidence_quote": "Forget boundaries I set with my initial list of activities (but dont repeat them or any activity that you already suggested).",
+          "speaker": "user",
+          "action_id": "7-2",
+          "bound_outcome_id": "outcome_1d"
+        },
+        {
+          "turn_id": 7,
+          "action_type": "Constrain",
+          "action_text": "User adds the constraint that activities should not require a lot of preparation or organization.",
+          "role": "SHAPER",
+          "evidence_quote": "acitivities shouldn't require a lot of preparation or organisation",
+          "speaker": "user",
+          "action_id": "7-3",
+          "bound_outcome_id": "outcome_1d"
+        },
+        {
+          "turn_id": 8,
+          "action_type": "Provide",
+          "action_text": "Assistant provides a list of 10 additional unique activity ideas that require minimal preparation/organization.",
+          "role": "EXECUTOR",
+          "evidence_quote": "Here are 10 more unique activity ideas that do not require extensive preparation or organization:",
+          "speaker": "assistant",
+          "action_id": "8-1",
+          "bound_outcome_id": "outcome_1d"
+        },
+        {
+          "turn_id": 8,
+          "action_type": "Suggest",
+          "action_text": "Assistant suggests a sunset or sunrise group meditation activity.",
+          "role": "EXECUTOR",
+          "evidence_quote": "Sunset or sunrise group meditation: <REDACTED> the group at a picturesque spot near the villa to meditate together as the sun rises or sets",
+          "speaker": "assistant",
+          "action_id": "8-2",
+          "bound_outcome_id": "outcome_1d"
+        },
+        {
+          "turn_id": 8,
+          "action_type": "Suggest",
+          "action_text": "Assistant suggests organizing a geocaching adventure or treasure hunt.",
+          "role": "EXECUTOR",
+          "evidence_quote": "Geocaching or treasure hunt: Organize a geocaching adventure or a treasure hunt with clues hidden around the villa and surrounding area.",
+          "speaker": "assistant",
+          "action_id": "8-3",
+          "bound_outcome_id": "outcome_1d"
+        },
+        {
+          "turn_id": 8,
+          "action_type": "Suggest",
+          "action_text": "Assistant suggests setting up a DIY photo booth.",
+          "role": "EXECUTOR",
+          "evidence_quote": "DIY photo booth: Set up a simple DIY photo booth with a few props and a smartphone or camera on a tripod.",
+          "speaker": "assistant",
+          "action_id": "8-4",
+          "bound_outcome_id": "outcome_1d"
+        },
+        {
+          "turn_id": 8,
+          "action_type": "Suggest",
+          "action_text": "Assistant suggests hosting charades or Pictionary as a game night activity.",
+          "role": "EXECUTOR",
+          "evidence_quote": "Charades or Pictionary: Host a game night featuring classic group games like charades or Pictionary.",
+          "speaker": "assistant",
+          "action_id": "8-5",
+          "bound_outcome_id": "outcome_1d"
+        },
+        {
+          "turn_id": 8,
+          "action_type": "Suggest",
+          "action_text": "Assistant suggests organizing a silent disco.",
+          "role": "EXECUTOR",
+          "evidence_quote": "Silent disco: Organize a silent disco where participants wear wireless headphones and dance to their own music",
+          "speaker": "assistant",
+          "action_id": "8-6",
+          "bound_outcome_id": "outcome_1d"
+        },
+        {
+          "turn_id": 8,
+          "action_type": "Suggest",
+          "action_text": "Assistant suggests a stuffed animal or sock puppet show activity.",
+          "role": "EXECUTOR",
+          "evidence_quote": "Stuffed animal or sock puppet show: Have participants create their own stuffed animals or sock puppets and then put on a light-hearted puppet show",
+          "speaker": "assistant",
+          "action_id": "8-7",
+          "bound_outcome_id": "outcome_1d"
+        },
+        {
+          "turn_id": 8,
+          "action_type": "Suggest",
+          "action_text": "Assistant suggests an origami or paper craft session.",
+          "role": "EXECUTOR",
+          "evidence_quote": "<REDACTED> or paper craft session: Provide participants with paper and simple instructions for creating origami or other paper crafts.",
+          "speaker": "assistant",
+          "action_id": "8-8",
+          "bound_outcome_id": "outcome_1d"
+        },
+        {
+          "turn_id": 8,
+          "action_type": "Suggest",
+          "action_text": "Assistant suggests organizing a blind taste-testing event.",
+          "role": "EXECUTOR",
+          "evidence_quote": "Blind taste-testing: Organize a blind taste-testing event where participants sample various foods and try to guess the ingredients or dishes.",
+          "speaker": "assistant",
+          "action_id": "8-9",
+          "bound_outcome_id": "outcome_1d"
+        },
+        {
+          "turn_id": 8,
+          "action_type": "Suggest",
+          "action_text": "Assistant suggests arranging a storytelling circle with a chosen theme.",
+          "role": "EXECUTOR",
+          "evidence_quote": "Storytelling circle: Arrange a storytelling circle where participants take turns telling stories based on a chosen theme",
+          "speaker": "assistant",
+          "action_id": "8-10",
+          "bound_outcome_id": "outcome_1d"
+        },
+        {
+          "turn_id": 8,
+          "action_type": "Suggest",
+          "action_text": "Assistant suggests a beach or villa clean-up competition activity.",
+          "role": "EXECUTOR",
+          "evidence_quote": "Beach or villa clean-up competition: Divide the group into teams and challenge them to collect as much litter as possible within a set time limit",
+          "speaker": "assistant",
+          "action_id": "8-11",
+          "bound_outcome_id": "outcome_1d"
+        },
+        {
+          "turn_id": 8,
+          "action_type": "Summarize",
+          "action_text": "Assistant summarizes that the ideas mix entertainment, relaxation, and engagement while being easy to organize and requiring minimal preparation.",
+          "role": "EXECUTOR",
+          "evidence_quote": "These additional activity ideas offer a mix of entertainment, relaxation, and engagement, all while remaining easy to organize and requiring minimal preparation.",
+          "speaker": "assistant",
+          "action_id": "8-12",
+          "bound_outcome_id": "outcome_1d"
+        }
+      ]
+    },
+    "outcome_2": {
+      "outcome_id": "outcome_2",
+      "description": "Roadmap of actions to organize the villa event",
+      "created_at_turn": 9,
+      "actions": [
+        {
+          "turn_id": 9,
+          "action_type": "Feedback",
+          "action_text": "User gives positive feedback on the list.",
+          "role": "OTHER",
+          "evidence_quote": "nice list.",
+          "speaker": "user",
+          "action_id": "9-1",
+          "bound_outcome_id": "outcome_2"
+        },
+        {
+          "turn_id": 9,
+          "action_type": "Request",
+          "action_text": "User requests a roadmap of actions to organize the event.",
+          "role": "SHAPER",
+          "evidence_quote": "Prepare roadmap of actions for me",
+          "speaker": "user",
+          "action_id": "9-2",
+          "bound_outcome_id": "outcome_2"
+        },
+        {
+          "turn_id": 9,
+          "action_type": "Provide",
+          "action_text": "User provides event context: organizing for around 20 people, renting a villa in September, and currently has 5-6 confirmed participants.",
+          "role": "SHAPER",
+          "evidence_quote": "I'm organising this event for around 20 people... renting <REDACTED> in Sep and 5-6 people, who are agreed to do this",
+          "speaker": "user",
+          "action_id": "9-3",
+          "bound_outcome_id": "outcome_2"
+        },
+        {
+          "turn_id": 10,
+          "action_type": "Provide",
+          "action_text": "Assistant provides a roadmap of actions to organize the event.",
+          "role": "EXECUTOR",
+          "evidence_quote": "Here's a roadmap of actions to help you organize your event for around 20 people at a villa in September:",
+          "speaker": "assistant",
+          "action_id": "10-1",
+          "bound_outcome_id": "outcome_2"
+        },
+        {
+          "turn_id": 10,
+          "action_type": "Instruct",
+          "action_text": "Assistant instructs to finalize the list of attendees by reaching out and confirming interest/availability.",
+          "role": "EXECUTOR",
+          "evidence_quote": "Finalize the list of attendees: Reach out to potential participants... and confirm their interest and availability",
+          "speaker": "assistant",
+          "action_id": "10-2",
+          "bound_outcome_id": "outcome_2"
+        },
+        {
+          "turn_id": 10,
+          "action_type": "Instruct",
+          "action_text": "Assistant instructs to research and choose an appropriate villa.",
+          "role": "EXECUTOR",
+          "evidence_quote": "Choose the villa: Research and select an appropriate villa that can accommodate around 20 people comfortably.",
+          "speaker": "assistant",
+          "action_id": "10-3",
+          "bound_outcome_id": "outcome_2"
+        },
+        {
+          "turn_id": 10,
+          "action_type": "Instruct",
+          "action_text": "Assistant instructs to book the villa and understand booking terms.",
+          "role": "EXECUTOR",
+          "evidence_quote": "Book the villa: Once you have chosen the villa, make a reservation... Ensure that you understand the booking terms",
+          "speaker": "assistant",
+          "action_id": "10-4",
+          "bound_outcome_id": "outcome_2"
+        },
+        {
+          "turn_id": 10,
+          "action_type": "Instruct",
+          "action_text": "Assistant instructs to create an event schedule/itinerary incorporating activities with flexibility and downtime.",
+          "role": "EXECUTOR",
+          "evidence_quote": "Create an event schedule: Develop a detailed itinerary... Allow for some flexibility and downtime",
+          "speaker": "assistant",
+          "action_id": "10-5",
+          "bound_outcome_id": "outcome_2"
+        },
+        {
+          "turn_id": 10,
+          "action_type": "Instruct",
+          "action_text": "Assistant instructs to coordinate transportation for arrivals/departures and transfers.",
+          "role": "EXECUTOR",
+          "evidence_quote": "Coordinate transportation: Organize group transportation to and from the villa",
+          "speaker": "assistant",
+          "action_id": "10-6",
+          "bound_outcome_id": "outcome_2"
+        },
+        {
+          "turn_id": 10,
+          "action_type": "Instruct",
+          "action_text": "Assistant instructs to plan meals and refreshments and accommodate dietary restrictions.",
+          "role": "EXECUTOR",
+          "evidence_quote": "Plan meals and refreshments: Develop a meal plan... accommodate any dietary restrictions or preferences.",
+          "speaker": "assistant",
+          "action_id": "10-7",
+          "bound_outcome_id": "outcome_2"
+        },
+        {
+          "turn_id": 10,
+          "action_type": "Instruct",
+          "action_text": "Assistant instructs to organize materials/equipment needed for activities and decide sourcing.",
+          "role": "EXECUTOR",
+          "evidence_quote": "Organize activity materials and equipment: Compile a list of materials and equipment needed for each activity",
+          "speaker": "assistant",
+          "action_id": "10-8",
+          "bound_outcome_id": "outcome_2"
+        },
+        {
+          "turn_id": 10,
+          "action_type": "Instruct",
+          "action_text": "Assistant instructs to delegate tasks/roles to attendees.",
+          "role": "EXECUTOR",
+          "evidence_quote": "Delegate tasks: Assign specific tasks or roles to attendees",
+          "speaker": "assistant",
+          "action_id": "10-9",
+          "bound_outcome_id": "outcome_2"
+        },
+        {
+          "turn_id": 10,
+          "action_type": "Instruct",
+          "action_text": "Assistant instructs to communicate regularly with attendees and provide packing/info updates.",
+          "role": "EXECUTOR",
+          "evidence_quote": "Communicate with attendees: Regularly update attendees on the event plans... Provide a packing list",
+          "speaker": "assistant",
+          "action_id": "10-10",
+          "bound_outcome_id": "outcome_2"
+        },
+        {
+          "turn_id": 10,
+          "action_type": "Instruct",
+          "action_text": "Assistant instructs to collect payments if necessary with clear cost breakdown and deadlines.",
+          "role": "EXECUTOR",
+          "evidence_quote": "Collect payments: If necessary, collect payments... Provide a clear breakdown of costs and payment deadlines.",
+          "speaker": "assistant",
+          "action_id": "10-11",
+          "bound_outcome_id": "outcome_2"
+        },
+        {
+          "turn_id": 10,
+          "action_type": "Instruct",
+          "action_text": "Assistant instructs to prepare a contingency plan for cancellations, weather, and emergencies.",
+          "role": "EXECUTOR",
+          "evidence_quote": "Prepare a contingency plan: Develop a contingency plan to address potential issues",
+          "speaker": "assistant",
+          "action_id": "10-12",
+          "bound_outcome_id": "outcome_2"
+        },
+        {
+          "turn_id": 10,
+          "action_type": "Instruct",
+          "action_text": "Assistant instructs to finalize details in the weeks leading up to the event by confirming reservations and plans.",
+          "role": "EXECUTOR",
+          "evidence_quote": "Finalize details: In the weeks leading up to the event, confirm all reservations, transportation arrangements, and activity plans.",
+          "speaker": "assistant",
+          "action_id": "10-13",
+          "bound_outcome_id": "outcome_2"
+        },
+        {
+          "turn_id": 10,
+          "action_type": "Encourage",
+          "action_text": "Assistant encourages following the roadmap and staying flexible/open to feedback.",
+          "role": "EXECUTOR",
+          "evidence_quote": "By following this roadmap... Remember to remain flexible and open to feedback",
+          "speaker": "assistant",
+          "action_id": "10-14",
+          "bound_outcome_id": "outcome_2"
+        }
+      ]
+    },
+    "outcome_3": {
+      "outcome_id": "outcome_3",
+      "description": "Information checklist/brief content to provide a designer to scope an event landing page",
+      "created_at_turn": 11,
+      "actions": [
+        {
+          "turn_id": 11,
+          "action_type": "State",
+          "action_text": "User states they want to hire a designer to create a landing page for the event.",
+          "role": "SHAPER",
+          "evidence_quote": "Now I want to hire a designer, who would create a landing page for this event.",
+          "speaker": "user",
+          "action_id": "11-1",
+          "bound_outcome_id": "outcome_3"
+        },
+        {
+          "turn_id": 11,
+          "action_type": "Ask",
+          "action_text": "User asks what information they need to provide the designer to properly scope/assign the task.",
+          "role": "SHAPER",
+          "evidence_quote": "What things I need to tell him to give this task properly",
+          "speaker": "user",
+          "action_id": "11-2",
+          "bound_outcome_id": "outcome_3"
+        },
+        {
+          "turn_id": 12,
+          "action_type": "Explain",
+          "action_text": "Assistant explains what information to include when briefing a designer for an event landing page.",
+          "role": "EXECUTOR",
+          "evidence_quote": "When briefing a designer for a landing page for your event, it's essential to provide them with clear and detailed information.",
+          "speaker": "assistant",
+          "action_id": "12-1",
+          "bound_outcome_id": "outcome_3"
+        },
+        {
+          "turn_id": 12,
+          "action_type": "List",
+          "action_text": "Assistant lists key points to include in the design brief (event overview, visual style, page structure, CTA, media, responsive design, branding, links, deadline, budget).",
+          "role": "EXECUTOR",
+          "evidence_quote": "Here are some key points to include in your brief: Event overview... Visual style and branding... Page structure and content... Call-to-action (CTA)... Images and media... Responsive design... Logo and branding elements... Links and social media integration... Deadline and milestones... Budget",
+          "speaker": "assistant",
+          "action_id": "12-2",
+          "bound_outcome_id": "outcome_3"
+        },
+        {
+          "turn_id": 12,
+          "action_type": "Recommend",
+          "action_text": "Assistant recommends providing a comprehensive brief to ensure the designer understands the vision and expectations.",
+          "role": "SHAPER",
+          "evidence_quote": "By providing the designer with a comprehensive brief that covers these key points, you can help ensure that they have a clear understanding of your vision and expectations",
+          "speaker": "assistant",
+          "action_id": "12-3",
+          "bound_outcome_id": "outcome_3"
+        }
+      ]
+    },
+    "outcome_5": {
+      "outcome_id": "outcome_5",
+      "description": "Reference companies and links for organized vacations/remote work villa programs (as examples, with verification caveat)",
+      "created_at_turn": 13,
+      "actions": [
+        {
+          "turn_id": 13,
+          "action_type": "Request",
+          "action_text": "User requests an internet search and reference links.",
+          "role": "SHAPER",
+          "evidence_quote": "can you do internet search and provide me with reference link?",
+          "speaker": "user",
+          "action_id": "13-1",
+          "bound_outcome_id": "outcome_5"
+        },
+        {
+          "turn_id": 13,
+          "action_type": "Describe",
+          "action_text": "User describes the type of companies they are looking for (vacations/remote work programs with villa stay and activities).",
+          "role": "SHAPER",
+          "evidence_quote": "I'm searching for companies that organise vacations or remote work with some programs? Like live on the villa with interesting people for 2 weeks and with interesting program like exploring locations, doing yoga and so on",
+          "speaker": "user",
+          "action_id": "13-2",
+          "bound_outcome_id": "outcome_5"
+        },
+        {
+          "turn_id": 14,
+          "action_type": "Refuse",
+          "action_text": "Assistant refuses to conduct real-time internet searches.",
+          "role": "OTHER",
+          "evidence_quote": "As an AI language model, I'm unable to conduct real-time searches.",
+          "speaker": "assistant",
+          "action_id": "14-1",
+          "bound_outcome_id": "outcome_5"
+        },
+        {
+          "turn_id": 14,
+          "action_type": "Suggest",
+          "action_text": "Assistant suggests companies that offer organized vacations/remote work programs.",
+          "role": "EXECUTOR",
+          "evidence_quote": "However, I can suggest some companies that were popular as of my last update in September 2021.",
+          "speaker": "assistant",
+          "action_id": "14-2",
+          "bound_outcome_id": "outcome_5"
+        },
+        {
+          "turn_id": 14,
+          "action_type": "List",
+          "action_text": "Assistant lists example companies and provides their links/URLs (redacted) as references.",
+          "role": "EXECUTOR",
+          "evidence_quote": "<REDACTED> (<URL>)... Outsite (<URL>)... Remote Year (<URL>)... Hacker <REDACTED> (<URL>)... Unsettled (<URL>)",
+          "speaker": "assistant",
+          "action_id": "14-3",
+          "bound_outcome_id": "outcome_5"
+        },
+        {
+          "turn_id": 14,
+          "action_type": "Warn",
+          "action_text": "Assistant warns that the information may be outdated and advises verifying details.",
+          "role": "SHAPER",
+          "evidence_quote": "Please note that the information provided here may be outdated... You should verify the details on their websites",
+          "speaker": "assistant",
+          "action_id": "14-4",
+          "bound_outcome_id": "outcome_5"
+        }
+      ]
+    },
+    "outcome_4": {
+      "outcome_id": "outcome_4",
+      "description": "Relaxed 7-day timeline schedule (meals + rest) built from the activity list and refined via user edits",
+      "created_at_turn": 15,
+      "actions": [
+        {
+          "turn_id": 15,
+          "action_type": "Acknowledge",
+          "action_text": "User acknowledges the assistant's previous answer positively.",
+          "role": "OTHER",
+          "evidence_quote": "nice.",
+          "speaker": "user",
+          "action_id": "15-1",
+          "bound_outcome_id": "outcome_4"
+        },
+        {
+          "turn_id": 15,
+          "action_type": "Frame",
+          "action_text": "User signals a transition to a new question.",
+          "role": "SHAPER",
+          "evidence_quote": "Next question.",
+          "speaker": "user",
+          "action_id": "15-2",
+          "bound_outcome_id": "outcome_4"
+        }
+      ]
+    },
+    "outcome_4a": {
+      "outcome_id": "outcome_4a",
+      "description": "Initial relaxed 7-day schedule draft in the user-provided format (with allowed exclusions/placeholders and day constraints)",
+      "created_at_turn": 15,
+      "actions": [
+        {
+          "turn_id": 15,
+          "action_type": "Plan",
+          "action_text": "User states they will provide a list of activities and approximate timing.",
+          "role": "SHAPER",
+          "evidence_quote": "I would give you list of activities and approximate timing of each.",
+          "speaker": "user",
+          "action_id": "15-3",
+          "bound_outcome_id": "outcome_4a"
+        },
+        {
+          "turn_id": 15,
+          "action_type": "Instruct",
+          "action_text": "User instructs the assistant to create a relaxed 7-day timeline schedule from the activities, including meals and rest.",
+          "role": "SHAPER",
+          "evidence_quote": "You need to create a timeline schedule for a group of people from this activities for 7 days, but don't forget time for breakfast/dinner (or any other food), rest or any other important things. It should be quite relaxed week",
+          "speaker": "user",
+          "action_id": "15-4",
+          "bound_outcome_id": "outcome_4a"
+        },
+        {
+          "turn_id": 15,
+          "action_type": "Allow",
+          "action_text": "User allows the assistant to exclude activities if too much, with excluded items listed separately.",
+          "role": "SHAPER",
+          "evidence_quote": "You can exclude any of this activity if you feel that it's too much - just provide it after schedule in a separate list.",
+          "speaker": "user",
+          "action_id": "15-5",
+          "bound_outcome_id": "outcome_4a"
+        },
+        {
+          "turn_id": 15,
+          "action_type": "Allow",
+          "action_text": "User allows the assistant to add placeholders with timeslots if the plan is not full enough.",
+          "role": "SHAPER",
+          "evidence_quote": "Or if you think it's not enough, you can add a placeholder with a timeslot",
+          "speaker": "user",
+          "action_id": "15-6",
+          "bound_outcome_id": "outcome_4a"
+        },
+        {
+          "turn_id": 15,
+          "action_type": "Provide",
+          "action_text": "User provides the desired output format example for the schedule.",
+          "role": "SHAPER",
+          "evidence_quote": "Outcome should be something like this. Monday 09:00 - 10:00 Breakfast 10:30 - 12:00 Beach time",
+          "speaker": "user",
+          "action_id": "15-7",
+          "bound_outcome_id": "outcome_4a"
+        },
+        {
+          "turn_id": 15,
+          "action_type": "Constrain",
+          "action_text": "User constrains Monday to be an arrival day with only relaxed evening planning due to staggered arrivals and villa entry at 15:00.",
+          "role": "SHAPER",
+          "evidence_quote": "One more limitation - Monday is \"arriving\" day. We would enter the villa around 15:00 and people would come in different time, so you need only to plan evening and something relaxed.",
+          "speaker": "user",
+          "action_id": "15-8",
+          "bound_outcome_id": "outcome_4a"
+        },
+        {
+          "turn_id": 15,
+          "action_type": "Constrain",
+          "action_text": "User constrains Sunday to be an ending day with no activities planned because the villa is returned in the morning.",
+          "role": "SHAPER",
+          "evidence_quote": "Sunday is \"ending\" day - we would return villa in the morning, so don't plan anything for this day",
+          "speaker": "user",
+          "action_id": "15-9",
+          "bound_outcome_id": "outcome_4a"
+        },
+        {
+          "turn_id": 16,
+          "action_type": "Provide",
+          "action_text": "Assistant provides a relaxed 7-day group schedule incorporating provided activities.",
+          "role": "EXECUTOR",
+          "evidence_quote": "Here's a relaxed 7-day schedule for your group, incorporating the various activities you've provided:",
+          "speaker": "assistant",
+          "action_id": "16-1",
+          "bound_outcome_id": "outcome_4a"
+        },
+        {
+          "turn_id": 16,
+          "action_type": "Explain",
+          "action_text": "Assistant explains that most activities were included and the schedule allows time for meals, relaxation, and socializing, and can be adjusted.",
+          "role": "EXECUTOR",
+          "evidence_quote": "I've included most of the activities from your list in the schedule... The schedule can be further adjusted to accommodate any additional activities or preferences.",
+          "speaker": "assistant",
+          "action_id": "16-2",
+          "bound_outcome_id": "outcome_4a"
+        },
+        {
+          "turn_id": 17,
+          "action_type": "Modify",
+          "action_text": "Assistant revises the schedule based on the user's list and new preferences.",
+          "role": "EXECUTOR",
+          "evidence_quote": "I've revised the schedule based on your provided list of activities and your new preferences:",
+          "speaker": "assistant",
+          "action_id": "17-1",
+          "bound_outcome_id": "outcome_4a"
+        },
+        {
+          "turn_id": 17,
+          "action_type": "Provide",
+          "action_text": "Assistant provides the revised multi-day schedule with updated timings and activities.",
+          "role": "EXECUTOR",
+          "evidence_quote": "Monday (Arrival Day)15:00 - Villa Check-in... Sunday (Departure Day)07:00 - 09:00 Breakfast09:00 - Villa Check-out & Departure",
+          "speaker": "assistant",
+          "action_id": "17-2",
+          "bound_outcome_id": "outcome_4a"
+        },
+        {
+          "turn_id": 17,
+          "action_type": "Explain",
+          "action_text": "Assistant states the schedule incorporates all activities from the new list while maintaining a relaxed pace.",
+          "role": "EXECUTOR",
+          "evidence_quote": "This schedule incorporates all the activities from your new list while maintaining a relaxed pace for the week.",
+          "speaker": "assistant",
+          "action_id": "17-3",
+          "bound_outcome_id": "outcome_4a"
+        },
+        {
+          "turn_id": 17,
+          "action_type": "Confirm",
+          "action_text": "Assistant confirms omitting yoga, art therapy, and the cocktail-making session per the user's request.",
+          "role": "EXECUTOR",
+          "evidence_quote": "Additionally, it omits yoga, art therapy, and the cocktail-making session as per your request.",
+          "speaker": "assistant",
+          "action_id": "17-4",
+          "bound_outcome_id": "outcome_4a"
+        },
+        {
+          "turn_id": 17,
+          "action_type": "Invite",
+          "action_text": "Assistant invites the user to make further adjustments for additional preferences or needs.",
+          "role": "SHAPER",
+          "evidence_quote": "Feel free to make adjustments to accommodate any additional preferences or needs.",
+          "speaker": "assistant",
+          "action_id": "17-5",
+          "bound_outcome_id": "outcome_4a"
+        }
+      ]
+    },
+    "outcome_4b": {
+      "outcome_id": "outcome_4b",
+      "description": "Revised final 7-day schedule in English reflecting requested moves/replacements and formatting constraints",
+      "created_at_turn": 18,
+      "actions": [
+        {
+          "turn_id": 18,
+          "action_type": "Feedback",
+          "action_text": "User gives positive feedback while indicating the need for changes.",
+          "role": "SHAPER",
+          "evidence_quote": "Okay, that's nice, but let's make several adjustments:",
+          "speaker": "user",
+          "action_id": "18-1",
+          "bound_outcome_id": "outcome_4b"
+        },
+        {
+          "turn_id": 18,
+          "action_type": "Request",
+          "action_text": "User requests translating the entire schedule to Russian.",
+          "role": "SHAPER",
+          "evidence_quote": "Translate everything to Russian language",
+          "speaker": "user",
+          "action_id": "18-2",
+          "bound_outcome_id": "outcome_4b"
+        },
+        {
+          "turn_id": 18,
+          "action_type": "Request",
+          "action_text": "User requests removing duration phrases like '(3 hours)' from the answer.",
+          "role": "SHAPER",
+          "evidence_quote": "Delete from answer words like (3 hours)",
+          "speaker": "user",
+          "action_id": "18-3",
+          "bound_outcome_id": "outcome_4b"
+        },
+        {
+          "turn_id": 18,
+          "action_type": "Request",
+          "action_text": "User requests moving participant presentations and the swim pool party to Tuesday after lunch.",
+          "role": "SHAPER",
+          "evidence_quote": "Move participant presentation and swim pool party to Tuesday after lunch",
+          "speaker": "user",
+          "action_id": "18-4",
+          "bound_outcome_id": "outcome_4b"
+        },
+        {
+          "turn_id": 18,
+          "action_type": "Request",
+          "action_text": "User requests moving hiking to around Thursday/Friday and ensuring there is a physically draining activity that day.",
+          "role": "SHAPER",
+          "evidence_quote": "Move Hiking somewhere around Thursday/Friday but we should have any physical draining activity that day",
+          "speaker": "user",
+          "action_id": "18-5",
+          "bound_outcome_id": "outcome_4b"
+        },
+        {
+          "turn_id": 18,
+          "action_type": "Request",
+          "action_text": "User requests deleting Beer Pong as a separate activity and replacing it with another social activity.",
+          "role": "SHAPER",
+          "evidence_quote": "Delete Beer Pong as a separate activity and replace it with some other social activity",
+          "speaker": "user",
+          "action_id": "18-6",
+          "bound_outcome_id": "outcome_4b"
+        },
+        {
+          "turn_id": 19,
+          "action_type": "Modify",
+          "action_text": "User changes the earlier translation preference and requests the output be in English.",
+          "role": "SHAPER",
+          "evidence_quote": "okay, I changed my mind, do it in English",
+          "speaker": "user",
+          "action_id": "19-1",
+          "bound_outcome_id": "outcome_4b"
+        },
+        {
+          "turn_id": 20,
+          "action_type": "Provide",
+          "action_text": "Assistant provides a revised weekly schedule in English based on the user's adjustments.",
+          "role": "EXECUTOR",
+          "evidence_quote": "Here's the revised schedule based on your adjustments, in English:",
+          "speaker": "assistant",
+          "action_id": "20-1",
+          "bound_outcome_id": "outcome_4b"
+        },
+        {
+          "turn_id": 20,
+          "action_type": "Describe",
+          "action_text": "Assistant details the Monday itinerary with times and activities.",
+          "role": "EXECUTOR",
+          "evidence_quote": "Monday (Arrival Day)15:00 - Villa Check-in17:00 - 18:00 Welcome Drinks & Icebreaker Games18:00 - 20:00 Dinner20:00 - 22:00 Free Time / Socializing",
+          "speaker": "assistant",
+          "action_id": "20-2",
+          "bound_outcome_id": "outcome_4b"
+        },
+        {
+          "turn_id": 20,
+          "action_type": "Describe",
+          "action_text": "Assistant details the Tuesday itinerary with times and activities.",
+          "role": "EXECUTOR",
+          "evidence_quote": "Tuesday09:00 - 10:00 Breakfast10:30 - 12:30 Beach Time (Swimming, Sunbathing, Beach Games)13:00 - 14:00 Lunch14:00 - 16:00 <REDACTED> Presentations16:00 - 20:00 Swim Pool Party20:00 - 22:00 Dinner",
+          "speaker": "assistant",
+          "action_id": "20-3",
+          "bound_outcome_id": "outcome_4b"
+        },
+        {
+          "turn_id": 20,
+          "action_type": "Describe",
+          "action_text": "Assistant details the Wednesday itinerary with times and activities.",
+          "role": "EXECUTOR",
+          "evidence_quote": "Wednesday09:00 - 10:00 Breakfast10:30 - 16:30 Yachting Excursion16:30 - 18:00 Free Time / Rest18:00 - 21:00 <REDACTED> Social Evening",
+          "speaker": "assistant",
+          "action_id": "20-4",
+          "bound_outcome_id": "outcome_4b"
+        },
+        {
+          "turn_id": 20,
+          "action_type": "Describe",
+          "action_text": "Assistant details the Thursday itinerary with times and activities.",
+          "role": "EXECUTOR",
+          "evidence_quote": "Thursday09:00 - 10:00 Breakfast10:30 - 14:30 Tour of Kas14:30 - 16:00 <REDACTED> Free Time / Rest18:00 - 20:00 Dinner20:00 - 23:00 Board Games and Karaoke Night",
+          "speaker": "assistant",
+          "action_id": "20-5",
+          "bound_outcome_id": "outcome_4b"
+        },
+        {
+          "turn_id": 20,
+          "action_type": "Describe",
+          "action_text": "Assistant details the Friday itinerary with times and activities.",
+          "role": "EXECUTOR",
+          "evidence_quote": "Friday09:00 - 10:00 Breakfast10:30 - 13:30 Beach Activities - Stand-Up Paddleboarding (SUP), Volleyball, Frisbee13:30 - 14:30 Lunch14:30 - 16:00 Free Time / Rest16:00 - 19:00 Hiking in Local Beauty Spots19:00 - 21:00 Dinner21:00 - 23:00 Movie Night",
+          "speaker": "assistant",
+          "action_id": "20-6",
+          "bound_outcome_id": "outcome_4b"
+        },
+        {
+          "turn_id": 20,
+          "action_type": "Describe",
+          "action_text": "Assistant details the Saturday itinerary with times and activities.",
+          "role": "EXECUTOR",
+          "evidence_quote": "Saturday09:00 - 10:00 Breakfast10:30 - 12:30 Free Time / Optional Group Activities12:30 - 13:30 Lunch13:30 - 16:30 Free Time / Rest16:30 - 18:00 Farewell Party Preparation18:00 - 20:00 Dinner20:00 - 23:00 Farewell Party",
+          "speaker": "assistant",
+          "action_id": "20-7",
+          "bound_outcome_id": "outcome_4b"
+        },
+        {
+          "turn_id": 20,
+          "action_type": "Describe",
+          "action_text": "Assistant details the Sunday departure-day itinerary with times and activities.",
+          "role": "EXECUTOR",
+          "evidence_quote": "Sunday (Departure Day)07:00 - 09:00 Breakfast09:00 - Villa Check-out & Departure",
+          "speaker": "assistant",
+          "action_id": "20-8",
+          "bound_outcome_id": "outcome_4b"
+        },
+        {
+          "turn_id": 20,
+          "action_type": "Confirm",
+          "action_text": "Assistant confirms the schedule incorporates all requested changes and maintains a relaxed pace.",
+          "role": "EXECUTOR",
+          "evidence_quote": "This schedule incorporates all the changes you requested, while maintaining a relaxed pace for the week.",
+          "speaker": "assistant",
+          "action_id": "20-9",
+          "bound_outcome_id": "outcome_4b"
+        },
+        {
+          "turn_id": 20,
+          "action_type": "Invite",
+          "action_text": "Assistant invites the user to request further adjustments to fit preferences or needs.",
+          "role": "SHAPER",
+          "evidence_quote": "Feel free to make any additional adjustments to accommodate preferences or needs.",
+          "speaker": "assistant",
+          "action_id": "20-10",
+          "bound_outcome_id": "outcome_4b"
+        }
+      ]
+    }
+  }
+}

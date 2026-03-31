@@ -1,0 +1,154 @@
+{
+  "dialogue_id": "slack_export_dummy",
+  "forward_labels": {
+    "r1": {
+      "implementation_action_ids": [],
+      "contributing_action_ids": [],
+      "revise_action_ids": [],
+      "all_labels": [
+        {
+          "action_id": "3-1",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": null,
+          "explanation_type": "",
+          "contribution_role": "OTHER"
+        },
+        {
+          "action_id": "4-1",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": null,
+          "explanation_type": "",
+          "contribution_role": "OTHER"
+        },
+        {
+          "action_id": "5-2",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": null,
+          "explanation_type": "",
+          "contribution_role": "OTHER"
+        },
+        {
+          "action_id": "6-1",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": null,
+          "explanation_type": "",
+          "contribution_role": "OTHER"
+        },
+        {
+          "action_id": "6-2",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": null,
+          "explanation_type": "",
+          "contribution_role": "OTHER"
+        },
+        {
+          "action_id": "7-1",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": null,
+          "explanation_type": "",
+          "contribution_role": "OTHER"
+        },
+        {
+          "action_id": "7-2",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": null,
+          "explanation_type": "",
+          "contribution_role": "OTHER"
+        },
+        {
+          "action_id": "8-1",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": null,
+          "explanation_type": "",
+          "contribution_role": "OTHER"
+        },
+        {
+          "action_id": "9-1",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": null,
+          "explanation_type": "",
+          "contribution_role": "OTHER"
+        },
+        {
+          "action_id": "9-2",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": null,
+          "explanation_type": "",
+          "contribution_role": "OTHER"
+        },
+        {
+          "action_id": "11-1",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": null,
+          "explanation_type": "",
+          "contribution_role": "OTHER"
+        },
+        {
+          "action_id": "11-2",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": null,
+          "explanation_type": "",
+          "contribution_role": "OTHER"
+        }
+      ]
+    },
+    "r2": {
+      "implementation_action_ids": [
+        "3-2",
+        "5-3"
+      ],
+      "contributing_action_ids": [],
+      "revise_action_ids": [],
+      "all_labels": [
+        {
+          "action_id": "3-2",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Option-Select | one option is chosen from alternatives offered earlier",
+          "explanation_type": "",
+          "contribution_role": "OTHER"
+        },
+        {
+          "action_id": "5-3",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Option-Select | one option is chosen from alternatives offered earlier",
+          "explanation_type": "",
+          "contribution_role": "OTHER"
+        }
+      ]
+    },
+    "r3": {
+      "implementation_action_ids": [],
+      "contributing_action_ids": [],
+      "revise_action_ids": [],
+      "all_labels": []
+    },
+    "r4": {
+      "implementation_action_ids": [],
+      "contributing_action_ids": [],
+      "revise_action_ids": [],
+      "all_labels": []
+    }
+  },
+  "enriched_counts": {
+    "implements": 2,
+    "contributes": 0,
+    "revises": 0
+  },
+  "metadata": {
+    "model": "gpt-4o-2024-08-06"
+  }
+}

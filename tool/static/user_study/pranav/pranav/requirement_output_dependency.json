@@ -1,0 +1,17 @@
+{
+  "dialogue_id": "poe_share_nB532oEzw6ihqWgF5THo",
+  "final_turn": 13,
+  "requirement_to_outcome": {
+    "r1": "outcome_1",
+    "r2": "outcome_1",
+    "r3": "outcome_2",
+    "r4": "outcome_2",
+    "r5": "outcome_2",
+    "r6": "outcome_2",
+    "r7": "outcome_2",
+    "r8": "outcome_3",
+    "r9": "outcome_4",
+    "r10": "outcome_5",
+    "r11": "outcome_6"
+  }
+}

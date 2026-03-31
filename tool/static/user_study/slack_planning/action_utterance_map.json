@@ -1,0 +1,458 @@
+{
+  "0-1": {
+    "evidence_quote": "You’ll be traveling to Pittsburgh as a group of three: you two, plus Minsik’s friend.",
+    "turn_id": 0
+  },
+  "0-2": {
+    "evidence_quote": "His flight arrives at 9:00 AM",
+    "turn_id": 0
+  },
+  "0-3": {
+    "evidence_quote": "from then on, you two should make a plan for how to spend the day in Pittsburgh. Since he’ll be leaving the next morning, you only need to plan for that one day.",
+    "turn_id": 0
+  },
+  "0-4": {
+    "evidence_quote": "His hotel is near Pitt, so please keep that in mind when making the itinerary.",
+    "turn_id": 0
+  },
+  "0-5": {
+    "evidence_quote": "1. Likes scenic spots and neighborhoods that are nice for walking",
+    "turn_id": 0
+  },
+  "0-6": {
+    "evidence_quote": "2. Wants to try at least one popular local food place",
+    "turn_id": 0
+  },
+  "0-7": {
+    "evidence_quote": "3. Prefers a relaxed schedule rather than rushing between too many places",
+    "turn_id": 0
+  },
+  "0-8": {
+    "evidence_quote": "since all three of you will be traveling together",
+    "turn_id": 0
+  },
+  "0-9": {
+    "evidence_quote": "You’re allowed to google search\"",
+    "turn_id": 0
+  },
+  "0-10": {
+    "evidence_quote": "but do not use LLMs!\"",
+    "turn_id": 0
+  },
+  "0-11": {
+    "evidence_quote": "Example for the preference type (that you may be considering) - Budget - Transportation - Food preferences - Must-visit places - Places to avoid - Preferred pace - Indoor vs. outdoor\"",
+    "turn_id": 0
+  },
+  "1-1": {
+    "evidence_quote": "What is your preference for above criterias??\"",
+    "turn_id": 1
+  },
+  "1-2": {
+    "evidence_quote": "I prefer riding uber cuz pittsburgh bus has long intervals haha\"",
+    "turn_id": 1
+  },
+  "1-3": {
+    "evidence_quote": "I would like to have at least one good food per day!\"",
+    "turn_id": 1
+  },
+  "2-1": {
+    "evidence_quote": "for transportation",
+    "turn_id": 2
+  },
+  "2-2": {
+    "evidence_quote": "but maybe renting a car can be an other option\"",
+    "turn_id": 2
+  },
+  "3-1": {
+    "evidence_quote": "oh I see.\"",
+    "turn_id": 3
+  },
+  "3-2": {
+    "evidence_quote": "I think it would be great to rent a car.\"",
+    "turn_id": 3
+  },
+  "3-3": {
+    "evidence_quote": "I like driving\"\n    }",
+    "turn_id": 3
+  },
+  "4-1": {
+    "evidence_quote": "but we should be aware of our budgts, as you know, we are not that rich haha",
+    "turn_id": 4
+  },
+  "4-2": {
+    "evidence_quote": "maybe plan it later, after determining how many places we are going to visit",
+    "turn_id": 4
+  },
+  "5-1": {
+    "evidence_quote": "Sounds good!",
+    "turn_id": 5
+  },
+  "6-1": {
+    "evidence_quote": "I don't have knowledge about nice resetaruants,",
+    "turn_id": 6
+  },
+  "6-2": {
+    "evidence_quote": "so I will toss it to you",
+    "turn_id": 6
+  },
+  "7-1": {
+    "evidence_quote": "I can give some list of places to visit",
+    "turn_id": 7
+  },
+  "7-2": {
+    "evidence_quote": "Sure, should we plan the places first?",
+    "turn_id": 7
+  },
+  "8-1": {
+    "evidence_quote": "As your friend like scenic spots",
+    "turn_id": 8
+  },
+  "8-2": {
+    "evidence_quote": "maybe we can visit the sightseeing place first",
+    "turn_id": 8
+  },
+  "9-1": {
+    "evidence_quote": "sounds good",
+    "turn_id": 9
+  },
+  "9-2": {
+    "evidence_quote": "dusquene incline",
+    "turn_id": 9
+  },
+  "10-1": {
+    "evidence_quote": "Yeah incline sounds like must-visit place",
+    "turn_id": 10
+  },
+  "11-1": {
+    "evidence_quote": "or pnc park (the baseball park)",
+    "turn_id": 11
+  },
+  "11-2": {
+    "evidence_quote": "(the baseball park)",
+    "turn_id": 11
+  },
+  "11-3": {
+    "evidence_quote": "yeah think we should definitely include incline",
+    "turn_id": 11
+  },
+  "11-4": {
+    "evidence_quote": "And to take a walk, I think point state park is also good.",
+    "turn_id": 11
+  },
+  "12-1": {
+    "evidence_quote": "Is it better to visit there at afternoon for evening?",
+    "turn_id": 12
+  },
+  "13-1": {
+    "evidence_quote": "It is located where the three river meets",
+    "turn_id": 13
+  },
+  "13-2": {
+    "evidence_quote": "I think evening would be good",
+    "turn_id": 13
+  },
+  "13-3": {
+    "evidence_quote": "cuz we can see sun going down",
+    "turn_id": 13
+  },
+  "14-1": {
+    "evidence_quote": "Then we can book some fine restaurants not far from the incline\nHAving dinner there",
+    "turn_id": 14
+  },
+  "14-2": {
+    "evidence_quote": "What do you think of it?",
+    "turn_id": 14
+  },
+  "15-1": {
+    "evidence_quote": "good good",
+    "turn_id": 15
+  },
+  "15-2": {
+    "evidence_quote": "but I think probably we should cross the river and move to downtown",
+    "turn_id": 15
+  },
+  "15-3": {
+    "evidence_quote": "since near incline there are not many restauraunts I think",
+    "turn_id": 15
+  },
+  "16-1": {
+    "evidence_quote": "That sounds reasonable",
+    "turn_id": 16
+  },
+  "16-2": {
+    "evidence_quote": "so our evening schedule is almonst confirmend",
+    "turn_id": 16
+  },
+  "16-3": {
+    "evidence_quote": "lets move on to schedule for afternoon",
+    "turn_id": 16
+  },
+  "17-1": {
+    "evidence_quote": "Yeap",
+    "turn_id": 17
+  },
+  "17-2": {
+    "evidence_quote": "should we fill in the table?",
+    "turn_id": 17
+  },
+  "18-1": {
+    "evidence_quote": "Oh I almost forgot",
+    "turn_id": 18
+  },
+  "19-1": {
+    "evidence_quote": "Oh but there seems to be only afternoon and night",
+    "turn_id": 19
+  },
+  "19-2": {
+    "evidence_quote": "so among them maybe afternoon would be better",
+    "turn_id": 19
+  },
+  "20-1": {
+    "evidence_quote": "THen we have to decide whether to visit incline after or before dinner",
+    "turn_id": 20
+  },
+  "21-1": {
+    "evidence_quote": "right,",
+    "turn_id": 21
+  },
+  "21-2": {
+    "evidence_quote": "do you think going there right before dinner would be fine??",
+    "turn_id": 21
+  },
+  "22-1": {
+    "evidence_quote": "That sounds good",
+    "turn_id": 22
+  },
+  "23-1": {
+    "evidence_quote": "Good!",
+    "turn_id": 23
+  },
+  "23-2": {
+    "evidence_quote": "I'll find the ticket price for budget",
+    "turn_id": 23
+  },
+  "23-3": {
+    "evidence_quote": "can you find some restaurants in downtown?",
+    "turn_id": 23
+  },
+  "24-1": {
+    "evidence_quote": "Okay I will find some candidates",
+    "turn_id": 24
+  },
+  "25-1": {
+    "evidence_quote": "One place I know is",
+    "turn_id": 25
+  },
+  "26-1": {
+    "evidence_quote": "I am searching for restaurants with high google ratings.",
+    "turn_id": 26
+  },
+  "26-2": {
+    "evidence_quote": "Is there limitation on budget?",
+    "turn_id": 26
+  },
+  "26-3": {
+    "evidence_quote": "I would prefer under $30 per person",
+    "turn_id": 26
+  },
+  "27-1": {
+    "evidence_quote": "um think ~30$ per person would e fine",
+    "turn_id": 27
+  },
+  "27-2": {
+    "evidence_quote": "yes\ngood!",
+    "turn_id": 27
+  },
+  "27-3": {
+    "evidence_quote": "tako: taco restaurant",
+    "turn_id": 27
+  },
+  "27-4": {
+    "evidence_quote": "sushi kim: korean restaurant with reasonable price",
+    "turn_id": 27
+  },
+  "27-5": {
+    "evidence_quote": "or a pub named City Works? (20-30$ per person)",
+    "turn_id": 27
+  },
+  "28-1": {
+    "evidence_quote": "For me, it's sushi kim",
+    "turn_id": 28
+  },
+  "28-2": {
+    "evidence_quote": "Recently I didn't have korean food",
+    "turn_id": 28
+  },
+  "29-1": {
+    "evidence_quote": "sounds good!",
+    "turn_id": 29
+  },
+  "29-2": {
+    "evidence_quote": "sushi kim is good haha",
+    "turn_id": 29
+  },
+  "29-3": {
+    "evidence_quote": "It will cost between 20~30$ per person",
+    "turn_id": 29
+  },
+  "29-4": {
+    "evidence_quote": "so it's in our budget",
+    "turn_id": 29
+  },
+  "30-1": {
+    "evidence_quote": "That's good",
+    "turn_id": 30
+  },
+  "30-2": {
+    "evidence_quote": "after dinner, maybe we can just move to one's home and have some drinks",
+    "turn_id": 30
+  },
+  "30-3": {
+    "evidence_quote": "cause he have to leave early next morning",
+    "turn_id": 30
+  },
+  "31-1": {
+    "evidence_quote": "Good good",
+    "turn_id": 31
+  },
+  "31-2": {
+    "evidence_quote": "take some rest",
+    "turn_id": 31
+  },
+  "32-1": {
+    "evidence_quote": "So last we have to decide is our lunch schedule",
+    "turn_id": 32
+  },
+  "32-2": {
+    "evidence_quote": "Any idea?",
+    "turn_id": 32
+  },
+  "33-1": {
+    "evidence_quote": "Maybe we can go to some\nchinese restaurants?",
+    "turn_id": 33
+  },
+  "33-2": {
+    "evidence_quote": "There are some good ones near school",
+    "turn_id": 33
+  },
+  "34-1": {
+    "evidence_quote": "or maybe local american restaurants",
+    "turn_id": 34
+  },
+  "35-1": {
+    "evidence_quote": "suresure",
+    "turn_id": 35
+  },
+  "36-1": {
+    "evidence_quote": "Oh",
+    "turn_id": 36
+  },
+  "36-2": {
+    "evidence_quote": "Having him a campus tour",
+    "turn_id": 36
+  },
+  "37-1": {
+    "evidence_quote": "any recommendation for american restaurants?",
+    "turn_id": 37
+  },
+  "37-2": {
+    "evidence_quote": "oh good lol",
+    "turn_id": 37
+  },
+  "38-1": {
+    "evidence_quote": "and go to the restaurants near by",
+    "turn_id": 38
+  },
+  "39-1": {
+    "evidence_quote": "then lets do campus tour and",
+    "turn_id": 39
+  },
+  "39-2": {
+    "evidence_quote": "yesyes",
+    "turn_id": 39
+  },
+  "39-3": {
+    "evidence_quote": "we'll do that in afternoon ,right?",
+    "turn_id": 39
+  },
+  "40-1": {
+    "evidence_quote": "There's chinese restaurant in campus",
+    "turn_id": 40
+  },
+  "40-2": {
+    "evidence_quote": "maybe we can just go there",
+    "turn_id": 40
+  },
+  "41-1": {
+    "evidence_quote": "you mean hunan express?",
+    "turn_id": 41
+  },
+  "41-2": {
+    "evidence_quote": "the one in NSH?",
+    "turn_id": 41
+  },
+  "42-1": {
+    "evidence_quote": "yeah",
+    "turn_id": 42
+  },
+  "42-2": {
+    "evidence_quote": "he can experience the real atmosphere of campus",
+    "turn_id": 42
+  },
+  "43-1": {
+    "evidence_quote": "lol sounds good!",
+    "turn_id": 43
+  },
+  "43-2": {
+    "evidence_quote": "then lets have lunch there and do campus tour after lunch",
+    "turn_id": 43
+  },
+  "43-3": {
+    "evidence_quote": "Finally morning!",
+    "turn_id": 43
+  },
+  "43-4": {
+    "evidence_quote": "we'll probably wake up late",
+    "turn_id": 43
+  },
+  "43-5": {
+    "evidence_quote": "so can grab some coffee somewhere?",
+    "turn_id": 43
+  },
+  "44-1": {
+    "evidence_quote": "Considering our path, I think visiting Museum would be the best option",
+    "turn_id": 44
+  },
+  "44-2": {
+    "evidence_quote": "with some coffee during the walk to museum",
+    "turn_id": 44
+  },
+  "45-1": {
+    "evidence_quote": "I see",
+    "turn_id": 45
+  },
+  "45-2": {
+    "evidence_quote": "maybe carnegie museum of arts",
+    "turn_id": 45
+  },
+  "45-3": {
+    "evidence_quote": "yeap great!",
+    "turn_id": 45
+  },
+  "45-4": {
+    "evidence_quote": "its ticket price is 25$",
+    "turn_id": 45
+  },
+  "46-1": {
+    "evidence_quote": "+ $5 coffee,",
+    "turn_id": 46
+  },
+  "47-1": {
+    "evidence_quote": "Then it's all done!",
+    "turn_id": 47
+  },
+  "47-2": {
+    "evidence_quote": "great!!",
+    "turn_id": 47
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "dialogue_id": "poe_share_nB532oEzw6ihqWgF5THo",
+  "intentions": [
+    {
+      "intention_id": "I1",
+      "intention": "Provide the core low-walking 1-day Manhattan itinerary plan"
+    },
+    {
+      "intention_id": "I2",
+      "intention": "Give subway/transportation guidance for moving between itinerary stops"
+    },
+    {
+      "intention_id": "I3",
+      "intention": "Estimate and explain the trip budget/costs"
+    },
+    {
+      "intention_id": "I4",
+      "intention": "Recommend food stops and veg-friendly ordering within the itinerary"
+    },
+    {
+      "intention_id": "I5",
+      "intention": "Adapt the plan for vegetarian preferences"
+    }
+  ],
+  "outcome_to_intention": {
+    "outcome_1": "I1",
+    "outcome_2": "I1",
+    "outcome_3": "I2",
+    "outcome_4": "I3",
+    "outcome_5": "I4",
+    "outcome_6": "I5"
+  },
+  "metadata": {
+    "num_intentions": 5,
+    "model": "gpt-5.2-2025-12-11"
+  }
+}

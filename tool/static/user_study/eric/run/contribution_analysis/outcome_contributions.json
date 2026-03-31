@@ -1,0 +1,194 @@
+{
+  "1": {
+    "thread_id": 1,
+    "outcome_id": "outcome_1",
+    "outcome": "Start-to-finish accessible NYC day itinerary (timed schedule, meals, transit, and low-walking structure) for parents",
+    "speaker_contributions": {
+      "assistant": {
+        "direct_influence": 1.0,
+        "indirect_influence": 0.0,
+        "total_influence": 1.0,
+        "requirement_count": 1
+      },
+      "user": {
+        "direct_influence": 0.0,
+        "indirect_influence": 2.4,
+        "total_influence": 2.4,
+        "requirement_count": 1
+      }
+    },
+    "role_contributions": {
+      "assistant": {
+        "EXECUTOR": {
+          "M_dir": 3.0,
+          "M_ind": 0.0,
+          "M_total": 3.0,
+          "count": 3
+        },
+        "SHAPER": {
+          "M_dir": 1.0,
+          "M_ind": 0.0,
+          "M_total": 1.0,
+          "count": 1
+        }
+      },
+      "user": {
+        "OTHER": {
+          "M_dir": 0.0,
+          "M_ind": 0.6,
+          "M_total": 0.6,
+          "count": 1
+        },
+        "SHAPER": {
+          "M_dir": 0.0,
+          "M_ind": 1.7999999999999998,
+          "M_total": 1.7999999999999998,
+          "count": 3
+        }
+      }
+    },
+    "requirements": [
+      "r1"
+    ]
+  },
+  "2": {
+    "thread_id": 2,
+    "outcome_id": "outcome_2",
+    "outcome": "Step-by-step instructions for the selected midday boat tour (Circle Line) including how to get there, boarding, and what to do",
+    "speaker_contributions": {
+      "assistant": {
+        "direct_influence": 9.0,
+        "indirect_influence": 0.0,
+        "total_influence": 9.0,
+        "requirement_count": 2
+      },
+      "user": {
+        "direct_influence": 0.0,
+        "indirect_influence": 1.6,
+        "total_influence": 1.6,
+        "requirement_count": 2
+      }
+    },
+    "role_contributions": {
+      "assistant": {
+        "SHAPER": {
+          "M_dir": 1.0,
+          "M_ind": 0.0,
+          "M_total": 1.0,
+          "count": 1
+        },
+        "EXECUTOR": {
+          "M_dir": 10.0,
+          "M_ind": 0.0,
+          "M_total": 10.0,
+          "count": 10
+        }
+      },
+      "user": {
+        "SHAPER": {
+          "M_dir": 0.0,
+          "M_ind": 1.6,
+          "M_total": 1.6,
+          "count": 4
+        }
+      }
+    },
+    "requirements": [
+      "r2",
+      "r3"
+    ]
+  },
+  "3": {
+    "thread_id": 3,
+    "outcome_id": "outcome_3",
+    "outcome": "Evening plan integrating Madison Square Park stroll and a nearby dinner plan (restaurant choice + how to reserve)",
+    "speaker_contributions": {
+      "assistant": {
+        "direct_influence": 4.0,
+        "indirect_influence": 0.0,
+        "total_influence": 4.0,
+        "requirement_count": 1
+      },
+      "user": {
+        "direct_influence": 0.0,
+        "indirect_influence": 0.8,
+        "total_influence": 0.8,
+        "requirement_count": 1
+      }
+    },
+    "role_contributions": {
+      "assistant": {
+        "SHAPER": {
+          "M_dir": 1.0,
+          "M_ind": 0.0,
+          "M_total": 1.0,
+          "count": 1
+        },
+        "EXECUTOR": {
+          "M_dir": 3.0,
+          "M_ind": 0.0,
+          "M_total": 3.0,
+          "count": 3
+        }
+      },
+      "user": {
+        "SHAPER": {
+          "M_dir": 0.0,
+          "M_ind": 0.8,
+          "M_total": 0.8,
+          "count": 2
+        }
+      }
+    },
+    "requirements": [
+      "r4"
+    ]
+  },
+  "4": {
+    "thread_id": 4,
+    "outcome_id": "outcome_4",
+    "outcome": "Mobility and energy disclaimers/guide integrated into the itinerary (before-you-go notes and inline cautions)",
+    "speaker_contributions": {
+      "assistant": {
+        "direct_influence": 3.0,
+        "indirect_influence": 0.0,
+        "total_influence": 3.0,
+        "requirement_count": 2
+      },
+      "user": {
+        "direct_influence": 0.0,
+        "indirect_influence": 1.2,
+        "total_influence": 1.2,
+        "requirement_count": 2
+      }
+    },
+    "role_contributions": {
+      "assistant": {
+        "SHAPER": {
+          "M_dir": 1.0,
+          "M_ind": 0.0,
+          "M_total": 1.0,
+          "count": 1
+        },
+        "EXECUTOR": {
+          "M_dir": 2.0,
+          "M_ind": 0.0,
+          "M_total": 2.0,
+          "count": 2
+        }
+      },
+      "user": {
+        "SHAPER": {
+          "M_dir": 0.0,
+          "M_ind": 1.2,
+          "M_total": 1.2,
+          "count": 2
+        }
+      }
+    },
+    "requirements": [
+      "r5",
+      "r6"
+    ]
+  }
+}

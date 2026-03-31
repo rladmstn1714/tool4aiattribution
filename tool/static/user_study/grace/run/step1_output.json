@@ -1,0 +1,301 @@
+{
+  "dialogue_id": "poe_share_RgOOskda04YHcDI58ioV",
+  "requirements": {
+    "r1": {
+      "req_id": "r1",
+      "text": "Recommend food venues that are reliable and comfortable (not trendy or overly crowded).",
+      "type": "constraint",
+      "status": "active",
+      "origin_action_ids": [
+        "4-2"
+      ],
+      "creation_action_ids": [
+        "4-2"
+      ],
+      "contributing_action_ids": [
+        "5-5",
+        "5-11",
+        "5-4",
+        "4-1",
+        "9-11"
+      ],
+      "implementation_action_ids": [
+        "5-9",
+        "5-6",
+        "5-8",
+        "11-6",
+        "7-7",
+        "5-7"
+      ],
+      "outcome_id": "outcome_3",
+      "origin_turn_id": 4,
+      "created_at": 4,
+      "operation_type": "create",
+      "related_to": [],
+      "explicit_or_implicit": "explicit",
+      "rationale": "User explicitly constrained restaurant recommendations to reliable and comfortable venues rather than trendy/overly crowded spots.",
+      "thread_id": 3,
+      "revise_action_ids": []
+    },
+    "r2": {
+      "req_id": "r2",
+      "text": "Include reviews and ratings for the recommended food places in the itinerary.",
+      "type": "constraint",
+      "status": "active",
+      "origin_action_ids": [
+        "4-3"
+      ],
+      "creation_action_ids": [
+        "4-3"
+      ],
+      "contributing_action_ids": [
+        "5-3",
+        "4-1",
+        "5-1",
+        "5-2"
+      ],
+      "implementation_action_ids": [
+        "5-9",
+        "5-6",
+        "5-8",
+        "11-6",
+        "7-7",
+        "5-7"
+      ],
+      "outcome_id": "outcome_3",
+      "origin_turn_id": 4,
+      "created_at": 4,
+      "operation_type": "create",
+      "related_to": [],
+      "explicit_or_implicit": "explicit",
+      "rationale": "User explicitly requested that reviews and ratings be included for food recommendations.",
+      "thread_id": 3,
+      "revise_action_ids": []
+    },
+    "r3": {
+      "req_id": "r3",
+      "text": "The dinner choice in the itinerary must be swapped to a non-Italian option.",
+      "type": "constraint",
+      "status": "active",
+      "origin_action_ids": [
+        "8-1"
+      ],
+      "creation_action_ids": [
+        "8-1"
+      ],
+      "contributing_action_ids": [
+        "9-3",
+        "9-2",
+        "11-11",
+        "9-9",
+        "9-1",
+        "9-8",
+        "9-10",
+        "9-12",
+        "9-4",
+        "10-1"
+      ],
+      "implementation_action_ids": [
+        "11-10",
+        "9-5",
+        "9-7",
+        "9-6"
+      ],
+      "outcome_id": "outcome_6",
+      "origin_turn_id": 8,
+      "created_at": 8,
+      "operation_type": "create",
+      "related_to": [],
+      "explicit_or_implicit": "explicit",
+      "rationale": "User explicitly asks to swap dinner to something non-Italian; success is binary by verifying the updated dinner recommendation(s) are not Italian.",
+      "thread_id": 6,
+      "revise_action_ids": []
+    }
+  },
+  "threads": {
+    "1": {
+      "thread_id": 1,
+      "outcome_id": "outcome_1",
+      "outcome": "Parent-friendly 1-day NYC itinerary (low walking, includes rest stops, integrates chosen sights and logistics)",
+      "created_at": 0,
+      "requirements": [],
+      "parent_outcome_id": null,
+      "child_outcome_ids": [
+        "outcome_2",
+        "outcome_3",
+        "outcome_4",
+        "outcome_5",
+        "outcome_6"
+      ],
+      "related_outcome_ids": []
+    },
+    "2": {
+      "thread_id": 2,
+      "outcome_id": "outcome_2",
+      "outcome": "Rest-stop integrated pacing plan for the itinerary (built-in sit-down breaks and low-strain logistics)",
+      "created_at": 2,
+      "requirements": [],
+      "parent_outcome_id": "outcome_1",
+      "child_outcome_ids": [],
+      "related_outcome_ids": [
+        "outcome_3",
+        "outcome_4",
+        "outcome_5"
+      ]
+    },
+    "3": {
+      "thread_id": 3,
+      "outcome_id": "outcome_3",
+      "outcome": "Comfortable, reliable food recommendations embedded in the itinerary with ratings/review summaries (breakfast/lunch/dinner + reservation guidance)",
+      "created_at": 4,
+      "requirements": [
+        "r1",
+        "r2"
+      ],
+      "parent_outcome_id": "outcome_1",
+      "child_outcome_ids": [
+        "outcome_6"
+      ],
+      "related_outcome_ids": [
+        "outcome_2"
+      ]
+    },
+    "4": {
+      "thread_id": 4,
+      "outcome_id": "outcome_4",
+      "outcome": "Statue of Liberty viewing approach that fits a 1-day plan with minimal walking (choose cruise/ferry vs Liberty Island; adjust schedule accordingly)",
+      "created_at": 6,
+      "requirements": [],
+      "parent_outcome_id": "outcome_1",
+      "child_outcome_ids": [],
+      "related_outcome_ids": [
+        "outcome_2",
+        "outcome_5"
+      ]
+    },
+    "5": {
+      "thread_id": 5,
+      "outcome_id": "outcome_5",
+      "outcome": "Swap Midtown afternoon to Central Park in a low-walk way (e.g., pedicab plan and updated routing/timing)",
+      "created_at": 10,
+      "requirements": [],
+      "parent_outcome_id": "outcome_1",
+      "child_outcome_ids": [],
+      "related_outcome_ids": [
+        "outcome_2",
+        "outcome_4"
+      ]
+    },
+    "6": {
+      "thread_id": 6,
+      "outcome_id": "outcome_6",
+      "outcome": "Non-Italian dinner substitution for the itinerary (select and present suitable options with rationale and updated evening plan)",
+      "created_at": 8,
+      "requirements": [
+        "r3"
+      ],
+      "parent_outcome_id": "outcome_3",
+      "child_outcome_ids": [],
+      "related_outcome_ids": []
+    }
+  },
+  "operations_log": [
+    {
+      "turn_id": 4,
+      "ops": [
+        {
+          "op": "create",
+          "req_id": "r1",
+          "bound_outcome_id": "outcome_3",
+          "fields": {
+            "text": "Recommend food venues that are reliable and comfortable (not trendy or overly crowded).",
+            "type": "constraint"
+          },
+          "creation_action_ids": [
+            "4-2"
+          ],
+          "contributing_action_ids": [
+            "4-1"
+          ],
+          "implementation_action_ids": [
+            "5-6",
+            "5-7",
+            "5-8",
+            "5-9",
+            "7-7",
+            "11-6"
+          ],
+          "related_to": [],
+          "explicit_or_implicit": "explicit",
+          "rationale": "User explicitly constrained restaurant recommendations to reliable and comfortable venues rather than trendy/overly crowded spots.",
+          "outcome_id": "outcome_3",
+          "thread_id": 3
+        },
+        {
+          "op": "create",
+          "req_id": "r2",
+          "bound_outcome_id": "outcome_3",
+          "fields": {
+            "text": "Include reviews and ratings for the recommended food places in the itinerary.",
+            "type": "constraint"
+          },
+          "creation_action_ids": [
+            "4-3"
+          ],
+          "contributing_action_ids": [
+            "4-1"
+          ],
+          "implementation_action_ids": [
+            "5-6",
+            "5-7",
+            "5-8",
+            "5-9",
+            "7-7",
+            "11-6"
+          ],
+          "related_to": [],
+          "explicit_or_implicit": "explicit",
+          "rationale": "User explicitly requested that reviews and ratings be included for food recommendations.",
+          "outcome_id": "outcome_3",
+          "thread_id": 3
+        }
+      ]
+    },
+    {
+      "turn_id": 8,
+      "ops": [
+        {
+          "op": "create",
+          "req_id": "r3",
+          "bound_outcome_id": "outcome_6",
+          "fields": {
+            "text": "The dinner choice in the itinerary must be swapped to a non-Italian option.",
+            "type": "constraint"
+          },
+          "creation_action_ids": [
+            "8-1"
+          ],
+          "contributing_action_ids": [
+            "9-1"
+          ],
+          "implementation_action_ids": [
+            "9-7",
+            "11-10"
+          ],
+          "related_to": [],
+          "explicit_or_implicit": "explicit",
+          "rationale": "User explicitly asks to swap dinner to something non-Italian; success is binary by verifying the updated dinner recommendation(s) are not Italian.",
+          "outcome_id": "outcome_6",
+          "thread_id": 6
+        }
+      ]
+    }
+  ],
+  "others": [],
+  "metadata": {
+    "num_requirements": 3,
+    "num_threads": 6,
+    "num_operations": 3,
+    "model": "gpt-5.2-2025-12-11"
+  }
+}

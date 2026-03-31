@@ -1,0 +1,2277 @@
+{
+  "dialogue_id": "poe_share_sLWzhGcXwPe9X3rAcJcM",
+  "forward_labels": {
+    "r1": {
+      "implementation_action_ids": [],
+      "contributing_action_ids": [
+        "1-2",
+        "1-3",
+        "1-5",
+        "5-2",
+        "5-6"
+      ],
+      "revise_action_ids": [],
+      "all_labels": [
+        {
+          "action_id": "1-1",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Analyzes general itinerary needs (relaxed, single-day) but does not address starting from the Manhattan hotel.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "1-2",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 1,
+          "explanation": "Sets planning approach (minimal walking, rest) that can indirectly affect how a hotel-based start is routed, but does not mention the hotel start explicitly.",
+          "explanation_type": "Preference-Accumulate",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "1-3",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Sketches a day sequence that effectively assumes a start point (Central Park first), partially engaging with the notion of where the day begins, but not explicitly from the hotel.",
+          "explanation_type": "Intent-Reveal",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "1-5",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 1,
+          "explanation": "Transit logistics (taxi between stops) can support a hotel-based start indirectly, but does not reference the hotel as the origin.",
+          "explanation_type": "Preference-Accumulate",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "1-7",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Changes routing to start near Rockefeller Center, which is about a new anchor area rather than explicitly starting from the user's Manhattan hotel.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "1-8",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Reorders activities to reduce walking and considers dinner options, without tying the itinerary start to the hotel.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "1-9",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Provides a Midtown/Central Park South plan but does not specify starting from the user's hotel.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-10",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Presents a full itinerary focused on an area, but does not explicitly make the hotel the starting point.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-1",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "States focus area (Midtown/Central Park South) without addressing hotel-as-start.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "5-2",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 1,
+          "explanation": "Reinforces relaxed pacing/minimal walking which can influence how a hotel start is handled, but does not mention starting at the hotel.",
+          "explanation_type": "Preference-Accumulate",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "5-3",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Confirms time span (morning to evening) but not the start location from the hotel.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "5-6",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 1,
+          "explanation": "Minimizing walking between lunch options can affect routing from a start point, but the hotel start is not addressed.",
+          "explanation_type": "Preference-Accumulate",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "5-14",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Provides a revised itinerary with details but does not explicitly begin from the user's Manhattan hotel.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        }
+      ]
+    },
+    "r10": {
+      "implementation_action_ids": [
+        "1-9",
+        "1-10",
+        "5-14"
+      ],
+      "contributing_action_ids": [
+        "1-1",
+        "1-3",
+        "1-5",
+        "1-7",
+        "1-8",
+        "5-6"
+      ],
+      "revise_action_ids": [],
+      "all_labels": [
+        {
+          "action_id": "1-1",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Identifies the need for a relaxed itinerary, which implicitly supports adding/resting opportunities but does not yet specify sit-down breaks. (Preference-Accumulate)",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "1-2",
+          "relationship": "DIRECT_CONNECTION",
+          "relationship_score": 4,
+          "explanation": "Explicitly sets a planning focus on ample rest, directly operating on the rest-break requirement as an objective. (Intent-Reveal)",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "1-3",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Adds meals/cafe structure that can function as sit-down opportunities, but rest is not the explicit object. (Preference-Accumulate)",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "1-5",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 1,
+          "explanation": "Transit (taxi) reduces exertion and can support a more restful day, but it doesn’t directly ensure sit-down rest breaks. (Preference-Accumulate)",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "1-7",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Revises routing to minimize exertion/ease, which helps create space for rest, though not explicitly adding sit-down breaks. (Preference-Accumulate)",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "1-8",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Reorders activities to minimize walking and includes dinner planning; indirectly supports resting via lower fatigue and seated meal time. (Preference-Accumulate)",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "1-9",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Provides a day plan that explicitly includes rest stops, directly fulfilling the requirement to offer sit-down/rest chances. (Intent-Reveal)",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-10",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Delivers a timed itinerary with venues/justifications that include built-in breaks (meals/cafes/pauses), implementing sit-down opportunities. (Intent-Reveal)",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-1",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "States geographic focus area only; does not meaningfully address sit-down rest opportunities.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "5-2",
+          "relationship": "DIRECT_CONNECTION",
+          "relationship_score": 4,
+          "explanation": "Explicitly emphasizes comfortable seating and relaxed pace, directly aligning with and reinforcing the sit-down rest requirement. (Preference-Accumulate)",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "5-3",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "States the itinerary spans morning to evening; this alone does not relate to sit-down rest chances.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "5-6",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 1,
+          "explanation": "Minimizing walking distance supports a less tiring day but does not directly ensure sit-down/rest breaks. (Preference-Accumulate)",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "5-14",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 5,
+          "explanation": "Provides the revised full itinerary (schedule/locations) including planned breaks/meals that create concrete sit-down rest opportunities throughout the day. (Intent-Reveal)",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        }
+      ]
+    },
+    "r11": {
+      "implementation_action_ids": [
+        "1-9",
+        "1-10",
+        "5-14"
+      ],
+      "contributing_action_ids": [
+        "1-1",
+        "1-3",
+        "1-5",
+        "5-1",
+        "5-3",
+        "5-6"
+      ],
+      "revise_action_ids": [],
+      "all_labels": [
+        {
+          "action_id": "1-1",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 3,
+          "explanation": "Frames the need for a relaxed, non-tiring single-day plan, aligning with balancing iconic sights and smooth pacing (Intent-Reveal).",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "1-2",
+          "relationship": "DIRECT_CONNECTION",
+          "relationship_score": 4,
+          "explanation": "Explicitly plans for minimal walking, ample rest, and iconic landmarks—directly operating on the balance/smoothness requirement (Preference-Accumulate).",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "1-3",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 3,
+          "explanation": "Draft schedule includes iconic locations and meal/cafe pacing, partially advancing the non-tiring balance (Preference-Accumulate).",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "1-5",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 3,
+          "explanation": "Transit/logistics choice (taxi) reduces exertion and smooths the day, supporting the non-tiring schedule (Preference-Accumulate).",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "1-7",
+          "relationship": "DIRECT_CONNECTION",
+          "relationship_score": 4,
+          "explanation": "Revises routing explicitly to prioritize ease and minimize exertion, directly refining the ‘not tiring’ smooth-balance requirement (Option-Select).",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "1-8",
+          "relationship": "DIRECT_CONNECTION",
+          "relationship_score": 4,
+          "explanation": "Reorders activities to minimize walking and increase comfort, directly shaping the smooth/non-tiring balance (Option-Select).",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "1-9",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Produces a prioritized plan with rest stops and concentrated area choices that implement a balanced iconic-yet-not-tiring itinerary (Preference-Realize).",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-10",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 5,
+          "explanation": "Delivers a timed, justified itinerary explicitly curated for compact routing and relaxed pacing while hitting icons—full fulfillment of r11 (Preference-Realize).",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-1",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Reaffirms the focused geographic area, supporting smoothness by reducing travel, but only indirectly addresses the balance requirement (Preference-Accumulate).",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "5-2",
+          "relationship": "DIRECT_CONNECTION",
+          "relationship_score": 4,
+          "explanation": "Explicitly emphasizes relaxed pace, seating, and minimal walking—directly reinforcing the ‘not tiring’ component of r11 (Preference-Accumulate).",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "5-3",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "States morning-to-evening scope; this contextualizes scheduling smoothness but doesn’t directly enforce the balance/effort constraint (Intent-Reveal).",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "5-6",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 3,
+          "explanation": "Analyzes lunch options to minimize walking distance, directly supporting a non-tiring smooth plan though focused on one sub-decision (Option-Select).",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "5-14",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 5,
+          "explanation": "Provides the revised full itinerary with detailed pacing/logistics that operationalizes a balanced set of iconic experiences without being exhausting (Preference-Realize).",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        }
+      ]
+    },
+    "r12": {
+      "implementation_action_ids": [
+        "1-9",
+        "1-10",
+        "5-14"
+      ],
+      "contributing_action_ids": [
+        "1-1",
+        "1-2",
+        "1-3",
+        "5-2"
+      ],
+      "revise_action_ids": [],
+      "all_labels": [
+        {
+          "action_id": "1-1",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Identifies the need for a relaxed one-day plan, which indirectly supports later compact, on-foot routing but doesn’t yet specify avoiding long-distance moves.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "1-2",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 3,
+          "explanation": "Sets an explicit planning focus on minimal walking/rest, aligning with avoiding long-distance moves and encouraging a compact area approach.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "1-3",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 3,
+          "explanation": "Sketches a sequence centered around Central Park/Midtown stops, which tends toward compact exploration but is not explicitly framed as avoiding long-distance moves on foot.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "1-5",
+          "relationship": "DIRECT_CONNECTION",
+          "relationship_score": 4,
+          "explanation": "Directly addresses routing distance/logistics by proposing a taxi to prevent a longer walk, explicitly operating on the ‘avoid long-distance moves’ aspect of the requirement.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "1-7",
+          "relationship": "DIRECT_CONNECTION",
+          "relationship_score": 4,
+          "explanation": "Explicitly revises routing to minimize exertion and improve ease, directly acting on the compact/low-distance routing requirement.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "1-8",
+          "relationship": "DIRECT_CONNECTION",
+          "relationship_score": 4,
+          "explanation": "Reorders activities specifically to minimize walking, directly manipulating the plan to satisfy compact, on-foot exploration with fewer long moves.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "1-9",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Provides a Midtown/Central Park South plan (a compact region) with rest stops, largely implementing the requirement to avoid long-distance moves by keeping the day geographically tight.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-10",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 5,
+          "explanation": "Delivers a detailed Midtown–Central Park South itinerary with justifications; this is a full execution of compact routing on foot (with minimal need for long-distance moves).",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-1",
+          "relationship": "DIRECT_CONNECTION",
+          "relationship_score": 4,
+          "explanation": "Explicitly anchors the plan to Midtown/Central Park South, directly enforcing the compact-region constraint that avoids long-distance moves.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "5-2",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Reinforces minimal walking/comfortable pacing, which supports compact on-foot exploration but is broader than the specific ‘compact regions’ constraint.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "5-3",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Only states the day spans morning to evening; does not affect whether routing avoids long-distance moves or stays in compact walkable areas.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "5-6",
+          "relationship": "DIRECT_CONNECTION",
+          "relationship_score": 4,
+          "explanation": "Explicitly evaluates lunch locations with the goal of minimizing walking distance, directly working on the requirement to avoid long-distance moves.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "5-14",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 5,
+          "explanation": "Produces a revised full itinerary with detailed locations designed around a tight area and reduced walking, fully implementing the compact, on-foot routing requirement.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        }
+      ]
+    },
+    "r13": {
+      "implementation_action_ids": [
+        "3-6"
+      ],
+      "contributing_action_ids": [
+        "3-2",
+        "3-3",
+        "3-7",
+        "7-11"
+      ],
+      "revise_action_ids": [],
+      "all_labels": [
+        {
+          "action_id": "3-1",
+          "relationship": "DIRECT_CONNECTION",
+          "relationship_score": 4,
+          "explanation": "Explicitly revises the plan to place Top of the Rock at sunset, directly acting on the requirement.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "3-2",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 3,
+          "explanation": "Rearranges geographic flow to make the sunset Top of the Rock visit practical and smooth, supporting achievement of the requirement without itself being the scheduling artifact.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "3-3",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 3,
+          "explanation": "Adds concrete sequencing (cafe before deck) and access strategy that helps the sunset visit occur as intended.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "3-6",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 5,
+          "explanation": "Provides the revised itinerary output that includes Top of the Rock scheduled for sunset, satisfying the requirement in the plan.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "3-7",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 3,
+          "explanation": "Ticketing and timing guidance (book ~45 min before sunset) helps ensure the sunset slot is actually met.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "5-13",
+          "relationship": "DIRECT_CONNECTION",
+          "relationship_score": 4,
+          "explanation": "Changes the Top of the Rock ticket type while keeping the visit; this directly modifies an implementation detail of the sunset Top of the Rock requirement.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "7-11",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Warns to check actual sunset time and adjust accordingly, supporting correct scheduling but not itself scheduling or producing the itinerary.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        }
+      ]
+    },
+    "r14": {
+      "implementation_action_ids": [
+        "5-4"
+      ],
+      "contributing_action_ids": [
+        "1-4",
+        "1-6"
+      ],
+      "revise_action_ids": [],
+      "all_labels": [
+        {
+          "action_id": "1-4",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Mentions breakfast/lunch contenders; could include cafe-like options (e.g., Sarabeth's) but does not explicitly address adding a cafe to the plan.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "1-6",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 3,
+          "explanation": "Recommends Palm Court for afternoon tea/rest as a planned stop, which functions as a cafe-style inclusion in the schedule.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "2-2",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Request is about reconsidering dinner, not about including a cafe.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "3-4",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Dinner recommendation (Le Bernardin) does not concern adding a cafe to the plan.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "3-9",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Alternative dinner option selection does not relate to including a cafe.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "4-1",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Suggestion focuses on making lunch cheaper/less luxurious, not on adding a cafe.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "4-2",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Critique addresses dinner price, not cafe inclusion.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "4-3",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Dinner budget cap constraint does not directly involve the cafe requirement.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "5-4",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 5,
+          "explanation": "Directly adds/chooses a specific cafe (Ralph's Coffee) as a scheduled option, fulfilling the requirement to include a good cafe.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "5-5",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Aims to choose a less extravagant lunch; does not address cafe inclusion.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "5-7",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Selects lunch frontrunners; not related to adding a cafe.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "5-8",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Notes dinner budget constraint and looks for approachable dinner options; unrelated to cafe inclusion.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "5-9",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Swaps dinner restaurant; does not involve the cafe requirement.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "5-12",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "General note about making dining choices budget-friendly; does not specifically address adding a cafe.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        }
+      ]
+    },
+    "r15": {
+      "implementation_action_ids": [
+        "5-9"
+      ],
+      "contributing_action_ids": [
+        "5-12"
+      ],
+      "revise_action_ids": [],
+      "all_labels": [
+        {
+          "action_id": "5-4",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Swapping the morning coffee option does not affect or execute the dinner $100/person cap.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "5-5",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Choosing a less extravagant lunch is unrelated to the dinner-specific per-person budget maximum.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "5-7",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Selecting lunch frontrunners does not contribute to satisfying the dinner budget cap requirement.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "5-8",
+          "relationship": "DIRECT_CONNECTION",
+          "relationship_score": 4,
+          "explanation": "Explicitly acknowledges the $100/person dinner cap as a constraint and uses it to steer dinner option search.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "5-9",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 5,
+          "explanation": "Replaces the dinner pick with a more affordable option to comply with the $100/person maximum.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "5-12",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 3,
+          "explanation": "General adjustment toward budget-friendly dining supports meeting the dinner cap, though not solely or explicitly verifying the cap.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        }
+      ]
+    },
+    "r16": {
+      "implementation_action_ids": [
+        "3-8",
+        "5-11",
+        "5-15",
+        "7-13"
+      ],
+      "contributing_action_ids": [
+        "3-5",
+        "5-10"
+      ],
+      "revise_action_ids": [],
+      "all_labels": [
+        {
+          "action_id": "3-5",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 3,
+          "explanation": "Intent-Reveal: provides totals per-person and for three, but not the requested itemized per stop/course breakdown.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "3-8",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 5,
+          "explanation": "Intent-Reveal: delivers itemized per-stop costs and totals (per-person/party), directly fulfilling r16.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-10",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Intent-Reveal: internal fine-tuning of estimates indicates progress toward an accurate breakdown, but no breakdown output itself.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-11",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 5,
+          "explanation": "Intent-Reveal: provides a comprehensive itemized cost breakdown and totals, satisfying r16.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-15",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 5,
+          "explanation": "Intent-Reveal: outputs per-person and party-of-3 totals with estimated line items, meeting r16.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "7-13",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 5,
+          "explanation": "Intent-Reveal: provides an updated estimated price breakdown and totals for the revised plan, fulfilling r16 for the updated itinerary.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        }
+      ]
+    },
+    "r17": {
+      "implementation_action_ids": [
+        "3-5",
+        "5-15",
+        "7-13"
+      ],
+      "contributing_action_ids": [
+        "3-8",
+        "5-10",
+        "5-11"
+      ],
+      "revise_action_ids": [],
+      "all_labels": [
+        {
+          "action_id": "3-5",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 5,
+          "explanation": "Explicitly provides a per-person projected total cost for the day (~$550/person), directly fulfilling r17.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "3-8",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 3,
+          "explanation": "Gives itemized per-item costs and a party-of-3 total; supports computing per-person total but (as stated) centers on totals for three rather than explicitly per-person.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-10",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Fine-tuning estimates and monitoring overages improves accuracy of eventual per-person total but does not itself provide it.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-11",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 3,
+          "explanation": "Comprehensive itemized breakdown provides the components needed to calculate a per-person total, but is not necessarily the total itself.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-15",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 5,
+          "explanation": "Explicitly provides per-person totals (and party-of-3 totals), directly satisfying r17.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "7-13",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 5,
+          "explanation": "Provides per-person totals for the updated plan, directly fulfilling r17 for the revised itinerary.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        }
+      ]
+    },
+    "r18": {
+      "implementation_action_ids": [
+        "3-5",
+        "3-8",
+        "5-15",
+        "7-13"
+      ],
+      "contributing_action_ids": [
+        "5-10",
+        "5-11"
+      ],
+      "revise_action_ids": [],
+      "all_labels": [
+        {
+          "action_id": "3-5",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Explicitly states the total cost for three people (~$1,650), directly satisfying the requirement to include the full-party total.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "3-8",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 5,
+          "explanation": "Provides itemized costs and explicitly includes totals for three, fully fulfilling the requirement.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-10",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Cost fine-tuning is preparatory work that supports producing an accurate party-of-3 total but does not itself provide it.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-11",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 3,
+          "explanation": "Itemized breakdown is key input toward calculating the full-party total, even if the action is framed as breakdown rather than explicitly the final party-of-3 total.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-15",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 5,
+          "explanation": "Explicitly reports a price breakdown including party-of-3 totals, directly fulfilling the requirement.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "7-13",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 5,
+          "explanation": "Provides the updated plan’s totals for the party of 3, directly fulfilling the requirement.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        }
+      ]
+    },
+    "r19": {
+      "implementation_action_ids": [
+        "3-8",
+        "5-11"
+      ],
+      "contributing_action_ids": [
+        "3-5",
+        "5-10",
+        "5-15",
+        "7-13"
+      ],
+      "revise_action_ids": [],
+      "all_labels": [
+        {
+          "action_id": "3-5",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 3,
+          "explanation": "Provides totals, which partially supports the breakdown requirement but does not itself give per-course/stop line items.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "3-8",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 5,
+          "explanation": "Delivers per-item (per stop) pricing and totals, directly fulfilling the line-item pricing requirement.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-10",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Cost fine-tuning supports eventual itemized pricing but is not itself an itemized per-course/stop breakdown.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-11",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 5,
+          "explanation": "Provides a comprehensive itemized cost breakdown, satisfying inclusion of prices for each course/stop.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-15",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 3,
+          "explanation": "Adds per-person and party totals and a price breakdown; contributes to the requirement, though line-item per stop/course is only satisfied insofar as it preserves itemization.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "7-13",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 3,
+          "explanation": "Provides an updated plan’s price breakdown and totals; contributes to the line-item pricing requirement to the extent it maintains per-stop/course pricing.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        }
+      ]
+    },
+    "r2": {
+      "implementation_action_ids": [
+        "1-9",
+        "1-10",
+        "5-14"
+      ],
+      "contributing_action_ids": [
+        "1-2",
+        "1-3",
+        "1-8",
+        "5-2"
+      ],
+      "revise_action_ids": [],
+      "all_labels": [
+        {
+          "action_id": "1-1",
+          "relationship": "IMPLICIT_CONNECTION",
+          "relationship_score": 2,
+          "explanation": "Intent-Reveal: identifying the need for a relaxed single-day plan implicitly points toward keeping destinations close to the Manhattan start, but does not discuss travel time explicitly.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "1-2",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Preference-Accumulate: focusing on minimal walking and ample rest indirectly supports choosing nearby/low-transit locations, but does not directly address hotel-to-sight travel time.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "1-3",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 3,
+          "explanation": "Option-Select: sketching a Midtown/Central Park–centric schedule tends to keep travel reasonable from a Manhattan hotel, partially advancing r2 without explicitly evaluating transit time.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "1-5",
+          "relationship": "DIRECT_CONNECTION",
+          "relationship_score": 4,
+          "explanation": "Intent-Reveal: explicitly considering transit logistics (e.g., quick taxi between stops) directly operates on making travel times reasonable from the starting point.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "1-7",
+          "relationship": "DIRECT_CONNECTION",
+          "relationship_score": 4,
+          "explanation": "Preference-Accumulate: revising routing to prioritize ease effectively targets reducing travel burden, directly aligning the plan with reasonable transit expectations.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "1-8",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 3,
+          "explanation": "Option-Select: reordering activities to minimize walking partially supports reasonable overall movement/travel, but is more about on-foot distance than hotel-to-destination transit time.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "1-9",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Preference-Realize: providing a Midtown/Central Park South plan concretely fulfills the 'reasonable travel from Manhattan hotel' constraint by keeping the itinerary geographically close.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-10",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 5,
+          "explanation": "Preference-Realize: delivering a detailed Midtown-to-Central Park South itinerary with routing/justifications strongly satisfies r2 by design (compact area, short hops).",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-1",
+          "relationship": "DIRECT_CONNECTION",
+          "relationship_score": 4,
+          "explanation": "Intent-Reveal: explicitly stating the focus area is Midtown/Central Park South directly reflects choosing nearby locations to keep travel time reasonable from a Manhattan hotel.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "5-2",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Preference-Accumulate: emphasizing minimal walking supports a low-travel-burden day, but does not specifically address transit time from the hotel.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "5-3",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "NO_CONNECTION",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "5-6",
+          "relationship": "DIRECT_CONNECTION",
+          "relationship_score": 4,
+          "explanation": "Intent-Reveal: explicitly trying to minimize walking distance between meal locations is a direct routing/travel-efficiency concern that supports reasonable travel time/effort overall.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "5-14",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 5,
+          "explanation": "Preference-Realize: the full revised itinerary with detailed locations operationalizes compact routing and therefore fully implements the reasonable-travel-from-Manhattan-hotel requirement.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        }
+      ]
+    },
+    "r20": {
+      "implementation_action_ids": [
+        "7-2",
+        "7-9",
+        "7-12"
+      ],
+      "contributing_action_ids": [
+        "7-3",
+        "7-4",
+        "7-5",
+        "7-8",
+        "7-10"
+      ],
+      "revise_action_ids": [],
+      "all_labels": [
+        {
+          "action_id": "7-1",
+          "relationship": "DIRECT_CONNECTION",
+          "relationship_score": 4,
+          "explanation": "Explicitly confirms the schedule now includes the required 1.5-hour Central Park rest block.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "7-2",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 5,
+          "explanation": "Directly blocks off ~1.5 hours in Central Park and specifies rest-focused use of that time (fulfills r20).",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "7-3",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Schedules nearby activities around the park block, helping make the 1.5-hour rest window workable but not itself the rest allocation.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "7-4",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 3,
+          "explanation": "Walking-time analysis from Central Park to brunch supports feasibility of keeping the 1.5-hour park rest block intact.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "7-5",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "General travel-time checks help preserve a non-rushed schedule compatible with the 1.5-hour Central Park rest requirement.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "7-6",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Travel time from Top of the Rock to Avra does not meaningfully impact allocating 1.5 hours in Central Park.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "7-7",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Confirming Avra’s proximity to Top of the Rock is unrelated to the Central Park rest-time allocation.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "7-8",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 3,
+          "explanation": "Re-evaluating schedule with walking times and sunset constraints helps adjust surrounding blocks so the 1.5-hour Central Park rest remains accommodated.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "7-9",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 5,
+          "explanation": "Provides the updated itinerary explicitly expanding Central Park time to 1.5 hours and shifting later activities accordingly (fulfills r20).",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "7-10",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Adding walking times supports the practical feasibility of preserving the 1.5-hour Central Park rest block, but is not the allocation itself.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "7-12",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Lists detailed time blocks that include the dedicated Central Park rest allocation as part of the full-day schedule output.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        }
+      ]
+    },
+    "r21": {
+      "implementation_action_ids": [
+        "7-9",
+        "7-12"
+      ],
+      "contributing_action_ids": [
+        "7-1",
+        "7-2",
+        "7-4",
+        "7-5",
+        "7-10"
+      ],
+      "revise_action_ids": [],
+      "all_labels": [
+        {
+          "action_id": "7-1",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 3,
+          "explanation": "Adding a 1.5-hour Central Park break increases midday duration and supports the need to push lunch and later items later, but is not itself the lunch-shift action.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "7-2",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 3,
+          "explanation": "Blocking 1.5 hours in Central Park directly creates the timing pressure that necessitates lunch being later and later items being pushed.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "7-3",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Scheduling brunch and a Fifth Ave stroll concerns activity placement but does not explicitly operate on the requirement to move lunch later and push subsequent items.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "7-4",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Walking-distance checks help validate feasibility of later timing adjustments, indirectly supporting the lunch-later push requirement.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "7-5",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Double-checking travel times supports accurate rescheduling when pushing items later, but does not itself shift lunch time.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "7-6",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "A specific travel-time re-evaluation between two later stops is not meaningfully about moving lunch later and pushing all subsequent items.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "7-7",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Confirming dinner proximity supports overall ease but does not address lunch being later and shifting subsequent scheduled items.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "7-8",
+          "relationship": "DIRECT_CONNECTION",
+          "relationship_score": 4,
+          "explanation": "It explicitly re-evaluates the schedule with sunset time in mind (7:00 PM) and incorporates timing logic that directly targets the 'push later while considering sunset' constraint.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "7-9",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 5,
+          "explanation": "Provides the updated itinerary that shifts subsequent activities later (in response to the expanded Central Park time), fulfilling the requirement to push the schedule later while respecting sunset constraints.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "7-10",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Walking-time estimates support the practicality of the pushed-later schedule but are supporting calculations rather than the core lunch-time shift itself.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "7-12",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 5,
+          "explanation": "Outputs the final detailed time blocks reflecting the later timing adjustments, thereby executing the requirement to schedule lunch later and push subsequent items while considering sunset.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        }
+      ]
+    },
+    "r22": {
+      "implementation_action_ids": [
+        "7-4",
+        "7-6",
+        "7-10",
+        "7-12"
+      ],
+      "contributing_action_ids": [
+        "7-3",
+        "7-5",
+        "7-7",
+        "7-9"
+      ],
+      "revise_action_ids": [],
+      "all_labels": [
+        {
+          "action_id": "7-1",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "7-2",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "7-3",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Preference-Accumulate: adding specific transitions by foot creates places where walking-time estimates can be attached, but doesn't yet provide the estimates.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "7-4",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Intent-Reveal: explicitly estimating a 5-minute walk is direct execution of adding walking-time estimates between stops.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "7-5",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 3,
+          "explanation": "Intent-Reveal: checking travel times advances the work needed to supply walking-time estimates, though not necessarily outputting them all.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "7-6",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Intent-Reveal: re-evaluating and stating the ~3-minute walk provides a concrete walking-time estimate between two itinerary stops.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "7-7",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Preference-Accumulate: confirming proximity supports the goal of reasonable walking time but does not itself provide explicit time estimates.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "7-8",
+          "relationship": "DIRECT_CONNECTION",
+          "relationship_score": 4,
+          "explanation": "Intent-Reveal: explicitly deciding to 'include walking times' directly targets the requirement to add estimated walking times between stops.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "7-9",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Preference-Accumulate: updating schedule structure creates the framework where walking-time estimates are inserted, but doesn't specify it is doing so.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "7-10",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 5,
+          "explanation": "Intent-Reveal: providing the updated itinerary with estimated walking times directly fulfills r22.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "7-12",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 5,
+          "explanation": "Intent-Reveal: listing detailed time blocks including walking times is full execution/output satisfying r22.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        }
+      ]
+    },
+    "r3": {
+      "implementation_action_ids": [
+        "1-9",
+        "1-10",
+        "5-14"
+      ],
+      "contributing_action_ids": [
+        "1-1",
+        "1-2",
+        "1-3"
+      ],
+      "revise_action_ids": [],
+      "all_labels": [
+        {
+          "action_id": "1-1",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Identifies the plan is for a single day, which supports (but does not itself fulfill) covering morning-to-evening (Intent-Reveal).",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "1-2",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Commits to mapping a day plan; helps structure a full-day itinerary but doesn’t explicitly ensure morning-to-evening coverage.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "1-3",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 3,
+          "explanation": "Sketches a schedule with distinct phases (start, lunch, afternoon sights, pre-dinner), strongly moving toward morning-to-evening coverage.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "1-5",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Transit logistics between two points does not bear on whether the itinerary spans morning-to-evening.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "1-7",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Routing revision for ease does not address the temporal coverage requirement.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "1-8",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Reorders activities and considers dinner option; not explicitly about covering morning-to-evening.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "1-9",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Provides a one-day plan with multiple segments/rest stops, operationalizing a full-day structure consistent with morning-to-evening coverage.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-10",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 5,
+          "explanation": "Delivers a timed one-day itinerary explicitly spanning the day with times/venues, fulfilling the morning-to-evening coverage requirement.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-1",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "States geographic/audience focus; not about time-span coverage.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "5-2",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Comfort/minimal walking preference does not address morning-to-evening coverage.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "5-3",
+          "relationship": "DIRECT_CONNECTION",
+          "relationship_score": 4,
+          "explanation": "Explicitly states the schedule spans morning to evening, directly aligning with r3 as an explicit constraint/goal (Intent-Reveal).",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "5-6",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Lunch/walking-distance tradeoff does not relate to full-day time coverage.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "5-14",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 5,
+          "explanation": "Provides a full revised itinerary with a detailed schedule across the day, satisfying morning-to-evening coverage.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        }
+      ]
+    },
+    "r4": {
+      "implementation_action_ids": [
+        "1-3",
+        "1-8",
+        "1-9",
+        "1-10",
+        "5-14"
+      ],
+      "contributing_action_ids": [
+        "5-6"
+      ],
+      "revise_action_ids": [],
+      "all_labels": [
+        {
+          "action_id": "1-1",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Analyzes overall brief/pace, but does not address including meals.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "1-2",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Plans for minimal walking and rest; meals are not discussed as an objective.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "1-3",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 5,
+          "explanation": "Includes explicit meal elements (lunch and a pre-dinner cafe) as part of the schedule, directly fulfilling the meals requirement.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "1-5",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Transit/taxi logistics between locations; not about adding or ensuring meals.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "1-7",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Routing changes to minimize exertion; does not concern meal inclusion.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "1-8",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Mentions a specific dinner option (Marea) while reorganizing the day, explicitly implementing a meal component.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "1-9",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 5,
+          "explanation": "Provides a day plan that (by description) includes activities and rest stops and functions as the concrete itinerary output satisfying the meal-inclusion requirement.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-10",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 5,
+          "explanation": "Delivers a timed itinerary with venues; this final output necessarily includes the meal stops previously planned, fulfilling the meals requirement.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-1",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Restates geographic focus area; does not address meals.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "5-2",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Emphasizes relaxed pacing and seating; not specifically about meals being included.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "5-3",
+          "relationship": "IMPLICIT_CONNECTION",
+          "relationship_score": 2,
+          "explanation": "Framing the itinerary as morning-to-evening implicitly increases the need for meal breaks, though meals are not explicitly targeted in this utterance.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "5-6",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 3,
+          "explanation": "Directly works on choosing lunch locale, which is partial progress toward ensuring meals are included.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "5-14",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 5,
+          "explanation": "Provides the revised full itinerary; as an end-to-end schedule it explicitly fulfills the requirement to include meals.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        }
+      ]
+    },
+    "r5": {
+      "implementation_action_ids": [
+        "1-9",
+        "1-10",
+        "5-14"
+      ],
+      "contributing_action_ids": [
+        "1-2",
+        "1-3",
+        "1-7",
+        "1-8"
+      ],
+      "revise_action_ids": [],
+      "all_labels": [
+        {
+          "action_id": "1-1",
+          "relationship": "IMPLICIT_CONNECTION",
+          "relationship_score": 2,
+          "explanation": "Intent-Reveal — notes the need for a relaxed itinerary, which frames the context in which sightseeing will be included, but does not itself add/fulfill sightseeing.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "1-2",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 3,
+          "explanation": "Intent-Reveal — explicitly prioritizes iconic landmarks and scenic views, directly shaping the later sightseeing content without yet delivering a full sightseeing output.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "1-3",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 3,
+          "explanation": "Intent-Reveal — sketches a schedule containing sightseeing stops (e.g., Central Park, Rockefeller Center, Fifth Avenue), partially advancing the sightseeing requirement.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "1-5",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Transit/logistics detail (taxi between meal/landmark) does not materially add or fulfill the sightseeing requirement itself.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "1-7",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Preference-Accumulate — revises routing for ease; indirectly supports including sightseeing by making it feasible, but the action focus is not on sightseeing content.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "1-8",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Preference-Accumulate — changes order of activities; supports delivery of sightseeing stops but mainly concerns sequencing and dinner option.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "1-9",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 5,
+          "explanation": "Intent-Reveal — provides a day plan listing activities/rest stops that include sightseeing items, thereby fulfilling the requirement to include sightseeing.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-10",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 5,
+          "explanation": "Intent-Reveal — delivers a full itinerary with times/venues centered on Midtown/Central Park South including iconic sights, fully satisfying the sightseeing requirement.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-1",
+          "relationship": "IMPLICIT_CONNECTION",
+          "relationship_score": 1,
+          "explanation": "Intent-Reveal — states focus area (Midtown/Central Park South), which constrains where sightseeing will occur but does not itself add sightseeing content.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "5-2",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Emphasis on relaxed pace/seating/minimal walking is not specifically about including sightseeing, only comfort constraints.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "5-3",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Time-span note (morning to evening) does not materially relate to the sightseeing-inclusion requirement.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "5-6",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Lunch-location analysis is about meal logistics, not about ensuring sightseeing is included.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "5-14",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 5,
+          "explanation": "Preference-Accumulate — provides a full revised itinerary with locations/schedule that includes sightseeing stops, thereby fulfilling the sightseeing requirement.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        }
+      ]
+    },
+    "r6": {
+      "implementation_action_ids": [
+        "1-9",
+        "1-10",
+        "5-14"
+      ],
+      "contributing_action_ids": [
+        "1-1",
+        "1-3",
+        "1-5",
+        "1-7",
+        "1-8",
+        "5-6"
+      ],
+      "revise_action_ids": [],
+      "all_labels": [
+        {
+          "action_id": "1-1",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Intent-Reveal: identifies the need for a relaxed itinerary, which indirectly supports the inclusion of breaks but does not explicitly add or fulfill them.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "1-2",
+          "relationship": "DIRECT_CONNECTION",
+          "relationship_score": 4,
+          "explanation": "Intent-Reveal: explicitly sets a planning focus on ample rest, directly operating on the breaks requirement as an objective to satisfy.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "1-3",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Preference-Accumulate: sketches a schedule that includes a cafe stop, which could function as a break but is not explicitly framed as satisfying the breaks requirement.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "1-5",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Preference-Accumulate: taxi/logistics reduce exertion and make breaks easier to take, but do not themselves specify breaks.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "1-7",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 3,
+          "explanation": "Preference-Accumulate: explicitly prioritizes ease/minimizing exertion, strongly supporting (but not directly instantiating) the need for breaks.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "1-8",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Preference-Accumulate: reorders activities to minimize walking, indirectly enabling a break-friendly itinerary without explicitly defining breaks.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "1-9",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 5,
+          "explanation": "Intent-Reveal: produces a day plan that explicitly includes rest stops, directly fulfilling the requirement to include breaks.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-10",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 5,
+          "explanation": "Intent-Reveal: provides a timed itinerary (with justifications) that incorporates rest/break moments, satisfying the breaks requirement in the delivered output.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-1",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Specifies geographic focus area; does not meaningfully address adding or ensuring breaks.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "5-2",
+          "relationship": "DIRECT_CONNECTION",
+          "relationship_score": 4,
+          "explanation": "Preference-Accumulate: explicitly emphasizes comfortable seating and relaxed pace, directly targeting the requirement that the itinerary include breaks.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "5-3",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "States time span (morning to evening) but does not address inclusion of breaks.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "5-6",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Preference-Accumulate: minimizing walking distance supports a break-friendly plan but does not explicitly create or include breaks.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "5-14",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 5,
+          "explanation": "Intent-Reveal: delivers a revised full itinerary that (by design of relaxed pacing/comfortable stops) includes break opportunities, fulfilling the breaks requirement in the final plan.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        }
+      ]
+    },
+    "r7": {
+      "implementation_action_ids": [
+        "1-9",
+        "1-10",
+        "5-14"
+      ],
+      "contributing_action_ids": [
+        "1-3",
+        "1-5",
+        "5-1",
+        "5-6"
+      ],
+      "revise_action_ids": [],
+      "all_labels": [
+        {
+          "action_id": "1-1",
+          "relationship": "DIRECT_CONNECTION",
+          "relationship_score": 4,
+          "explanation": "Intent-Reveal: explicitly identifies the need for a relaxed itinerary, making r7 the object of the analysis.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "1-2",
+          "relationship": "DIRECT_CONNECTION",
+          "relationship_score": 4,
+          "explanation": "Intent-Reveal: explicitly sets the planning focus to minimal walking and ample rest, directly operationalizing r7.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "1-3",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 3,
+          "explanation": "Preference-Accumulate: proposes a schedule sketch that partially embodies a relaxed pace but is still a draft and not explicitly validated against walking load.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "1-5",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 3,
+          "explanation": "Option-Select: adds taxi/transit logistics to reduce walking, directly supporting (but not fully fulfilling) r7.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "1-7",
+          "relationship": "DIRECT_CONNECTION",
+          "relationship_score": 4,
+          "explanation": "Option-Select: explicitly revises routing to minimize exertion/ease, directly manipulating the plan to satisfy r7.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "1-8",
+          "relationship": "DIRECT_CONNECTION",
+          "relationship_score": 4,
+          "explanation": "Option-Select: changes ordering explicitly to minimize walking, directly adjusting the itinerary to meet r7.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "1-9",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Preference-Accumulate: produces a day plan with rest stops and prioritization aimed at reduced walking, implementing r7 in delivered output.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-10",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 5,
+          "explanation": "Preference-Accumulate: delivers a full timed itinerary explicitly focused on compact routing/minimal walking and rest, substantially fulfilling r7.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-1",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Preference-Accumulate: reiterates a compact focus area (Midtown/Central Park South) that indirectly supports less walking but doesn't itself ensure relaxed pacing.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "5-2",
+          "relationship": "DIRECT_CONNECTION",
+          "relationship_score": 4,
+          "explanation": "Intent-Reveal: explicitly emphasizes relaxed pace, seating, and minimal walking, directly reaffirming r7 as an objective.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "5-3",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "States overall time span (morning to evening) without specifically affecting walking load or pacing requirements.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "5-6",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 3,
+          "explanation": "Option-Select: analyzes lunch placement specifically to minimize walking distance, advancing r7 through route refinement.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "5-14",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 5,
+          "explanation": "Preference-Accumulate: provides a revised full itinerary whose structure and logistics are designed for minimal walking and a relaxed pace, fulfilling r7 in final output.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        }
+      ]
+    },
+    "r8": {
+      "implementation_action_ids": [
+        "1-3",
+        "1-9",
+        "1-10",
+        "5-14"
+      ],
+      "contributing_action_ids": [
+        "1-1",
+        "1-5",
+        "1-7",
+        "1-8",
+        "5-1"
+      ],
+      "revise_action_ids": [],
+      "all_labels": [
+        {
+          "action_id": "1-1",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Frames the overall itinerary goals (relaxed single-day plan), providing context in which including iconic sights will be selected, but does not explicitly address landmarks.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "1-2",
+          "relationship": "DIRECT_CONNECTION",
+          "relationship_score": 4,
+          "explanation": "Explicitly states the plan will prioritize iconic landmarks and scenic views, directly operating on the requirement to include famous NYC sights.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "1-3",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 5,
+          "explanation": "Sketches a schedule that includes iconic locations (e.g., Central Park, Rockefeller Center, Fifth Avenue), directly fulfilling the landmark-inclusion requirement.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "1-5",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 1,
+          "explanation": "Transit logistics between stops supports feasibility of visiting chosen sights but does not itself add or specify iconic landmarks.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "1-7",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 1,
+          "explanation": "Route optimization for ease affects which sights can be comfortably included, but does not explicitly address iconic landmarks.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "1-8",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 1,
+          "explanation": "Reorders activities to minimize walking; indirectly supports executing the set of sights but does not itself target landmark inclusion.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "1-9",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 5,
+          "explanation": "Provides a prioritized day plan that lists activities/rest stops in the Midtown/Central Park South area, including well-known sights, thereby fulfilling the requirement.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-10",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 5,
+          "explanation": "Delivers a complete itinerary with times and venues centered on iconic Midtown/Central Park South attractions, satisfying the requirement to include famous landmarks.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-1",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 1,
+          "explanation": "Defines the geographic focus area (Midtown/Central Park South), which is associated with many iconic sights but does not itself specify landmarks.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "5-2",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Emphasizes pace/comfort/minimal walking, which does not specifically impact whether famous landmarks are included.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "5-3",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "States the itinerary spans morning to evening; this is temporal framing and not specifically about including iconic NYC sights.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "5-6",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Lunch-location optimization is unrelated to the requirement to include iconic NYC landmarks/sights.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "5-14",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 5,
+          "explanation": "Provides a full revised itinerary with detailed schedule and locations that includes notable NYC sights, thereby fulfilling the landmark-inclusion requirement.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        }
+      ]
+    },
+    "r9": {
+      "implementation_action_ids": [
+        "1-9",
+        "1-10",
+        "5-14"
+      ],
+      "contributing_action_ids": [
+        "1-1",
+        "1-2",
+        "1-3",
+        "1-7",
+        "1-8",
+        "5-1"
+      ],
+      "revise_action_ids": [],
+      "all_labels": [
+        {
+          "action_id": "1-1",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 1,
+          "explanation": "General brief analysis; does not mention views/neighborhoods but sets overall itinerary framing that can accommodate them.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "1-2",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 3,
+          "explanation": "Explicitly prioritizes scenic views, directly aligning with the 'nice views' part of the requirement though not yet executing specifics.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "1-3",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 3,
+          "explanation": "Sketches Central Park/Rockefeller/Fifth Ave, which are scenic/pleasant areas, partially advancing the requirement.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "1-5",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Transit logistics (taxi) is about ease/effort rather than views or neighborhood pleasantness.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "1-7",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Routing changes for ease; indirectly supports choosing enjoyable areas but does not target views/neighborhoods explicitly.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "1-8",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Reorders activities/minimizes walking; can help keep time in pleasant areas but not explicitly about views/neighborhood quality.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "1-9",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Provides a day plan including Midtown/Central Park South stops (scenic park, iconic areas), concretely fulfilling the 'views/pleasant neighborhoods' requirement.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-10",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 5,
+          "explanation": "Delivers the curated itinerary with times/venues; directly outputs scenic-view and pleasant-neighborhood choices as part of the final plan.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-1",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Defines focus area (Midtown/Central Park South), which is generally pleasant/scenic, partially supporting the requirement.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "5-2",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Emphasis on relaxed pace/seating/walking comfort does not meaningfully address views or neighborhood pleasantness.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "5-3",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Morning-to-evening span is temporal coverage, not about views or neighborhoods.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "5-6",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Lunch locale selection is driven by minimizing walking distance, not by scenic views or neighborhood pleasantness.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "5-14",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 5,
+          "explanation": "Provides the full revised itinerary; the output necessarily specifies locations/areas that deliver pleasant neighborhoods and views as part of the plan.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        }
+      ]
+    }
+  },
+  "enriched_counts": {
+    "implements": 61,
+    "contributes": 86,
+    "revises": 0
+  },
+  "metadata": {
+    "model": "gpt-5.2-2025-12-11"
+  }
+}

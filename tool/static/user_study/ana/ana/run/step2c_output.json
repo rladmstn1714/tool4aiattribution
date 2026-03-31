@@ -1,0 +1,1816 @@
+{
+  "dialogue_id": "poe_share_eyNOjAwONwnXYy8dputu",
+  "forward_labels": {
+    "r1": {
+      "implementation_action_ids": [
+        "1-1",
+        "1-10"
+      ],
+      "contributing_action_ids": [
+        "1-2",
+        "1-3",
+        "1-4",
+        "1-5",
+        "1-6",
+        "1-7",
+        "1-8",
+        "1-9"
+      ],
+      "revise_action_ids": [],
+      "all_labels": [
+        {
+          "action_id": "1-1",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 5,
+          "explanation": "Directly produces the parent-friendly one-day NYC itinerary, fulfilling r1.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-2",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 3,
+          "explanation": "Adds a specific, low-strain morning activity choice that supports a parent-friendly itinerary.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-3",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 3,
+          "explanation": "Highlights accessibility/rest features (flat, benches), strengthening parent-friendly suitability.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-4",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Provides a breakfast stop that helps make the day comfortable and practical for parents.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-5",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Suggests mid-morning museum options as itinerary components that can be parent-friendly depending on pacing.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-6",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Adds a lunch recommendation that supports the practical completion of a parent-friendly day plan.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-7",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 3,
+          "explanation": "Provides relaxed afternoon park options that fit parent-friendly pacing and rest opportunities.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-8",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 3,
+          "explanation": "Includes a cute-neighborhood wander + café stop, supporting a gentle, parent-friendly itinerary structure.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-9",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Provides dinner options that round out the itinerary; contributes to completing the day plan for parents.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-10",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Explicitly reinforces parent-friendly elements (rest points, low travel time) and consolidates the plan toward fulfilling r1.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        }
+      ]
+    },
+    "r10": {
+      "implementation_action_ids": [
+        "7-3",
+        "7-4",
+        "7-5",
+        "7-6",
+        "7-7",
+        "7-9",
+        "7-10",
+        "7-11",
+        "7-13"
+      ],
+      "contributing_action_ids": [
+        "7-2"
+      ],
+      "revise_action_ids": [],
+      "all_labels": [
+        {
+          "action_id": "7-2",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 3,
+          "explanation": "Establishes the starting point (Guggenheim location) needed to recommend where to go in Central Park afterward.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "7-3",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Directly recommends a Central Park destination (Great Lawn) as a place to go after the Guggenheim.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "7-4",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Directly recommends the Conservatory Garden as a post-Guggenheim Central Park option.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "7-5",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Directly recommends Belvedere Castle as a Central Park stop after the Guggenheim.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "7-6",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Directly recommends Bethesda Fountain as a highlight to visit in Central Park after the Guggenheim.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "7-7",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Provides a nearby Central Park feature (the Reservoir) as a suggested place to go after the Guggenheim.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "7-8",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Mentions the Metropolitan Museum, which is not a Central Park destination recommendation (it's adjacent and off-requirement).",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "7-9",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Directly suggests the Model Boat Pond (Conservatory Water) as another Central Park option after the Guggenheim.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "7-10",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 5,
+          "explanation": "Gives an explicit easy scenic route into Central Park from the Guggenheim (enter at 90th, walk the Reservoir path), fully fulfilling the requirement.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "7-11",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 5,
+          "explanation": "Recommends a continuation route to major Central Park highlights (Belvedere → Bethesda), directly executing the post-Guggenheim park plan.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "7-13",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Recommends Conservatory Garden as a quieter alternative within Central Park after the Guggenheim.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        }
+      ]
+    },
+    "r11": {
+      "implementation_action_ids": [
+        "7-12",
+        "7-14",
+        "7-15"
+      ],
+      "contributing_action_ids": [],
+      "revise_action_ids": [],
+      "all_labels": [
+        {
+          "action_id": "7-1",
+          "relationship": "DIRECT_CONNECTION",
+          "relationship_score": 4,
+          "explanation": "Makes the transit-to-West-Village part of the user need explicit, framing the requirement to explain how to get there.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "7-12",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 5,
+          "explanation": "Provides concrete subway/taxi options from Central Park West to West 4th St, directly fulfilling the 'how to get there' explanation.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "7-14",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 5,
+          "explanation": "Recommends taxi/Uber with travel time as a specific method to get from the area to West Village.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "7-15",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 5,
+          "explanation": "Gives an alternative subway route (1 train to Christopher St) that directly answers how to get to West Village.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "8-1",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Asks for low-crowd dinner spots; separate from transit explanation requirement.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "9-1",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Restates dinner-spot request; not about getting from Guggenheim/Central Park to West Village.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "9-2",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Meta knowledge-cutoff note; no transit linkage.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "9-3",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Planning to mention knowledge cutoff; unrelated to transit instructions.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "9-4",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Signals listing dinner spots; not related to the transit requirement.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "9-5",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Describes a restaurant; does not contribute to explaining travel from Guggenheim/Central Park.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "9-6",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Restaurant description; no transit content.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "9-7",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Restaurant/cocktail bar description; not transit-related.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "9-8",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Describes a quieter restaurant option; unrelated to route explanation.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "9-9",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Restaurant description; no connection to transit requirement.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "9-10",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Recommends a restaurant for parents; not relevant to travel directions.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "9-11",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Restaurant description; unrelated to transit.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "9-12",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Restaurant mention; no transit link.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "9-13",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Restaurant description (cash-only etc.); not about how to get to West Village.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "9-14",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Restaurant description; no transit contribution.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "9-15",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Restaurant status/description; unrelated to transit requirement.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "9-16",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Restaurant description; no relationship to Guggenheim/Central Park to West Village travel instructions.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "9-17",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Restaurant description; not transit-related.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "9-18",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Plan to focus on less-crowded restaurants; does not impact transit explanation requirement.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "9-19",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Timing advice for dinner; not connected to travel directions.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "8-2",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Justifies early dining to avoid fatigue; not transit-related.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "9-20",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Recommends checking openings/reviews; unrelated to transit from Guggenheim/Central Park.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "9-21",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Lists dinner spots; does not contribute to the transit requirement.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        }
+      ]
+    },
+    "r12": {
+      "implementation_action_ids": [
+        "9-8",
+        "9-9",
+        "9-10",
+        "9-14",
+        "9-16",
+        "9-21"
+      ],
+      "contributing_action_ids": [
+        "9-4",
+        "9-5",
+        "9-6",
+        "9-7",
+        "9-11",
+        "9-12",
+        "9-13",
+        "9-15",
+        "9-17",
+        "9-19",
+        "9-20"
+      ],
+      "revise_action_ids": [],
+      "all_labels": [
+        {
+          "action_id": "9-1",
+          "relationship": "DIRECT_CONNECTION",
+          "relationship_score": 4,
+          "explanation": "Restates the requirement (not-too-crowded, parent-friendly West Village dinner), making the implicit need explicit.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "9-2",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Knowledge cutoff disclaimer does not address recommending low-crowd West Village dinner spots.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "9-3",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Planning to mention knowledge cutoff; not related to fulfilling the low-crowd dinner recommendation requirement.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "9-4",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Signals intent to provide a list of West Village dinner spots, which is partial progress toward the recommendation requirement.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "9-5",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Provides a candidate dinner spot but notes it can have a wait, only partially aligned with 'not too crowded'.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "9-6",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Provides a candidate spot but flags it can get crowded, partially working toward but not fully satisfying the requirement.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "9-7",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 1,
+          "explanation": "Describes a West Village venue without emphasizing low-crowd suitability; weak contribution to the 'not too crowded' requirement.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "9-8",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Offers a specifically quieter option, directly serving the 'not too crowded' dinner recommendation requirement.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "9-9",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Describes Cafe Cluny as warm/unhurried, implying a less-crowded vibe and directly supporting the requirement.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "9-10",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Recommends a specific West Village dinner spot as parent-friendly (and implicitly manageable), directly fulfilling the recommendation requirement.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "9-11",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Adds another dinner option described as cozy; contributes to options but doesn't clearly guarantee low crowding.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "9-12",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 1,
+          "explanation": "Mentions another Italian option without tying it to low-crowd characteristics; weak contribution.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "9-13",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 1,
+          "explanation": "Describes Bar Pitti but not as low-crowd; mostly an option mention with minimal relevance to 'not too crowded'.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "9-14",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Describes Morandi as a reliable neighborhood spot, implying a less chaotic scene than destination hotspots; directly supports the requirement via a plausible low-crowd recommendation.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "9-15",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 1,
+          "explanation": "Mentions a spot with uncertainty about status; provides an option but weakly supports the requirement due to uncertainty.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "9-16",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Describes Chez Ma Tante as cozy/quieter, directly aligning with 'not too crowded' dinner recommendations.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "9-17",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Adds another cozy-feeling option; partial support for low-crowd intent but not explicit.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "9-18",
+          "relationship": "DIRECT_CONNECTION",
+          "relationship_score": 4,
+          "explanation": "Explicitly commits to focusing on parent-friendly, less-crowded recommendations—directly shaping how the requirement will be satisfied.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "9-19",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 3,
+          "explanation": "Provides an actionable tactic (go early) to ensure the dinner experience is not too crowded, supporting the requirement.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "9-20",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Advises verifying openings/recent reviews; helps ensure recommended spots remain suitable, indirectly supporting the requirement.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "9-21",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 5,
+          "explanation": "Provides a short list of specific West Village dinner spots positioned as good choices (including quieter/parent-friendly ones), directly delivering the requested low-crowd recommendations.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        }
+      ]
+    },
+    "r2": {
+      "implementation_action_ids": [
+        "1-1"
+      ],
+      "contributing_action_ids": [
+        "1-2",
+        "1-5",
+        "1-7"
+      ],
+      "revise_action_ids": [],
+      "all_labels": [
+        {
+          "action_id": "1-1",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Provides the itinerary itself, which includes well-known NYC attractions as part of the plan.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-2",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 3,
+          "explanation": "Adds the High Line, a recognizable NYC attraction, as a concrete famous stop in the itinerary.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-3",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-4",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-5",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 3,
+          "explanation": "Recommends major NYC museums (Met/MoMA), which are quintessential famous spots and satisfy the requirement.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-6",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-7",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 3,
+          "explanation": "Includes Central Park and Bethesda Fountain, widely recognized NYC landmarks, as part of the afternoon plan.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-8",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-9",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-10",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        }
+      ]
+    },
+    "r3": {
+      "implementation_action_ids": [
+        "1-8"
+      ],
+      "contributing_action_ids": [
+        "1-1",
+        "1-2",
+        "1-4",
+        "1-9"
+      ],
+      "revise_action_ids": [],
+      "all_labels": [
+        {
+          "action_id": "1-1",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Provides an overall itinerary framework that can include neighborhoods, but does not explicitly foreground 'cute neighborhoods' as a requirement-object.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-2",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Chelsea is a named neighborhood stop, which partially supports including neighborhoods (and can be perceived as cute), but the action is framed around the High Line rather than the 'cute neighborhood' requirement.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-3",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Discusses walkability/benches and rest comfort, not neighborhood inclusion/cuteness.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-4",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 1,
+          "explanation": "A breakfast recommendation located in Chelsea incidentally anchors a neighborhood, but does not meaningfully advance the requirement to include cute neighborhoods.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-5",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Museum options are attractions, not neighborhood inclusion/cuteness.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-6",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Lunch spot on Madison Avenue does not indicate a cute neighborhood inclusion as a planned feature.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-7",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Central Park features are not neighborhoods (though nearby), so this does not address the requirement to include cute neighborhoods.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-8",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Explicitly includes wandering the West Village, a quintessential 'cute neighborhood' activity, thereby executing the requirement.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-9",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Dinner options in the West Village reinforce spending time in that cute neighborhood, but the core neighborhood inclusion is already established by the prior 'wander' action.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-10",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Summarizes pacing/rest/logistics rather than neighborhood inclusion or cuteness.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        }
+      ]
+    },
+    "r4": {
+      "implementation_action_ids": [],
+      "contributing_action_ids": [
+        "1-1",
+        "1-4",
+        "1-6",
+        "1-8",
+        "1-9"
+      ],
+      "revise_action_ids": [],
+      "all_labels": [
+        {
+          "action_id": "1-1",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Provides the overall itinerary that contains food recommendations, but this action is not specifically about avoiding trendy/crowded spots.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-2",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Describes a sightseeing activity (High Line) unrelated to the food-avoid-trendy requirement.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-3",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Bench/rest emphasis is about pacing/rest, not about avoiding trendy/crowded food spots.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-4",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 3,
+          "explanation": "Makes a specific breakfast recommendation (Bubby's), partially determining whether the itinerary’s food avoids trendy/crowded places, though it does not explicitly address crowdiness/trendiness.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-5",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Museum options do not relate to the requirement about non-trendy/non-crowded food recommendations.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-6",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 3,
+          "explanation": "Provides a lunch recommendation (E.A.T.), which is part of satisfying the food requirement, but does not explicitly state it avoids trendy/crowded venues.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-7",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Central Park afternoon options are unrelated to food venue trendiness/crowding.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-8",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 3,
+          "explanation": "Recommends Buvette as a stop; this is a concrete food suggestion that affects compliance with avoiding trendy/crowded places, but it doesn’t explicitly address that constraint.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-9",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 3,
+          "explanation": "Dinner recommendations (Via Carota/The Spotted Pig) directly shape the itinerary’s food choices, but the action does not explicitly ensure they avoid trendy/crowded spots (and may conflict).",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-10",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Summary about flow/rest points does not concern the non-trendy/non-crowded food requirement.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        }
+      ]
+    },
+    "r5": {
+      "implementation_action_ids": [
+        "1-3",
+        "1-10"
+      ],
+      "contributing_action_ids": [
+        "1-1",
+        "1-2",
+        "1-4",
+        "1-5",
+        "1-6",
+        "1-7",
+        "1-8",
+        "1-9"
+      ],
+      "revise_action_ids": [],
+      "all_labels": [
+        {
+          "action_id": "1-1",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Provides the overall itinerary, which can include rest options, but the action is not explicitly centered on adding many rest stops.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-2",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Choosing a morning activity like the High Line can indirectly support resting opportunities, but the rest requirement is not the primary object of the action.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-3",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Explicitly highlights benches/resting on the High Line, directly adding a concrete resting option in the itinerary.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-4",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 1,
+          "explanation": "A breakfast stop can function as a rest break, but the recommendation is primarily about food rather than emphasizing rest options.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-5",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 1,
+          "explanation": "Museums can offer indoor seating and a slower pace, but the recommendation is not framed as providing rest options.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-6",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 1,
+          "explanation": "Lunch provides a potential rest interval, but the action is mainly a restaurant recommendation rather than explicitly ensuring many rest options.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-7",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Central Park stops can naturally include sitting/resting and slower pacing, partially supporting the requirement without explicitly enumerating rest options.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-8",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 1,
+          "explanation": "A cafe stop can serve as a rest break, but this is presented chiefly as neighborhood/food advice rather than to satisfy the 'lots of resting options' requirement.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-9",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 1,
+          "explanation": "Dinner is another potential rest period, but the recommendation focuses on dining choices more than explicitly adding rest options.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-10",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Directly reassures and points to rest points/low travel time, explicitly addressing the need for ample resting options in the plan.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        }
+      ]
+    },
+    "r6": {
+      "implementation_action_ids": [
+        "3-9",
+        "3-15",
+        "3-16"
+      ],
+      "contributing_action_ids": [
+        "3-8",
+        "3-10",
+        "3-11"
+      ],
+      "revise_action_ids": [],
+      "all_labels": [
+        {
+          "action_id": "3-1",
+          "relationship": "DIRECT_CONNECTION",
+          "relationship_score": 4,
+          "explanation": "Intent-Reveal: Explicitly restates the 'start later' adjustment as a key requirement to be satisfied in the revision.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "3-2",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "3-3",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "3-4",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "3-5",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "3-6",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "3-7",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "3-8",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 1,
+          "explanation": "Preference-Accumulate: Dropping/optionalizing a crowded morning activity helps enable a more relaxed schedule, indirectly supporting a later start.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "3-9",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 5,
+          "explanation": "Feedback-Adopt: Directly fulfills the later-start requirement by specifying a new start time of 10–10:30am.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "3-10",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Option-Select: Reworking the day’s flow supports feasibility of starting later, but does not itself set/fulfill the start time.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "3-11",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 3,
+          "explanation": "Option-Select: Choosing a simpler plan (e.g., skipping High Line) reduces morning pressure and makes the later start workable.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "3-12",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "",
+          "explanation_type": "",
+          "contribution_role": "OTHER"
+        },
+        {
+          "action_id": "3-13",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "",
+          "explanation_type": "",
+          "contribution_role": "OTHER"
+        },
+        {
+          "action_id": "3-14",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "3-15",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 5,
+          "explanation": "Feedback-Adopt: Implements the later-start requirement by anchoring the itinerary start to brunch at 10–10:30.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "3-16",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 5,
+          "explanation": "Feedback-Adopt: Produces the revised schedule with a later beginning (brunch first, museum at noon), satisfying the requirement in the concrete plan output.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "3-17",
+          "relationship": "DIRECT_CONNECTION",
+          "relationship_score": 4,
+          "explanation": "Intent-Reveal: Explicitly summarizes that the revision is 'later' and more relaxed, confirming the requirement has been met.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        }
+      ]
+    },
+    "r7": {
+      "implementation_action_ids": [
+        "3-14",
+        "3-16"
+      ],
+      "contributing_action_ids": [
+        "3-1",
+        "3-3",
+        "3-4",
+        "3-6",
+        "3-7",
+        "3-10",
+        "3-11",
+        "3-17"
+      ],
+      "revise_action_ids": [],
+      "all_labels": [
+        {
+          "action_id": "3-1",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 3,
+          "explanation": "Summarizes the user's request including the smaller-museum swap, reinforcing r7 as a constraint to satisfy.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "3-2",
+          "relationship": "DIRECT_CONNECTION",
+          "relationship_score": 4,
+          "explanation": "Evaluates Guggenheim as an appropriate smaller-museum replacement option for the Met/MoMA stop.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "3-3",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Provides location details that support feasibility of using Guggenheim as the replacement museum.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "3-4",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 1,
+          "explanation": "Describes Guggenheim design; informational but only weakly supports choosing it as the smaller replacement museum.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "3-5",
+          "relationship": "DIRECT_CONNECTION",
+          "relationship_score": 4,
+          "explanation": "Justifies Guggenheim as a smaller, manageable museum, directly supporting the requirement to replace Met/MoMA with it.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "3-6",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 1,
+          "explanation": "Cafe note is ancillary detail that mildly supports making Guggenheim the chosen stop.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "3-7",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Proximity to Central Park helps integrate Guggenheim into the revised plan as the museum replacement.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "3-8",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Reconsidering the High Line's crowding does not address replacing Met/MoMA with Guggenheim.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "3-9",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Later start time does not relate to the museum replacement requirement.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "3-10",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 3,
+          "explanation": "Proposes itinerary flows explicitly incorporating Guggenheim as the museum stop, progressing toward satisfying r7.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "3-11",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Decides on a simpler itinerary with Guggenheim as centerpiece, aligning with replacing Met/MoMA though not the final output itself.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "3-12",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Intent to present conversationally does not affect the museum swap requirement.",
+          "explanation_type": "",
+          "contribution_role": "OTHER"
+        },
+        {
+          "action_id": "3-13",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "General acknowledgment of adjustments is not specifically about replacing Met/MoMA with Guggenheim.",
+          "explanation_type": "",
+          "contribution_role": "OTHER"
+        },
+        {
+          "action_id": "3-14",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Explicitly recommends Guggenheim as the museum centerpiece, effectuating the replacement of Met/MoMA with a smaller museum.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "3-15",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Skipping the High Line and brunch location are unrelated to the museum replacement requirement.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "3-16",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 5,
+          "explanation": "Provides the revised itinerary that includes Guggenheim as the museum stop (thereby replacing Met/MoMA), fully fulfilling r7 in the plan.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "3-17",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Summarizes the revised flow including the Guggenheim-centered plan, reinforcing the fulfilled replacement choice.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        }
+      ]
+    },
+    "r8": {
+      "implementation_action_ids": [
+        "5-3",
+        "5-5",
+        "5-21",
+        "5-25",
+        "5-26",
+        "5-27"
+      ],
+      "contributing_action_ids": [
+        "5-2",
+        "5-4",
+        "5-6",
+        "5-7",
+        "5-8",
+        "5-9",
+        "5-10",
+        "5-11",
+        "5-12",
+        "5-13",
+        "5-14",
+        "5-15",
+        "5-16",
+        "5-17",
+        "5-18",
+        "5-19",
+        "5-22",
+        "5-23",
+        "5-24"
+      ],
+      "revise_action_ids": [],
+      "all_labels": [
+        {
+          "action_id": "5-1",
+          "relationship": "DIRECT_CONNECTION",
+          "relationship_score": 4,
+          "explanation": "Intent-Reveal: Explicitly restates the request for West Village spots suitable for parents, directly operating on the requirement as the object.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-2",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 1,
+          "explanation": "Intent-Reveal: Meta framing about knowledge and thinking supports delivery but doesn't itself provide parent-suitable West Village suggestions.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-3",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Intent-Reveal: Provides a concrete West Village shop suggestion that is positioned as suitable and aligned with interests.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-4",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Intent-Reveal: Offers an additional candidate stop, but with uncertainty about status, partially supporting the parent-suitable West Village list.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-5",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Intent-Reveal: Recommends a specific West Village bookstore that is plausibly parent-friendly, fulfilling the requirement.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-6",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Intent-Reveal: Adds a textiles-focused stop option, contributing to the list of parent-suitable West Village suggestions.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-7",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Intent-Reveal: Adds a boutique perfumery as another stop option, partially fulfilling the West Village parent-suitable suggestions.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-8",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Failure-Triggered-Requirement-Add: Corrects neighborhood mismatch to keep suggestions within West Village, improving alignment with the requirement.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-9",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Failure-Triggered-Requirement-Add: Clarifies a suggested gallery is outside West Village, managing scope while still offering a nearby option.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-10",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 1,
+          "explanation": "Intent-Reveal: Mentions an additional stop option; contributes to the broader stop list though not clearly West Village-focused here.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-11",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Intent-Reveal: Adds Housing Works as a browsing stop, partially building a parent-suitable West Village itinerary.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-12",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 1,
+          "explanation": "Failure-Triggered-Requirement-Add: Notes the main store is elsewhere, limiting the strength of the West Village-specific contribution.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-13",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Intent-Reveal: Provides another specific West Village book-related stop, contributing to fulfilling the requirement.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-14",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 3,
+          "explanation": "Intent-Reveal: Suggests an easy, parent-friendly browsing stop (food specialty) in the West Village area.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-15",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Intent-Reveal: Adds another browsing stop option; contributes to the parent-suitable stop list.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-16",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Failure-Triggered-Requirement-Add: Closure uncertainty is flagged to prevent misaligned recommendations, indirectly improving fulfillment quality.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-17",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 1,
+          "explanation": "Failure-Triggered-Requirement-Add: Expressing uncertainty about a stop reduces reliability; minor contribution via caution.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-18",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 1,
+          "explanation": "Failure-Triggered-Requirement-Add: Suggests a textiles option but notes it is more SoHo, weakening West Village requirement fit.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-19",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 1,
+          "explanation": "Intent-Reveal: Adds an antique/salvage idea but not clearly West Village-specific, so only weakly contributes to the requirement.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-20",
+          "relationship": "DIRECT_CONNECTION",
+          "relationship_score": 4,
+          "explanation": "Option-Select: Explicitly refocuses on West Village shops aligned with interests, directly tightening scope to meet the requirement.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-21",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 5,
+          "explanation": "Option-Select: Identifies the most reliable West Village recommendations, effectively delivering the core parent-suitable stop list.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-22",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Failure-Triggered-Requirement-Add: Advises verifying hours/open status to ensure suggested West Village stops work for parents.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-23",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 1,
+          "explanation": "Intent-Reveal: Encourages wandering as a strategy; supports the shopping/stops experience but doesn't add specific parent-suitable stops.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-24",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 1,
+          "explanation": "Intent-Reveal: Pronunciation help is ancillary; it supports visiting the recommended stop but doesn't itself supply a suggestion.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-25",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Intent-Reveal: Provides descriptive justification for a specific West Village stop, reinforcing its suitability for parents.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-26",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Intent-Reveal: Describes the bookstore’s calm atmosphere, directly supporting parent-suitable West Village stop recommendation.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-27",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Intent-Reveal: Describes a charming tea/coffee shop as a recommended stop, supporting the parent-suitable West Village list.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        }
+      ]
+    },
+    "r9": {
+      "implementation_action_ids": [
+        "5-3",
+        "5-6",
+        "5-25"
+      ],
+      "contributing_action_ids": [
+        "5-1",
+        "5-4",
+        "5-5",
+        "5-8",
+        "5-9",
+        "5-10",
+        "5-11",
+        "5-12",
+        "5-13",
+        "5-18",
+        "5-19",
+        "5-21",
+        "5-26"
+      ],
+      "revise_action_ids": [],
+      "all_labels": [
+        {
+          "action_id": "5-1",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 1,
+          "explanation": "Restating the parent-suitable WV request frames the response but doesn’t itself tailor suggestions to the mom’s stated interests.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-2",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Knowledge cutoff statement and thinking intention do not affect tailoring to interests.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-3",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Recommends a WV shop aligned with handmade/designer objects (handmade goods/home goods), directly serving the tailoring requirement.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-4",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "A shop mention that is more travel/lifestyle than art/handmade/furniture/textiles; only weakly aligned with the tailored-interest requirement.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-5",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Bookstore recommendation is parent-suitable but not strongly tied to art/handmade/furniture/textiles; partial relevance at best.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-6",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Textiles-focused stop (pillows/cushions) directly matches the textiles/handmade aspect of the requirement.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-7",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Perfumery suggestion does not match art/handmade/furniture/textiles tailoring.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-8",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Clarifying that a relevant design-oriented shop is not in WV helps constrain WV-tailored suggestions (negative filtering).",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-9",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Notes a gallery is nearby but not WV; contributes by identifying art-related options adjacent to WV without fully satisfying WV-tailoring.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-10",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Printed Matter aligns with art/books culture but is not clearly WV-specific; partial support for art interest.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-11",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Housing Works can include home goods/vintage finds; partial match to furniture/handmade vibe though not explicitly tailored.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-12",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 1,
+          "explanation": "Mentions a bookstore mainly outside WV; weak link to the art/handmade/furniture/textiles tailoring requirement.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-13",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 1,
+          "explanation": "Another bookstore mention; only weakly connected to the stated interests.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-14",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Cheese shop is unrelated to tailoring toward art/handmade/furniture/textiles.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-15",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Butcher/food browsing stop does not match the tailoring requirement.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-16",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Closure uncertainty about a brand/store doesn’t advance tailoring to the mom’s interests.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-17",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Uncertainty about a shop’s status does not contribute to tailoring to interests.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-18",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Vintage textiles suggestion matches the textiles interest but is outside WV; partial progress toward interest tailoring.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-19",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 3,
+          "explanation": "Antique/architectural salvage aligns with furniture/home/design interests; contributes meaningfully to tailoring even if not purely WV-focused.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-20",
+          "relationship": "DIRECT_CONNECTION",
+          "relationship_score": 4,
+          "explanation": "Explicitly refocuses the output criteria on WV shops that match art/handmade/furniture/textiles—directly operating on the requirement framing.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-21",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Selects 'most reliable' recs; one aligns with handmade/home goods (Mxyplyzyk), but others (tea/coffee, bookstore) are not tightly tied to the specified interests.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-22",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Verification advice is general logistics, not interest-tailoring.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-23",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "General wandering suggestion doesn’t specifically tailor to art/handmade/furniture/textiles.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-24",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Pronunciation guidance does not relate to tailoring suggestions to interests.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-25",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Describes Mxyplyzyk specifically as handmade/artful home goods—directly aligned with handmade goods/furniture-adjacent interests.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-26",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Atmospheric bookstore description supports parent-suitable browsing but only indirectly matches the specific interests.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-27",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Tea/coffee shop charm is not connected to tailoring for art/handmade/furniture/textiles.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        }
+      ]
+    }
+  },
+  "enriched_counts": {
+    "implements": 38,
+    "contributes": 83,
+    "revises": 0
+  },
+  "metadata": {
+    "model": "gpt-5.2-2025-12-11"
+  }
+}

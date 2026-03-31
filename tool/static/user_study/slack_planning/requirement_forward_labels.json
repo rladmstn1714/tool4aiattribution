@@ -1,0 +1,981 @@
+{
+  "dialogue_id": "slack_export_user_study1",
+  "forward_labels": {
+    "r1": {
+      "implementation_action_ids": [
+        "47-1"
+      ],
+      "contributing_action_ids": [
+        "1-1",
+        "4-2",
+        "16-2",
+        "16-3",
+        "17-2"
+      ],
+      "revise_action_ids": [],
+      "all_labels": [
+        {
+          "action_id": "1-1",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Intent-Reveal: gathering preferences informs what goes into the day plan, but does not explicitly address the one-day/arrival-to-night coverage constraint.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "4-2",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Intent-Reveal: planning sequencing (deciding number of places before scheduling) supports constructing a coherent one-day itinerary, without directly referencing the start/end coverage.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "5-1",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "",
+          "explanation_type": "",
+          "contribution_role": "OTHER"
+        },
+        {
+          "action_id": "16-2",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Intent-Reveal: confirming the evening schedule advances completion of a full-day plan through the night, but does not explicitly ensure coverage from arrival through night.",
+          "explanation_type": "",
+          "contribution_role": "OTHER"
+        },
+        {
+          "action_id": "16-3",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 3,
+          "explanation": "Intent-Reveal: moving on to schedule the afternoon is direct progress toward completing the single-day itinerary timeline.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "17-1",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "",
+          "explanation_type": "",
+          "contribution_role": "OTHER"
+        },
+        {
+          "action_id": "17-2",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Intent-Reveal: asking to fill in the table supports organizing the itinerary into a start-to-night schedule, but the requirement is not the explicit object.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "18-1",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "",
+          "explanation_type": "",
+          "contribution_role": "OTHER"
+        },
+        {
+          "action_id": "31-1",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "",
+          "explanation_type": "",
+          "contribution_role": "OTHER"
+        },
+        {
+          "action_id": "31-2",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "47-1",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Intent-Reveal: confirming everything is done indicates the one-day itinerary (arrival through night) has been completed, i.e., the requirement is satisfied.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "47-2",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "",
+          "explanation_type": "",
+          "contribution_role": "OTHER"
+        }
+      ]
+    },
+    "r10": {
+      "implementation_action_ids": [],
+      "contributing_action_ids": [],
+      "revise_action_ids": [],
+      "all_labels": [
+        {
+          "action_id": "46-1",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        }
+      ]
+    },
+    "r11": {
+      "implementation_action_ids": [],
+      "contributing_action_ids": [],
+      "revise_action_ids": [],
+      "all_labels": [
+        {
+          "action_id": "46-1",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Adds coffee cost ($5) rather than specifying the Carnegie Museum of Art ticket cost ($25), so it does not fulfill or modify r11.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        }
+      ]
+    },
+    "r12": {
+      "implementation_action_ids": [],
+      "contributing_action_ids": [],
+      "revise_action_ids": [],
+      "all_labels": []
+    },
+    "r2": {
+      "implementation_action_ids": [],
+      "contributing_action_ids": [
+        "1-1"
+      ],
+      "revise_action_ids": [],
+      "all_labels": [
+        {
+          "action_id": "1-1",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 1,
+          "explanation": "Preference-Accumulate: gathers general preferences that could later help align planning to the hotel location near Pitt, but does not reference the hotel area explicitly.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "4-2",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "5-1",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "",
+          "explanation_type": "",
+          "contribution_role": "OTHER"
+        },
+        {
+          "action_id": "16-2",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "",
+          "explanation_type": "",
+          "contribution_role": "OTHER"
+        },
+        {
+          "action_id": "16-3",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "17-1",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "",
+          "explanation_type": "",
+          "contribution_role": "OTHER"
+        },
+        {
+          "action_id": "17-2",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "18-1",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "",
+          "explanation_type": "",
+          "contribution_role": "OTHER"
+        },
+        {
+          "action_id": "31-1",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "",
+          "explanation_type": "",
+          "contribution_role": "OTHER"
+        },
+        {
+          "action_id": "31-2",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "47-1",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "47-2",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "",
+          "explanation_type": "",
+          "contribution_role": "OTHER"
+        }
+      ]
+    },
+    "r3": {
+      "implementation_action_ids": [],
+      "contributing_action_ids": [],
+      "revise_action_ids": [],
+      "all_labels": [
+        {
+          "action_id": "1-1",
+          "relationship": "IMPLICIT_CONNECTION",
+          "relationship_score": 2,
+          "explanation": "Preference-Accumulate",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "4-2",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "5-1",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "",
+          "explanation_type": "",
+          "contribution_role": "OTHER"
+        },
+        {
+          "action_id": "16-2",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "",
+          "explanation_type": "",
+          "contribution_role": "OTHER"
+        },
+        {
+          "action_id": "16-3",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "17-1",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "",
+          "explanation_type": "",
+          "contribution_role": "OTHER"
+        },
+        {
+          "action_id": "17-2",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "18-1",
+          "relationship": "IMPLICIT_CONNECTION",
+          "relationship_score": 1,
+          "explanation": "Failure-Triggered-Requirement-Add",
+          "explanation_type": "",
+          "contribution_role": "OTHER"
+        },
+        {
+          "action_id": "31-1",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "",
+          "explanation_type": "",
+          "contribution_role": "OTHER"
+        },
+        {
+          "action_id": "31-2",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "47-1",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "47-2",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "",
+          "explanation_type": "",
+          "contribution_role": "OTHER"
+        }
+      ]
+    },
+    "r4": {
+      "implementation_action_ids": [],
+      "contributing_action_ids": [
+        "1-1",
+        "5-1",
+        "16-3"
+      ],
+      "revise_action_ids": [],
+      "all_labels": [
+        {
+          "action_id": "1-1",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Preference-Accumulate: gathering preferences can surface constraints (e.g., wanting an easy day) that help shape relaxed pacing, but it does not explicitly address pacing.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "4-2",
+          "relationship": "DIRECT_CONNECTION",
+          "relationship_score": 4,
+          "explanation": "Intent-Reveal: proposing to decide how many places to visit before planning is an explicit pacing-control move to avoid an overpacked itinerary.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "5-1",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 1,
+          "explanation": "Feedback-Adopt: agreement supports the pacing-focused approach indirectly but adds no new pacing constraint or plan detail.",
+          "explanation_type": "",
+          "contribution_role": "OTHER"
+        },
+        {
+          "action_id": "16-2",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "",
+          "explanation_type": "",
+          "contribution_role": "OTHER"
+        },
+        {
+          "action_id": "16-3",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 1,
+          "explanation": "Intent-Reveal: moving on to schedule the afternoon advances planning flow but does not specifically manage or evaluate relaxed pacing.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "17-1",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "",
+          "explanation_type": "",
+          "contribution_role": "OTHER"
+        },
+        {
+          "action_id": "17-2",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "18-1",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "",
+          "explanation_type": "",
+          "contribution_role": "OTHER"
+        },
+        {
+          "action_id": "31-1",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "",
+          "explanation_type": "",
+          "contribution_role": "OTHER"
+        },
+        {
+          "action_id": "31-2",
+          "relationship": "DIRECT_CONNECTION",
+          "relationship_score": 4,
+          "explanation": "Intent-Reveal: explicitly suggesting they take some rest directly reinforces relaxed pacing (built-in downtime / not rushing).",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "47-1",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "47-2",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "",
+          "explanation_type": "",
+          "contribution_role": "OTHER"
+        }
+      ]
+    },
+    "r5": {
+      "implementation_action_ids": [],
+      "contributing_action_ids": [
+        "12-1",
+        "13-2",
+        "13-3",
+        "19-1",
+        "19-2",
+        "20-1",
+        "21-2",
+        "22-1",
+        "23-2"
+      ],
+      "revise_action_ids": [],
+      "all_labels": [
+        {
+          "action_id": "11-1",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Proposes a different stop (PNC Park) without affecting whether Duquesne Incline is included.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "11-2",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Clarification about PNC Park does not relate to including Duquesne Incline.",
+          "explanation_type": "",
+          "contribution_role": "OTHER"
+        },
+        {
+          "action_id": "11-3",
+          "relationship": "DIRECT_CONNECTION",
+          "relationship_score": 4,
+          "explanation": "Preference-Accumulate: explicitly confirms they should include the incline, directly reinforcing r5.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "11-4",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Adds Point State Park as another option; does not operate on the Incline-inclusion requirement.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "12-1",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Intent-Reveal: timing question (afternoon vs evening) helps plan placement of stops, indirectly supporting how the Incline will be scheduled though not questioning inclusion.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "13-1",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Describes a location feature (three rivers meet) not explicitly tied to including Duquesne Incline.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "13-2",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Preference-Accumulate: recommends evening visit, which informs scheduling around the Incline after inclusion is assumed.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "13-3",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 1,
+          "explanation": "Justification (sunset views) provides weak supporting context for scheduling the Incline in the evening, not for inclusion itself.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "19-1",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Observes available time slots (afternoon/night), which helps constrain planning for when to do the Incline after it is included.",
+          "explanation_type": "",
+          "contribution_role": "OTHER"
+        },
+        {
+          "action_id": "19-2",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Option-Select: suggests choosing afternoon, progressing the schedule decision for the Incline once inclusion is set.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "20-1",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 3,
+          "explanation": "Intent-Reveal: explicitly frames a decision about visiting the incline before/after dinner, directly advancing planning details while keeping inclusion intact.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "21-1",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Acknowledgment alone does not change or add information about including Duquesne Incline.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "21-2",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 3,
+          "explanation": "Option-Select: asks if going right before dinner is fine, directly refining the placement of the already-included Incline stop.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "22-1",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Feedback-Adopt: agreement on the proposed plan supports the finalized scheduling that includes the Incline, without explicitly restating inclusion.",
+          "explanation_type": "",
+          "contribution_role": "OTHER"
+        },
+        {
+          "action_id": "23-1",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Approval ('Good!') does not add or modify content about including Duquesne Incline.",
+          "explanation_type": "",
+          "contribution_role": "OTHER"
+        },
+        {
+          "action_id": "23-2",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 1,
+          "explanation": "Plans to find ticket price; minor logistical follow-up that supports executing the Incline visit but does not itself ensure inclusion in the list.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        }
+      ]
+    },
+    "r6": {
+      "implementation_action_ids": [
+        "22-1"
+      ],
+      "contributing_action_ids": [
+        "23-1"
+      ],
+      "revise_action_ids": [],
+      "all_labels": [
+        {
+          "action_id": "21-1",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "21-2",
+          "relationship": "DIRECT_CONNECTION",
+          "relationship_score": 4,
+          "explanation": "Intent-Reveal: asks whether the incline should be right before dinner, directly addressing the before/after dinner requirement.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "22-1",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 5,
+          "explanation": "Option-Select: acceptance of 'right before dinner' fulfills the decision of scheduling the incline before dinner.",
+          "explanation_type": "",
+          "contribution_role": "OTHER"
+        },
+        {
+          "action_id": "23-1",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 1,
+          "explanation": "Feedback-Adopt: brief approval reinforces the chosen placement but does not add new scheduling detail.",
+          "explanation_type": "",
+          "contribution_role": "OTHER"
+        },
+        {
+          "action_id": "23-2",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        }
+      ]
+    },
+    "r7": {
+      "implementation_action_ids": [
+        "29-4"
+      ],
+      "contributing_action_ids": [
+        "27-3",
+        "27-4",
+        "27-5",
+        "28-1",
+        "29-1",
+        "29-2"
+      ],
+      "revise_action_ids": [],
+      "all_labels": [
+        {
+          "action_id": "27-1",
+          "relationship": "DIRECT_CONNECTION",
+          "relationship_score": 4,
+          "explanation": "Intent-Reveal: explicitly confirms the ~$30/person budget constraint that the restaurant selection must satisfy.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "27-2",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "",
+          "explanation_type": "",
+          "contribution_role": "OTHER"
+        },
+        {
+          "action_id": "27-3",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 3,
+          "explanation": "Option-Select: adds a concrete restaurant candidate that could be evaluated against the under-$30/person requirement.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "27-4",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 3,
+          "explanation": "Option-Select: proposes Sushi Kim as a specific downtown option intended to be reasonably priced and thus relevant to the <$30/person constraint.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "27-5",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 3,
+          "explanation": "Option-Select: suggests City Works with an explicit $20–30 estimate, directly supporting evaluation against the ~$30/person budget target.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "28-1",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Preference-Accumulate: expresses preference for Sushi Kim, advancing the selection among budget-feasible options.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "28-2",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "",
+          "explanation_type": "",
+          "contribution_role": "OTHER"
+        },
+        {
+          "action_id": "29-1",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Preference-Accumulate: agreement that the choice sounds good supports converging on a specific restaurant option within the budget.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "29-2",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Preference-Accumulate: positive evaluation of Sushi Kim helps justify selecting it as the restaurant that should meet the budget requirement.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "29-3",
+          "relationship": "DIRECT_CONNECTION",
+          "relationship_score": 4,
+          "explanation": "Intent-Reveal: provides explicit per-person cost information needed to judge whether the restaurant satisfies the under-$30/person requirement.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "29-4",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 5,
+          "explanation": "Option-Select: explicitly confirms the chosen option’s cost fits the <$30/person constraint, effectively fulfilling the budget-fit selection requirement.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "30-1",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "",
+          "explanation_type": "",
+          "contribution_role": "OTHER"
+        },
+        {
+          "action_id": "30-2",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "30-3",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        }
+      ]
+    },
+    "r8": {
+      "implementation_action_ids": [],
+      "contributing_action_ids": [
+        "33-1",
+        "33-2",
+        "34-1",
+        "35-1",
+        "37-1",
+        "38-1",
+        "40-1",
+        "40-2",
+        "41-1",
+        "41-2",
+        "42-1"
+      ],
+      "revise_action_ids": [],
+      "all_labels": [
+        {
+          "action_id": "33-1",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Proposes a lunch place category, which helps enable later scheduling, but does not decide the lunch time/schedule itself. (Preference-Accumulate)",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "33-2",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 1,
+          "explanation": "Adds context about available nearby options, indirectly supporting planning lunch but not fixing a schedule. (Preference-Accumulate)",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "34-1",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Adds an alternative lunch option type, advancing decision-making that could support setting the lunch schedule. (Preference-Accumulate)",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "35-1",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 1,
+          "explanation": "General acceptance helps move the discussion forward but does not itself decide a lunch schedule. (Preference-Accumulate)",
+          "explanation_type": "",
+          "contribution_role": "OTHER"
+        },
+        {
+          "action_id": "37-1",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Requesting restaurant recommendations is groundwork toward choosing where/when to eat, enabling eventual lunch scheduling. (Intent-Reveal)",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "37-2",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "",
+          "explanation_type": "",
+          "contribution_role": "OTHER"
+        },
+        {
+          "action_id": "38-1",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Suggests a concrete direction (nearby restaurants), helping narrow lunch planning inputs but not setting the lunch schedule. (Preference-Accumulate)",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "40-1",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Provides a specific on-campus lunch option, supporting decision-making that can lead to scheduling lunch. (Preference-Accumulate)",
+          "explanation_type": "",
+          "contribution_role": "OTHER"
+        },
+        {
+          "action_id": "40-2",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 3,
+          "explanation": "Suggests selecting a specific restaurant (on-campus), strongly progressing toward finalizing lunch plans that enable deciding the lunch schedule. (Option-Select)",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "41-1",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Clarifies the exact venue (Hunan Express), reducing ambiguity and helping finalize lunch planning needed before setting the schedule. (Option-Select)",
+          "explanation_type": "",
+          "contribution_role": "OTHER"
+        },
+        {
+          "action_id": "41-2",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Further clarifies the location (NSH), helping lock down the lunch option, which supports later deciding the lunch schedule. (Option-Select)",
+          "explanation_type": "",
+          "contribution_role": "OTHER"
+        },
+        {
+          "action_id": "42-1",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Affirmation confirms the clarified option, aiding convergence on a lunch plan that can be scheduled. (Option-Select)",
+          "explanation_type": "",
+          "contribution_role": "OTHER"
+        }
+      ]
+    },
+    "r9": {
+      "implementation_action_ids": [],
+      "contributing_action_ids": [
+        "44-1",
+        "44-2",
+        "45-2"
+      ],
+      "revise_action_ids": [],
+      "all_labels": [
+        {
+          "action_id": "44-1",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 3,
+          "explanation": "Intent-Reveal: adds the museum as an activity that must be placed at the end per the required sequence.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "44-2",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 3,
+          "explanation": "Intent-Reveal: introduces coffee as an intermediate step, aligning with and enabling the required ordering (coffee before museum).",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "45-1",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "",
+          "explanation_type": "",
+          "contribution_role": "OTHER"
+        },
+        {
+          "action_id": "45-2",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Option-Select: specifies which museum (Carnegie Museum of Art), supporting the 'museum' step in the sequence but not itself enforcing the ordering.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "45-3",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "",
+          "explanation_type": "",
+          "contribution_role": "OTHER"
+        },
+        {
+          "action_id": "45-4",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "46-1",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        }
+      ]
+    }
+  },
+  "enriched_counts": {
+    "implements": 3,
+    "contributes": 39,
+    "revises": 0
+  },
+  "metadata": {
+    "model": "gpt-5.2-2025-12-11"
+  }
+}

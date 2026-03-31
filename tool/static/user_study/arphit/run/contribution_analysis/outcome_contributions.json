@@ -1,0 +1,363 @@
+{
+  "1": {
+    "thread_id": 1,
+    "outcome_id": "outcome_1",
+    "outcome": "Relaxed full-day Manhattan NYC itinerary (times, activities, meals, commute) tailored to a family with parents in their 50s, including Broadway",
+    "speaker_contributions": {
+      "user": {
+        "direct_influence": 4.0,
+        "indirect_influence": 0.0,
+        "total_influence": 4.0,
+        "requirement_count": 4
+      },
+      "assistant": {
+        "direct_influence": 4.0,
+        "indirect_influence": 0.0,
+        "total_influence": 4.0,
+        "requirement_count": 4
+      }
+    },
+    "role_contributions": {
+      "user": {
+        "SHAPER": {
+          "M_dir": 4.0,
+          "M_ind": 0.0,
+          "M_total": 4.0,
+          "count": 4
+        }
+      },
+      "assistant": {
+        "EXECUTOR": {
+          "M_dir": 4.0,
+          "M_ind": 0.0,
+          "M_total": 4.0,
+          "count": 4
+        }
+      }
+    },
+    "requirements": [
+      "r1",
+      "r2",
+      "r3",
+      "r4"
+    ]
+  },
+  "2": {
+    "thread_id": 2,
+    "outcome_id": "outcome_2",
+    "outcome": "Recommended itinerary structure (how many activities and example day flow)",
+    "speaker_contributions": {
+      "user": {
+        "direct_influence": 1.0,
+        "indirect_influence": 0.0,
+        "total_influence": 1.0,
+        "requirement_count": 1
+      },
+      "assistant": {
+        "direct_influence": 3.0,
+        "indirect_influence": 0.0,
+        "total_influence": 3.0,
+        "requirement_count": 1
+      }
+    },
+    "role_contributions": {
+      "user": {
+        "SHAPER": {
+          "M_dir": 1.0,
+          "M_ind": 0.0,
+          "M_total": 1.0,
+          "count": 1
+        }
+      },
+      "assistant": {
+        "SHAPER": {
+          "M_dir": 3.0,
+          "M_ind": 0.0,
+          "M_total": 3.0,
+          "count": 3
+        }
+      }
+    },
+    "requirements": [
+      "r5"
+    ]
+  },
+  "3": {
+    "thread_id": 3,
+    "outcome_id": "outcome_3",
+    "outcome": "Decision on the major morning attraction that is famous, visually pleasant, and in a safe area",
+    "speaker_contributions": {
+      "user": {
+        "direct_influence": 3.0,
+        "indirect_influence": 0.0,
+        "total_influence": 3.0,
+        "requirement_count": 3
+      },
+      "assistant": {
+        "direct_influence": 12.0,
+        "indirect_influence": 8.0,
+        "total_influence": 20.0,
+        "requirement_count": 3
+      }
+    },
+    "role_contributions": {
+      "user": {
+        "SHAPER": {
+          "M_dir": 3.0,
+          "M_ind": 0.0,
+          "M_total": 3.0,
+          "count": 3
+        }
+      },
+      "assistant": {
+        "SHAPER": {
+          "M_dir": 12.0,
+          "M_ind": 8.0,
+          "M_total": 20.0,
+          "count": 36
+        }
+      }
+    },
+    "requirements": [
+      "r6",
+      "r7",
+      "r8"
+    ]
+  },
+  "4": {
+    "thread_id": 4,
+    "outcome_id": "outcome_4",
+    "outcome": "Lunch recommendation near the morning attraction with good food, comfortable ambience, and minimal crowding/walking",
+    "speaker_contributions": {
+      "user": {
+        "direct_influence": 4.0,
+        "indirect_influence": 0.0,
+        "total_influence": 4.0,
+        "requirement_count": 4
+      },
+      "assistant": {
+        "direct_influence": 19.0,
+        "indirect_influence": 8.0,
+        "total_influence": 27.0,
+        "requirement_count": 4
+      }
+    },
+    "role_contributions": {
+      "user": {
+        "SHAPER": {
+          "M_dir": 4.0,
+          "M_ind": 0.0,
+          "M_total": 4.0,
+          "count": 4
+        }
+      },
+      "assistant": {
+        "SHAPER": {
+          "M_dir": 3.0,
+          "M_ind": 8.0,
+          "M_total": 10.999999999999998,
+          "count": 27
+        },
+        "EXECUTOR": {
+          "M_dir": 16.0,
+          "M_ind": 0.0,
+          "M_total": 16.0,
+          "count": 16
+        }
+      }
+    },
+    "requirements": [
+      "r9",
+      "r10",
+      "r11",
+      "r12"
+    ]
+  },
+  "5": {
+    "thread_id": 5,
+    "outcome_id": "outcome_5",
+    "outcome": "Decision and constraints for the evening Broadway show as the anchor event",
+    "speaker_contributions": {
+      "user": {
+        "direct_influence": 1.0,
+        "indirect_influence": 0.0,
+        "total_influence": 1.0,
+        "requirement_count": 1
+      },
+      "assistant": {
+        "direct_influence": 1.0,
+        "indirect_influence": 0.0,
+        "total_influence": 1.0,
+        "requirement_count": 1
+      }
+    },
+    "role_contributions": {
+      "user": {
+        "SHAPER": {
+          "M_dir": 1.0,
+          "M_ind": 0.0,
+          "M_total": 1.0,
+          "count": 1
+        }
+      },
+      "assistant": {
+        "SHAPER": {
+          "M_dir": 1.0,
+          "M_ind": 0.0,
+          "M_total": 1.0,
+          "count": 1
+        }
+      }
+    },
+    "requirements": [
+      "r13"
+    ]
+  },
+  "6": {
+    "thread_id": 6,
+    "outcome_id": "outcome_6",
+    "outcome": "Afternoon activity selection that is not too tiring and positions the group near Broadway",
+    "speaker_contributions": {
+      "user": {
+        "direct_influence": 2.0,
+        "indirect_influence": 0.0,
+        "total_influence": 2.0,
+        "requirement_count": 2
+      },
+      "assistant": {
+        "direct_influence": 7.0,
+        "indirect_influence": 0.0,
+        "total_influence": 7.0,
+        "requirement_count": 2
+      }
+    },
+    "role_contributions": {
+      "user": {
+        "SHAPER": {
+          "M_dir": 2.0,
+          "M_ind": 0.0,
+          "M_total": 2.0,
+          "count": 2
+        }
+      },
+      "assistant": {
+        "EXECUTOR": {
+          "M_dir": 7.0,
+          "M_ind": 0.0,
+          "M_total": 7.0,
+          "count": 7
+        }
+      }
+    },
+    "requirements": [
+      "r14",
+      "r15"
+    ]
+  },
+  "7": {
+    "thread_id": 7,
+    "outcome_id": "outcome_7",
+    "outcome": "Dinner plan near Bryant Park/Broadway: choose a very good Indian restaurant with good ambience and minimal walking (including cost estimates to decide)",
+    "speaker_contributions": {
+      "user": {
+        "direct_influence": 7.0,
+        "indirect_influence": 0.0,
+        "total_influence": 7.0,
+        "requirement_count": 7
+      },
+      "assistant": {
+        "direct_influence": 23.0,
+        "indirect_influence": 8.0,
+        "total_influence": 31.0,
+        "requirement_count": 7
+      }
+    },
+    "role_contributions": {
+      "user": {
+        "SHAPER": {
+          "M_dir": 7.0,
+          "M_ind": 0.0,
+          "M_total": 7.0,
+          "count": 7
+        }
+      },
+      "assistant": {
+        "EXECUTOR": {
+          "M_dir": 21.0,
+          "M_ind": 3.0,
+          "M_total": 24.0,
+          "count": 31
+        },
+        "SHAPER": {
+          "M_dir": 2.0,
+          "M_ind": 4.6,
+          "M_total": 6.6,
+          "count": 19
+        },
+        "OTHER": {
+          "M_dir": 0.0,
+          "M_ind": 0.4,
+          "M_total": 0.4,
+          "count": 1
+        }
+      }
+    },
+    "requirements": [
+      "r16",
+      "r17",
+      "r18",
+      "r19",
+      "r20",
+      "r21",
+      "r22"
+    ]
+  },
+  "8": {
+    "thread_id": 8,
+    "outcome_id": "outcome_8",
+    "outcome": "Updated finalized schedule revisions reflecting sequencing constraints (event-before-dinner, then dinner-last vs dinner-before-show changes)",
+    "speaker_contributions": {
+      "user": {
+        "direct_influence": 7.0,
+        "indirect_influence": 2.4,
+        "total_influence": 9.4,
+        "requirement_count": 3
+      },
+      "assistant": {
+        "direct_influence": 5.0,
+        "indirect_influence": 9.200000000000001,
+        "total_influence": 14.2,
+        "requirement_count": 3
+      }
+    },
+    "role_contributions": {
+      "user": {
+        "SHAPER": {
+          "M_dir": 7.0,
+          "M_ind": 2.4,
+          "M_total": 9.4,
+          "count": 11
+        }
+      },
+      "assistant": {
+        "SHAPER": {
+          "M_dir": 2.0,
+          "M_ind": 3.1999999999999997,
+          "M_total": 5.199999999999999,
+          "count": 10
+        },
+        "EXECUTOR": {
+          "M_dir": 3.0,
+          "M_ind": 6.000000000000001,
+          "M_total": 9.0,
+          "count": 18
+        }
+      }
+    },
+    "requirements": [
+      "r23",
+      "r24",
+      "r23_1"
+    ]
+  }
+}

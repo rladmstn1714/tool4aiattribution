@@ -1,0 +1,510 @@
+{
+  "0-1": {
+    "evidence_quote": "Here are some additional activity ideas for your 7-day program at the villa in <REDACTED>:",
+    "turn_id": 0
+  },
+  "0-2": {
+    "evidence_quote": "Scuba diving or snorkeling: Organize a group excursion to explore the beautiful underwater world",
+    "turn_id": 0
+  },
+  "0-3": {
+    "evidence_quote": "Hiking and exploring historical sites: Plan a day trip to visit nearby ancient ruins",
+    "turn_id": 0
+  },
+  "0-4": {
+    "evidence_quote": "Outdoor movie night: Set up a projector and screen outside and host a movie night under the stars.",
+    "turn_id": 0
+  },
+  "0-5": {
+    "evidence_quote": "Cooking classes or food tasting: Organize a cooking class... Alternatively, host a food tasting event",
+    "turn_id": 0
+  },
+  "0-6": {
+    "evidence_quote": "Team-building games and challenges: Organize group games and challenges that encourage teamwork",
+    "turn_id": 0
+  },
+  "0-7": {
+    "evidence_quote": "Talent show or open mic night: Give everyone a chance to showcase their hidden talents",
+    "turn_id": 0
+  },
+  "0-8": {
+    "evidence_quote": "Photography or videography workshop: Organize a workshop on photography or videography",
+    "turn_id": 0
+  },
+  "0-9": {
+    "evidence_quote": "Beach cleanup or local community service: Organize a beach cleanup activity or volunteer at a local organization",
+    "turn_id": 0
+  },
+  "0-10": {
+    "evidence_quote": "Theme parties: Organize a themed party, such as a costume party, 80s night, or a cultural exchange evening",
+    "turn_id": 0
+  },
+  "0-11": {
+    "evidence_quote": "Meditation and mindfulness sessions: Schedule daily meditation or mindfulness sessions",
+    "turn_id": 0
+  },
+  "0-12": {
+    "evidence_quote": "These additional activities can provide a diverse and engaging experience for the participants",
+    "turn_id": 0
+  },
+  "1-1": {
+    "evidence_quote": "give me 5 more",
+    "turn_id": 1
+  },
+  "2-1": {
+    "evidence_quote": "Guided cultural tour: Arrange a guided tour of the local area",
+    "turn_id": 2
+  },
+  "2-2": {
+    "evidence_quote": "Guided cultural tour: Arrange a guided tour of the local area",
+    "turn_id": 2
+  },
+  "2-3": {
+    "evidence_quote": "Sunset yoga or fitness sessions: Schedule group fitness or yoga sessions on the beach during sunset",
+    "turn_id": 2
+  },
+  "2-4": {
+    "evidence_quote": "DIY workshop: Organize a do-it-yourself (DIY) workshop",
+    "turn_id": 2
+  },
+  "2-5": {
+    "evidence_quote": "Boat building and racing competition: Divide the group into teams and challenge them to build makeshift boats",
+    "turn_id": 2
+  },
+  "2-6": {
+    "evidence_quote": "Stargazing and storytelling: Organize a stargazing night where participants can relax under the stars",
+    "turn_id": 2
+  },
+  "2-7": {
+    "evidence_quote": "These additional activities can further enhance the experience for participants",
+    "turn_id": 2
+  },
+  "3-1": {
+    "evidence_quote": "okay",
+    "turn_id": 3
+  },
+  "3-2": {
+    "evidence_quote": "give me 10 more",
+    "turn_id": 3
+  },
+  "3-3": {
+    "evidence_quote": "avoid workshops that require teacher (like DYI workshops)",
+    "turn_id": 3
+  },
+  "3-4": {
+    "evidence_quote": "or extensive materials (like boat building)",
+    "turn_id": 3
+  },
+  "3-5": {
+    "evidence_quote": "or long trips somewhere (too much people would require a lot of organisational resourse)",
+    "turn_id": 3
+  },
+  "4-1": {
+    "evidence_quote": "Beach Olympics: Organize a series of fun and competitive beach games, such as relay races, tug-of-war, and sandcastle building contests.",
+    "turn_id": 4
+  },
+  "4-2": {
+    "evidence_quote": "Campfire night: Set up a bonfire on the beach or near the villa, and gather the group for an evening of roasting marshmallows, making s'mores, and sharing stories",
+    "turn_id": 4
+  },
+  "4-3": {
+    "evidence_quote": "Board game tournament: Host a board game tournament, featuring various games that cater to different interests and skill levels.",
+    "turn_id": 4
+  },
+  "4-4": {
+    "evidence_quote": "Themed potluck dinner: Organize a themed potluck dinner where everyone brings a dish related to a specific theme",
+    "turn_id": 4
+  },
+  "4-5": {
+    "evidence_quote": "Group workout or sports activities: Plan group sports activities, such as soccer, basketball, or ultimate frisbee",
+    "turn_id": 4
+  },
+  "4-6": {
+    "evidence_quote": "Outdoor sketching or painting: Provide participants with basic art supplies like paper, pencils, and watercolors",
+    "turn_id": 4
+  },
+  "4-7": {
+    "evidence_quote": "Musical jam session: If any of the participants play musical instruments, host an informal jam session",
+    "turn_id": 4
+  },
+  "4-8": {
+    "evidence_quote": "Trivia night or quiz competition: Organize a trivia night or quiz competition with questions related to the group's interests",
+    "turn_id": 4
+  },
+  "4-9": {
+    "evidence_quote": "Nature walks or birdwatching: Plan short, guided nature walks in the nearby surroundings",
+    "turn_id": 4
+  },
+  "4-10": {
+    "evidence_quote": "Icebreaker games: Start the event with a series of icebreaker games to help participants get to know each other better",
+    "turn_id": 4
+  },
+  "4-11": {
+    "evidence_quote": "These additional activities focus on low-resource, easily organized events that can help build connections",
+    "turn_id": 4
+  },
+  "5-1": {
+    "evidence_quote": "Okay, you are doing very good.",
+    "turn_id": 5
+  },
+  "5-2": {
+    "evidence_quote": "Try 10 more if you can do it without repetition.",
+    "turn_id": 5
+  },
+  "5-3": {
+    "evidence_quote": "If not, you can say so",
+    "turn_id": 5
+  },
+  "6-1": {
+    "evidence_quote": "I'll provide you with 10 more unique activity ideas that are low-resource and easy to organize:",
+    "turn_id": 6
+  },
+  "6-2": {
+    "evidence_quote": "Progressive dinner party: Organize a dinner party where each course is served at a different location within the villa or surrounding area.",
+    "turn_id": 6
+  },
+  "6-3": {
+    "evidence_quote": "Guided relaxation or visualization session: Schedule a group relaxation session, where one person guides the others",
+    "turn_id": 6
+  },
+  "6-4": {
+    "evidence_quote": "DIY spa day: Set up a DIY spa area with simple, natural ingredients for facials, body scrubs, and foot soaks.",
+    "turn_id": 6
+  },
+  "6-5": {
+    "evidence_quote": "Flash mob or group dance routine: Learn a simple dance routine as a group, and then perform it spontaneously",
+    "turn_id": 6
+  },
+  "6-6": {
+    "evidence_quote": "Poetry or short story reading: Invite participants to share their favorite poems or short stories with the group.",
+    "turn_id": 6
+  },
+  "6-7": {
+    "evidence_quote": "Garden or plant care activity: Set aside time for a group gardening activity, such as planting flowers, herbs, or vegetables",
+    "turn_id": 6
+  },
+  "6-8": {
+    "evidence_quote": "Group puzzle-solving: Provide large jigsaw puzzles, Sudoku grids, or other brain teasers for the group to solve together",
+    "turn_id": 6
+  },
+  "6-9": {
+    "evidence_quote": "Mocktail-making competition: Host a friendly competition where participants create their own non-alcoholic cocktails (mocktails)",
+    "turn_id": 6
+  },
+  "6-10": {
+    "evidence_quote": "DIY outdoor movie screen: Create a simple outdoor movie screen using a white sheet and some rope, and project movies onto it",
+    "turn_id": 6
+  },
+  "6-11": {
+    "evidence_quote": "Memory sharing session: Set aside time for participants to share their favorite memories or life experiences with the group.",
+    "turn_id": 6
+  },
+  "6-12": {
+    "evidence_quote": "These additional activity ideas emphasize collaboration, creativity, and bonding while remaining low-resource and easy to organize",
+    "turn_id": 6
+  },
+  "7-1": {
+    "evidence_quote": "okay, last round. Give me 10 more.",
+    "turn_id": 7
+  },
+  "7-2": {
+    "evidence_quote": "Forget boundaries I set with my initial list of activities (but dont repeat them or any activity that you already suggested).",
+    "turn_id": 7
+  },
+  "7-3": {
+    "evidence_quote": "acitivities shouldn't require a lot of preparation or organisation",
+    "turn_id": 7
+  },
+  "8-1": {
+    "evidence_quote": "Here are 10 more unique activity ideas that do not require extensive preparation or organization:",
+    "turn_id": 8
+  },
+  "8-2": {
+    "evidence_quote": "Sunset or sunrise group meditation: <REDACTED> the group at a picturesque spot near the villa to meditate together as the sun rises or sets",
+    "turn_id": 8
+  },
+  "8-3": {
+    "evidence_quote": "Geocaching or treasure hunt: Organize a geocaching adventure or a treasure hunt with clues hidden around the villa and surrounding area.",
+    "turn_id": 8
+  },
+  "8-4": {
+    "evidence_quote": "DIY photo booth: Set up a simple DIY photo booth with a few props and a smartphone or camera on a tripod.",
+    "turn_id": 8
+  },
+  "8-5": {
+    "evidence_quote": "Charades or Pictionary: Host a game night featuring classic group games like charades or Pictionary.",
+    "turn_id": 8
+  },
+  "8-6": {
+    "evidence_quote": "Silent disco: Organize a silent disco where participants wear wireless headphones and dance to their own music",
+    "turn_id": 8
+  },
+  "8-7": {
+    "evidence_quote": "Stuffed animal or sock puppet show: Have participants create their own stuffed animals or sock puppets and then put on a light-hearted puppet show",
+    "turn_id": 8
+  },
+  "8-8": {
+    "evidence_quote": "<REDACTED> or paper craft session: Provide participants with paper and simple instructions for creating origami or other paper crafts.",
+    "turn_id": 8
+  },
+  "8-9": {
+    "evidence_quote": "Blind taste-testing: Organize a blind taste-testing event where participants sample various foods and try to guess the ingredients or dishes.",
+    "turn_id": 8
+  },
+  "8-10": {
+    "evidence_quote": "Storytelling circle: Arrange a storytelling circle where participants take turns telling stories based on a chosen theme",
+    "turn_id": 8
+  },
+  "8-11": {
+    "evidence_quote": "Beach or villa clean-up competition: Divide the group into teams and challenge them to collect as much litter as possible within a set time limit",
+    "turn_id": 8
+  },
+  "8-12": {
+    "evidence_quote": "These additional activity ideas offer a mix of entertainment, relaxation, and engagement, all while remaining easy to organize and requiring minimal preparation.",
+    "turn_id": 8
+  },
+  "9-1": {
+    "evidence_quote": "nice list.",
+    "turn_id": 9
+  },
+  "9-2": {
+    "evidence_quote": "Prepare roadmap of actions for me",
+    "turn_id": 9
+  },
+  "9-3": {
+    "evidence_quote": "I'm organising this event for around 20 people... renting <REDACTED> in Sep and 5-6 people, who are agreed to do this",
+    "turn_id": 9
+  },
+  "10-1": {
+    "evidence_quote": "Here's a roadmap of actions to help you organize your event for around 20 people at a villa in September:",
+    "turn_id": 10
+  },
+  "10-2": {
+    "evidence_quote": "Finalize the list of attendees: Reach out to potential participants... and confirm their interest and availability",
+    "turn_id": 10
+  },
+  "10-3": {
+    "evidence_quote": "Choose the villa: Research and select an appropriate villa that can accommodate around 20 people comfortably.",
+    "turn_id": 10
+  },
+  "10-4": {
+    "evidence_quote": "Book the villa: Once you have chosen the villa, make a reservation... Ensure that you understand the booking terms",
+    "turn_id": 10
+  },
+  "10-5": {
+    "evidence_quote": "Create an event schedule: Develop a detailed itinerary... Allow for some flexibility and downtime",
+    "turn_id": 10
+  },
+  "10-6": {
+    "evidence_quote": "Coordinate transportation: Organize group transportation to and from the villa",
+    "turn_id": 10
+  },
+  "10-7": {
+    "evidence_quote": "Plan meals and refreshments: Develop a meal plan... accommodate any dietary restrictions or preferences.",
+    "turn_id": 10
+  },
+  "10-8": {
+    "evidence_quote": "Organize activity materials and equipment: Compile a list of materials and equipment needed for each activity",
+    "turn_id": 10
+  },
+  "10-9": {
+    "evidence_quote": "Delegate tasks: Assign specific tasks or roles to attendees",
+    "turn_id": 10
+  },
+  "10-10": {
+    "evidence_quote": "Communicate with attendees: Regularly update attendees on the event plans... Provide a packing list",
+    "turn_id": 10
+  },
+  "10-11": {
+    "evidence_quote": "Collect payments: If necessary, collect payments... Provide a clear breakdown of costs and payment deadlines.",
+    "turn_id": 10
+  },
+  "10-12": {
+    "evidence_quote": "Prepare a contingency plan: Develop a contingency plan to address potential issues",
+    "turn_id": 10
+  },
+  "10-13": {
+    "evidence_quote": "Finalize details: In the weeks leading up to the event, confirm all reservations, transportation arrangements, and activity plans.",
+    "turn_id": 10
+  },
+  "10-14": {
+    "evidence_quote": "By following this roadmap... Remember to remain flexible and open to feedback",
+    "turn_id": 10
+  },
+  "11-1": {
+    "evidence_quote": "Now I want to hire a designer, who would create a landing page for this event.",
+    "turn_id": 11
+  },
+  "11-2": {
+    "evidence_quote": "What things I need to tell him to give this task properly",
+    "turn_id": 11
+  },
+  "12-1": {
+    "evidence_quote": "When briefing a designer for a landing page for your event, it's essential to provide them with clear and detailed information.",
+    "turn_id": 12
+  },
+  "12-2": {
+    "evidence_quote": "Here are some key points to include in your brief: Event overview... Visual style and branding... Page structure and content... Call-to-action (CTA)... Images and media... Responsive design... Logo and branding elements... Links and social media integration... Deadline and milestones... Budget",
+    "turn_id": 12
+  },
+  "12-3": {
+    "evidence_quote": "By providing the designer with a comprehensive brief that covers these key points, you can help ensure that they have a clear understanding of your vision and expectations",
+    "turn_id": 12
+  },
+  "13-1": {
+    "evidence_quote": "can you do internet search and provide me with reference link?",
+    "turn_id": 13
+  },
+  "13-2": {
+    "evidence_quote": "I'm searching for companies that organise vacations or remote work with some programs? Like live on the villa with interesting people for 2 weeks and with interesting program like exploring locations, doing yoga and so on",
+    "turn_id": 13
+  },
+  "14-1": {
+    "evidence_quote": "As an AI language model, I'm unable to conduct real-time searches.",
+    "turn_id": 14
+  },
+  "14-2": {
+    "evidence_quote": "However, I can suggest some companies that were popular as of my last update in September 2021.",
+    "turn_id": 14
+  },
+  "14-3": {
+    "evidence_quote": "<REDACTED> (<URL>)... Outsite (<URL>)... Remote Year (<URL>)... Hacker <REDACTED> (<URL>)... Unsettled (<URL>)",
+    "turn_id": 14
+  },
+  "14-4": {
+    "evidence_quote": "Please note that the information provided here may be outdated... You should verify the details on their websites",
+    "turn_id": 14
+  },
+  "15-1": {
+    "evidence_quote": "nice.",
+    "turn_id": 15
+  },
+  "15-2": {
+    "evidence_quote": "Next question.",
+    "turn_id": 15
+  },
+  "15-3": {
+    "evidence_quote": "I would give you list of activities and approximate timing of each.",
+    "turn_id": 15
+  },
+  "15-4": {
+    "evidence_quote": "You need to create a timeline schedule for a group of people from this activities for 7 days, but don't forget time for breakfast/dinner (or any other food), rest or any other important things. It should be quite relaxed week",
+    "turn_id": 15
+  },
+  "15-5": {
+    "evidence_quote": "You can exclude any of this activity if you feel that it's too much - just provide it after schedule in a separate list.",
+    "turn_id": 15
+  },
+  "15-6": {
+    "evidence_quote": "Or if you think it's not enough, you can add a placeholder with a timeslot",
+    "turn_id": 15
+  },
+  "15-7": {
+    "evidence_quote": "Outcome should be something like this. Monday 09:00 - 10:00 Breakfast 10:30 - 12:00 Beach time",
+    "turn_id": 15
+  },
+  "15-8": {
+    "evidence_quote": "One more limitation - Monday is \"arriving\" day. We would enter the villa around 15:00 and people would come in different time, so you need only to plan evening and something relaxed.",
+    "turn_id": 15
+  },
+  "15-9": {
+    "evidence_quote": "Sunday is \"ending\" day - we would return villa in the morning, so don't plan anything for this day",
+    "turn_id": 15
+  },
+  "16-1": {
+    "evidence_quote": "Here's a relaxed 7-day schedule for your group, incorporating the various activities you've provided:",
+    "turn_id": 16
+  },
+  "16-2": {
+    "evidence_quote": "I've included most of the activities from your list in the schedule... The schedule can be further adjusted to accommodate any additional activities or preferences.",
+    "turn_id": 16
+  },
+  "17-1": {
+    "evidence_quote": "I've revised the schedule based on your provided list of activities and your new preferences:",
+    "turn_id": 17
+  },
+  "17-2": {
+    "evidence_quote": "Monday (Arrival Day)15:00 - Villa Check-in... Sunday (Departure Day)07:00 - 09:00 Breakfast09:00 - Villa Check-out & Departure",
+    "turn_id": 17
+  },
+  "17-3": {
+    "evidence_quote": "This schedule incorporates all the activities from your new list while maintaining a relaxed pace for the week.",
+    "turn_id": 17
+  },
+  "17-4": {
+    "evidence_quote": "Additionally, it omits yoga, art therapy, and the cocktail-making session as per your request.",
+    "turn_id": 17
+  },
+  "17-5": {
+    "evidence_quote": "Feel free to make adjustments to accommodate any additional preferences or needs.",
+    "turn_id": 17
+  },
+  "18-1": {
+    "evidence_quote": "Okay, that's nice, but let's make several adjustments:",
+    "turn_id": 18
+  },
+  "18-2": {
+    "evidence_quote": "Translate everything to Russian language",
+    "turn_id": 18
+  },
+  "18-3": {
+    "evidence_quote": "Delete from answer words like (3 hours)",
+    "turn_id": 18
+  },
+  "18-4": {
+    "evidence_quote": "Move participant presentation and swim pool party to Tuesday after lunch",
+    "turn_id": 18
+  },
+  "18-5": {
+    "evidence_quote": "Move Hiking somewhere around Thursday/Friday but we should have any physical draining activity that day",
+    "turn_id": 18
+  },
+  "18-6": {
+    "evidence_quote": "Delete Beer Pong as a separate activity and replace it with some other social activity",
+    "turn_id": 18
+  },
+  "19-1": {
+    "evidence_quote": "okay, I changed my mind, do it in English",
+    "turn_id": 19
+  },
+  "20-1": {
+    "evidence_quote": "Here's the revised schedule based on your adjustments, in English:",
+    "turn_id": 20
+  },
+  "20-2": {
+    "evidence_quote": "Monday (Arrival Day)15:00 - Villa Check-in17:00 - 18:00 Welcome Drinks & Icebreaker Games18:00 - 20:00 Dinner20:00 - 22:00 Free Time / Socializing",
+    "turn_id": 20
+  },
+  "20-3": {
+    "evidence_quote": "Tuesday09:00 - 10:00 Breakfast10:30 - 12:30 Beach Time (Swimming, Sunbathing, Beach Games)13:00 - 14:00 Lunch14:00 - 16:00 <REDACTED> Presentations16:00 - 20:00 Swim Pool Party20:00 - 22:00 Dinner",
+    "turn_id": 20
+  },
+  "20-4": {
+    "evidence_quote": "Wednesday09:00 - 10:00 Breakfast10:30 - 16:30 Yachting Excursion16:30 - 18:00 Free Time / Rest18:00 - 21:00 <REDACTED> Social Evening",
+    "turn_id": 20
+  },
+  "20-5": {
+    "evidence_quote": "Thursday09:00 - 10:00 Breakfast10:30 - 14:30 Tour of Kas14:30 - 16:00 <REDACTED> Free Time / Rest18:00 - 20:00 Dinner20:00 - 23:00 Board Games and Karaoke Night",
+    "turn_id": 20
+  },
+  "20-6": {
+    "evidence_quote": "Friday09:00 - 10:00 Breakfast10:30 - 13:30 Beach Activities - Stand-Up Paddleboarding (SUP), Volleyball, Frisbee13:30 - 14:30 Lunch14:30 - 16:00 Free Time / Rest16:00 - 19:00 Hiking in Local Beauty Spots19:00 - 21:00 Dinner21:00 - 23:00 Movie Night",
+    "turn_id": 20
+  },
+  "20-7": {
+    "evidence_quote": "Saturday09:00 - 10:00 Breakfast10:30 - 12:30 Free Time / Optional Group Activities12:30 - 13:30 Lunch13:30 - 16:30 Free Time / Rest16:30 - 18:00 Farewell Party Preparation18:00 - 20:00 Dinner20:00 - 23:00 Farewell Party",
+    "turn_id": 20
+  },
+  "20-8": {
+    "evidence_quote": "Sunday (Departure Day)07:00 - 09:00 Breakfast09:00 - Villa Check-out & Departure",
+    "turn_id": 20
+  },
+  "20-9": {
+    "evidence_quote": "This schedule incorporates all the changes you requested, while maintaining a relaxed pace for the week.",
+    "turn_id": 20
+  },
+  "20-10": {
+    "evidence_quote": "Feel free to make any additional adjustments to accommodate preferences or needs.",
+    "turn_id": 20
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "dialogue_id": "poe_share_sLWzhGcXwPe9X3rAcJcM",
+  "intentions": [
+    {
+      "intention_id": "I1",
+      "intention": "Plan and refine NYC one-day sightseeing itinerary"
+    },
+    {
+      "intention_id": "I2",
+      "intention": "Plan dining options within comfort, crowds, and budget constraints"
+    },
+    {
+      "intention_id": "I3",
+      "intention": "Estimate and summarize trip costs"
+    }
+  ],
+  "outcome_to_intention": {
+    "outcome_1": "I1",
+    "outcome_2": "I1",
+    "outcome_3": "I2",
+    "outcome_4": "I3",
+    "outcome_5": "I1"
+  },
+  "metadata": {
+    "num_intentions": 3,
+    "model": "gpt-5.2-2025-12-11"
+  }
+}

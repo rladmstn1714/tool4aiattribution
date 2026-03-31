@@ -1,0 +1,42 @@
+{
+  "dialogue_id": "chatgpt_gpt4_10plus_turns_Practical_Guidance_Planning_114",
+  "intentions": [
+    {
+      "intention_id": "I1",
+      "intention": "Generate activity ideas for the villa program"
+    },
+    {
+      "intention_id": "I2",
+      "intention": "Plan and schedule the 7-day villa program itinerary"
+    },
+    {
+      "intention_id": "I3",
+      "intention": "Provide event operations/organization roadmap"
+    },
+    {
+      "intention_id": "I4",
+      "intention": "Prepare landing page scoping brief for a designer"
+    },
+    {
+      "intention_id": "I5",
+      "intention": "Research reference companies offering similar villa/remote-work programs"
+    }
+  ],
+  "outcome_to_intention": {
+    "outcome_1": "I1",
+    "outcome_1a": "I1",
+    "outcome_1b": "I1",
+    "outcome_1c": "I1",
+    "outcome_1d": "I1",
+    "outcome_2": "I3",
+    "outcome_3": "I4",
+    "outcome_5": "I5",
+    "outcome_4": "I2",
+    "outcome_4a": "I2",
+    "outcome_4b": "I2"
+  },
+  "metadata": {
+    "num_intentions": 5,
+    "model": "gpt-5.2-2025-12-11"
+  }
+}

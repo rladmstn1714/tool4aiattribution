@@ -1,0 +1,243 @@
+{
+  "1": {
+    "thread_id": 1,
+    "outcome_id": "outcome_1",
+    "outcome": "Relaxed one-day NYC itinerary (morning-to-evening) starting from Manhattan hotel with compact routing, meals/cafe, rest breaks, and iconic sights",
+    "speaker_contributions": {
+      "user": {
+        "direct_influence": 12.0,
+        "indirect_influence": 0.0,
+        "total_influence": 12.0,
+        "requirement_count": 12
+      },
+      "assistant": {
+        "direct_influence": 39.0,
+        "indirect_influence": 0.0,
+        "total_influence": 39.0,
+        "requirement_count": 12
+      }
+    },
+    "role_contributions": {
+      "user": {
+        "SHAPER": {
+          "M_dir": 13.0,
+          "M_ind": 0.0,
+          "M_total": 13.0,
+          "count": 13
+        }
+      },
+      "assistant": {
+        "EXECUTOR": {
+          "M_dir": 36.0,
+          "M_ind": 0.0,
+          "M_total": 36.0,
+          "count": 36
+        },
+        "SHAPER": {
+          "M_dir": 3.0,
+          "M_ind": 0.0,
+          "M_total": 3.0,
+          "count": 3
+        }
+      }
+    },
+    "requirements": [
+      "r1",
+      "r2",
+      "r3",
+      "r4",
+      "r5",
+      "r6",
+      "r7",
+      "r8",
+      "r9",
+      "r10",
+      "r11",
+      "r12"
+    ]
+  },
+  "2": {
+    "thread_id": 2,
+    "outcome_id": "outcome_2",
+    "outcome": "Itinerary adjustment to include Top of the Rock at sunset (timing and surrounding flow)",
+    "speaker_contributions": {
+      "user": {
+        "direct_influence": 1.0,
+        "indirect_influence": 0.0,
+        "total_influence": 1.0,
+        "requirement_count": 1
+      },
+      "assistant": {
+        "direct_influence": 1.0,
+        "indirect_influence": 3.8,
+        "total_influence": 4.8,
+        "requirement_count": 1
+      }
+    },
+    "role_contributions": {
+      "user": {
+        "SHAPER": {
+          "M_dir": 1.0,
+          "M_ind": 0.0,
+          "M_total": 1.0,
+          "count": 1
+        }
+      },
+      "assistant": {
+        "SHAPER": {
+          "M_dir": 0.0,
+          "M_ind": 3.0000000000000004,
+          "M_total": 3.0000000000000004,
+          "count": 15
+        },
+        "EXECUTOR": {
+          "M_dir": 1.0,
+          "M_ind": 0.8,
+          "M_total": 1.8,
+          "count": 5
+        }
+      }
+    },
+    "requirements": [
+      "r13"
+    ]
+  },
+  "3": {
+    "thread_id": 3,
+    "outcome_id": "outcome_3",
+    "outcome": "Dining plan decisions (breakfast/lunch/dinner + cafe) aligned to comfort, crowd-avoidance, and dinner budget cap ($100/person)",
+    "speaker_contributions": {
+      "user": {
+        "direct_influence": 2.0,
+        "indirect_influence": 0.0,
+        "total_influence": 2.0,
+        "requirement_count": 2
+      },
+      "assistant": {
+        "direct_influence": 4.0,
+        "indirect_influence": 0.0,
+        "total_influence": 4.0,
+        "requirement_count": 2
+      }
+    },
+    "role_contributions": {
+      "user": {
+        "SHAPER": {
+          "M_dir": 2.0,
+          "M_ind": 0.0,
+          "M_total": 2.0,
+          "count": 2
+        }
+      },
+      "assistant": {
+        "SHAPER": {
+          "M_dir": 4.0,
+          "M_ind": 0.0,
+          "M_total": 4.0,
+          "count": 4
+        }
+      }
+    },
+    "requirements": [
+      "r14",
+      "r15"
+    ]
+  },
+  "4": {
+    "thread_id": 4,
+    "outcome_id": "outcome_4",
+    "outcome": "Estimated day cost breakdown (itemized per stop/course where possible) and totals (per-person and party of 3)",
+    "speaker_contributions": {
+      "user": {
+        "direct_influence": 4.0,
+        "indirect_influence": 0.0,
+        "total_influence": 4.0,
+        "requirement_count": 4
+      },
+      "assistant": {
+        "direct_influence": 13.0,
+        "indirect_influence": 21.599999999999998,
+        "total_influence": 34.599999999999994,
+        "requirement_count": 4
+      }
+    },
+    "role_contributions": {
+      "user": {
+        "SHAPER": {
+          "M_dir": 4.0,
+          "M_ind": 0.0,
+          "M_total": 4.0,
+          "count": 4
+        }
+      },
+      "assistant": {
+        "SHAPER": {
+          "M_dir": 2.0,
+          "M_ind": 13.599999999999998,
+          "M_total": 15.599999999999998,
+          "count": 31
+        },
+        "EXECUTOR": {
+          "M_dir": 11.0,
+          "M_ind": 8.000000000000004,
+          "M_total": 19.000000000000004,
+          "count": 29
+        }
+      }
+    },
+    "requirements": [
+      "r16",
+      "r17",
+      "r18",
+      "r19"
+    ]
+  },
+  "5": {
+    "thread_id": 5,
+    "outcome_id": "outcome_5",
+    "outcome": "Walking-time estimates and rest-focused timing adjustments (including 1.5 hours in Central Park and shifted schedule)",
+    "speaker_contributions": {
+      "user": {
+        "direct_influence": 3.0,
+        "indirect_influence": 0.0,
+        "total_influence": 3.0,
+        "requirement_count": 3
+      },
+      "assistant": {
+        "direct_influence": 11.0,
+        "indirect_influence": 1.9999999999999998,
+        "total_influence": 13.0,
+        "requirement_count": 3
+      }
+    },
+    "role_contributions": {
+      "user": {
+        "SHAPER": {
+          "M_dir": 3.0,
+          "M_ind": 0.0,
+          "M_total": 3.0,
+          "count": 3
+        }
+      },
+      "assistant": {
+        "EXECUTOR": {
+          "M_dir": 9.0,
+          "M_ind": 0.4,
+          "M_total": 9.4,
+          "count": 11
+        },
+        "SHAPER": {
+          "M_dir": 2.0,
+          "M_ind": 1.5999999999999999,
+          "M_total": 3.5999999999999996,
+          "count": 10
+        }
+      }
+    },
+    "requirements": [
+      "r20",
+      "r21",
+      "r22"
+    ]
+  }
+}

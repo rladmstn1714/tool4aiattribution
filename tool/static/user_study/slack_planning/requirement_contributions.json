@@ -1,0 +1,535 @@
+{
+  "r1": {
+    "created_by": "Eunsu",
+    "turn_id": 0,
+    "influential_utterances": [
+      {
+        "turn_id": 0,
+        "relationship_type": "DIRECT_CONNECTION",
+        "relationship_score": 5
+      }
+    ],
+    "role_contributions": {
+      "Eunsu": {
+        "SHAPER": {
+          "M_dir": 1.0,
+          "M_ind": 0.0,
+          "M_total": 1.0,
+          "count": 1
+        }
+      },
+      "Minsik Jeon": {
+        "SHAPER": {
+          "M_dir": 1.0,
+          "M_ind": 0.0,
+          "M_total": 1.0,
+          "count": 1
+        }
+      }
+    },
+    "overall": {
+      "user": {
+        "rate": 0.0,
+        "M_total": 0.0,
+        "count": 0
+      },
+      "assistant": {
+        "rate": 0.0,
+        "M_total": 0.0,
+        "count": 0
+      }
+    }
+  },
+  "r2": {
+    "created_by": "Eunsu",
+    "turn_id": 0,
+    "influential_utterances": [
+      {
+        "turn_id": 0,
+        "relationship_type": "DIRECT_CONNECTION",
+        "relationship_score": 5
+      }
+    ],
+    "role_contributions": {
+      "Eunsu": {
+        "SHAPER": {
+          "M_dir": 1.0,
+          "M_ind": 0.0,
+          "M_total": 1.0,
+          "count": 1
+        }
+      }
+    },
+    "overall": {
+      "user": {
+        "rate": 0.0,
+        "M_total": 0.0,
+        "count": 0
+      },
+      "assistant": {
+        "rate": 0.0,
+        "M_total": 0.0,
+        "count": 0
+      }
+    }
+  },
+  "r3": {
+    "created_by": "Eunsu",
+    "turn_id": 0,
+    "influential_utterances": [
+      {
+        "turn_id": 0,
+        "relationship_type": "DIRECT_CONNECTION",
+        "relationship_score": 5
+      }
+    ],
+    "role_contributions": {
+      "Eunsu": {
+        "SHAPER": {
+          "M_dir": 1.0,
+          "M_ind": 0.0,
+          "M_total": 1.0,
+          "count": 1
+        }
+      }
+    },
+    "overall": {
+      "user": {
+        "rate": 0.0,
+        "M_total": 0.0,
+        "count": 0
+      },
+      "assistant": {
+        "rate": 0.0,
+        "M_total": 0.0,
+        "count": 0
+      }
+    }
+  },
+  "r4": {
+    "created_by": "Eunsu",
+    "turn_id": 0,
+    "influential_utterances": [
+      {
+        "turn_id": 0,
+        "relationship_type": "DIRECT_CONNECTION",
+        "relationship_score": 5
+      }
+    ],
+    "role_contributions": {
+      "Eunsu": {
+        "SHAPER": {
+          "M_dir": 1.0,
+          "M_ind": 0.0,
+          "M_total": 1.0,
+          "count": 1
+        }
+      }
+    },
+    "overall": {
+      "user": {
+        "rate": 0.0,
+        "M_total": 0.0,
+        "count": 0
+      },
+      "assistant": {
+        "rate": 0.0,
+        "M_total": 0.0,
+        "count": 0
+      }
+    }
+  },
+  "r5": {
+    "created_by": "정석원. Seokweon Jung.",
+    "turn_id": 10,
+    "influential_utterances": [
+      {
+        "turn_id": 9,
+        "relationship_type": "IMPLICIT_CONNECTION",
+        "relationship_score": 3
+      },
+      {
+        "turn_id": 10,
+        "relationship_type": "DIRECT_CONNECTION",
+        "relationship_score": 5
+      }
+    ],
+    "role_contributions": {
+      "정석원. Seokweon Jung.": {
+        "SHAPER": {
+          "M_dir": 1.0,
+          "M_ind": 0.0,
+          "M_total": 1.0,
+          "count": 1
+        }
+      },
+      "Minsik Jeon": {
+        "SHAPER": {
+          "M_dir": 1.0,
+          "M_ind": 0.6,
+          "M_total": 1.6,
+          "count": 2
+        },
+        "OTHER": {
+          "M_dir": 0.0,
+          "M_ind": 0.6,
+          "M_total": 0.6,
+          "count": 1
+        }
+      }
+    },
+    "overall": {
+      "user": {
+        "rate": 0.0,
+        "M_total": 0.0,
+        "count": 0
+      },
+      "assistant": {
+        "rate": 0.0,
+        "M_total": 0.0,
+        "count": 0
+      }
+    }
+  },
+  "r6": {
+    "created_by": "정석원. Seokweon Jung.",
+    "turn_id": 20,
+    "influential_utterances": [
+      {
+        "turn_id": 10,
+        "relationship_type": "IMPLICIT_CONNECTION",
+        "relationship_score": 1
+      },
+      {
+        "turn_id": 12,
+        "relationship_type": "IMPLICIT_CONNECTION",
+        "relationship_score": 3
+      },
+      {
+        "turn_id": 19,
+        "relationship_type": "IMPLICIT_CONNECTION",
+        "relationship_score": 2
+      },
+      {
+        "turn_id": 20,
+        "relationship_type": "DIRECT_CONNECTION",
+        "relationship_score": 5
+      }
+    ],
+    "role_contributions": {
+      "정석원. Seokweon Jung.": {
+        "SHAPER": {
+          "M_dir": 1.0,
+          "M_ind": 0.8,
+          "M_total": 1.7999999999999998,
+          "count": 3
+        },
+        "OTHER": {
+          "M_dir": 1.0,
+          "M_ind": 0.0,
+          "M_total": 1.0,
+          "count": 1
+        }
+      },
+      "Minsik Jeon": {
+        "OTHER": {
+          "M_dir": 0.0,
+          "M_ind": 0.4,
+          "M_total": 0.4,
+          "count": 1
+        },
+        "SHAPER": {
+          "M_dir": 0.0,
+          "M_ind": 0.4,
+          "M_total": 0.4,
+          "count": 1
+        }
+      }
+    },
+    "overall": {
+      "user": {
+        "rate": 0.0,
+        "M_total": 0.0,
+        "count": 0
+      },
+      "assistant": {
+        "rate": 0.0,
+        "M_total": 0.0,
+        "count": 0
+      }
+    }
+  },
+  "r7": {
+    "created_by": "정석원. Seokweon Jung.",
+    "turn_id": 26,
+    "influential_utterances": [
+      {
+        "turn_id": 25,
+        "relationship_type": "IMPLICIT_CONNECTION",
+        "relationship_score": 2
+      },
+      {
+        "turn_id": 26,
+        "relationship_type": "DIRECT_CONNECTION",
+        "relationship_score": 5
+      }
+    ],
+    "role_contributions": {
+      "정석원. Seokweon Jung.": {
+        "SHAPER": {
+          "M_dir": 1.0,
+          "M_ind": 0.0,
+          "M_total": 1.0,
+          "count": 1
+        }
+      },
+      "Minsik Jeon": {
+        "SHAPER": {
+          "M_dir": 2.0,
+          "M_ind": 0.4,
+          "M_total": 2.4,
+          "count": 3
+        }
+      }
+    },
+    "overall": {
+      "user": {
+        "rate": 0.0,
+        "M_total": 0.0,
+        "count": 0
+      },
+      "assistant": {
+        "rate": 0.0,
+        "M_total": 0.0,
+        "count": 0
+      }
+    }
+  },
+  "r8": {
+    "created_by": "정석원. Seokweon Jung.",
+    "turn_id": 32,
+    "influential_utterances": [
+      {
+        "turn_id": 31,
+        "relationship_type": "IMPLICIT_CONNECTION",
+        "relationship_score": 1
+      },
+      {
+        "turn_id": 32,
+        "relationship_type": "DIRECT_CONNECTION",
+        "relationship_score": 5
+      }
+    ],
+    "role_contributions": {
+      "정석원. Seokweon Jung.": {
+        "SHAPER": {
+          "M_dir": 1.0,
+          "M_ind": 0.0,
+          "M_total": 1.0,
+          "count": 1
+        }
+      },
+      "Minsik Jeon": {
+        "OTHER": {
+          "M_dir": 0.0,
+          "M_ind": 0.2,
+          "M_total": 0.2,
+          "count": 1
+        },
+        "SHAPER": {
+          "M_dir": 0.0,
+          "M_ind": 0.2,
+          "M_total": 0.2,
+          "count": 1
+        }
+      }
+    },
+    "overall": {
+      "user": {
+        "rate": 0.0,
+        "M_total": 0.0,
+        "count": 0
+      },
+      "assistant": {
+        "rate": 0.0,
+        "M_total": 0.0,
+        "count": 0
+      }
+    }
+  },
+  "r9": {
+    "created_by": "Minsik Jeon",
+    "turn_id": 43,
+    "influential_utterances": [
+      {
+        "turn_id": 39,
+        "relationship_type": "IMPLICIT_CONNECTION",
+        "relationship_score": 2
+      },
+      {
+        "turn_id": 42,
+        "relationship_type": "IMPLICIT_CONNECTION",
+        "relationship_score": 2
+      },
+      {
+        "turn_id": 43,
+        "relationship_type": "DIRECT_CONNECTION",
+        "relationship_score": 5
+      }
+    ],
+    "role_contributions": {
+      "Minsik Jeon": {
+        "SHAPER": {
+          "M_dir": 1.0,
+          "M_ind": 0.8,
+          "M_total": 1.7999999999999998,
+          "count": 3
+        },
+        "OTHER": {
+          "M_dir": 0.0,
+          "M_ind": 0.4,
+          "M_total": 0.4,
+          "count": 1
+        }
+      },
+      "정석원. Seokweon Jung.": {
+        "SHAPER": {
+          "M_dir": 2.0,
+          "M_ind": 0.4,
+          "M_total": 2.4,
+          "count": 3
+        },
+        "OTHER": {
+          "M_dir": 0.0,
+          "M_ind": 0.4,
+          "M_total": 0.4,
+          "count": 1
+        }
+      }
+    },
+    "overall": {
+      "user": {
+        "rate": 0.0,
+        "M_total": 0.0,
+        "count": 0
+      },
+      "assistant": {
+        "rate": 0.0,
+        "M_total": 0.0,
+        "count": 0
+      }
+    }
+  },
+  "r10": {
+    "created_by": "Minsik Jeon",
+    "turn_id": 45,
+    "influential_utterances": [
+      {
+        "turn_id": 45,
+        "relationship_type": "DIRECT_CONNECTION",
+        "relationship_score": 5
+      }
+    ],
+    "role_contributions": {
+      "Minsik Jeon": {
+        "SHAPER": {
+          "M_dir": 1.0,
+          "M_ind": 0.0,
+          "M_total": 1.0,
+          "count": 1
+        }
+      }
+    },
+    "overall": {
+      "user": {
+        "rate": 0.0,
+        "M_total": 0.0,
+        "count": 0
+      },
+      "assistant": {
+        "rate": 0.0,
+        "M_total": 0.0,
+        "count": 0
+      }
+    }
+  },
+  "r11": {
+    "created_by": "Minsik Jeon",
+    "turn_id": 45,
+    "influential_utterances": [
+      {
+        "turn_id": 44,
+        "relationship_type": "IMPLICIT_CONNECTION",
+        "relationship_score": 2
+      },
+      {
+        "turn_id": 45,
+        "relationship_type": "DIRECT_CONNECTION",
+        "relationship_score": 5
+      }
+    ],
+    "role_contributions": {
+      "Minsik Jeon": {
+        "EXECUTOR": {
+          "M_dir": 1.0,
+          "M_ind": 0.0,
+          "M_total": 1.0,
+          "count": 1
+        }
+      },
+      "정석원. Seokweon Jung.": {
+        "SHAPER": {
+          "M_dir": 0.0,
+          "M_ind": 0.8,
+          "M_total": 0.8,
+          "count": 2
+        }
+      }
+    },
+    "overall": {
+      "user": {
+        "rate": 0.0,
+        "M_total": 0.0,
+        "count": 0
+      },
+      "assistant": {
+        "rate": 0.0,
+        "M_total": 0.0,
+        "count": 0
+      }
+    }
+  },
+  "r12": {
+    "created_by": "정석원. Seokweon Jung.",
+    "turn_id": 46,
+    "influential_utterances": [
+      {
+        "turn_id": 46,
+        "relationship_type": "DIRECT_CONNECTION",
+        "relationship_score": 5
+      }
+    ],
+    "role_contributions": {
+      "정석원. Seokweon Jung.": {
+        "EXECUTOR": {
+          "M_dir": 1.0,
+          "M_ind": 0.0,
+          "M_total": 1.0,
+          "count": 1
+        }
+      }
+    },
+    "overall": {
+      "user": {
+        "rate": 0.0,
+        "M_total": 0.0,
+        "count": 0
+      },
+      "assistant": {
+        "rate": 0.0,
+        "M_total": 0.0,
+        "count": 0
+      }
+    }
+  }
+}

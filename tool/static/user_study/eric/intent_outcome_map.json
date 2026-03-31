@@ -1,0 +1,31 @@
+{
+  "dialogue_id": "poe_share_CyVwv5i2CUHU3Z02IXxk",
+  "intentions": [
+    {
+      "intention_id": "I1",
+      "intention": "Design an accessible low-walking NYC day plan for parents"
+    },
+    {
+      "intention_id": "I2",
+      "intention": "Provide operational guidance for a specific activity (Circle Line boat tour)"
+    },
+    {
+      "intention_id": "I3",
+      "intention": "Plan the evening segment (park stroll + dinner + reservation)"
+    },
+    {
+      "intention_id": "I4",
+      "intention": "Include mobility/energy precautions and accessibility guidance"
+    }
+  ],
+  "outcome_to_intention": {
+    "outcome_1": "I1",
+    "outcome_2": "I2",
+    "outcome_3": "I3",
+    "outcome_4": "I4"
+  },
+  "metadata": {
+    "num_intentions": 4,
+    "model": "gpt-5.2-2025-12-11"
+  }
+}

@@ -1,0 +1,222 @@
+{
+  "r1": {
+    "origin_actions": [
+      {
+        "action_id": "2-3",
+        "role": "OTHER",
+        "action_text": "Asks for clarification on what 'just to think' means"
+      }
+    ],
+    "contributing_actions": [],
+    "implementation_actions": [],
+    "revise_actions": [],
+    "related_actions": [
+      {
+        "action_id": "1-3",
+        "role": "SHAPER",
+        "action_text": "Expresses a need for time to think",
+        "relationship_type": "IMPLICIT_CONNECTION",
+        "influence": "indirect",
+        "relationship_score": 2,
+        "explanation": "Preference-Realize"
+      }
+    ]
+  },
+  "r2": {
+    "origin_actions": [
+      {
+        "action_id": "1-3",
+        "role": "OTHER",
+        "action_text": "Expresses a need for time to think"
+      }
+    ],
+    "contributing_actions": [
+      {
+        "action_id": "5-3",
+        "role": "OTHER",
+        "action_text": "States that they sometimes want to stop working and just think"
+      },
+      {
+        "action_id": "3-2",
+        "role": "OTHER",
+        "action_text": "States an intention to continue thinking about it"
+      }
+    ],
+    "implementation_actions": [
+      {
+        "action_id": "5-3",
+        "role": "OTHER",
+        "action_text": "States that they sometimes want to stop working and just think"
+      },
+      {
+        "action_id": "3-2",
+        "role": "OTHER",
+        "action_text": "States an intention to continue thinking about it"
+      }
+    ],
+    "revise_actions": [],
+    "related_actions": [
+      {
+        "action_id": "5-3",
+        "role": "OTHER",
+        "action_text": "States that they sometimes want to stop working and just think",
+        "relationship_type": "IMPLEMENTS",
+        "influence": "indirect",
+        "relationship_score": 4,
+        "explanation": "Option-Select | one option is chosen from alternatives offered earlier"
+      },
+      {
+        "action_id": "3-2",
+        "role": "OTHER",
+        "action_text": "States an intention to continue thinking about it",
+        "relationship_type": "IMPLICIT_CONNECTION",
+        "influence": "indirect",
+        "relationship_score": 3,
+        "explanation": "Intent-Reveal | an implicit intention becomes explicit as a request"
+      }
+    ]
+  },
+  "r3": {
+    "origin_actions": [
+      {
+        "action_id": "5-1",
+        "role": "SHAPER",
+        "action_text": "States what they want the models to be in the field and what type of research might be needed"
+      }
+    ],
+    "contributing_actions": [],
+    "implementation_actions": [],
+    "revise_actions": [],
+    "related_actions": []
+  },
+  "r4": {
+    "origin_actions": [
+      {
+        "action_id": "10-4",
+        "role": "SHAPER",
+        "action_text": "Advises bringing one's own resources to a PhD rather than assuming limited resources."
+      }
+    ],
+    "contributing_actions": [],
+    "implementation_actions": [],
+    "revise_actions": [],
+    "related_actions": []
+  },
+  "others": [
+    {
+      "action_id": "0-1",
+      "role": "OTHER",
+      "action_text": "Asks for clarification about what the other meant"
+    },
+    {
+      "action_id": "0-2",
+      "role": "OTHER",
+      "action_text": "States they are usually a person who does the bare minimum of thinking and more actions"
+    },
+    {
+      "action_id": "0-3",
+      "role": "OTHER",
+      "action_text": "Explains that thinking is grounded with actions"
+    },
+    {
+      "action_id": "1-1",
+      "role": "OTHER",
+      "action_text": "Agrees with the previous speaker"
+    },
+    {
+      "action_id": "1-2",
+      "role": "OTHER",
+      "action_text": "Admits not being good at long-term thinking while acting"
+    },
+    {
+      "action_id": "2-1",
+      "role": "OTHER",
+      "action_text": "Comments that the topic is interesting"
+    },
+    {
+      "action_id": "2-2",
+      "role": "OTHER",
+      "action_text": "Expresses curiosity"
+    },
+    {
+      "action_id": "3-1",
+      "role": "OTHER",
+      "action_text": "Acknowledges the previous turn"
+    },
+    {
+      "action_id": "4-1",
+      "role": "OTHER",
+      "action_text": "Reports having received an interesting quote from Chenglei Si and feeling they should have known it earlier"
+    },
+    {
+      "action_id": "5-2",
+      "role": "OTHER",
+      "action_text": "Observes that when working for conference deadlines and focusing on specific RQs they sometimes move toward local minima"
+    },
+    {
+      "action_id": "6-1",
+      "role": "OTHER",
+      "action_text": "Describes Chenglei's approach to choosing a PhD direction and lists his three criteria"
+    },
+    {
+      "action_id": "6-2",
+      "role": "OTHER",
+      "action_text": "Expresses surprise at learning this"
+    },
+    {
+      "action_id": "7-1",
+      "role": "OTHER",
+      "action_text": "Explains that this approach made his work and effort very focused"
+    },
+    {
+      "action_id": "7-2",
+      "role": "OTHER",
+      "action_text": "Reports that he earned his reputation from this approach"
+    },
+    {
+      "action_id": "8-1",
+      "role": "OTHER",
+      "action_text": "Says that chatting with top PhD students is fun."
+    },
+    {
+      "action_id": "8-2",
+      "role": "SHAPER",
+      "action_text": "Suggests chatting with directors at Samsung or LG to learn their thoughts on PhD outside academia."
+    },
+    {
+      "action_id": "9-1",
+      "role": "OTHER",
+      "action_text": "Expresses desire to find someone optimistic about the field to chat with."
+    },
+    {
+      "action_id": "9-2",
+      "role": "OTHER",
+      "action_text": "Reports that most people they recently met had a negative view."
+    },
+    {
+      "action_id": "10-1",
+      "role": "OTHER",
+      "action_text": "Admits they are not a successful one."
+    },
+    {
+      "action_id": "10-2",
+      "role": "OTHER",
+      "action_text": "States they studied the placement and trajectory of many PhD students before starting."
+    },
+    {
+      "action_id": "10-3",
+      "role": "SHAPER",
+      "action_text": "Advises not to expect sufficient resources from the department."
+    },
+    {
+      "action_id": "11-1",
+      "role": "OTHER",
+      "action_text": "States optimism about the field (NLP)."
+    },
+    {
+      "action_id": "11-2",
+      "role": "OTHER",
+      "action_text": "States lack of optimism about academia."
+    }
+  ]
+}

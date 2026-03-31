@@ -1,0 +1,1025 @@
+{
+  "dialogue_id": "poe_share_sovMPmvEZwvxW4wftiN2",
+  "forward_labels": {
+    "r1": {
+      "implementation_action_ids": [
+        "1-2",
+        "11-9",
+        "17-2",
+        "17-4"
+      ],
+      "contributing_action_ids": [
+        "1-3",
+        "1-4",
+        "1-5",
+        "1-6",
+        "1-7",
+        "1-8",
+        "1-9",
+        "1-10",
+        "1-11",
+        "1-12",
+        "11-10"
+      ],
+      "revise_action_ids": [],
+      "all_labels": [
+        {
+          "action_id": "1-1",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Generic willingness to help; does not address the 1-day Manhattan scope.",
+          "explanation_type": "",
+          "contribution_role": "OTHER"
+        },
+        {
+          "action_id": "1-2",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 5,
+          "explanation": "Provides a full-day itinerary in Manhattan, directly fulfilling the 1-day Manhattan requirement.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-3",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 3,
+          "explanation": "Breakfast suggestion is a component of the 1-day Manhattan plan.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-4",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 3,
+          "explanation": "Morning Central Park activity contributes to the Manhattan day itinerary.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-5",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 3,
+          "explanation": "Rockefeller Center/Top of the Rock is a Manhattan stop within the single-day plan.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-6",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 3,
+          "explanation": "Lunch options in Midtown help flesh out the 1-day Manhattan itinerary.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-7",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 3,
+          "explanation": "5th Avenue stroll is another Manhattan block contributing to the day plan.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-8",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 3,
+          "explanation": "High Line visit adds an afternoon Manhattan activity to the 1-day itinerary.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-9",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 3,
+          "explanation": "Chelsea Market option contributes an additional Manhattan stop for the day.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-10",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 3,
+          "explanation": "West Village at sunset is a Manhattan evening component of the 1-day plan.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-11",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Dinner recommendations help complete the single-day schedule but are not about enforcing the Manhattan/1-day constraint.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-12",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 1,
+          "explanation": "Optional finishes include non-Manhattan (Brooklyn Bridge) and thus only weakly support the Manhattan-only 1-day requirement.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-13",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Walking/shoes warning concerns comfort, not the 1-day Manhattan scope.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-15",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Booking advice does not affect whether the itinerary is 1 day in Manhattan.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-16",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Dinner reservation timing is unrelated to the 1-day Manhattan constraint.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "1-17",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Invitation to share interests is general customization, not specifically about making it 1 day in Manhattan.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "7-6",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Asking if the plan works is general check-in, not about the 1-day Manhattan requirement.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "11-9",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 5,
+          "explanation": "Presents a full-day itinerary centered on Manhattan landmarks/areas, fulfilling the 1-day Manhattan requirement.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "11-10",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 1,
+          "explanation": "Evaluation of an ending choice affects plan quality, but not the 1-day Manhattan scope directly.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "11-11",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Offering to write a clean itinerary is formatting/next-step, not the Manhattan/1-day constraint itself.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "16-1",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "User acceptance does not modify or address the 1-day Manhattan requirement.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "16-2",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Request to see the final itinerary is not explicitly about the 1-day Manhattan constraint.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "17-1",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Summarizing intent to compile does not itself constrain to 1 day in Manhattan.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "17-2",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Provides the day’s major blocks in Manhattan, substantially satisfying the 1-day Manhattan itinerary requirement (though at a higher-level summary).",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "17-3",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Markdown formatting intent is unrelated to the 1-day Manhattan scope.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "17-4",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 5,
+          "explanation": "Drafts the final full 1-day itinerary focused on Manhattan, fully fulfilling the requirement.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "17-5",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Offer to convert to HTML is a presentation option, not about ensuring 1 day in Manhattan.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        }
+      ]
+    },
+    "r2": {
+      "implementation_action_ids": [
+        "3-2",
+        "3-27",
+        "3-28",
+        "3-30",
+        "3-32"
+      ],
+      "contributing_action_ids": [
+        "3-3",
+        "3-4",
+        "3-5",
+        "3-6",
+        "3-7",
+        "3-8",
+        "3-9",
+        "3-10",
+        "3-11",
+        "3-12",
+        "3-13",
+        "3-14",
+        "3-15",
+        "3-16",
+        "3-17",
+        "3-18",
+        "3-19",
+        "3-20",
+        "3-21",
+        "3-22",
+        "3-23",
+        "3-24",
+        "3-25",
+        "3-29",
+        "3-31"
+      ],
+      "revise_action_ids": [],
+      "all_labels": [
+        {
+          "action_id": "3-1",
+          "relationship": "DIRECT_CONNECTION",
+          "relationship_score": 4,
+          "explanation": "Intent-Reveal",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "3-2",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Option-Select",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "3-3",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Option-Select",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "3-4",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 3,
+          "explanation": "Option-Select",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "3-5",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Option-Select",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "3-6",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Option-Select",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "3-7",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 1,
+          "explanation": "Option-Select",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "3-8",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 1,
+          "explanation": "Option-Select",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "3-9",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Option-Select",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "3-10",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 3,
+          "explanation": "Option-Select",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "3-11",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Option-Select",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "3-12",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 1,
+          "explanation": "Option-Select",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "3-13",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 3,
+          "explanation": "Option-Select",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "3-14",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Option-Select",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "3-15",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 3,
+          "explanation": "Option-Select",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "3-16",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Option-Select",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "3-17",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 3,
+          "explanation": "Option-Select",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "3-18",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 3,
+          "explanation": "Option-Select",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "3-19",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 3,
+          "explanation": "Option-Select",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "3-20",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Option-Select",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "3-21",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Option-Select",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "3-22",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Option-Select",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "3-23",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 3,
+          "explanation": "Option-Select",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "3-24",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 3,
+          "explanation": "Option-Select",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "3-25",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 1,
+          "explanation": "Option-Select",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "3-26",
+          "relationship": "DIRECT_CONNECTION",
+          "relationship_score": 4,
+          "explanation": "Option-Select",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "3-27",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Option-Select",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "3-28",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Option-Select",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "3-29",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Option-Select",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "3-30",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Option-Select",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "3-31",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Option-Select",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "3-32",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Option-Select",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "3-33",
+          "relationship": "DIRECT_CONNECTION",
+          "relationship_score": 4,
+          "explanation": "Intent-Reveal",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        }
+      ]
+    },
+    "r3": {
+      "implementation_action_ids": [
+        "7-2",
+        "7-5"
+      ],
+      "contributing_action_ids": [
+        "7-1"
+      ],
+      "revise_action_ids": [],
+      "all_labels": [
+        {
+          "action_id": "7-1",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 3,
+          "explanation": "Intent-Reveal: Gives concrete matinee timing and duration details that support placing a Broadway matinee into the schedule.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "7-2",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Option-Select: The itinerary skeleton explicitly includes a matinee block, directly satisfying the requirement at a high level.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "7-5",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 5,
+          "explanation": "Option-Select: Produces a detailed timed schedule that includes a 2pm Broadway matinee, fully fulfilling the requirement.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        }
+      ]
+    },
+    "r4": {
+      "implementation_action_ids": [
+        "9-1",
+        "9-2",
+        "9-3",
+        "9-4",
+        "9-6",
+        "9-8",
+        "9-9",
+        "9-10",
+        "9-11",
+        "9-12"
+      ],
+      "contributing_action_ids": [
+        "9-5",
+        "9-13"
+      ],
+      "revise_action_ids": [],
+      "all_labels": [
+        {
+          "action_id": "9-1",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Provides evening options that avoid jazz clubs, operationalizing the constraint by proposing compliant choices.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "9-2",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Elaborates a non-jazz evening option (SUMMIT), directly offering a compliant alternative.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "9-3",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Elaborates a non-jazz evening option (Edge), directly offering a compliant alternative.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "9-4",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Describes dinner cruises as an evening activity that is not a jazz club, satisfying the exclusion constraint.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "9-5",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 1,
+          "explanation": "Operational uncertainty about Sleep No More slightly affects option viability but is not specifically about avoiding jazz clubs.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "9-6",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Recommends Edge or SUMMIT, both non-jazz options, directly aligning the plan with the 'not a jazz club' requirement.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "9-7",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Acknowledging sentiment does not shape or satisfy the 'not a jazz club' constraint.",
+          "explanation_type": "",
+          "contribution_role": "OTHER"
+        },
+        {
+          "action_id": "9-8",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Further details about Edge continue execution of a non-jazz evening plan consistent with the requirement.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "9-9",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Further details about SUMMIT continue execution of a non-jazz evening plan consistent with the requirement.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "9-10",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "More detail on dinner cruises continues to provide a non-jazz alternative that meets the constraint.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "9-11",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Personal recommendation for Edge advances a non-jazz evening plan, fulfilling the exclusion of jazz clubs.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "9-12",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Suggests a concrete dinner+Edge sequence, producing an evening plan that inherently avoids jazz clubs.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "9-13",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Asking for preference feedback helps ensure the chosen option remains non-jazz, but doesn't itself execute the constraint.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "10-1",
+          "relationship": "DIRECT_CONNECTION",
+          "relationship_score": 4,
+          "explanation": "Selecting Edge confirms a non-jazz option, concretely locking in a plan that complies with the requirement.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        }
+      ]
+    },
+    "r5": {
+      "implementation_action_ids": [
+        "9-1",
+        "9-12"
+      ],
+      "contributing_action_ids": [
+        "9-2",
+        "9-3",
+        "9-4",
+        "9-5",
+        "9-8",
+        "9-9",
+        "9-10"
+      ],
+      "revise_action_ids": [],
+      "all_labels": [
+        {
+          "action_id": "9-1",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Produces candidate evening alternatives explicitly framed as 'wow factor' options.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "9-2",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 3,
+          "explanation": "Adds persuasive detail showing how SUMMIT delivers the desired 'wow factor'.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "9-3",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 3,
+          "explanation": "Adds persuasive detail showing how Edge delivers the desired 'wow factor'.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "9-4",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Provides another alternative that could satisfy 'wow factor' (skyline cruise), but not as tightly tied as the main picks.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "9-5",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 1,
+          "explanation": "Qualifies an option's availability, helping narrow viable 'wow factor' alternatives.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "9-6",
+          "relationship": "DIRECT_CONNECTION",
+          "relationship_score": 4,
+          "explanation": "Explicitly evaluates and recommends options on the basis of being visually stunning (i.e., meeting 'wow factor').",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "9-7",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Acknowledging sentiment does not add content toward defining or fulfilling the 'wow factor' alternative.",
+          "explanation_type": "",
+          "contribution_role": "OTHER"
+        },
+        {
+          "action_id": "9-8",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 3,
+          "explanation": "Strengthens the case that Edge is a 'wow factor' evening alternative via vivid, differentiating details.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "9-9",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 3,
+          "explanation": "Strengthens the case that SUMMIT is a 'wow factor' evening alternative via vivid, differentiating details.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "9-10",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Further characterizes dinner cruises as an alternative (including tradeoffs), supporting selection of a 'wow factor' plan.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "9-11",
+          "relationship": "DIRECT_CONNECTION",
+          "relationship_score": 4,
+          "explanation": "Chooses Edge as the preferred 'wow factor' alternative and justifies it against the requirement.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "9-12",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Turns the 'wow factor' alternative into a concrete evening plan (dinner nearby + Edge at sunset).",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "9-13",
+          "relationship": "DIRECT_CONNECTION",
+          "relationship_score": 4,
+          "explanation": "Requests user selection among 'wow factor' alternatives, directly operating on satisfying the requirement.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "10-1",
+          "relationship": "DIRECT_CONNECTION",
+          "relationship_score": 4,
+          "explanation": "User selects Edge as the preferred 'wow factor' alternative (option selection satisfying the requirement directionally).",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        }
+      ]
+    },
+    "r6": {
+      "implementation_action_ids": [
+        "11-3",
+        "11-7",
+        "11-8"
+      ],
+      "contributing_action_ids": [
+        "11-2",
+        "11-4",
+        "11-5",
+        "11-6"
+      ],
+      "revise_action_ids": [],
+      "all_labels": [
+        {
+          "action_id": "11-1",
+          "relationship": "DIRECT_CONNECTION",
+          "relationship_score": 4,
+          "explanation": "Intent-Reveal — Explicitly acknowledges the Times Square inclusion requirement as something to fit into the itinerary.",
+          "explanation_type": "",
+          "contribution_role": "OTHER"
+        },
+        {
+          "action_id": "11-2",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 3,
+          "explanation": "Preference-Accumulate — Provides situational context (location near Theater District/matinee) that helps place Times Square in the plan.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "11-3",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Intent-Reveal — Proposes concrete candidate time slots (late morning or after the show) to execute adding Times Square to the itinerary.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "11-4",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Failure-Triggered-Requirement-Add — Adds a constraint (Edge takes the evening) that shapes feasible timing for the Times Square stop.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "11-5",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Preference-Accumulate — Notes natural proximity/walk-through, supporting inclusion but not yet specifying a dedicated must-see stop plan.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "11-6",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 3,
+          "explanation": "Intent-Reveal — Clarifies expected scope (quick soak-in) which helps define how the must-see stop is operationalized (not long).",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "11-7",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Intent-Reveal — Recommends a specific best time window (right after matinee, ~5:00–5:30 PM), directly executing the requirement in the itinerary logic.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "11-8",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Intent-Reveal — Specifies duration (30–45 minutes) for the Times Square stop, directly fulfilling the requirement’s planning details.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        }
+      ]
+    },
+    "r7": {
+      "implementation_action_ids": [
+        "15-4",
+        "15-5",
+        "15-6",
+        "15-7"
+      ],
+      "contributing_action_ids": [
+        "15-1",
+        "15-2",
+        "15-3",
+        "15-8",
+        "15-9"
+      ],
+      "revise_action_ids": [],
+      "all_labels": [
+        {
+          "action_id": "15-1",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 3,
+          "explanation": "Frames the outside-Manhattan request and sets up the decision space, directly progressing toward fulfillment.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "15-2",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 3,
+          "explanation": "Generates candidate outside-Manhattan options, a necessary step before choosing the single recommendation.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "15-3",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 3,
+          "explanation": "Compares options to determine which single recommendation best fits, supporting the final selection.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "15-4",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 5,
+          "explanation": "Directly fulfills r7 by providing one specific outside-Manhattan recommendation (Brooklyn Bridge/DUMBO).",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "15-5",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Elaborates the chosen single recommendation, reinforcing and delivering the recommendation content.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "15-6",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Provides concrete logistics for the recommended outside-Manhattan visit, completing practical usefulness of the recommendation.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "15-7",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Shows how to fit the single outside-Manhattan recommendation into the day, aligning with the outcome context.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "15-8",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Qualifies feasibility (packed day) and frames it as optional, helping tailor the recommendation without changing it.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "15-9",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 1,
+          "explanation": "Asks for user preference/confirmation, which may refine acceptance but does not itself provide the recommendation.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        }
+      ]
+    }
+  },
+  "enriched_counts": {
+    "implements": 30,
+    "contributes": 55,
+    "revises": 0
+  },
+  "metadata": {
+    "model": "gpt-5.2-2025-12-11"
+  }
+}

@@ -1,0 +1,1708 @@
+{
+  "r1": {
+    "origin_actions": [
+      {
+        "action_id": "0-2",
+        "role": "SHAPER",
+        "action_text": "User states that their parents are coming for a 1-day trip and will be in Manhattan for the day"
+      },
+      {
+        "action_id": "0-3",
+        "role": "SHAPER",
+        "action_text": "User requests help planning a 1-day itinerary"
+      }
+    ],
+    "contributing_actions": [
+      {
+        "action_id": "1-12",
+        "role": "EXECUTOR",
+        "action_text": "Assistant offers optional evening finishes: Brooklyn Bridge or Times Square"
+      },
+      {
+        "action_id": "1-9",
+        "role": "EXECUTOR",
+        "action_text": "Assistant offers Chelsea Market as a nearby option for browsing and snacks"
+      },
+      {
+        "action_id": "1-6",
+        "role": "EXECUTOR",
+        "action_text": "Assistant provides lunch options in Midtown (Eataly or a diner)"
+      },
+      {
+        "action_id": "1-8",
+        "role": "EXECUTOR",
+        "action_text": "Assistant suggests visiting the High Line in the afternoon"
+      },
+      {
+        "action_id": "11-10",
+        "role": "SHAPER",
+        "action_text": "Evaluates that finishing at Edge provides a more memorable final impression than Times Square"
+      },
+      {
+        "action_id": "1-7",
+        "role": "EXECUTOR",
+        "action_text": "Assistant suggests a leisurely walk down 5th Avenue past St. Patrick's Cathedral"
+      },
+      {
+        "action_id": "1-10",
+        "role": "EXECUTOR",
+        "action_text": "Assistant suggests wandering the West Village at sunset"
+      },
+      {
+        "action_id": "1-11",
+        "role": "EXECUTOR",
+        "action_text": "Assistant recommends dinner options in the West Village and suggests booking ahead"
+      },
+      {
+        "action_id": "1-3",
+        "role": "EXECUTOR",
+        "action_text": "Assistant suggests starting with a classic NYC bagel with lox for breakfast"
+      },
+      {
+        "action_id": "1-4",
+        "role": "EXECUTOR",
+        "action_text": "Assistant suggests a morning stroll through Central Park with highlights"
+      },
+      {
+        "action_id": "1-5",
+        "role": "EXECUTOR",
+        "action_text": "Assistant suggests visiting Rockefeller Center / Top of the Rock for views"
+      }
+    ],
+    "implementation_actions": [
+      {
+        "action_id": "1-2",
+        "role": "EXECUTOR",
+        "action_text": "Assistant provides a full-day Manhattan itinerary"
+      },
+      {
+        "action_id": "11-9",
+        "role": "SHAPER",
+        "action_text": "Provides a full-day itinerary integrating Central Park, brunch, Midtown wander, matinee, Times Square, dinner, and Edge at Hudson Yards"
+      },
+      {
+        "action_id": "17-2",
+        "role": "EXECUTOR",
+        "action_text": "Assistant provides a concise compiled list of the day's major blocks"
+      },
+      {
+        "action_id": "17-4",
+        "role": "EXECUTOR",
+        "action_text": "Assistant drafts the full, formatted final NYC itinerary"
+      }
+    ],
+    "revise_actions": [],
+    "related_actions": [
+      {
+        "action_id": "1-2",
+        "role": "EXECUTOR",
+        "action_text": "Assistant provides a full-day Manhattan itinerary",
+        "relationship_type": "IMPLEMENTS",
+        "influence": "indirect",
+        "relationship_score": 5,
+        "explanation": "Provides a full-day itinerary in Manhattan, directly fulfilling the 1-day Manhattan requirement."
+      },
+      {
+        "action_id": "11-9",
+        "role": "SHAPER",
+        "action_text": "Provides a full-day itinerary integrating Central Park, brunch, Midtown wander, matinee, Times Square, dinner, and Edge at Hudson Yards",
+        "relationship_type": "IMPLEMENTS",
+        "influence": "indirect",
+        "relationship_score": 5,
+        "explanation": "Presents a full-day itinerary centered on Manhattan landmarks/areas, fulfilling the 1-day Manhattan requirement."
+      },
+      {
+        "action_id": "17-4",
+        "role": "EXECUTOR",
+        "action_text": "Assistant drafts the full, formatted final NYC itinerary",
+        "relationship_type": "IMPLEMENTS",
+        "influence": "indirect",
+        "relationship_score": 5,
+        "explanation": "Drafts the final full 1-day itinerary focused on Manhattan, fully fulfilling the requirement."
+      },
+      {
+        "action_id": "17-2",
+        "role": "EXECUTOR",
+        "action_text": "Assistant provides a concise compiled list of the day's major blocks",
+        "relationship_type": "IMPLEMENTS",
+        "influence": "indirect",
+        "relationship_score": 4,
+        "explanation": "Provides the day’s major blocks in Manhattan, substantially satisfying the 1-day Manhattan itinerary requirement (though at a higher-level summary)."
+      },
+      {
+        "action_id": "1-3",
+        "role": "EXECUTOR",
+        "action_text": "Assistant suggests starting with a classic NYC bagel with lox for breakfast",
+        "relationship_type": "CONTRIBUTES",
+        "influence": "indirect",
+        "relationship_score": 3,
+        "explanation": "Breakfast suggestion is a component of the 1-day Manhattan plan."
+      },
+      {
+        "action_id": "1-4",
+        "role": "EXECUTOR",
+        "action_text": "Assistant suggests a morning stroll through Central Park with highlights",
+        "relationship_type": "CONTRIBUTES",
+        "influence": "indirect",
+        "relationship_score": 3,
+        "explanation": "Morning Central Park activity contributes to the Manhattan day itinerary."
+      },
+      {
+        "action_id": "1-5",
+        "role": "EXECUTOR",
+        "action_text": "Assistant suggests visiting Rockefeller Center / Top of the Rock for views",
+        "relationship_type": "CONTRIBUTES",
+        "influence": "indirect",
+        "relationship_score": 3,
+        "explanation": "Rockefeller Center/Top of the Rock is a Manhattan stop within the single-day plan."
+      },
+      {
+        "action_id": "1-6",
+        "role": "EXECUTOR",
+        "action_text": "Assistant provides lunch options in Midtown (Eataly or a diner)",
+        "relationship_type": "CONTRIBUTES",
+        "influence": "indirect",
+        "relationship_score": 3,
+        "explanation": "Lunch options in Midtown help flesh out the 1-day Manhattan itinerary."
+      },
+      {
+        "action_id": "1-7",
+        "role": "EXECUTOR",
+        "action_text": "Assistant suggests a leisurely walk down 5th Avenue past St. Patrick's Cathedral",
+        "relationship_type": "CONTRIBUTES",
+        "influence": "indirect",
+        "relationship_score": 3,
+        "explanation": "5th Avenue stroll is another Manhattan block contributing to the day plan."
+      },
+      {
+        "action_id": "1-8",
+        "role": "EXECUTOR",
+        "action_text": "Assistant suggests visiting the High Line in the afternoon",
+        "relationship_type": "CONTRIBUTES",
+        "influence": "indirect",
+        "relationship_score": 3,
+        "explanation": "High Line visit adds an afternoon Manhattan activity to the 1-day itinerary."
+      },
+      {
+        "action_id": "1-9",
+        "role": "EXECUTOR",
+        "action_text": "Assistant offers Chelsea Market as a nearby option for browsing and snacks",
+        "relationship_type": "CONTRIBUTES",
+        "influence": "indirect",
+        "relationship_score": 3,
+        "explanation": "Chelsea Market option contributes an additional Manhattan stop for the day."
+      },
+      {
+        "action_id": "1-10",
+        "role": "EXECUTOR",
+        "action_text": "Assistant suggests wandering the West Village at sunset",
+        "relationship_type": "CONTRIBUTES",
+        "influence": "indirect",
+        "relationship_score": 3,
+        "explanation": "West Village at sunset is a Manhattan evening component of the 1-day plan."
+      },
+      {
+        "action_id": "1-11",
+        "role": "EXECUTOR",
+        "action_text": "Assistant recommends dinner options in the West Village and suggests booking ahead",
+        "relationship_type": "CONTRIBUTES",
+        "influence": "indirect",
+        "relationship_score": 2,
+        "explanation": "Dinner recommendations help complete the single-day schedule but are not about enforcing the Manhattan/1-day constraint."
+      },
+      {
+        "action_id": "1-12",
+        "role": "EXECUTOR",
+        "action_text": "Assistant offers optional evening finishes: Brooklyn Bridge or Times Square",
+        "relationship_type": "CONTRIBUTES",
+        "influence": "indirect",
+        "relationship_score": 1,
+        "explanation": "Optional finishes include non-Manhattan (Brooklyn Bridge) and thus only weakly support the Manhattan-only 1-day requirement."
+      },
+      {
+        "action_id": "11-10",
+        "role": "SHAPER",
+        "action_text": "Evaluates that finishing at Edge provides a more memorable final impression than Times Square",
+        "relationship_type": "CONTRIBUTES",
+        "influence": "indirect",
+        "relationship_score": 1,
+        "explanation": "Evaluation of an ending choice affects plan quality, but not the 1-day Manhattan scope directly."
+      }
+    ]
+  },
+  "r2": {
+    "origin_actions": [
+      {
+        "action_id": "2-1",
+        "role": "SHAPER",
+        "action_text": "User expresses that the itinerary involves too much walking and passive viewing"
+      },
+      {
+        "action_id": "2-2",
+        "role": "SHAPER",
+        "action_text": "User asks for interactive attractions rather than just walking around, giving natural history museum as an example"
+      }
+    ],
+    "contributing_actions": [
+      {
+        "action_id": "3-10",
+        "role": "EXECUTOR",
+        "action_text": "Assistant recommends the Tenement Museum for immersive guided tours"
+      },
+      {
+        "action_id": "3-14",
+        "role": "EXECUTOR",
+        "action_text": "Assistant recommends Edge at Hudson Yards for interactive observation features"
+      },
+      {
+        "action_id": "3-9",
+        "role": "EXECUTOR",
+        "action_text": "Assistant recommends MoMA for contemporary art and interactive installations"
+      },
+      {
+        "action_id": "3-8",
+        "role": "EXECUTOR",
+        "action_text": "Assistant recommends The Met for extensive collections to explore"
+      },
+      {
+        "action_id": "3-5",
+        "role": "EXECUTOR",
+        "action_text": "Assistant recommends the Museum of Arts and Design for hands-on exhibits"
+      },
+      {
+        "action_id": "3-17",
+        "role": "EXECUTOR",
+        "action_text": "Assistant recommends Color Factory or Museum of Ice Cream for highly interactive experiences"
+      },
+      {
+        "action_id": "3-25",
+        "role": "EXECUTOR",
+        "action_text": "Assistant recommends spa or wellness activities for relaxation-focused interaction"
+      },
+      {
+        "action_id": "3-4",
+        "role": "EXECUTOR",
+        "action_text": "Assistant recommends the Intrepid Sea, Air & Space Museum as hands-on exploration"
+      },
+      {
+        "action_id": "3-3",
+        "role": "EXECUTOR",
+        "action_text": "Assistant recommends the American Museum of Natural History as a good interactive option"
+      },
+      {
+        "action_id": "3-29",
+        "role": "EXECUTOR",
+        "action_text": "Assistant provides a detailed recommendation for the 9/11 Memorial & Museum as a powerful, interactive exhibit experience"
+      },
+      {
+        "action_id": "3-16",
+        "role": "EXECUTOR",
+        "action_text": "Assistant recommends Ripley's Believe It or Not as an interactive odditorium"
+      },
+      {
+        "action_id": "3-21",
+        "role": "EXECUTOR",
+        "action_text": "Assistant recommends Broadway shows as highly engaging performances"
+      },
+      {
+        "action_id": "3-7",
+        "role": "EXECUTOR",
+        "action_text": "Assistant recommends the Whitney Museum of American Art as engaging"
+      },
+      {
+        "action_id": "3-11",
+        "role": "EXECUTOR",
+        "action_text": "Assistant recommends the 9/11 Memorial & Museum for powerful, engaging exhibits"
+      },
+      {
+        "action_id": "3-13",
+        "role": "EXECUTOR",
+        "action_text": "Assistant recommends Madame Tussauds as a hands-on wax experience"
+      },
+      {
+        "action_id": "3-12",
+        "role": "EXECUTOR",
+        "action_text": "Assistant recommends the Guggenheim as an interactive art/architecture experience"
+      },
+      {
+        "action_id": "3-31",
+        "role": "EXECUTOR",
+        "action_text": "Assistant provides a detailed recommendation for a Broadway show as a highly experiential option"
+      },
+      {
+        "action_id": "3-15",
+        "role": "EXECUTOR",
+        "action_text": "Assistant recommends SUMMIT One Vanderbilt as an immersive art/observation experience"
+      },
+      {
+        "action_id": "3-18",
+        "role": "EXECUTOR",
+        "action_text": "Assistant recommends escape rooms as interactive activities"
+      },
+      {
+        "action_id": "3-22",
+        "role": "EXECUTOR",
+        "action_text": "Assistant recommends comedy clubs for interactive stand-up entertainment"
+      },
+      {
+        "action_id": "3-20",
+        "role": "EXECUTOR",
+        "action_text": "Assistant recommends jazz clubs for evening interactive entertainment"
+      },
+      {
+        "action_id": "3-6",
+        "role": "EXECUTOR",
+        "action_text": "Assistant recommends the Museum of the Moving Image as interactive (noting it's in Queens)"
+      },
+      {
+        "action_id": "3-19",
+        "role": "EXECUTOR",
+        "action_text": "Assistant recommends cooking classes as hands-on culinary experiences"
+      },
+      {
+        "action_id": "3-23",
+        "role": "EXECUTOR",
+        "action_text": "Assistant recommends a Chelsea Market food tour as a guided tasting experience"
+      },
+      {
+        "action_id": "3-24",
+        "role": "EXECUTOR",
+        "action_text": "Assistant recommends pizza making classes as hands-on cooking activities"
+      }
+    ],
+    "implementation_actions": [
+      {
+        "action_id": "3-28",
+        "role": "EXECUTOR",
+        "action_text": "Assistant provides a detailed recommendation for the Tenement Museum as an immersive, storytelling-driven tour"
+      },
+      {
+        "action_id": "3-27",
+        "role": "EXECUTOR",
+        "action_text": "Assistant provides a detailed recommendation for the Intrepid Sea, Air & Space Museum as a 2–3 hour hands-on visit"
+      },
+      {
+        "action_id": "3-2",
+        "role": "EXECUTOR",
+        "action_text": "Assistant lists multiple interactive or hands-on attraction options in Manhattan (introduces the list)"
+      },
+      {
+        "action_id": "3-30",
+        "role": "EXECUTOR",
+        "action_text": "Assistant provides a detailed recommendation for SUMMIT One Vanderbilt as an immersive, interactive observation experience"
+      },
+      {
+        "action_id": "3-32",
+        "role": "EXECUTOR",
+        "action_text": "Assistant provides a detailed recommendation for food tours or cooking classes as hands-on culinary experiences"
+      }
+    ],
+    "revise_actions": [],
+    "related_actions": [
+      {
+        "action_id": "3-1",
+        "role": "EXECUTOR",
+        "action_text": "Assistant analyzes the user's request for more interactive attractions and begins thinking through options",
+        "relationship_type": "DIRECT_CONNECTION",
+        "influence": "direct",
+        "relationship_score": 4,
+        "explanation": "Intent-Reveal"
+      },
+      {
+        "action_id": "3-2",
+        "role": "EXECUTOR",
+        "action_text": "Assistant lists multiple interactive or hands-on attraction options in Manhattan (introduces the list)",
+        "relationship_type": "IMPLEMENTS",
+        "influence": "indirect",
+        "relationship_score": 4,
+        "explanation": "Option-Select"
+      },
+      {
+        "action_id": "3-26",
+        "role": "EXECUTOR",
+        "action_text": "Assistant says it will filter options to identify truly interactive experiences and starts with the Intrepid",
+        "relationship_type": "DIRECT_CONNECTION",
+        "influence": "direct",
+        "relationship_score": 4,
+        "explanation": "Option-Select"
+      },
+      {
+        "action_id": "3-27",
+        "role": "EXECUTOR",
+        "action_text": "Assistant provides a detailed recommendation for the Intrepid Sea, Air & Space Museum as a 2–3 hour hands-on visit",
+        "relationship_type": "IMPLEMENTS",
+        "influence": "indirect",
+        "relationship_score": 4,
+        "explanation": "Option-Select"
+      },
+      {
+        "action_id": "3-28",
+        "role": "EXECUTOR",
+        "action_text": "Assistant provides a detailed recommendation for the Tenement Museum as an immersive, storytelling-driven tour",
+        "relationship_type": "IMPLEMENTS",
+        "influence": "indirect",
+        "relationship_score": 4,
+        "explanation": "Option-Select"
+      },
+      {
+        "action_id": "3-30",
+        "role": "EXECUTOR",
+        "action_text": "Assistant provides a detailed recommendation for SUMMIT One Vanderbilt as an immersive, interactive observation experience",
+        "relationship_type": "IMPLEMENTS",
+        "influence": "indirect",
+        "relationship_score": 4,
+        "explanation": "Option-Select"
+      },
+      {
+        "action_id": "3-32",
+        "role": "EXECUTOR",
+        "action_text": "Assistant provides a detailed recommendation for food tours or cooking classes as hands-on culinary experiences",
+        "relationship_type": "IMPLEMENTS",
+        "influence": "indirect",
+        "relationship_score": 4,
+        "explanation": "Option-Select"
+      },
+      {
+        "action_id": "3-33",
+        "role": "SHAPER",
+        "action_text": "Assistant asks whether any of the suggested interactive options appeal and offers to rework the itinerary accordingly",
+        "relationship_type": "DIRECT_CONNECTION",
+        "influence": "direct",
+        "relationship_score": 4,
+        "explanation": "Intent-Reveal"
+      },
+      {
+        "action_id": "3-4",
+        "role": "EXECUTOR",
+        "action_text": "Assistant recommends the Intrepid Sea, Air & Space Museum as hands-on exploration",
+        "relationship_type": "CONTRIBUTES",
+        "influence": "indirect",
+        "relationship_score": 3,
+        "explanation": "Option-Select"
+      },
+      {
+        "action_id": "3-10",
+        "role": "EXECUTOR",
+        "action_text": "Assistant recommends the Tenement Museum for immersive guided tours",
+        "relationship_type": "CONTRIBUTES",
+        "influence": "indirect",
+        "relationship_score": 3,
+        "explanation": "Option-Select"
+      },
+      {
+        "action_id": "3-13",
+        "role": "EXECUTOR",
+        "action_text": "Assistant recommends Madame Tussauds as a hands-on wax experience",
+        "relationship_type": "CONTRIBUTES",
+        "influence": "indirect",
+        "relationship_score": 3,
+        "explanation": "Option-Select"
+      },
+      {
+        "action_id": "3-15",
+        "role": "EXECUTOR",
+        "action_text": "Assistant recommends SUMMIT One Vanderbilt as an immersive art/observation experience",
+        "relationship_type": "CONTRIBUTES",
+        "influence": "indirect",
+        "relationship_score": 3,
+        "explanation": "Option-Select"
+      },
+      {
+        "action_id": "3-17",
+        "role": "EXECUTOR",
+        "action_text": "Assistant recommends Color Factory or Museum of Ice Cream for highly interactive experiences",
+        "relationship_type": "CONTRIBUTES",
+        "influence": "indirect",
+        "relationship_score": 3,
+        "explanation": "Option-Select"
+      },
+      {
+        "action_id": "3-18",
+        "role": "EXECUTOR",
+        "action_text": "Assistant recommends escape rooms as interactive activities",
+        "relationship_type": "CONTRIBUTES",
+        "influence": "indirect",
+        "relationship_score": 3,
+        "explanation": "Option-Select"
+      },
+      {
+        "action_id": "3-19",
+        "role": "EXECUTOR",
+        "action_text": "Assistant recommends cooking classes as hands-on culinary experiences",
+        "relationship_type": "CONTRIBUTES",
+        "influence": "indirect",
+        "relationship_score": 3,
+        "explanation": "Option-Select"
+      },
+      {
+        "action_id": "3-23",
+        "role": "EXECUTOR",
+        "action_text": "Assistant recommends a Chelsea Market food tour as a guided tasting experience",
+        "relationship_type": "CONTRIBUTES",
+        "influence": "indirect",
+        "relationship_score": 3,
+        "explanation": "Option-Select"
+      },
+      {
+        "action_id": "3-24",
+        "role": "EXECUTOR",
+        "action_text": "Assistant recommends pizza making classes as hands-on cooking activities",
+        "relationship_type": "CONTRIBUTES",
+        "influence": "indirect",
+        "relationship_score": 3,
+        "explanation": "Option-Select"
+      },
+      {
+        "action_id": "3-3",
+        "role": "EXECUTOR",
+        "action_text": "Assistant recommends the American Museum of Natural History as a good interactive option",
+        "relationship_type": "CONTRIBUTES",
+        "influence": "indirect",
+        "relationship_score": 2,
+        "explanation": "Option-Select"
+      },
+      {
+        "action_id": "3-5",
+        "role": "EXECUTOR",
+        "action_text": "Assistant recommends the Museum of Arts and Design for hands-on exhibits",
+        "relationship_type": "CONTRIBUTES",
+        "influence": "indirect",
+        "relationship_score": 2,
+        "explanation": "Option-Select"
+      },
+      {
+        "action_id": "3-6",
+        "role": "EXECUTOR",
+        "action_text": "Assistant recommends the Museum of the Moving Image as interactive (noting it's in Queens)",
+        "relationship_type": "CONTRIBUTES",
+        "influence": "indirect",
+        "relationship_score": 2,
+        "explanation": "Option-Select"
+      },
+      {
+        "action_id": "3-9",
+        "role": "EXECUTOR",
+        "action_text": "Assistant recommends MoMA for contemporary art and interactive installations",
+        "relationship_type": "CONTRIBUTES",
+        "influence": "indirect",
+        "relationship_score": 2,
+        "explanation": "Option-Select"
+      },
+      {
+        "action_id": "3-11",
+        "role": "EXECUTOR",
+        "action_text": "Assistant recommends the 9/11 Memorial & Museum for powerful, engaging exhibits",
+        "relationship_type": "CONTRIBUTES",
+        "influence": "indirect",
+        "relationship_score": 2,
+        "explanation": "Option-Select"
+      },
+      {
+        "action_id": "3-14",
+        "role": "EXECUTOR",
+        "action_text": "Assistant recommends Edge at Hudson Yards for interactive observation features",
+        "relationship_type": "CONTRIBUTES",
+        "influence": "indirect",
+        "relationship_score": 2,
+        "explanation": "Option-Select"
+      },
+      {
+        "action_id": "3-16",
+        "role": "EXECUTOR",
+        "action_text": "Assistant recommends Ripley's Believe It or Not as an interactive odditorium",
+        "relationship_type": "CONTRIBUTES",
+        "influence": "indirect",
+        "relationship_score": 2,
+        "explanation": "Option-Select"
+      },
+      {
+        "action_id": "3-20",
+        "role": "EXECUTOR",
+        "action_text": "Assistant recommends jazz clubs for evening interactive entertainment",
+        "relationship_type": "CONTRIBUTES",
+        "influence": "indirect",
+        "relationship_score": 2,
+        "explanation": "Option-Select"
+      },
+      {
+        "action_id": "3-21",
+        "role": "EXECUTOR",
+        "action_text": "Assistant recommends Broadway shows as highly engaging performances",
+        "relationship_type": "CONTRIBUTES",
+        "influence": "indirect",
+        "relationship_score": 2,
+        "explanation": "Option-Select"
+      },
+      {
+        "action_id": "3-22",
+        "role": "EXECUTOR",
+        "action_text": "Assistant recommends comedy clubs for interactive stand-up entertainment",
+        "relationship_type": "CONTRIBUTES",
+        "influence": "indirect",
+        "relationship_score": 2,
+        "explanation": "Option-Select"
+      },
+      {
+        "action_id": "3-29",
+        "role": "EXECUTOR",
+        "action_text": "Assistant provides a detailed recommendation for the 9/11 Memorial & Museum as a powerful, interactive exhibit experience",
+        "relationship_type": "CONTRIBUTES",
+        "influence": "indirect",
+        "relationship_score": 2,
+        "explanation": "Option-Select"
+      },
+      {
+        "action_id": "3-31",
+        "role": "EXECUTOR",
+        "action_text": "Assistant provides a detailed recommendation for a Broadway show as a highly experiential option",
+        "relationship_type": "CONTRIBUTES",
+        "influence": "indirect",
+        "relationship_score": 2,
+        "explanation": "Option-Select"
+      },
+      {
+        "action_id": "3-7",
+        "role": "EXECUTOR",
+        "action_text": "Assistant recommends the Whitney Museum of American Art as engaging",
+        "relationship_type": "CONTRIBUTES",
+        "influence": "indirect",
+        "relationship_score": 1,
+        "explanation": "Option-Select"
+      },
+      {
+        "action_id": "3-8",
+        "role": "EXECUTOR",
+        "action_text": "Assistant recommends The Met for extensive collections to explore",
+        "relationship_type": "CONTRIBUTES",
+        "influence": "indirect",
+        "relationship_score": 1,
+        "explanation": "Option-Select"
+      },
+      {
+        "action_id": "3-12",
+        "role": "EXECUTOR",
+        "action_text": "Assistant recommends the Guggenheim as an interactive art/architecture experience",
+        "relationship_type": "CONTRIBUTES",
+        "influence": "indirect",
+        "relationship_score": 1,
+        "explanation": "Option-Select"
+      },
+      {
+        "action_id": "3-25",
+        "role": "EXECUTOR",
+        "action_text": "Assistant recommends spa or wellness activities for relaxation-focused interaction",
+        "relationship_type": "CONTRIBUTES",
+        "influence": "indirect",
+        "relationship_score": 1,
+        "explanation": "Option-Select"
+      }
+    ]
+  },
+  "r3": {
+    "origin_actions": [
+      {
+        "action_id": "6-2",
+        "role": "SHAPER",
+        "action_text": "User states they would choose a matinee."
+      },
+      {
+        "action_id": "6-3",
+        "role": "SHAPER",
+        "action_text": "User asks for a schedule with a matinee and for suggestions of evening activities."
+      }
+    ],
+    "contributing_actions": [
+      {
+        "action_id": "7-1",
+        "role": "SHAPER",
+        "action_text": "Assistant provides typical matinee start time and expected end time."
+      },
+      {
+        "action_id": "4-1",
+        "role": "SHAPER",
+        "action_text": "User states that their parents really like Broadway."
+      },
+      {
+        "action_id": "4-2",
+        "role": "SHAPER",
+        "action_text": "User asks how Broadway would fit into the plans."
+      }
+    ],
+    "implementation_actions": [
+      {
+        "action_id": "7-2",
+        "role": "SHAPER",
+        "action_text": "Assistant lays out a brief itinerary skeleton (morning, midday, matinee, evening)."
+      },
+      {
+        "action_id": "7-5",
+        "role": "SHAPER",
+        "action_text": "Assistant provides a full detailed schedule with suggested times and locations (breakfast/park, Midtown wander, 2pm matinee, dinner, 8:30pm jazz)."
+      }
+    ],
+    "revise_actions": [],
+    "related_actions": [
+      {
+        "action_id": "7-5",
+        "role": "EXECUTOR",
+        "action_text": "Assistant provides a full detailed schedule with suggested times and locations (breakfast/park, Midtown wander, 2pm matinee, dinner, 8:30pm jazz).",
+        "relationship_type": "IMPLEMENTS",
+        "influence": "indirect",
+        "relationship_score": 5,
+        "explanation": "Option-Select: Produces a detailed timed schedule that includes a 2pm Broadway matinee, fully fulfilling the requirement."
+      },
+      {
+        "action_id": "7-2",
+        "role": "EXECUTOR",
+        "action_text": "Assistant lays out a brief itinerary skeleton (morning, midday, matinee, evening).",
+        "relationship_type": "IMPLEMENTS",
+        "influence": "indirect",
+        "relationship_score": 4,
+        "explanation": "Option-Select: The itinerary skeleton explicitly includes a matinee block, directly satisfying the requirement at a high level."
+      },
+      {
+        "action_id": "4-2",
+        "role": "SHAPER",
+        "action_text": "User asks how Broadway would fit into the plans.",
+        "relationship_type": "IMPLICIT_CONNECTION",
+        "influence": "indirect",
+        "relationship_score": 3,
+        "explanation": "Intent-Reveal: Asking how Broadway would fit implies intent to include it, which later becomes the explicit requirement for a Broadway matinee."
+      },
+      {
+        "action_id": "7-1",
+        "role": "SHAPER",
+        "action_text": "Assistant provides typical matinee start time and expected end time.",
+        "relationship_type": "CONTRIBUTES",
+        "influence": "indirect",
+        "relationship_score": 3,
+        "explanation": "Intent-Reveal: Gives concrete matinee timing and duration details that support placing a Broadway matinee into the schedule."
+      },
+      {
+        "action_id": "5-7",
+        "role": "SHAPER",
+        "action_text": "Assistant emphasizes that Broadway fits naturally into the day's plans.",
+        "relationship_type": "IMPLICIT_CONNECTION",
+        "influence": "indirect",
+        "relationship_score": 2,
+        "explanation": "Intent-Reveal: Asserting Broadway fits naturally into the day supports the notion that it should be included, but does not yet make it an explicit must-have."
+      }
+    ]
+  },
+  "r4": {
+    "origin_actions": [
+      {
+        "action_id": "8-1",
+        "role": "SHAPER",
+        "action_text": "States a dislike for jazz clubs"
+      }
+    ],
+    "contributing_actions": [
+      {
+        "action_id": "9-13",
+        "role": "SHAPER",
+        "action_text": "Asks whether any of the options appeal or if the user wants something different"
+      },
+      {
+        "action_id": "9-5",
+        "role": "SHAPER",
+        "action_text": "Notes uncertainty about whether Sleep No More is still operating"
+      }
+    ],
+    "implementation_actions": [
+      {
+        "action_id": "9-9",
+        "role": "SHAPER",
+        "action_text": "Gives a detailed description of SUMMIT as an art-meets-observation experience at night"
+      },
+      {
+        "action_id": "9-8",
+        "role": "SHAPER",
+        "action_text": "Gives a detailed description of why Edge is dramatic and unique at night"
+      },
+      {
+        "action_id": "9-4",
+        "role": "SHAPER",
+        "action_text": "Describes dinner cruises as evening skyline cruises around Manhattan"
+      },
+      {
+        "action_id": "9-6",
+        "role": "SHAPER",
+        "action_text": "Recommends visually stunning options (Edge or SUMMIT) given they're already seeing a Broadway show"
+      },
+      {
+        "action_id": "9-11",
+        "role": "SHAPER",
+        "action_text": "Personally recommends Edge for a one-day trip and gives reasons (proximity, uniqueness, views)"
+      },
+      {
+        "action_id": "9-2",
+        "role": "SHAPER",
+        "action_text": "Describes SUMMIT One Vanderbilt as an immersive observation/art experience with strong nighttime visuals"
+      },
+      {
+        "action_id": "9-10",
+        "role": "SHAPER",
+        "action_text": "Describes dinner cruises in more detail and notes they are longer and pricier"
+      },
+      {
+        "action_id": "9-12",
+        "role": "SHAPER",
+        "action_text": "Suggests having dinner nearby in Hudson Yards then going up as the sun goes down"
+      },
+      {
+        "action_id": "9-1",
+        "role": "SHAPER",
+        "action_text": "Provides a list of candidate 'wow factor' evening options (SUMMIT, Edge, Empire State, Top of the Rock, dinner cruises, Sleep No More)"
+      },
+      {
+        "action_id": "9-3",
+        "role": "SHAPER",
+        "action_text": "Describes Edge at Hudson Yards as a dramatic outdoor sky deck with a glass floor and stunning night views"
+      }
+    ],
+    "revise_actions": [],
+    "related_actions": [
+      {
+        "action_id": "9-1",
+        "role": "SHAPER",
+        "action_text": "Provides a list of candidate 'wow factor' evening options (SUMMIT, Edge, Empire State, Top of the Rock, dinner cruises, Sleep No More)",
+        "relationship_type": "IMPLEMENTS",
+        "influence": "indirect",
+        "relationship_score": 4,
+        "explanation": "Provides evening options that avoid jazz clubs, operationalizing the constraint by proposing compliant choices."
+      },
+      {
+        "action_id": "9-2",
+        "role": "SHAPER",
+        "action_text": "Describes SUMMIT One Vanderbilt as an immersive observation/art experience with strong nighttime visuals",
+        "relationship_type": "IMPLEMENTS",
+        "influence": "indirect",
+        "relationship_score": 4,
+        "explanation": "Elaborates a non-jazz evening option (SUMMIT), directly offering a compliant alternative."
+      },
+      {
+        "action_id": "9-3",
+        "role": "SHAPER",
+        "action_text": "Describes Edge at Hudson Yards as a dramatic outdoor sky deck with a glass floor and stunning night views",
+        "relationship_type": "IMPLEMENTS",
+        "influence": "indirect",
+        "relationship_score": 4,
+        "explanation": "Elaborates a non-jazz evening option (Edge), directly offering a compliant alternative."
+      },
+      {
+        "action_id": "9-4",
+        "role": "SHAPER",
+        "action_text": "Describes dinner cruises as evening skyline cruises around Manhattan",
+        "relationship_type": "IMPLEMENTS",
+        "influence": "indirect",
+        "relationship_score": 4,
+        "explanation": "Describes dinner cruises as an evening activity that is not a jazz club, satisfying the exclusion constraint."
+      },
+      {
+        "action_id": "9-6",
+        "role": "SHAPER",
+        "action_text": "Recommends visually stunning options (Edge or SUMMIT) given they're already seeing a Broadway show",
+        "relationship_type": "IMPLEMENTS",
+        "influence": "indirect",
+        "relationship_score": 4,
+        "explanation": "Recommends Edge or SUMMIT, both non-jazz options, directly aligning the plan with the 'not a jazz club' requirement."
+      },
+      {
+        "action_id": "9-8",
+        "role": "SHAPER",
+        "action_text": "Gives a detailed description of why Edge is dramatic and unique at night",
+        "relationship_type": "IMPLEMENTS",
+        "influence": "indirect",
+        "relationship_score": 4,
+        "explanation": "Further details about Edge continue execution of a non-jazz evening plan consistent with the requirement."
+      },
+      {
+        "action_id": "9-9",
+        "role": "SHAPER",
+        "action_text": "Gives a detailed description of SUMMIT as an art-meets-observation experience at night",
+        "relationship_type": "IMPLEMENTS",
+        "influence": "indirect",
+        "relationship_score": 4,
+        "explanation": "Further details about SUMMIT continue execution of a non-jazz evening plan consistent with the requirement."
+      },
+      {
+        "action_id": "9-10",
+        "role": "SHAPER",
+        "action_text": "Describes dinner cruises in more detail and notes they are longer and pricier",
+        "relationship_type": "IMPLEMENTS",
+        "influence": "indirect",
+        "relationship_score": 4,
+        "explanation": "More detail on dinner cruises continues to provide a non-jazz alternative that meets the constraint."
+      },
+      {
+        "action_id": "9-11",
+        "role": "SHAPER",
+        "action_text": "Personally recommends Edge for a one-day trip and gives reasons (proximity, uniqueness, views)",
+        "relationship_type": "IMPLEMENTS",
+        "influence": "indirect",
+        "relationship_score": 4,
+        "explanation": "Personal recommendation for Edge advances a non-jazz evening plan, fulfilling the exclusion of jazz clubs."
+      },
+      {
+        "action_id": "9-12",
+        "role": "SHAPER",
+        "action_text": "Suggests having dinner nearby in Hudson Yards then going up as the sun goes down",
+        "relationship_type": "IMPLEMENTS",
+        "influence": "indirect",
+        "relationship_score": 4,
+        "explanation": "Suggests a concrete dinner+Edge sequence, producing an evening plan that inherently avoids jazz clubs."
+      },
+      {
+        "action_id": "10-1",
+        "role": "SHAPER",
+        "action_text": "Confirms that Edge sounds good",
+        "relationship_type": "DIRECT_CONNECTION",
+        "influence": "direct",
+        "relationship_score": 4,
+        "explanation": "Selecting Edge confirms a non-jazz option, concretely locking in a plan that complies with the requirement."
+      },
+      {
+        "action_id": "7-4",
+        "role": "SHAPER",
+        "action_text": "Assistant suggests alternative evening options (rooftop bar, Brooklyn Bridge walk, comedy club, SUMMIT One Vanderbilt).",
+        "relationship_type": "IMPLICIT_CONNECTION",
+        "influence": "indirect",
+        "relationship_score": 2,
+        "explanation": "Offering non-jazz alternatives provides surrounding context for later narrowing away from jazz clubs, though it doesn't set the constraint."
+      },
+      {
+        "action_id": "9-13",
+        "role": "SHAPER",
+        "action_text": "Asks whether any of the options appeal or if the user wants something different",
+        "relationship_type": "CONTRIBUTES",
+        "influence": "indirect",
+        "relationship_score": 2,
+        "explanation": "Asking for preference feedback helps ensure the chosen option remains non-jazz, but doesn't itself execute the constraint."
+      },
+      {
+        "action_id": "9-5",
+        "role": "SHAPER",
+        "action_text": "Notes uncertainty about whether Sleep No More is still operating",
+        "relationship_type": "CONTRIBUTES",
+        "influence": "indirect",
+        "relationship_score": 1,
+        "explanation": "Operational uncertainty about Sleep No More slightly affects option viability but is not specifically about avoiding jazz clubs."
+      }
+    ]
+  },
+  "r5": {
+    "origin_actions": [
+      {
+        "action_id": "8-2",
+        "role": "SHAPER",
+        "action_text": "Requests an alternative with a 'wow factor'"
+      }
+    ],
+    "contributing_actions": [
+      {
+        "action_id": "9-9",
+        "role": "SHAPER",
+        "action_text": "Gives a detailed description of SUMMIT as an art-meets-observation experience at night"
+      },
+      {
+        "action_id": "9-5",
+        "role": "SHAPER",
+        "action_text": "Notes uncertainty about whether Sleep No More is still operating"
+      },
+      {
+        "action_id": "9-8",
+        "role": "SHAPER",
+        "action_text": "Gives a detailed description of why Edge is dramatic and unique at night"
+      },
+      {
+        "action_id": "9-4",
+        "role": "SHAPER",
+        "action_text": "Describes dinner cruises as evening skyline cruises around Manhattan"
+      },
+      {
+        "action_id": "9-10",
+        "role": "SHAPER",
+        "action_text": "Describes dinner cruises in more detail and notes they are longer and pricier"
+      },
+      {
+        "action_id": "9-3",
+        "role": "SHAPER",
+        "action_text": "Describes Edge at Hudson Yards as a dramatic outdoor sky deck with a glass floor and stunning night views"
+      },
+      {
+        "action_id": "9-2",
+        "role": "SHAPER",
+        "action_text": "Describes SUMMIT One Vanderbilt as an immersive observation/art experience with strong nighttime visuals"
+      }
+    ],
+    "implementation_actions": [
+      {
+        "action_id": "9-12",
+        "role": "SHAPER",
+        "action_text": "Suggests having dinner nearby in Hudson Yards then going up as the sun goes down"
+      },
+      {
+        "action_id": "9-1",
+        "role": "SHAPER",
+        "action_text": "Provides a list of candidate 'wow factor' evening options (SUMMIT, Edge, Empire State, Top of the Rock, dinner cruises, Sleep No More)"
+      }
+    ],
+    "revise_actions": [],
+    "related_actions": [
+      {
+        "action_id": "9-1",
+        "role": "EXECUTOR",
+        "action_text": "Provides a list of candidate 'wow factor' evening options (SUMMIT, Edge, Empire State, Top of the Rock, dinner cruises, Sleep No More)",
+        "relationship_type": "IMPLEMENTS",
+        "influence": "indirect",
+        "relationship_score": 4,
+        "explanation": "Produces candidate evening alternatives explicitly framed as 'wow factor' options."
+      },
+      {
+        "action_id": "9-6",
+        "role": "SHAPER",
+        "action_text": "Recommends visually stunning options (Edge or SUMMIT) given they're already seeing a Broadway show",
+        "relationship_type": "DIRECT_CONNECTION",
+        "influence": "direct",
+        "relationship_score": 4,
+        "explanation": "Explicitly evaluates and recommends options on the basis of being visually stunning (i.e., meeting 'wow factor')."
+      },
+      {
+        "action_id": "9-11",
+        "role": "SHAPER",
+        "action_text": "Personally recommends Edge for a one-day trip and gives reasons (proximity, uniqueness, views)",
+        "relationship_type": "DIRECT_CONNECTION",
+        "influence": "direct",
+        "relationship_score": 4,
+        "explanation": "Chooses Edge as the preferred 'wow factor' alternative and justifies it against the requirement."
+      },
+      {
+        "action_id": "9-12",
+        "role": "EXECUTOR",
+        "action_text": "Suggests having dinner nearby in Hudson Yards then going up as the sun goes down",
+        "relationship_type": "IMPLEMENTS",
+        "influence": "indirect",
+        "relationship_score": 4,
+        "explanation": "Turns the 'wow factor' alternative into a concrete evening plan (dinner nearby + Edge at sunset)."
+      },
+      {
+        "action_id": "9-13",
+        "role": "SHAPER",
+        "action_text": "Asks whether any of the options appeal or if the user wants something different",
+        "relationship_type": "DIRECT_CONNECTION",
+        "influence": "direct",
+        "relationship_score": 4,
+        "explanation": "Requests user selection among 'wow factor' alternatives, directly operating on satisfying the requirement."
+      },
+      {
+        "action_id": "10-1",
+        "role": "SHAPER",
+        "action_text": "Confirms that Edge sounds good",
+        "relationship_type": "DIRECT_CONNECTION",
+        "influence": "direct",
+        "relationship_score": 4,
+        "explanation": "User selects Edge as the preferred 'wow factor' alternative (option selection satisfying the requirement directionally)."
+      },
+      {
+        "action_id": "7-4",
+        "role": "SHAPER",
+        "action_text": "Assistant suggests alternative evening options (rooftop bar, Brooklyn Bridge walk, comedy club, SUMMIT One Vanderbilt).",
+        "relationship_type": "IMPLICIT_CONNECTION",
+        "influence": "indirect",
+        "relationship_score": 3,
+        "explanation": "Offering rooftop/SUMMIT/etc. introduces 'wow' style evening alternatives and directly motivates the later explicit 'wow factor' requirement."
+      },
+      {
+        "action_id": "9-2",
+        "role": "SHAPER",
+        "action_text": "Describes SUMMIT One Vanderbilt as an immersive observation/art experience with strong nighttime visuals",
+        "relationship_type": "CONTRIBUTES",
+        "influence": "indirect",
+        "relationship_score": 3,
+        "explanation": "Adds persuasive detail showing how SUMMIT delivers the desired 'wow factor'."
+      },
+      {
+        "action_id": "9-3",
+        "role": "SHAPER",
+        "action_text": "Describes Edge at Hudson Yards as a dramatic outdoor sky deck with a glass floor and stunning night views",
+        "relationship_type": "CONTRIBUTES",
+        "influence": "indirect",
+        "relationship_score": 3,
+        "explanation": "Adds persuasive detail showing how Edge delivers the desired 'wow factor'."
+      },
+      {
+        "action_id": "9-8",
+        "role": "SHAPER",
+        "action_text": "Gives a detailed description of why Edge is dramatic and unique at night",
+        "relationship_type": "CONTRIBUTES",
+        "influence": "indirect",
+        "relationship_score": 3,
+        "explanation": "Strengthens the case that Edge is a 'wow factor' evening alternative via vivid, differentiating details."
+      },
+      {
+        "action_id": "9-9",
+        "role": "SHAPER",
+        "action_text": "Gives a detailed description of SUMMIT as an art-meets-observation experience at night",
+        "relationship_type": "CONTRIBUTES",
+        "influence": "indirect",
+        "relationship_score": 3,
+        "explanation": "Strengthens the case that SUMMIT is a 'wow factor' evening alternative via vivid, differentiating details."
+      },
+      {
+        "action_id": "9-4",
+        "role": "SHAPER",
+        "action_text": "Describes dinner cruises as evening skyline cruises around Manhattan",
+        "relationship_type": "CONTRIBUTES",
+        "influence": "indirect",
+        "relationship_score": 2,
+        "explanation": "Provides another alternative that could satisfy 'wow factor' (skyline cruise), but not as tightly tied as the main picks."
+      },
+      {
+        "action_id": "9-10",
+        "role": "SHAPER",
+        "action_text": "Describes dinner cruises in more detail and notes they are longer and pricier",
+        "relationship_type": "CONTRIBUTES",
+        "influence": "indirect",
+        "relationship_score": 2,
+        "explanation": "Further characterizes dinner cruises as an alternative (including tradeoffs), supporting selection of a 'wow factor' plan."
+      },
+      {
+        "action_id": "9-5",
+        "role": "SHAPER",
+        "action_text": "Notes uncertainty about whether Sleep No More is still operating",
+        "relationship_type": "CONTRIBUTES",
+        "influence": "indirect",
+        "relationship_score": 1,
+        "explanation": "Qualifies an option's availability, helping narrow viable 'wow factor' alternatives."
+      }
+    ]
+  },
+  "r6": {
+    "origin_actions": [
+      {
+        "action_id": "10-3",
+        "role": "SHAPER",
+        "action_text": "Emphasizes that Times Square is a must-see stop"
+      }
+    ],
+    "contributing_actions": [
+      {
+        "action_id": "10-2",
+        "role": "SHAPER",
+        "action_text": "Asks how Times Square fits into the plan"
+      },
+      {
+        "action_id": "11-5",
+        "role": "SHAPER",
+        "action_text": "Observes they will likely walk through Times Square naturally because the Broadway show is nearby"
+      },
+      {
+        "action_id": "11-2",
+        "role": "SHAPER",
+        "action_text": "Explains that Times Square is in the Theater District/Midtown and fits naturally before or after the matinee"
+      },
+      {
+        "action_id": "11-4",
+        "role": "SHAPER",
+        "action_text": "Notes that the evening is taken by Edge so nighttime Times Square may conflict"
+      },
+      {
+        "action_id": "11-6",
+        "role": "SHAPER",
+        "action_text": "Clarifies that Times Square is more of a quick 'pass through and soak it in' rather than a lengthy destination"
+      }
+    ],
+    "implementation_actions": [
+      {
+        "action_id": "11-2",
+        "role": "SHAPER",
+        "action_text": "Explains that Times Square is in the Theater District/Midtown and fits naturally before or after the matinee"
+      },
+      {
+        "action_id": "11-8",
+        "role": "SHAPER",
+        "action_text": "Suggests spending 30–45 minutes wandering and taking photos in Times Square"
+      },
+      {
+        "action_id": "11-3",
+        "role": "SHAPER",
+        "action_text": "Suggests swinging through Times Square in the late morning or after the show"
+      },
+      {
+        "action_id": "11-7",
+        "role": "SHAPER",
+        "action_text": "Recommends visiting Times Square right after the matinee around 5:00–5:30 PM"
+      }
+    ],
+    "revise_actions": [],
+    "related_actions": [
+      {
+        "action_id": "11-1",
+        "role": "OTHER",
+        "action_text": "Acknowledges the user's desire to fit Times Square into the itinerary",
+        "relationship_type": "DIRECT_CONNECTION",
+        "influence": "direct",
+        "relationship_score": 4,
+        "explanation": "Intent-Reveal — Explicitly acknowledges the Times Square inclusion requirement as something to fit into the itinerary."
+      },
+      {
+        "action_id": "11-3",
+        "role": "SHAPER",
+        "action_text": "Suggests swinging through Times Square in the late morning or after the show",
+        "relationship_type": "IMPLEMENTS",
+        "influence": "indirect",
+        "relationship_score": 4,
+        "explanation": "Intent-Reveal — Proposes concrete candidate time slots (late morning or after the show) to execute adding Times Square to the itinerary."
+      },
+      {
+        "action_id": "11-7",
+        "role": "SHAPER",
+        "action_text": "Recommends visiting Times Square right after the matinee around 5:00–5:30 PM",
+        "relationship_type": "IMPLEMENTS",
+        "influence": "indirect",
+        "relationship_score": 4,
+        "explanation": "Intent-Reveal — Recommends a specific best time window (right after matinee, ~5:00–5:30 PM), directly executing the requirement in the itinerary logic."
+      },
+      {
+        "action_id": "11-8",
+        "role": "SHAPER",
+        "action_text": "Suggests spending 30–45 minutes wandering and taking photos in Times Square",
+        "relationship_type": "IMPLEMENTS",
+        "influence": "indirect",
+        "relationship_score": 4,
+        "explanation": "Intent-Reveal — Specifies duration (30–45 minutes) for the Times Square stop, directly fulfilling the requirement’s planning details."
+      },
+      {
+        "action_id": "11-2",
+        "role": "SHAPER",
+        "action_text": "Explains that Times Square is in the Theater District/Midtown and fits naturally before or after the matinee",
+        "relationship_type": "CONTRIBUTES",
+        "influence": "indirect",
+        "relationship_score": 3,
+        "explanation": "Preference-Accumulate — Provides situational context (location near Theater District/matinee) that helps place Times Square in the plan."
+      },
+      {
+        "action_id": "11-6",
+        "role": "SHAPER",
+        "action_text": "Clarifies that Times Square is more of a quick 'pass through and soak it in' rather than a lengthy destination",
+        "relationship_type": "CONTRIBUTES",
+        "influence": "indirect",
+        "relationship_score": 3,
+        "explanation": "Intent-Reveal — Clarifies expected scope (quick soak-in) which helps define how the must-see stop is operationalized (not long)."
+      },
+      {
+        "action_id": "11-4",
+        "role": "SHAPER",
+        "action_text": "Notes that the evening is taken by Edge so nighttime Times Square may conflict",
+        "relationship_type": "CONTRIBUTES",
+        "influence": "indirect",
+        "relationship_score": 2,
+        "explanation": "Failure-Triggered-Requirement-Add — Adds a constraint (Edge takes the evening) that shapes feasible timing for the Times Square stop."
+      },
+      {
+        "action_id": "11-5",
+        "role": "SHAPER",
+        "action_text": "Observes they will likely walk through Times Square naturally because the Broadway show is nearby",
+        "relationship_type": "CONTRIBUTES",
+        "influence": "indirect",
+        "relationship_score": 2,
+        "explanation": "Preference-Accumulate — Notes natural proximity/walk-through, supporting inclusion but not yet specifying a dedicated must-see stop plan."
+      }
+    ]
+  },
+  "r7": {
+    "origin_actions": [
+      {
+        "action_id": "14-1",
+        "role": "SHAPER",
+        "action_text": "Asks for a single recommendation outside Manhattan"
+      }
+    ],
+    "contributing_actions": [
+      {
+        "action_id": "15-8",
+        "role": "EXECUTOR",
+        "action_text": "Notes the day is packed and suggests keeping it as an optional backup"
+      },
+      {
+        "action_id": "15-2",
+        "role": "EXECUTOR",
+        "action_text": "Lists notable options outside Manhattan"
+      },
+      {
+        "action_id": "15-3",
+        "role": "EXECUTOR",
+        "action_text": "Weighs Brooklyn Bridge/DUMBO against the Staten Island Ferry"
+      },
+      {
+        "action_id": "15-1",
+        "role": "EXECUTOR",
+        "action_text": "Frames the user's request and begins to consider options"
+      },
+      {
+        "action_id": "15-9",
+        "role": "EXECUTOR",
+        "action_text": "Asks for the user's opinion"
+      }
+    ],
+    "implementation_actions": [
+      {
+        "action_id": "15-5",
+        "role": "EXECUTOR",
+        "action_text": "Describes the Brooklyn Bridge walk and DUMBO views"
+      },
+      {
+        "action_id": "15-6",
+        "role": "EXECUTOR",
+        "action_text": "Provides logistics about distance and time"
+      },
+      {
+        "action_id": "15-4",
+        "role": "EXECUTOR",
+        "action_text": "Recommends walking across the Brooklyn Bridge and visiting DUMBO"
+      },
+      {
+        "action_id": "15-7",
+        "role": "EXECUTOR",
+        "action_text": "Suggests how to fit the visit into the itinerary"
+      }
+    ],
+    "revise_actions": [],
+    "related_actions": [
+      {
+        "action_id": "15-4",
+        "role": "EXECUTOR",
+        "action_text": "Recommends walking across the Brooklyn Bridge and visiting DUMBO",
+        "relationship_type": "IMPLEMENTS",
+        "influence": "indirect",
+        "relationship_score": 5,
+        "explanation": "Directly fulfills r7 by providing one specific outside-Manhattan recommendation (Brooklyn Bridge/DUMBO)."
+      },
+      {
+        "action_id": "15-5",
+        "role": "EXECUTOR",
+        "action_text": "Describes the Brooklyn Bridge walk and DUMBO views",
+        "relationship_type": "IMPLEMENTS",
+        "influence": "indirect",
+        "relationship_score": 4,
+        "explanation": "Elaborates the chosen single recommendation, reinforcing and delivering the recommendation content."
+      },
+      {
+        "action_id": "15-6",
+        "role": "EXECUTOR",
+        "action_text": "Provides logistics about distance and time",
+        "relationship_type": "IMPLEMENTS",
+        "influence": "indirect",
+        "relationship_score": 4,
+        "explanation": "Provides concrete logistics for the recommended outside-Manhattan visit, completing practical usefulness of the recommendation."
+      },
+      {
+        "action_id": "15-7",
+        "role": "EXECUTOR",
+        "action_text": "Suggests how to fit the visit into the itinerary",
+        "relationship_type": "IMPLEMENTS",
+        "influence": "indirect",
+        "relationship_score": 4,
+        "explanation": "Shows how to fit the single outside-Manhattan recommendation into the day, aligning with the outcome context."
+      },
+      {
+        "action_id": "15-1",
+        "role": "EXECUTOR",
+        "action_text": "Frames the user's request and begins to consider options",
+        "relationship_type": "CONTRIBUTES",
+        "influence": "indirect",
+        "relationship_score": 3,
+        "explanation": "Frames the outside-Manhattan request and sets up the decision space, directly progressing toward fulfillment."
+      },
+      {
+        "action_id": "15-2",
+        "role": "EXECUTOR",
+        "action_text": "Lists notable options outside Manhattan",
+        "relationship_type": "CONTRIBUTES",
+        "influence": "indirect",
+        "relationship_score": 3,
+        "explanation": "Generates candidate outside-Manhattan options, a necessary step before choosing the single recommendation."
+      },
+      {
+        "action_id": "15-3",
+        "role": "EXECUTOR",
+        "action_text": "Weighs Brooklyn Bridge/DUMBO against the Staten Island Ferry",
+        "relationship_type": "CONTRIBUTES",
+        "influence": "indirect",
+        "relationship_score": 3,
+        "explanation": "Compares options to determine which single recommendation best fits, supporting the final selection."
+      },
+      {
+        "action_id": "15-8",
+        "role": "EXECUTOR",
+        "action_text": "Notes the day is packed and suggests keeping it as an optional backup",
+        "relationship_type": "CONTRIBUTES",
+        "influence": "indirect",
+        "relationship_score": 2,
+        "explanation": "Qualifies feasibility (packed day) and frames it as optional, helping tailor the recommendation without changing it."
+      },
+      {
+        "action_id": "15-9",
+        "role": "EXECUTOR",
+        "action_text": "Asks for the user's opinion",
+        "relationship_type": "CONTRIBUTES",
+        "influence": "indirect",
+        "relationship_score": 1,
+        "explanation": "Asks for user preference/confirmation, which may refine acceptance but does not itself provide the recommendation."
+      }
+    ]
+  },
+  "others": [
+    {
+      "action_id": "0-1",
+      "role": "OTHER",
+      "action_text": "User greets the assistant"
+    },
+    {
+      "action_id": "1-1",
+      "role": "OTHER",
+      "action_text": "Assistant signals willingness to help"
+    },
+    {
+      "action_id": "1-13",
+      "role": "EXECUTOR",
+      "action_text": "Assistant warns that the itinerary involves a fair amount of walking and recommends comfortable shoes"
+    },
+    {
+      "action_id": "1-14",
+      "role": "EXECUTOR",
+      "action_text": "Assistant recommends using the subway and mentions MetroCard/OMNY"
+    },
+    {
+      "action_id": "1-15",
+      "role": "EXECUTOR",
+      "action_text": "Assistant recommends booking Top of the Rock in advance"
+    },
+    {
+      "action_id": "1-16",
+      "role": "EXECUTOR",
+      "action_text": "Assistant recommends making a dinner reservation early"
+    },
+    {
+      "action_id": "1-17",
+      "role": "SHAPER",
+      "action_text": "Assistant invites the user to share specific interests so the itinerary can be tweaked"
+    },
+    {
+      "action_id": "5-1",
+      "role": "SHAPER",
+      "action_text": "Assistant describes typical Broadway performance times (matinees and evening shows)."
+    },
+    {
+      "action_id": "5-2",
+      "role": "SHAPER",
+      "action_text": "Assistant provides typical show runtime."
+    },
+    {
+      "action_id": "5-3",
+      "role": "SHAPER",
+      "action_text": "Assistant recommends a matinee as the better choice for a 1-day trip."
+    },
+    {
+      "action_id": "5-4",
+      "role": "SHAPER",
+      "action_text": "Assistant suggests a sample day with morning sightseeing, an afternoon show, and dinner."
+    },
+    {
+      "action_id": "5-5",
+      "role": "SHAPER",
+      "action_text": "Assistant advises booking tickets in advance and mentions TKTS as a same-day discount option."
+    },
+    {
+      "action_id": "5-6",
+      "role": "SHAPER",
+      "action_text": "Assistant asks what kinds of shows the parents enjoy to help narrow choices."
+    },
+    {
+      "action_id": "6-1",
+      "role": "SHAPER",
+      "action_text": "User notes they need to check which shows are performing later."
+    },
+    {
+      "action_id": "7-3",
+      "role": "SHAPER",
+      "action_text": "Assistant recommends a jazz club in the Village as the natural evening activity."
+    },
+    {
+      "action_id": "7-6",
+      "role": "SHAPER",
+      "action_text": "Assistant asks if the proposed plan works for the user."
+    },
+    {
+      "action_id": "9-7",
+      "role": "OTHER",
+      "action_text": "Acknowledges the user's sentiment"
+    },
+    {
+      "action_id": "11-11",
+      "role": "SHAPER",
+      "action_text": "Asks if the user wants the assistant to write a clean final itinerary"
+    },
+    {
+      "action_id": "12-1",
+      "role": "OTHER",
+      "action_text": "States they have a couple of other questions"
+    },
+    {
+      "action_id": "12-2",
+      "role": "SHAPER",
+      "action_text": "Asks how they should get around"
+    },
+    {
+      "action_id": "12-3",
+      "role": "SHAPER",
+      "action_text": "Asks whether they should rent a car"
+    },
+    {
+      "action_id": "12-4",
+      "role": "SHAPER",
+      "action_text": "Observes the day sounds like a lot to do"
+    },
+    {
+      "action_id": "13-1",
+      "role": "EXECUTOR",
+      "action_text": "Frames the user question and plans to advise against renting"
+    },
+    {
+      "action_id": "13-2",
+      "role": "EXECUTOR",
+      "action_text": "Advises against renting a car in Manhattan"
+    },
+    {
+      "action_id": "13-3",
+      "role": "EXECUTOR",
+      "action_text": "Explains why renting a car is a bad idea"
+    },
+    {
+      "action_id": "13-4",
+      "role": "EXECUTOR",
+      "action_text": "States the itinerary is well connected by public transport"
+    },
+    {
+      "action_id": "13-5",
+      "role": "EXECUTOR",
+      "action_text": "Provides subway details including fare and payment"
+    },
+    {
+      "action_id": "13-6",
+      "role": "EXECUTOR",
+      "action_text": "States most stops between destinations are only a few minutes apart"
+    },
+    {
+      "action_id": "13-7",
+      "role": "EXECUTOR",
+      "action_text": "Describes walkability between dinner and Edge at Hudson Yards"
+    },
+    {
+      "action_id": "13-8",
+      "role": "EXECUTOR",
+      "action_text": "Explains the itinerary flows geographically"
+    },
+    {
+      "action_id": "13-9",
+      "role": "EXECUTOR",
+      "action_text": "Recommends using the subway plus occasional Uber"
+    },
+    {
+      "action_id": "13-10",
+      "role": "EXECUTOR",
+      "action_text": "Asks for confirmation that the advice makes sense"
+    },
+    {
+      "action_id": "16-1",
+      "role": "SHAPER",
+      "action_text": "User agrees with previous assessment"
+    },
+    {
+      "action_id": "16-2",
+      "role": "SHAPER",
+      "action_text": "User asks what the final itinerary looks like"
+    },
+    {
+      "action_id": "17-1",
+      "role": "EXECUTOR",
+      "action_text": "Assistant summarizes the user's request and intent to compile the itinerary"
+    },
+    {
+      "action_id": "17-3",
+      "role": "EXECUTOR",
+      "action_text": "Assistant states intent to format the itinerary cleanly using markdown"
+    },
+    {
+      "action_id": "17-5",
+      "role": "EXECUTOR",
+      "action_text": "Assistant offers to convert the itinerary into a visual HTML page"
+    },
+    {
+      "action_id": "18-1",
+      "role": "SHAPER",
+      "action_text": "User reports their parents want to accomplish a lot during the day"
+    },
+    {
+      "action_id": "18-2",
+      "role": "SHAPER",
+      "action_text": "User suggests adding an activity before brunch to start the day earlier"
+    },
+    {
+      "action_id": "19-1",
+      "role": "SHAPER",
+      "action_text": "Assistant restates the user's goal to add something before brunch and frames the planning problem"
+    },
+    {
+      "action_id": "19-2",
+      "role": "SHAPER",
+      "action_text": "Assistant lists several good early-morning activity options in Manhattan"
+    },
+    {
+      "action_id": "19-3",
+      "role": "SHAPER",
+      "action_text": "Assistant evaluates the Staten Island Ferry as a strong choice and explains its benefits"
+    },
+    {
+      "action_id": "19-4",
+      "role": "SHAPER",
+      "action_text": "Assistant observes a geographic/logistical constraint regarding the Staten Island Ferry"
+    },
+    {
+      "action_id": "19-5",
+      "role": "SHAPER",
+      "action_text": "Assistant compares three strong options (High Line, Staten Island Ferry, 9/11 Memorial) and weighs tradeoffs"
+    },
+    {
+      "action_id": "19-6",
+      "role": "SHAPER",
+      "action_text": "Assistant leans toward recommending the High Line before brunch to avoid too much walking"
+    },
+    {
+      "action_id": "19-7",
+      "role": "SHAPER",
+      "action_text": "Assistant suggests an alternative: restructuring the day to start in Lower Manhattan (e.g., 9/11 Memorial) and move north"
+    },
+    {
+      "action_id": "19-8",
+      "role": "SHAPER",
+      "action_text": "Assistant states intent to present a few practical, conversational options and note logistics"
+    },
+    {
+      "action_id": "19-9",
+      "role": "SHAPER",
+      "action_text": "Assistant notes museum opening times as a constraint for pre-brunch activities"
+    },
+    {
+      "action_id": "19-10",
+      "role": "SHAPER",
+      "action_text": "Assistant recommends the Brooklyn Bridge walk as an energizing early-morning option (reintroducing it with purpose)"
+    },
+    {
+      "action_id": "19-11",
+      "role": "SHAPER",
+      "action_text": "Assistant recommends the 9/11 Memorial and Museum as a meaningful way to open the day"
+    }
+  ]
+}

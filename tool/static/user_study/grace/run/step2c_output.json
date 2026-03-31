@@ -1,0 +1,393 @@
+{
+  "dialogue_id": "poe_share_RgOOskda04YHcDI58ioV",
+  "forward_labels": {
+    "r1": {
+      "implementation_action_ids": [
+        "5-6",
+        "5-7",
+        "5-8",
+        "5-9",
+        "7-7",
+        "11-6"
+      ],
+      "contributing_action_ids": [
+        "5-4",
+        "5-5",
+        "5-11",
+        "9-11"
+      ],
+      "revise_action_ids": [],
+      "all_labels": [
+        {
+          "action_id": "5-1",
+          "relationship": "DIRECT_CONNECTION",
+          "relationship_score": 4,
+          "explanation": "Explicitly frames the task as finding comfortable, reliable restaurants (i.e., directly operates on the requirement by scoping it).",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-2",
+          "relationship": "DIRECT_CONNECTION",
+          "relationship_score": 4,
+          "explanation": "Evaluates a candidate restaurant specifically against crowding/comfort, directly applying the requirement as the evaluation criterion.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-3",
+          "relationship": "DIRECT_CONNECTION",
+          "relationship_score": 4,
+          "explanation": "Rejects a loud option and pivots to quieter ones, explicitly tightening selection to meet 'comfortable' and 'not overly crowded/loud'.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-4",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 3,
+          "explanation": "Integrates chosen venues into the itinerary and prepares ratings/reviews, which is partial progress toward fulfilling reliable/comfortable recommendations.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-5",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 3,
+          "explanation": "Refines timing/location and plans review/ratings additions, improving usability and confidence (reliability) but not itself the final recommendation output.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-6",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 5,
+          "explanation": "Delivers the updated itinerary with dining swaps explicitly chosen for spacious/comfortable/reliable and includes ratings/review summaries—core fulfillment of r1.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-7",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 5,
+          "explanation": "Recommends a breakfast venue with comfort/reliability rationale plus ratings/review summary, directly satisfying r1 for breakfast.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-8",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 5,
+          "explanation": "Provides a lunch recommendation with ratings/review excerpt and comfort justification, directly fulfilling r1 for lunch.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-9",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 5,
+          "explanation": "Recommends a dinner venue with ratings/review summary and suitability-for-parents (quiet/comfortable) reasoning, directly fulfilling r1 for dinner.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-11",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 3,
+          "explanation": "Reservation guidance supports reliability/comfort (reduces waiting/crowding risk) but is ancillary to the venue recommendation itself.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "7-7",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 5,
+          "explanation": "Adds another spacious/comfortable lunch recommendation with ratings and review summary, directly executing r1.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "9-11",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Further reservation timing suggestion supports ensuring a reliable, low-stress dining experience but does not itself recommend venues.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "11-6",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 5,
+          "explanation": "Provides a sit-down lunch venue framed as a rest/comfort benefit with ratings noted, directly fulfilling r1's comfortable/reliable dining recommendation.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        }
+      ]
+    },
+    "r2": {
+      "implementation_action_ids": [
+        "5-6",
+        "5-7",
+        "5-8",
+        "5-9",
+        "7-7",
+        "11-6"
+      ],
+      "contributing_action_ids": [
+        "5-1",
+        "5-2",
+        "5-3"
+      ],
+      "revise_action_ids": [],
+      "all_labels": [
+        {
+          "action_id": "5-1",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Frames the goal as reliable/comfortable restaurant picks, which motivates using reviews/ratings as evidence, but doesn't add them yet.",
+          "explanation_type": "Intent-Reveal",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-2",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Evaluates a candidate restaurant (crowding concerns), helping decide which places will later receive ratings/reviews, but not providing them.",
+          "explanation_type": "Option-Select",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-3",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Selects/pivots among dinner options (too loud vs quieter), shaping which recommendations will carry ratings/review summaries.",
+          "explanation_type": "Option-Select",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-4",
+          "relationship": "DIRECT_CONNECTION",
+          "relationship_score": 4,
+          "explanation": "Explicitly plans to synthesize ratings and review snippets for inclusion, directly operating on the requirement intent (though not yet producing the content).",
+          "explanation_type": "Intent-Reveal",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-5",
+          "relationship": "DIRECT_CONNECTION",
+          "relationship_score": 4,
+          "explanation": "States an intention/plan to add review snippets and ratings while refining the itinerary, directly addressing the requirement at the planning level.",
+          "explanation_type": "Intent-Reveal",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-6",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 5,
+          "explanation": "Delivers an updated itinerary that includes average ratings and review summaries, fulfilling the requirement.",
+          "explanation_type": "Feedback-Adopt",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-7",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 5,
+          "explanation": "Provides a breakfast recommendation with ratings and review summary, directly satisfying the requirement for that place.",
+          "explanation_type": "Feedback-Adopt",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-8",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 5,
+          "explanation": "Provides a lunch recommendation with ratings and review excerpt/summary, directly satisfying the requirement for that place.",
+          "explanation_type": "Feedback-Adopt",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-9",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 5,
+          "explanation": "Provides a dinner recommendation with ratings and review summary, directly satisfying the requirement for that place.",
+          "explanation_type": "Feedback-Adopt",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "5-11",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "Reservation timing/platform advice does not address including reviews/ratings in the itinerary.",
+          "explanation_type": "",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "7-7",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 5,
+          "explanation": "Recommends a lunch spot and includes ratings and a review summary, directly fulfilling the requirement for that recommendation.",
+          "explanation_type": "Feedback-Adopt",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "9-11",
+          "relationship": "NO_CONNECTION",
+          "relationship_score": null,
+          "explanation": "General suggestion to book reservations in advance is not about providing ratings/reviews.",
+          "explanation_type": "",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "11-6",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 4,
+          "explanation": "Provides a restaurant recommendation and notes ratings, partially/explicitly meeting the requirement (though less clearly described as a full review-summary inclusion).",
+          "explanation_type": "Feedback-Adopt",
+          "contribution_role": "EXECUTOR"
+        }
+      ]
+    },
+    "r3": {
+      "implementation_action_ids": [
+        "9-5",
+        "9-6",
+        "9-7",
+        "11-10"
+      ],
+      "contributing_action_ids": [
+        "9-1",
+        "9-2",
+        "9-3",
+        "9-4",
+        "9-8",
+        "9-9",
+        "9-10",
+        "9-12",
+        "10-1",
+        "11-11"
+      ],
+      "revise_action_ids": [],
+      "all_labels": [
+        {
+          "action_id": "9-1",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 3,
+          "explanation": "Explicitly adopts the non-Italian constraint, setting direction toward fulfilling the dinner swap.",
+          "explanation_type": "Intent-Reveal",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "9-2",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 3,
+          "explanation": "Evaluates replacement candidates to satisfy the non-Italian dinner swap requirement.",
+          "explanation_type": "Intent-Reveal",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "9-3",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 3,
+          "explanation": "Comparison work advances selection of a non-Italian dinner to replace the Italian option.",
+          "explanation_type": "Option-Select",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "9-4",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 3,
+          "explanation": "Narrowing options is partial progress toward implementing the non-Italian dinner substitution.",
+          "explanation_type": "Option-Select",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "9-5",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 5,
+          "explanation": "Chooses a specific non-Italian restaurant as the replacement, directly satisfying the swap requirement.",
+          "explanation_type": "Option-Select",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "9-6",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 5,
+          "explanation": "Provides a concrete non-Italian backup replacement, fulfilling the requirement with an alternative.",
+          "explanation_type": "Option-Select",
+          "contribution_role": "SHAPER"
+        },
+        {
+          "action_id": "9-7",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 5,
+          "explanation": "Produces the updated itinerary section where dinner is swapped to non-Italian options.",
+          "explanation_type": "Option-Select",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "9-8",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Rationale supports acceptance of the non-Italian replacement but is not the swap itself.",
+          "explanation_type": "Option-Select",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "9-9",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Rationale supports the alternative non-Italian replacement choice.",
+          "explanation_type": "Option-Select",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "9-10",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 1,
+          "explanation": "After-dinner activities are downstream of dinner choice but do not enact the non-Italian swap.",
+          "explanation_type": "Intent-Reveal",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "9-12",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "Asks for feedback to confirm/finalize the non-Italian dinner substitution in the itinerary.",
+          "explanation_type": "Feedback-Adopt",
+          "contribution_role": "OTHER"
+        },
+        {
+          "action_id": "10-1",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 2,
+          "explanation": "User affirmation functions as acceptance of the non-Italian dinner substitution plan.",
+          "explanation_type": "Feedback-Adopt",
+          "contribution_role": "OTHER"
+        },
+        {
+          "action_id": "11-10",
+          "relationship": "IMPLEMENTS",
+          "relationship_score": 5,
+          "explanation": "Reissues the evening plan containing the non-Italian dinner options, maintaining the swapped dinner requirement in the itinerary.",
+          "explanation_type": "Option-Select",
+          "contribution_role": "EXECUTOR"
+        },
+        {
+          "action_id": "11-11",
+          "relationship": "CONTRIBUTES",
+          "relationship_score": 1,
+          "explanation": "Post-dinner Times Square/rest-stop details are ancillary and only loosely tied to the dinner substitution.",
+          "explanation_type": "Intent-Reveal",
+          "contribution_role": "EXECUTOR"
+        }
+      ]
+    }
+  },
+  "enriched_counts": {
+    "implements": 16,
+    "contributes": 17,
+    "revises": 0
+  },
+  "metadata": {
+    "model": "gpt-5.2-2025-12-11"
+  }
+}

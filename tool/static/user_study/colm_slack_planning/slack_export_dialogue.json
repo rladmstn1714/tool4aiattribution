@@ -1,0 +1,117 @@
+{
+  "dialogue_id": "slack_export_dummy",
+  "turns": [
+    {
+      "turn_id": 0,
+      "speaker": "Xinran (Vodka) Zhao",
+      "text": "haha like what?\nI am usually a person with bare minimum thinking and more actions\n(thinking is grounded with actions)",
+      "meta": {
+        "source": "slack_export_txt",
+        "slack_timestamp": "2:42 PM"
+      }
+    },
+    {
+      "turn_id": 1,
+      "speaker": "Eunsu",
+      "text": "Agreed haha but i'm not good at thinking in long term while i act sth so\nI need time to just think lol",
+      "meta": {
+        "source": "slack_export_txt",
+        "slack_timestamp": "2:45 PM"
+      }
+    },
+    {
+      "turn_id": 2,
+      "speaker": "Xinran (Vodka) Zhao",
+      "text": "interesting, I am curious, what does that mean (just to think)? (edited)",
+      "meta": {
+        "source": "slack_export_txt",
+        "slack_timestamp": "2:48 PM"
+      }
+    },
+    {
+      "turn_id": 3,
+      "speaker": "Eunsu",
+      "text": "Ohh so\nI want to keep thinking about",
+      "meta": {
+        "source": "slack_export_txt",
+        "slack_timestamp": "2:48 PM"
+      }
+    },
+    {
+      "turn_id": 4,
+      "speaker": "Xinran (Vodka) Zhao",
+      "text": "maybe I have mentioned it, but one interesting quote I got from Chenglei Si, which I feel I should have known it way earlier is that",
+      "meta": {
+        "source": "slack_export_txt",
+        "slack_timestamp": "2:48 PM"
+      }
+    },
+    {
+      "turn_id": 5,
+      "speaker": "Eunsu",
+      "text": "What i want the models to be in this field what type of research might be needed etc but \nWhen i work for the conf deadline, as i'm focusing on specific RQs i feel like sometimes i'm going toward local minima\nSo i sometimes want to stop working and just think haha",
+      "meta": {
+        "source": "slack_export_txt",
+        "slack_timestamp": "2:50 PM"
+      }
+    },
+    {
+      "turn_id": 6,
+      "speaker": "Xinran (Vodka) Zhao",
+      "text": "he think about what he wanted to do for the whole PhD it starts (the AI ideation thing). His criterion was: (1) something he cares about and he will be happy if it becomes true even not from his hand; (2) it is impactful enough with many ppl care about and it is something within his reach; (3) can not be solved in the near future\nI was so surprised",
+      "meta": {
+        "source": "slack_export_txt",
+        "slack_timestamp": "2:50 PM"
+      }
+    },
+    {
+      "turn_id": 7,
+      "speaker": "Xinran (Vodka) Zhao",
+      "text": "but this makes his work and effort very focuses. Also, he earned his name out of it.",
+      "meta": {
+        "source": "slack_export_txt",
+        "slack_timestamp": "2:51 PM"
+      }
+    },
+    {
+      "turn_id": 8,
+      "speaker": "Xinran (Vodka) Zhao",
+      "text": "(so chat with the best PhD students are indeed fun. I can tell it is similarly fun if you chat with some directors at Samsung or LG to learn about their thoughts of PhD outside of PhD stratosphere",
+      "meta": {
+        "source": "slack_export_txt",
+        "slack_timestamp": "2:52 PM"
+      }
+    },
+    {
+      "turn_id": 9,
+      "speaker": "Eunsu",
+      "text": "I want to find someone who are optimistic to this field and chat..\nHaha mostly everyone I met recently had negative view",
+      "meta": {
+        "source": "slack_export_txt",
+        "slack_timestamp": "2:55 PM"
+      }
+    },
+    {
+      "turn_id": 10,
+      "speaker": "Xinran (Vodka) Zhao",
+      "text": "I am not a successful one but I have studied the placement and trajectory of many PhD students before I start. My major takeaway is that: you should never expect enough resource from the department. You should bring your resource to your PhD, not work under the assumption of limited resource, like the hunter of the tribe",
+      "meta": {
+        "source": "slack_export_txt",
+        "slack_timestamp": "2:55 PM"
+      }
+    },
+    {
+      "turn_id": 11,
+      "speaker": "Xinran (Vodka) Zhao",
+      "text": "I am optimistic about the field (NLP?) just not optimistic about academia",
+      "meta": {
+        "source": "slack_export_txt",
+        "slack_timestamp": "2:56 PM"
+      }
+    }
+  ],
+  "metadata": {
+    "source": "slack_export_txt",
+    "source_file": "/mnt/nas3/eunsu/cmu/dataset/dummy.txt"
+  }
+}

@@ -1,0 +1,308 @@
+{
+  "r1": {
+    "created_by": "assistant",
+    "turn_id": 1,
+    "influential_utterances": [
+      {
+        "turn_id": 0,
+        "relationship_type": "IMPLICIT_CONNECTION",
+        "relationship_score": 3
+      },
+      {
+        "turn_id": 1,
+        "relationship_type": "DIRECT_CONNECTION",
+        "relationship_score": 5
+      }
+    ],
+    "role_contributions": {
+      "assistant": {
+        "EXECUTOR": {
+          "M_dir": 3.0,
+          "M_ind": 0.0,
+          "M_total": 3.0,
+          "count": 3
+        },
+        "SHAPER": {
+          "M_dir": 1.0,
+          "M_ind": 0.0,
+          "M_total": 1.0,
+          "count": 1
+        }
+      },
+      "user": {
+        "OTHER": {
+          "M_dir": 0.0,
+          "M_ind": 0.6,
+          "M_total": 0.6,
+          "count": 1
+        },
+        "SHAPER": {
+          "M_dir": 0.0,
+          "M_ind": 1.7999999999999998,
+          "M_total": 1.7999999999999998,
+          "count": 3
+        }
+      }
+    },
+    "overall": {
+      "user": {
+        "rate": 0.37499999999999994,
+        "M_total": 2.4,
+        "count": 4
+      },
+      "assistant": {
+        "rate": 0.625,
+        "M_total": 4.0,
+        "count": 4
+      }
+    }
+  },
+  "r2": {
+    "created_by": "assistant",
+    "turn_id": 3,
+    "influential_utterances": [
+      {
+        "turn_id": 2,
+        "relationship_type": "IMPLICIT_CONNECTION",
+        "relationship_score": 2
+      },
+      {
+        "turn_id": 3,
+        "relationship_type": "DIRECT_CONNECTION",
+        "relationship_score": 5
+      }
+    ],
+    "role_contributions": {
+      "assistant": {
+        "SHAPER": {
+          "M_dir": 1.0,
+          "M_ind": 0.0,
+          "M_total": 1.0,
+          "count": 1
+        },
+        "EXECUTOR": {
+          "M_dir": 6.0,
+          "M_ind": 0.0,
+          "M_total": 6.0,
+          "count": 6
+        }
+      },
+      "user": {
+        "SHAPER": {
+          "M_dir": 0.0,
+          "M_ind": 0.8,
+          "M_total": 0.8,
+          "count": 2
+        }
+      }
+    },
+    "overall": {
+      "user": {
+        "rate": 0.10256410256410257,
+        "M_total": 0.8,
+        "count": 2
+      },
+      "assistant": {
+        "rate": 0.8974358974358975,
+        "M_total": 7.0,
+        "count": 7
+      }
+    }
+  },
+  "r3": {
+    "created_by": "assistant",
+    "turn_id": 3,
+    "influential_utterances": [
+      {
+        "turn_id": 2,
+        "relationship_type": "IMPLICIT_CONNECTION",
+        "relationship_score": 2
+      },
+      {
+        "turn_id": 3,
+        "relationship_type": "DIRECT_CONNECTION",
+        "relationship_score": 5
+      }
+    ],
+    "role_contributions": {
+      "assistant": {
+        "EXECUTOR": {
+          "M_dir": 4.0,
+          "M_ind": 0.0,
+          "M_total": 4.0,
+          "count": 4
+        }
+      },
+      "user": {
+        "SHAPER": {
+          "M_dir": 0.0,
+          "M_ind": 0.8,
+          "M_total": 0.8,
+          "count": 2
+        }
+      }
+    },
+    "overall": {
+      "user": {
+        "rate": 0.16666666666666669,
+        "M_total": 0.8,
+        "count": 2
+      },
+      "assistant": {
+        "rate": 0.8333333333333334,
+        "M_total": 4.0,
+        "count": 4
+      }
+    }
+  },
+  "r4": {
+    "created_by": "assistant",
+    "turn_id": 5,
+    "influential_utterances": [
+      {
+        "turn_id": 4,
+        "relationship_type": "IMPLICIT_CONNECTION",
+        "relationship_score": 2
+      },
+      {
+        "turn_id": 5,
+        "relationship_type": "DIRECT_CONNECTION",
+        "relationship_score": 5
+      }
+    ],
+    "role_contributions": {
+      "assistant": {
+        "SHAPER": {
+          "M_dir": 1.0,
+          "M_ind": 0.0,
+          "M_total": 1.0,
+          "count": 1
+        },
+        "EXECUTOR": {
+          "M_dir": 3.0,
+          "M_ind": 0.0,
+          "M_total": 3.0,
+          "count": 3
+        }
+      },
+      "user": {
+        "SHAPER": {
+          "M_dir": 0.0,
+          "M_ind": 0.8,
+          "M_total": 0.8,
+          "count": 2
+        }
+      }
+    },
+    "overall": {
+      "user": {
+        "rate": 0.16666666666666669,
+        "M_total": 0.8,
+        "count": 2
+      },
+      "assistant": {
+        "rate": 0.8333333333333334,
+        "M_total": 4.0,
+        "count": 4
+      }
+    }
+  },
+  "r5": {
+    "created_by": "assistant",
+    "turn_id": 9,
+    "influential_utterances": [
+      {
+        "turn_id": 8,
+        "relationship_type": "IMPLICIT_CONNECTION",
+        "relationship_score": 3
+      },
+      {
+        "turn_id": 9,
+        "relationship_type": "DIRECT_CONNECTION",
+        "relationship_score": 5
+      }
+    ],
+    "role_contributions": {
+      "assistant": {
+        "SHAPER": {
+          "M_dir": 1.0,
+          "M_ind": 0.0,
+          "M_total": 1.0,
+          "count": 1
+        },
+        "EXECUTOR": {
+          "M_dir": 1.0,
+          "M_ind": 0.0,
+          "M_total": 1.0,
+          "count": 1
+        }
+      },
+      "user": {
+        "SHAPER": {
+          "M_dir": 0.0,
+          "M_ind": 0.6,
+          "M_total": 0.6,
+          "count": 1
+        }
+      }
+    },
+    "overall": {
+      "user": {
+        "rate": 0.23076923076923075,
+        "M_total": 0.6,
+        "count": 1
+      },
+      "assistant": {
+        "rate": 0.7692307692307692,
+        "M_total": 2.0,
+        "count": 2
+      }
+    }
+  },
+  "r6": {
+    "created_by": "assistant",
+    "turn_id": 9,
+    "influential_utterances": [
+      {
+        "turn_id": 8,
+        "relationship_type": "IMPLICIT_CONNECTION",
+        "relationship_score": 3
+      },
+      {
+        "turn_id": 9,
+        "relationship_type": "DIRECT_CONNECTION",
+        "relationship_score": 5
+      }
+    ],
+    "role_contributions": {
+      "assistant": {
+        "EXECUTOR": {
+          "M_dir": 1.0,
+          "M_ind": 0.0,
+          "M_total": 1.0,
+          "count": 1
+        }
+      },
+      "user": {
+        "SHAPER": {
+          "M_dir": 0.0,
+          "M_ind": 0.6,
+          "M_total": 0.6,
+          "count": 1
+        }
+      }
+    },
+    "overall": {
+      "user": {
+        "rate": 0.37499999999999994,
+        "M_total": 0.6,
+        "count": 1
+      },
+      "assistant": {
+        "rate": 0.625,
+        "M_total": 1.0,
+        "count": 1
+      }
+    }
+  }
+}

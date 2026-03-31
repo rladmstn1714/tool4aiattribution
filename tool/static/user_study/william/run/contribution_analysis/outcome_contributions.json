@@ -1,0 +1,265 @@
+{
+  "1": {
+    "thread_id": 1,
+    "outcome_id": "outcome_1",
+    "outcome": "Final 1-day NYC itinerary for the parents (Manhattan-focused, adjusted for preferences and pacing)",
+    "speaker_contributions": {
+      "user": {
+        "direct_influence": 1.0,
+        "indirect_influence": 0.0,
+        "total_influence": 1.0,
+        "requirement_count": 1
+      },
+      "assistant": {
+        "direct_influence": 4.0,
+        "indirect_influence": 0.0,
+        "total_influence": 4.0,
+        "requirement_count": 1
+      }
+    },
+    "role_contributions": {
+      "user": {
+        "SHAPER": {
+          "M_dir": 2.0,
+          "M_ind": 0.0,
+          "M_total": 2.0,
+          "count": 2
+        }
+      },
+      "assistant": {
+        "EXECUTOR": {
+          "M_dir": 3.0,
+          "M_ind": 0.0,
+          "M_total": 3.0,
+          "count": 3
+        },
+        "SHAPER": {
+          "M_dir": 1.0,
+          "M_ind": 0.0,
+          "M_total": 1.0,
+          "count": 1
+        }
+      }
+    },
+    "requirements": [
+      "r1"
+    ]
+  },
+  "2": {
+    "thread_id": 2,
+    "outcome_id": "outcome_1a",
+    "outcome": "Itinerary revision emphasizing interactive/immersive attractions instead of mostly walking/passive viewing",
+    "speaker_contributions": {
+      "user": {
+        "direct_influence": 1.0,
+        "indirect_influence": 0.0,
+        "total_influence": 1.0,
+        "requirement_count": 1
+      },
+      "assistant": {
+        "direct_influence": 6.0,
+        "indirect_influence": 0.0,
+        "total_influence": 6.0,
+        "requirement_count": 1
+      }
+    },
+    "role_contributions": {
+      "user": {
+        "SHAPER": {
+          "M_dir": 2.0,
+          "M_ind": 0.0,
+          "M_total": 2.0,
+          "count": 2
+        }
+      },
+      "assistant": {
+        "EXECUTOR": {
+          "M_dir": 6.0,
+          "M_ind": 0.0,
+          "M_total": 6.0,
+          "count": 6
+        }
+      }
+    },
+    "requirements": [
+      "r2"
+    ]
+  },
+  "3": {
+    "thread_id": 3,
+    "outcome_id": "outcome_1b",
+    "outcome": "Broadway matinee integration into the day schedule (timing + surrounding blocks)",
+    "speaker_contributions": {
+      "user": {
+        "direct_influence": 1.0,
+        "indirect_influence": 1.2,
+        "total_influence": 2.2,
+        "requirement_count": 1
+      },
+      "assistant": {
+        "direct_influence": 2.0,
+        "indirect_influence": 2.8,
+        "total_influence": 4.8,
+        "requirement_count": 1
+      }
+    },
+    "role_contributions": {
+      "user": {
+        "SHAPER": {
+          "M_dir": 2.0,
+          "M_ind": 1.2,
+          "M_total": 3.2,
+          "count": 4
+        }
+      },
+      "assistant": {
+        "SHAPER": {
+          "M_dir": 2.0,
+          "M_ind": 2.8,
+          "M_total": 4.8,
+          "count": 9
+        }
+      }
+    },
+    "requirements": [
+      "r3"
+    ]
+  },
+  "4": {
+    "thread_id": 4,
+    "outcome_id": "outcome_1c",
+    "outcome": "Evening plan with 'wow factor' (select and fit Edge/SUMMIT/etc. after Broadway)",
+    "speaker_contributions": {
+      "user": {
+        "direct_influence": 2.0,
+        "indirect_influence": 0.0,
+        "total_influence": 2.0,
+        "requirement_count": 2
+      },
+      "assistant": {
+        "direct_influence": 13.0,
+        "indirect_influence": 6.0,
+        "total_influence": 19.0,
+        "requirement_count": 2
+      }
+    },
+    "role_contributions": {
+      "user": {
+        "SHAPER": {
+          "M_dir": 2.0,
+          "M_ind": 0.0,
+          "M_total": 2.0,
+          "count": 2
+        }
+      },
+      "assistant": {
+        "SHAPER": {
+          "M_dir": 13.0,
+          "M_ind": 6.0,
+          "M_total": 19.0,
+          "count": 25
+        }
+      }
+    },
+    "requirements": [
+      "r4",
+      "r5"
+    ]
+  },
+  "5": {
+    "thread_id": 5,
+    "outcome_id": "outcome_1d",
+    "outcome": "Fit Times Square as a must-see stop within the final itinerary (best time window + duration)",
+    "speaker_contributions": {
+      "user": {
+        "direct_influence": 1.0,
+        "indirect_influence": 0.0,
+        "total_influence": 1.0,
+        "requirement_count": 1
+      },
+      "assistant": {
+        "direct_influence": 4.0,
+        "indirect_influence": 0.0,
+        "total_influence": 4.0,
+        "requirement_count": 1
+      }
+    },
+    "role_contributions": {
+      "user": {
+        "SHAPER": {
+          "M_dir": 1.0,
+          "M_ind": 0.0,
+          "M_total": 1.0,
+          "count": 1
+        }
+      },
+      "assistant": {
+        "SHAPER": {
+          "M_dir": 4.0,
+          "M_ind": 0.0,
+          "M_total": 4.0,
+          "count": 4
+        }
+      }
+    },
+    "requirements": [
+      "r6"
+    ]
+  },
+  "6": {
+    "thread_id": 6,
+    "outcome_id": "outcome_2",
+    "outcome": "Transportation advice for getting around during the day (including whether to rent a car)",
+    "speaker_contributions": {},
+    "role_contributions": {},
+    "requirements": []
+  },
+  "7": {
+    "thread_id": 7,
+    "outcome_id": "outcome_3",
+    "outcome": "Single recommendation outside Manhattan and how/if to fit it into the day",
+    "speaker_contributions": {
+      "user": {
+        "direct_influence": 1.0,
+        "indirect_influence": 0.0,
+        "total_influence": 1.0,
+        "requirement_count": 1
+      },
+      "assistant": {
+        "direct_influence": 4.0,
+        "indirect_influence": 0.0,
+        "total_influence": 4.0,
+        "requirement_count": 1
+      }
+    },
+    "role_contributions": {
+      "user": {
+        "SHAPER": {
+          "M_dir": 1.0,
+          "M_ind": 0.0,
+          "M_total": 1.0,
+          "count": 1
+        }
+      },
+      "assistant": {
+        "EXECUTOR": {
+          "M_dir": 4.0,
+          "M_ind": 0.0,
+          "M_total": 4.0,
+          "count": 4
+        }
+      }
+    },
+    "requirements": [
+      "r7"
+    ]
+  },
+  "8": {
+    "thread_id": 8,
+    "outcome_id": "outcome_4",
+    "outcome": "Add an early-morning pre-brunch activity to start earlier and accomplish more",
+    "speaker_contributions": {},
+    "role_contributions": {},
+    "requirements": []
+  }
+}
