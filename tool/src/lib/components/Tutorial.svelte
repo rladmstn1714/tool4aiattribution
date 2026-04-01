@@ -209,9 +209,6 @@
 			{:else}
 				<p class="tutorial-body">{step?.body ?? ''}</p>
 			{/if}
-			{#if step?.target === 'timeline-marker' && highlightRect == null}
-
-			{/if}
 			<div class="tutorial-actions">
 				<div class="tutorial-actions-left">
 					<button type="button" class="tutorial-btn secondary" onclick={onClose}>Skip</button>
@@ -309,16 +306,6 @@
 	.tutorial-body--html :global(strong) {
 		font-weight: 800;
 		color: #0f172a;
-	}
-	.tutorial-note {
-		margin: -0.6rem 0 0.9rem 0;
-		padding: 0.5rem 0.65rem;
-		border-radius: 8px;
-		border: 1px solid #dbeafe;
-		background: #f8fbff;
-		color: #0f172a;
-		font-size: 0.82rem;
-		line-height: 1.4;
 	}
 	.tutorial-actions {
 		display: flex;

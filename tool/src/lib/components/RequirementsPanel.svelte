@@ -4,6 +4,22 @@
 	import { isAssistantSpeakerId } from '$lib/speakerUtils';
 	import { isEunsuSpeakerName } from '$lib/contribPeerBar';
 	import type { RequirementActionMap, UtteranceListData } from '$lib/data/dataLoader';
+	import {
+		requirementIdsEqual,
+		buildRequirementStatusIndex,
+		getRequirementStatusKind,
+		getRequirementStatusLabel,
+		sortRequirementChainsByCreationTurn,
+		resolveContribBarByReqId,
+		getRequirementLabel as getRequirementEventLabel,
+		getExecutedTurn,
+		getRequirementActionEntry,
+		getTurnFromActionId,
+		goalLabel,
+		getIndirectInfluenceEvents,
+		indirectEventKey,
+		timelineClusterKey
+	} from '$lib/requirementsPanelUtils';
 
 	export type RequirementChainItem = {
 		currentId: string;
@@ -101,14 +117,6 @@
 			_bumpRaf = 0;
 			layoutVersion += 1;
 		});
-	}
-
-	/** Match ids that only differ by `r` prefix (e.g. r5 vs 5) so selection/toggle state stays correct. */
-	function requirementIdsEqual(a: string | null | undefined, b: string): boolean {
-		if (a == null) return false;
-		if (a === b) return true;
-		const norm = (s: string) => s.trim().replace(/^r/i, '');
-		return norm(a) === norm(b);
 	}
 
 	/** Geometry of a row card in `requirements-content` space (handles `position:relative` shells). */
@@ -255,85 +263,29 @@
 	const outcomeStartTurn = $derived(outcome.created_at ?? null);
 
 	const requirementStatusById = $derived.by(() => {
-		const map = new Map<
-			string,
-			{ is_executed: boolean | null; is_dismissed: boolean | null; dismissed_at_turn: number | null }
-		>();
-		for (const row of requirementStatusOverview ?? []) {
-			if (!row?.id) continue;
-			map.set(row.id, row);
-			if (/^r\d+/.test(row.id)) map.set(row.id.replace(/^r/, ''), row);
-			if (/^\d+/.test(row.id)) map.set(`r${row.id}`, row);
-		}
-		return map;
+		return buildRequirementStatusIndex(requirementStatusOverview ?? []);
 	});
 
 	function getReqStatusKind(reqId: string): 'done' | 'pending' | 'dismissed' | 'unknown' {
-		const st = requirementStatusById.get(reqId);
-		if (!st) return 'unknown';
-		if (st.is_dismissed) return 'dismissed';
-		if (st.is_executed === true) return 'done';
-		if (st.is_executed === false) return 'pending';
-		return 'unknown';
+		return getRequirementStatusKind(requirementStatusById, reqId);
 	}
 
 	function getReqStatusLabel(reqId: string): string {
-		const kind = getReqStatusKind(reqId);
-		if (kind === 'done') return 'Executed';
-		if (kind === 'pending') return 'Pending';
-		if (kind === 'dismissed') return 'Dismissed';
-		return 'Unknown';
+		return getRequirementStatusLabel(requirementStatusById, reqId);
 	}
 
 	const sortedChains = $derived.by(() => {
-		const turnByReq = requirementCreationTurnByReqId ?? {};
-		return [...requirementChains].sort((a, b) => {
-			const ta = turnByReq[a.currentId] ?? Infinity;
-			const tb = turnByReq[b.currentId] ?? Infinity;
-			return ta - tb;
-		});
+		return sortRequirementChainsByCreationTurn(requirementChains, requirementCreationTurnByReqId ?? {});
 	});
 
 	const totalRequirements = $derived(requirementChains.length);
 
 	function resolveContribBar(reqId: string): ContribBarDisplay {
-		let byId = contribBarByReqId[reqId];
-		if (!byId && /^r\d+$/i.test(reqId)) byId = contribBarByReqId[reqId.replace(/^r/i, '')];
-		if (!byId && /^\d+$/.test(reqId)) byId = contribBarByReqId[`r${reqId}`];
-		if (byId) return byId;
-		const c = requirementContributionByReqId[reqId];
-		if (!c || (c.user === 0 && c.assistant === 0)) return { mode: 'legacy', userPct: 50, hasData: false };
-		const total = c.user + c.assistant;
-		return {
-			mode: 'legacy',
-			userPct: total > 0 ? (c.user / total) * 100 : 50,
-			hasData: true
-		};
+		return resolveContribBarByReqId(reqId, contribBarByReqId, requirementContributionByReqId);
 	}
 
 	function getRequirementLabel(chain: RequirementChainItem): string {
-		return chain.history.length > 0 ? 'Requirement revised' : 'Requirement created';
-	}
-
-	function getRequirementActionEntry(reqId: string) {
-		return requirementActionMap[reqId] ?? requirementActionMap[reqId.replace(/^r/, '')] ?? requirementActionMap[`r${reqId}`];
-	}
-
-	function getTurnFromActionId(actionId: string | undefined): number | null {
-		const turnPart = actionId?.split('-')[0];
-		const turn = turnPart == null ? NaN : Number.parseInt(turnPart, 10);
-		return Number.isFinite(turn) ? turn : null;
-	}
-
-	function getExecutedTurn(reqId: string): number | null {
-		const entry = getRequirementActionEntry(reqId);
-		const impl = Array.isArray(entry?.implementation_actions) ? entry.implementation_actions : [];
-		if (impl.length === 0) return null;
-		const turns = impl
-			.map((a) => getTurnFromActionId(a.action_id))
-			.filter((turn): turn is number => turn != null);
-		if (turns.length === 0) return null;
-		return Math.min(...turns);
+		return getRequirementEventLabel(chain.history.length);
 	}
 
 	function getSpeakerNearTurn(turn: number | null | undefined): string {
@@ -347,7 +299,7 @@
 	}
 
 	function getRequirementCreatorSpeaker(reqId: string, fallbackTurn: number | null): string {
-		const entry = getRequirementActionEntry(reqId);
+		const entry = getRequirementActionEntry(requirementActionMap, reqId);
 		const origin = Array.isArray(entry?.origin_actions) ? entry.origin_actions : [];
 		const originTurns = origin
 			.map((a) => getTurnFromActionId(a.action_id))
@@ -363,53 +315,13 @@
 		return turn == null ? 'T?' : `T${turn + 1}`;
 	}
 
-	function goalLabel(goalId: string): string {
-		const normalized = goalId.trim();
-		// Preserve alpha child labels (e.g. outcome_4a, outcome_4a_0 -> Goal 4a).
-		const alphaChild = normalized.match(/^outcome_(\d+)([a-z])(?:_\d+)?$/i);
-		if (alphaChild) return `Goal ${alphaChild[1]}${alphaChild[2].toLowerCase()}`;
-		// Preserve numeric child labels (e.g. outcome_4_1, outcome_4_1_0 -> Goal 4b).
-		const numericChild = normalized.match(/^outcome_(\d+)_(\d+)(?:_\d+)?$/i);
-		if (numericChild) {
-			const childIdx = Number.parseInt(numericChild[2], 10);
-			const suffix = Number.isFinite(childIdx) && childIdx >= 0
-				? String.fromCharCode(97 + (childIdx % 26))
-				: '';
-			return `Goal ${numericChild[1]}${suffix}`;
-		}
-		const primary = normalized.match(/^outcome_(\d+)$/i);
-		if (primary) return `Goal ${primary[1]}`;
-		const fallback = normalized.match(/(\d+)/);
-		return fallback ? `Goal ${fallback[1]}` : normalized;
-	}
-
-	function getIndirectInfluenceEvents(reqId: string): Array<{ turn: number; explanation: string; speaker: string }> {
-		const entry = getRequirementActionEntry(reqId);
-		const related = Array.isArray(entry?.related_actions) ? entry.related_actions : [];
-		const reqCreationTurn = requirementCreationTurnByReqId[reqId] ?? null;
-		const seen = new Set<string>();
-		return related
-			.filter(
-				(item): item is { influence?: string; explanation?: string; action_id?: string } =>
-					!!item && typeof item === 'object'
-			)
-			.filter((item) => item.influence === 'indirect' && typeof item.explanation === 'string' && item.explanation.trim().length > 0)
-			.map((item) => {
-				const turn = getTurnFromActionId(item.action_id);
-				if (turn == null) return null;
-				if (reqCreationTurn != null && turn > reqCreationTurn) return null;
-				const explanation = item.explanation!.trim();
-				const key = `${turn}:${explanation}`;
-				if (seen.has(key)) return null;
-				seen.add(key);
-				return { turn, explanation, speaker: getSpeakerForTurn(turn) };
-			})
-			.filter((item): item is { turn: number; explanation: string; speaker: string } => item != null)
-			.sort((a, b) => a.turn - b.turn || a.explanation.localeCompare(b.explanation));
-	}
-
-	function indirectEventKey(reqId: string, turn: number, explanation: string): string {
-		return `req:${reqId}:indirect:${turn}:${explanation}`;
+	function getIndirectEvents(reqId: string): Array<{ turn: number; explanation: string; speaker: string }> {
+		return getIndirectInfluenceEvents(
+			reqId,
+			requirementActionMap,
+			requirementCreationTurnByReqId,
+			getSpeakerForTurn
+		);
 	}
 
 	function toggleIndirectExpanded(key: string) {
@@ -438,13 +350,6 @@
 	};
 
 	/** Group axis dots that share the same turn without mixing outcome vs requirement rows. */
-	function timelineClusterKey(entry: Pick<TimelineEntry, 'key' | 'rowKey' | 'turn' | 'eventKind'>): string {
-		if (entry.eventKind === 'indirect') return `indirect:${entry.key}`;
-		if (entry.eventKind === 'executed') return `${entry.turn ?? 'na'}:executed`;
-		if (entry.key === 'outcome-start') return 'base:outcome-start';
-		if (entry.rowKey.startsWith('child-goal-start:')) return `base:child:${entry.turn ?? 'na'}`;
-		return `base:req:${entry.turn ?? 'na'}`;
-	}
 
 	type TimelineAxisCluster = {
 		key: string;
@@ -517,7 +422,7 @@
 			const reqId = chain.currentId;
 			const turn = requirementCreationTurnByReqId[reqId] ?? null;
 			if (requirementIdsEqual(selectedRequirementId, reqId)) {
-				for (const indirect of getIndirectInfluenceEvents(reqId)) {
+				for (const indirect of getIndirectEvents(reqId)) {
 					rows.push({
 						kind: 'indirect',
 						key: indirectEventKey(reqId, indirect.turn, indirect.explanation),
@@ -527,7 +432,7 @@
 						explanation: indirect.explanation
 					});
 				}
-				const executedTurn = getExecutedTurn(reqId);
+				const executedTurn = getExecutedTurn(reqId, requirementActionMap);
 				if (executedTurn != null) {
 					rows.push({
 						kind: 'executed',
@@ -595,7 +500,7 @@
 					eventKind: 'base'
 				}
 			];
-			const executedTurn = getExecutedTurn(chain.currentId);
+			const executedTurn = getExecutedTurn(chain.currentId, requirementActionMap);
 			if (requirementIdsEqual(selectedRequirementId, chain.currentId) && executedTurn != null) {
 				entries.push({
 					key: `req:${chain.currentId}:executed`,
@@ -608,7 +513,7 @@
 				});
 			}
 			if (requirementIdsEqual(selectedRequirementId, chain.currentId)) {
-				for (const indirect of getIndirectInfluenceEvents(chain.currentId)) {
+				for (const indirect of getIndirectEvents(chain.currentId)) {
 					entries.push({
 						key: indirectEventKey(chain.currentId, indirect.turn, indirect.explanation),
 						rowKey: `req:${chain.currentId}`,

@@ -2,8 +2,6 @@ import { json } from '@sveltejs/kit';
 import type { RequestHandler } from './$types';
 import fs from 'fs';
 import path from 'path';
-import wine3RunsFallback from '$lib/data/wine3-runs.json';
-import userStudyRunsFallback from '$lib/data/user_study-runs.json';
 import { resolveDataBasePath } from '$lib/server/resolveDataBasePath';
 
 const RUN_MARKERS = ['requirements_outputs_lists.json', 'requirement_output_dependency.json'] as const;
@@ -58,20 +56,14 @@ export const GET: RequestHandler = async () => {
 		}
 	}
 
-	// 2) Vercel / no fs: committed list for user_study (generate with scripts/write-user-study-runs.mjs)
-	if (dataRuns.length === 0 && dataBase === 'user_study') {
-		dataRuns = Array.isArray(userStudyRunsFallback) ? [...userStudyRunsFallback] : [];
-	}
-
-	// 3) If nothing from env, use bundled static/wine3 (so it works without .env locally)
+	// 2) If nothing from env, use bundled static/wine3 (so it works without .env locally)
 	if (dataRuns.length === 0) {
 		try {
 			const wine3Path = path.join(process.cwd(), 'static', 'wine3');
 			const collected = collectRunsUnderRoot(wine3Path);
 			dataRuns = [...new Set(collected)].sort((a, b) => a.localeCompare(b));
 		} catch {
-			// 4) On Vercel etc. static/ may not be in the server fs; use committed list
-			dataRuns = Array.isArray(wine3RunsFallback) ? [...wine3RunsFallback] : [];
+			dataRuns = [];
 		}
 	}
 

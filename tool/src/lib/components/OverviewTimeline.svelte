@@ -279,66 +279,102 @@
 			{@const counts = outcomeTimelineCounts[outcome.outcome_id] ?? []}
 			{@const hasParent = parentByOutcomeId.get(outcome.outcome_id) != null}
 			{@const depDepth = displayDepthByOutcomeId.get(outcome.outcome_id) ?? 0}
-			<div
-				class="overview-row"
-				class:has-dep={hasParent && !hideOutcomeLabel}
-				class:no-label-row={hideOutcomeLabel}
-				style="--outcome-blue: {depthBlue(depDepth)}{hasParent && depDepth >= 1 ? `; --dep-depth: ${depDepth}` : ''}"
-				role={hideOutcomeLabel ? 'presentation' : 'button'}
-				tabindex={hideOutcomeLabel ? undefined : 0}
-				onmouseenter={() => !hideOutcomeLabel && handleRowMouseEnter(outcome.outcome_id)}
-				onmouseleave={hideOutcomeLabel ? undefined : handleRowMouseLeave}
-				onclick={() => !hideOutcomeLabel && onOutcomeFocus?.(outcome.outcome_id)}
-				onkeydown={(e) => !hideOutcomeLabel && e.key === 'Enter' && onOutcomeFocus?.(outcome.outcome_id)}
-			>
-				{#if !hideOutcomeLabel}
+			{#if hideOutcomeLabel}
+				<div
+					class="overview-row"
+					class:no-label-row={hideOutcomeLabel}
+					style="--outcome-blue: {depthBlue(depDepth)}{hasParent && depDepth >= 1 ? `; --dep-depth: ${depDepth}` : ''}"
+				>
+					<div class="outcome-label"></div>
+					<div class="outcome-track" role="presentation">
+						{#each counts as cell, turnIdx}
+							{@const hasAny = cell.shaper > 0 || cell.executor > 0}
+							{#if hasAny}
+								<div
+									class="turn-cell"
+									class:turn-cell-first={turnIdx === 0}
+									class:turn-cell-last={turnIdx === counts.length - 1}
+									style="left: {positionPercent(turnIdx)}%;"
+									title="Turn {turnIdx + 1}: Goal Created/Changed {cell.shaper}, Goal Executed {cell.executor}"
+								>
+									<div class="bar-pair">
+										{#if cell.shaper > 0}
+											<div
+												class="bar-stack shaper-only"
+												style="--scale: {cell.shaper / maxCountPerTurn};"
+											>
+												<div class="bar shaper"></div>
+											</div>
+										{/if}
+										{#if cell.executor > 0}
+											<div
+												class="bar-stack executor-only"
+												style="--scale: {cell.executor / maxCountPerTurn};"
+											>
+												<div class="bar executor"></div>
+											</div>
+										{/if}
+									</div>
+								</div>
+							{/if}
+						{/each}
+					</div>
+				</div>
+			{:else}
+				<button
+					type="button"
+					class="overview-row"
+					class:has-dep={hasParent}
+					style="--outcome-blue: {depthBlue(depDepth)}{hasParent && depDepth >= 1 ? `; --dep-depth: ${depDepth}` : ''}"
+					onmouseenter={() => handleRowMouseEnter(outcome.outcome_id)}
+					onmouseleave={handleRowMouseLeave}
+					onclick={() => onOutcomeFocus?.(outcome.outcome_id)}
+				>
 					<div class="outcome-full-tooltip" class:visible={tooltipOutcomeId === outcome.outcome_id} role="tooltip">
 						{outcome.outcome ?? outcome.outcome_id}
 					</div>
-				{/if}
-				<div class="outcome-label">
-					{#if !hideOutcomeLabel}
+					<div class="outcome-label">
 						{#if hasParent}
 							<span class="connector dep-connector" aria-hidden="true"></span>
 						{/if}
 						<span class="outcome-index">{outcomeLabel(outcome.outcome_id)}</span>
 						<span class="outcome-title">{stripTrailingParen(outcome.outcome ?? outcome.outcome_id)}</span>
-					{/if}
-				</div>
-				<div class="outcome-track" role="presentation">
-					{#each counts as cell, turnIdx}
-						{@const hasAny = cell.shaper > 0 || cell.executor > 0}
-						{#if hasAny}
-							<div
-								class="turn-cell"
-								class:turn-cell-first={turnIdx === 0}
-								class:turn-cell-last={turnIdx === counts.length - 1}
-								style="left: {positionPercent(turnIdx)}%;"
-								title="Turn {turnIdx + 1}: Goal Created/Changed {cell.shaper}, Goal Executed {cell.executor}"
-							>
-								<div class="bar-pair">
-									{#if cell.shaper > 0}
-										<div
-											class="bar-stack shaper-only"
-											style="--scale: {cell.shaper / maxCountPerTurn};"
-										>
-											<div class="bar shaper"></div>
-										</div>
-									{/if}
-									{#if cell.executor > 0}
-										<div
-											class="bar-stack executor-only"
-											style="--scale: {cell.executor / maxCountPerTurn};"
-										>
-											<div class="bar executor"></div>
-										</div>
-									{/if}
+					</div>
+					<div class="outcome-track" role="presentation">
+						{#each counts as cell, turnIdx}
+							{@const hasAny = cell.shaper > 0 || cell.executor > 0}
+							{#if hasAny}
+								<div
+									class="turn-cell"
+									class:turn-cell-first={turnIdx === 0}
+									class:turn-cell-last={turnIdx === counts.length - 1}
+									style="left: {positionPercent(turnIdx)}%;"
+									title="Turn {turnIdx + 1}: Goal Created/Changed {cell.shaper}, Goal Executed {cell.executor}"
+								>
+									<div class="bar-pair">
+										{#if cell.shaper > 0}
+											<div
+												class="bar-stack shaper-only"
+												style="--scale: {cell.shaper / maxCountPerTurn};"
+											>
+												<div class="bar shaper"></div>
+											</div>
+										{/if}
+										{#if cell.executor > 0}
+											<div
+												class="bar-stack executor-only"
+												style="--scale: {cell.executor / maxCountPerTurn};"
+											>
+												<div class="bar executor"></div>
+											</div>
+										{/if}
+									</div>
 								</div>
-							</div>
-						{/if}
-					{/each}
-				</div>
-			</div>
+							{/if}
+						{/each}
+					</div>
+				</button>
+			{/if}
 		{/each}
 		{#if showSplitActionTimelines && actionTimelineDirect}
 			<div class="overview-row overview-action-row">
@@ -682,11 +718,20 @@
 		flex: 1;
 		min-width: 0;
 		display: -webkit-box;
+		line-clamp: 2;
 		-webkit-line-clamp: 2;
 		-webkit-box-orient: vertical;
 		overflow: hidden;
 		word-break: break-word;
 		line-height: 1.35;
+	}
+	button.overview-row {
+		border: 0;
+		padding: 0;
+		text-align: left;
+		background: transparent;
+		font: inherit;
+		width: 100%;
 	}
 	.outcome-track {
 		flex: 1;

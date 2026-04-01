@@ -1,5 +1,20 @@
 <script lang="ts">
 	import type { OutcomeNode, OutcomeContribution } from '$lib/types';
+	import {
+		splitTitleWithTrailingParen,
+		getContributionBarRatio,
+		getContributionRoleTotal,
+		getShaperFourWayRatio,
+		buildOutcomeSummaryLine,
+		summarizeRequirementStatuses,
+		buildRequirementStatusIndex,
+		getRequirementStatusKind,
+		getRequirementStatusLabel,
+		sortRequirementChainsByCreationTurn,
+		findSelectedRequirementStackIndex,
+		groupRequirementChainsByTurn,
+		getRequirementRoleRatios
+	} from '$lib/outcomeBoardUtils';
 
 	export type RequirementChainItem = {
 		currentId: string;
@@ -76,220 +91,43 @@
 
 	/** Split title into main text and trailing parenthetical (e.g. "Foo (bar)" or "Foo (bar).") */
 	const titleParts = $derived.by(() => {
-		const t = title;
-		// Match trailing (content) with optional punctuation/whitespace after
-		const match = t.trimEnd().match(/^([\s\S]*?)\s*(\([^)]*\)[.,;:!?\s]*)$/);
-		if (match && match[1].trim().length > 0) {
-			return { main: match[1].trimEnd(), paren: match[2].trimEnd() };
-		}
-		return { main: t, paren: null };
+		return splitTitleWithTrailingParen(title);
 	});
 
-	/** Rate from data; normalized for flex so bar always fills (human + model = 1). */
-	function getBarRatio(
-		c: OutcomeContribution | null,
-		kind: 'overall' | 'role',
-		role?: string
-	): { human: number; model: number } {
-		if (!c) return { human: 0.5, model: 0.5 };
-		if (kind === 'overall') {
-			const hu = c.speaker_contributions?.user?.total_influence ?? 0;
-			const as = c.speaker_contributions?.assistant?.total_influence ?? 0;
-			const total = hu + as;
-			if (total === 0) return { human: 0, model: 0 };
-			return { human: hu / total, model: as / total };
-		}
-		if (!role) return { human: 0.5, model: 0.5 };
-		const ru = c.role_contributions?.user?.[role]?.M_total ?? 0;
-		const ra = c.role_contributions?.assistant?.[role]?.M_total ?? 0;
-		const total = ru + ra;
-		if (total === 0) return { human: 0, model: 0 };
-		return { human: ru / total, model: ra / total };
-	}
+	const shaperRatio = $derived(contribution ? getContributionBarRatio(contribution, 'role', 'SHAPER') : { human: 0.5, model: 0.5 });
+	const executorRatio = $derived(contribution ? getContributionBarRatio(contribution, 'role', 'EXECUTOR') : { human: 0.5, model: 0.5 });
+	const shaperFourWay = $derived(contribution ? getShaperFourWayRatio(contribution) : { humanDirect: 0, humanIndirect: 0, modelDirect: 0, modelIndirect: 0, empty: true });
 
-	function getRoleTotal(c: OutcomeContribution | null, role: string): number {
-		if (!c || !role) return 0;
-		const ru = c.role_contributions?.user?.[role]?.M_total ?? 0;
-		const ra = c.role_contributions?.assistant?.[role]?.M_total ?? 0;
-		return ru + ra;
-	}
-
-	/** When roleRatioPerSpeaker, label is user% / asst% (ratio of that role per speaker); else normalized bar split. */
-	function getRoleLabel(c: OutcomeContribution | null, role: string): string {
-		if (!c || !role) return '—';
-		const ru = c.role_contributions?.user?.[role]?.M_total ?? 0;
-		const ra = c.role_contributions?.assistant?.[role]?.M_total ?? 0;
-		if (roleRatioPerSpeaker) {
-			return `${Math.round(ru * 100)}% / ${Math.round(ra * 100)}%`;
-		}
-		const total = ru + ra;
-		if (total === 0) return '—';
-		return `${Math.round((ru / total) * 100)} / ${Math.round((ra / total) * 100)}`;
-	}
-
-	/** User vs Assistant ratio for a role's M_dir only (for Direct bar). empty when both 0. */
-	function getRoleDirectBarRatio(c: OutcomeContribution | null, role: string): { human: number; model: number; empty: boolean } {
-		if (!c || !role) return { human: 0.5, model: 0.5, empty: true };
-		const u = c.role_contributions?.user?.[role]?.M_dir ?? 0;
-		const a = c.role_contributions?.assistant?.[role]?.M_dir ?? 0;
-		const total = u + a;
-		if (total === 0) return { human: 0, model: 0, empty: true };
-		return { human: u / total, model: a / total, empty: false };
-	}
-	/** User vs Assistant ratio for a role's M_ind only (for Indirect bar). empty when both 0. */
-	function getRoleIndirectBarRatio(c: OutcomeContribution | null, role: string): { human: number; model: number; empty: boolean } {
-		if (!c || !role) return { human: 0.5, model: 0.5, empty: true };
-		const u = c.role_contributions?.user?.[role]?.M_ind ?? 0;
-		const a = c.role_contributions?.assistant?.[role]?.M_ind ?? 0;
-		const total = u + a;
-		if (total === 0) return { human: 0, model: 0, empty: true };
-		return { human: u / total, model: a / total, empty: false };
-	}
-
-	/** Shaper bar: four proportions (human direct, human indirect, model direct, model indirect) for shading. Sum = 1 when has contribution. */
-	function getShaperFourWay(c: OutcomeContribution | null): { humanDirect: number; humanIndirect: number; modelDirect: number; modelIndirect: number; empty: boolean } {
-		if (!c) return { humanDirect: 0, humanIndirect: 0, modelDirect: 0, modelIndirect: 0, empty: true };
-		const uDir = c.role_contributions?.user?.SHAPER?.M_dir ?? 0;
-		const uInd = c.role_contributions?.user?.SHAPER?.M_ind ?? 0;
-		const aDir = c.role_contributions?.assistant?.SHAPER?.M_dir ?? 0;
-		const aInd = c.role_contributions?.assistant?.SHAPER?.M_ind ?? 0;
-		const total = uDir + uInd + aDir + aInd;
-		if (total === 0) return { humanDirect: 0, humanIndirect: 0, modelDirect: 0, modelIndirect: 0, empty: true };
-		return {
-			humanDirect: uDir / total,
-			humanIndirect: uInd / total,
-			modelDirect: aDir / total,
-			modelIndirect: aInd / total,
-			empty: false
-		};
-	}
-
-	const shaperRatio = $derived(contribution ? getBarRatio(contribution, 'role', 'SHAPER') : { human: 0.5, model: 0.5 });
-	const executorRatio = $derived(contribution ? getBarRatio(contribution, 'role', 'EXECUTOR') : { human: 0.5, model: 0.5 });
-	const shaperFourWay = $derived(contribution ? getShaperFourWay(contribution) : { humanDirect: 0, humanIndirect: 0, modelDirect: 0, modelIndirect: 0, empty: true });
-
-	const shaperHasContribution = $derived(!!contribution && getRoleTotal(contribution, 'SHAPER') > 0);
-	const executorHasContribution = $derived(!!contribution && getRoleTotal(contribution, 'EXECUTOR') > 0);
+	const shaperHasContribution = $derived(!!contribution && getContributionRoleTotal(contribution, 'SHAPER') > 0);
+	const executorHasContribution = $derived(!!contribution && getContributionRoleTotal(contribution, 'EXECUTOR') > 0);
 
 	/** Rule-based one-line summary: who mostly shaped/executed; if eligible, "X contributed but mostly indirectly". */
-	const outcomeSummaryLine = $derived.by((): string | null => {
-		if (!contribution || hideContribution) return null;
-		const THRESH = 0.55;
-		const INDIRECT_THRESH = 0.6;
-		const parts: string[] = [];
-
-		function indirectRatio(dir: number, ind: number): number {
-			const t = dir + ind;
-			return t > 0 ? ind / t : 0;
-		}
-
-		if (shaperHasContribution) {
-			const sr = getBarRatio(contribution, 'role', 'SHAPER');
-			const uDir = contribution.role_contributions?.user?.SHAPER?.M_dir ?? 0;
-			const uInd = contribution.role_contributions?.user?.SHAPER?.M_ind ?? 0;
-			const aDir = contribution.role_contributions?.assistant?.SHAPER?.M_dir ?? 0;
-			const aInd = contribution.role_contributions?.assistant?.SHAPER?.M_ind ?? 0;
-			let shaperPhrase: string;
-			if (sr.human >= THRESH) {
-				shaperPhrase = 'User mostly shaped the goal';
-				if (aDir + aInd > 0 && indirectRatio(aDir, aInd) >= INDIRECT_THRESH) shaperPhrase += ' (Assistant contributed a little but mostly indirectly)';
-			} else if (sr.model >= THRESH) {
-				shaperPhrase = 'Assistant mostly shaped the goal';
-				if (uDir + uInd > 0 && indirectRatio(uDir, uInd) >= INDIRECT_THRESH) shaperPhrase += ' (User contributed a little but mostly indirectly)';
-			} else {
-				shaperPhrase = 'Both shaped similarly';
-			}
-			parts.push(shaperPhrase);
-		}
-		if (executorHasContribution) {
-			const er = getBarRatio(contribution, 'role', 'EXECUTOR');
-			const uDir = contribution.role_contributions?.user?.EXECUTOR?.M_dir ?? 0;
-			const uInd = contribution.role_contributions?.user?.EXECUTOR?.M_ind ?? 0;
-			const aDir = contribution.role_contributions?.assistant?.EXECUTOR?.M_dir ?? 0;
-			const aInd = contribution.role_contributions?.assistant?.EXECUTOR?.M_ind ?? 0;
-			let execPhrase: string;
-			if (er.human >= THRESH) {
-				execPhrase = 'User mostly executed the goal';
-				if (aDir + aInd > 0 && indirectRatio(aDir, aInd) >= INDIRECT_THRESH) execPhrase += ' (Assistant contributed a little but mostly indirectly)';
-			} else if (er.model >= THRESH) {
-				execPhrase = 'Assistant mostly executed the goal';
-				if (uDir + uInd > 0 && indirectRatio(uDir, uInd) >= INDIRECT_THRESH) execPhrase += ' (User contributed a little but mostly indirectly)';
-			} else {
-				execPhrase = 'Both executed similarly';
-			}
-			parts.push(execPhrase);
-		}
-		return parts.length > 0 ? parts.map((p) => p + '.').join('\n') : null;
-	});
+	const outcomeSummaryLine = $derived.by(() => buildOutcomeSummaryLine(contribution, hideContribution));
 
 	const requirementStatusSummary = $derived.by(() => {
-		const rows = requirementStatusOverview ?? [];
-		let executed = 0;
-		let pending = 0;
-		let dismissed = 0;
-		let unknown = 0;
-		for (const r of rows) {
-			if (r.is_dismissed) {
-				dismissed += 1;
-				continue;
-			}
-			if (r.is_executed === true) executed += 1;
-			else if (r.is_executed === false) pending += 1;
-			else unknown += 1;
-		}
-		return { total: rows.length, executed, pending, dismissed, unknown };
+		return summarizeRequirementStatuses(requirementStatusOverview ?? []);
 	});
 
 	const requirementStatusById = $derived.by(() => {
-		const map = new Map<
-			string,
-			{ is_executed: boolean | null; is_dismissed: boolean | null; dismissed_at_turn: number | null }
-		>();
-		for (const row of requirementStatusOverview ?? []) {
-			if (!row?.id) continue;
-			map.set(row.id, row);
-			if (/^r\d+/.test(row.id)) map.set(row.id.replace(/^r/, ''), row);
-			if (/^\d+/.test(row.id)) map.set(`r${row.id}`, row);
-		}
-		return map;
+		return buildRequirementStatusIndex(requirementStatusOverview ?? []);
 	});
 
 	function getReqStatusKind(reqId: string): 'done' | 'pending' | 'dismissed' | 'unknown' {
-		const st = requirementStatusById.get(reqId);
-		if (!st) return 'unknown';
-		if (st.is_dismissed) return 'dismissed';
-		if (st.is_executed === true) return 'done';
-		if (st.is_executed === false) return 'pending';
-		return 'unknown';
+		return getRequirementStatusKind(requirementStatusById, reqId);
 	}
 
 	function getReqStatusLabel(reqId: string): string {
-		const kind = getReqStatusKind(reqId);
-		if (kind === 'done') return 'Implemented';
-		if (kind === 'pending') return 'Pending';
-		if (kind === 'dismissed') return 'Dismissed';
-		return 'Unknown';
+		return getRequirementStatusLabel(requirementStatusById, reqId);
 	}
 
 	/** Requirements sorted by creation turn (earliest first; unknown turn last). */
 	const sortedRequirementChains = $derived.by(() => {
-		const turnByReq = requirementCreationTurnByReqId ?? {};
-		return [...requirementChains].sort((a, b) => {
-			const ta = turnByReq[a.currentId] ?? Infinity;
-			const tb = turnByReq[b.currentId] ?? Infinity;
-			return ta - tb;
-		});
+		return sortRequirementChainsByCreationTurn(requirementChains, requirementCreationTurnByReqId ?? {});
 	});
 
 	/** When a requirement from a stack is selected, keep that stack expanded (no hover needed). */
 	const selectedStackIndex = $derived.by(() => {
-		if (!selectedRequirementId) return null;
-		const idx = sortedRequirementChains.findIndex(
-			(chain) =>
-				chain.currentId === selectedRequirementId ||
-				chain.history.some((h) => h.id === selectedRequirementId)
-		);
-		return idx >= 0 ? idx : null;
+		return findSelectedRequirementStackIndex(sortedRequirementChains, selectedRequirementId);
 	});
 
 	function isStackExpanded(i: number): boolean {
@@ -298,25 +136,7 @@
 
 	/** Group requirementChains by creation turn for same-turn card stacking. Uses sorted order. */
 	const turnGrouped = $derived.by(() => {
-		type GroupEntry = { turn: number | null; chains: Array<{ chain: RequirementChainItem; idx: number }> };
-		const groups: GroupEntry[] = [];
-		const seen = new Map<number | null, number>();
-		for (let i = 0; i < sortedRequirementChains.length; i++) {
-			const chain = sortedRequirementChains[i];
-			const turn = requirementCreationTurnByReqId[chain.currentId] ?? null;
-			if (!seen.has(turn)) {
-				seen.set(turn, groups.length);
-				groups.push({ turn, chains: [] });
-			}
-			groups[seen.get(turn)!].chains.push({ chain, idx: i });
-		}
-		// Sort groups by turn (earliest first; null last)
-		groups.sort((a, b) => {
-			const ta = a.turn ?? Infinity;
-			const tb = b.turn ?? Infinity;
-			return ta - tb;
-		});
-		return groups;
+		return groupRequirementChainsByTurn(sortedRequirementChains, requirementCreationTurnByReqId ?? {});
 	});
 
 	let expandedTurnGroups = $state(new Set<number>());
@@ -328,45 +148,8 @@
 		expandedTurnGroups = next;
 	}
 
-	/** User (green) vs Assistant (yellow) rate for bar. Returns userPct 0–100 or null. */
-	function getReqContributionRate(reqId: string): number | null {
-		const c = requirementContributionByReqId[reqId];
-		if (!c || (c.user === 0 && c.assistant === 0)) return null;
-		const total = c.user + c.assistant;
-		return total > 0 ? (c.user / total) * 100 : null;
-	}
-
-	type ReqRoleRatios = {
-		shaperUser: number; shaperAssistant: number; shaperTotal: number;
-		shaperFourWay: { hd: number; hi: number; ad: number; ai: number };
-		executorUser: number; executorAssistant: number; executorTotal: number;
-		hasShaper: boolean; hasExecutor: boolean;
-	};
-	function getReqRoleRatios(reqId: string): ReqRoleRatios | null {
-		const c = requirementContributionByReqId[reqId];
-		if (!c) return null;
-		const shaperTotal = c.userShaper + c.assistantShaper;
-		const executorTotal = c.userExecutor + c.assistantExecutor;
-		if (shaperTotal === 0 && executorTotal === 0) return null;
-		const uD = c.userShaperDir ?? 0;
-		const uI = c.userShaperInd ?? 0;
-		const aD = c.assistantShaperDir ?? 0;
-		const aI = c.assistantShaperInd ?? 0;
-		const fw4Total = uD + uI + aD + aI;
-		const fw4: { hd: number; hi: number; ad: number; ai: number } = fw4Total > 0
-			? { hd: uD / fw4Total, hi: uI / fw4Total, ad: aD / fw4Total, ai: aI / fw4Total }
-			: { hd: shaperTotal > 0 ? (c.userShaper / shaperTotal) * 0.5 : 0, hi: shaperTotal > 0 ? (c.userShaper / shaperTotal) * 0.5 : 0, ad: shaperTotal > 0 ? (c.assistantShaper / shaperTotal) * 0.5 : 0, ai: shaperTotal > 0 ? (c.assistantShaper / shaperTotal) * 0.5 : 0 };
-		return {
-			shaperUser: shaperTotal > 0 ? c.userShaper / shaperTotal : 0,
-			shaperAssistant: shaperTotal > 0 ? c.assistantShaper / shaperTotal : 0,
-			shaperTotal,
-			shaperFourWay: fw4,
-			executorUser: executorTotal > 0 ? c.userExecutor / executorTotal : 0,
-			executorAssistant: executorTotal > 0 ? c.assistantExecutor / executorTotal : 0,
-			executorTotal,
-			hasShaper: shaperTotal > 0,
-			hasExecutor: executorTotal > 0
-		};
+	function getReqRoleRatios(reqId: string) {
+		return getRequirementRoleRatios(requirementContributionByReqId, reqId);
 	}
 
 </script>
@@ -1022,12 +805,6 @@
 		flex-shrink: 0;
 		width: 14px;
 		height: 14px;
-	}
-	.role-icon[data-role='SHAPER'] {
-		background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%236b7280'%3E%3Cpath d='M9 21c0 .55.45 1 1 1h4c.55 0 1-.45 1-1v-1H9v1zm3-19C8.14 2 5 5.14 5 9c0 2.38 1.19 4.47 3 5.74V17c0 .55.45 1 1 1h6c.55 0 1-.45 1-1v-2.26c1.81-1.27 3-3.36 3-5.74 0-3.86-3.14-7-7-7z'/%3E%3C/svg%3E") center/contain no-repeat;
-	}
-	.role-icon[data-role='EXECUTOR'] {
-		background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%236b7280'%3E%3Cpath d='M22.7 19l-9.1-9.1c.9-2.3.4-5-1.5-6.9-2-2-5-2.4-7.4-1.3L9 6 6 9 1.6 4.7C.4 7.1.9 10.1 2.9 12.1c1.9 1.9 4.6 2.4 6.9 1.5l9.1 9.1c.4.4 1 .4 1.4 0l2.3-2.3c.5-.4.5-1.1.1-1.4z'/%3E%3C/svg%3E") center/contain no-repeat;
 	}
 
 	.requirements-section {
