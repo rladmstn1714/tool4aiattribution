@@ -9,8 +9,7 @@
 		"preview": "node node_modules/vite/bin/vite.js preview",
 		"prepare": "node node_modules/@sveltejs/kit/svelte-kit.js sync || echo ''",
 		"check": "node node_modules/@sveltejs/kit/svelte-kit.js sync && node node_modules/svelte-check/bin/svelte-check --tsconfig ./tsconfig.json",
-		"check:watch": "node node_modules/@sveltejs/kit/svelte-kit.js sync && node node_modules/svelte-check/bin/svelte-check --tsconfig ./tsconfig.json --watch",
-		"write-user-study-runs": "node scripts/write-user-study-runs.mjs"
+		"check:watch": "node node_modules/@sveltejs/kit/svelte-kit.js sync && node node_modules/svelte-check/bin/svelte-check --tsconfig ./tsconfig.json --watch"
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "7.0.0",

@@ -80,11 +80,3 @@ npm run check:watch
 npm run build
 npm run preview
 ```
-
-## Utility script
-
-Generate user-study run index data:
-
-```sh
-npm run write-user-study-runs
-```
