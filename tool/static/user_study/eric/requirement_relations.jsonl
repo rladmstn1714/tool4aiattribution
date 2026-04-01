@@ -1,6 +1,0 @@
-{"t": 1, "requirement_id": "r1", "operation_type": "CREATE", "related_prev_requirement": null, "outcome_id": "outcome_1"}
-{"t": 3, "requirement_id": "r2", "operation_type": "CREATE", "related_prev_requirement": null, "outcome_id": "outcome_2"}
-{"t": 3, "requirement_id": "r3", "operation_type": "CREATE", "related_prev_requirement": null, "outcome_id": "outcome_2"}
-{"t": 5, "requirement_id": "r4", "operation_type": "CREATE", "related_prev_requirement": null, "outcome_id": "outcome_3"}
-{"t": 9, "requirement_id": "r5", "operation_type": "CREATE", "related_prev_requirement": null, "outcome_id": "outcome_4"}
-{"t": 9, "requirement_id": "r6", "operation_type": "CREATE", "related_prev_requirement": null, "outcome_id": "outcome_4"}

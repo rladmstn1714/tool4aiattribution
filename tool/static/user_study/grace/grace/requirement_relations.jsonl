@@ -1,3 +1,0 @@
-{"t": 4, "requirement_id": "r1", "operation_type": "CREATE", "related_prev_requirement": null, "outcome_id": "outcome_3"}
-{"t": 4, "requirement_id": "r2", "operation_type": "CREATE", "related_prev_requirement": null, "outcome_id": "outcome_3"}
-{"t": 8, "requirement_id": "r3", "operation_type": "CREATE", "related_prev_requirement": null, "outcome_id": "outcome_6"}
