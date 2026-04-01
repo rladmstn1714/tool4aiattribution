@@ -1673,14 +1673,19 @@ function selectIntent(intentLabel: string | null) {
 	}
 	.hierarchy-item {
 		position: relative;
+		/* Narrow deeper nodes to make hierarchy depth obvious at a glance. */
+		--node-offset: min(calc(var(--level, 0) * 0.6rem), 1.8rem);
 		display: flex;
 		flex-direction: column;
 		gap: 0.45rem;
 		padding: 0.8rem 0.85rem;
 		padding-left: calc(0.75rem + var(--depth, 0) * 0.55rem);
-		margin: 0;
+		margin-left: var(--node-offset);
+		margin-top: 0;
+		margin-right: 0;
+		margin-bottom: 0;
 		flex-shrink: 0;
-		width: 100%;
+		width: calc(100% - var(--node-offset));
 		min-width: 0;
 		box-sizing: border-box;
 		/* Never let flex compress cards when many goals share a short viewport — scroll instead. */
@@ -1697,13 +1702,13 @@ function selectIntent(intentLabel: string | null) {
 			background 0.15s ease;
 	}
 	.hierarchy-item.child-node {
-		padding-left: calc(0.75rem + var(--depth, 0) * 0.92rem);
+		padding-left: calc(0.75rem + var(--depth, 0) * 0.62rem);
 	}
 	.hierarchy-item.child-node::before {
 		content: '';
 		position: absolute;
-		left: calc(0.72rem + var(--level, 1) * 0.92rem - 0.55rem);
-		top: -0.55rem;
+		left: calc(0.62rem + var(--level, 1) * 0.62rem - 0.42rem);
+		top: -0.45rem;
 		bottom: 0;
 		width: 1px;
 		background: #dbeafe;
@@ -1712,11 +1717,11 @@ function selectIntent(intentLabel: string | null) {
 	.hierarchy-item.child-node .item-header-row::before {
 		content: '';
 		display: inline-block;
-		width: 0.48rem;
+		width: 0.36rem;
 		height: 1px;
 		background: #bfdbfe;
 		flex-shrink: 0;
-		margin-right: 0.08rem;
+		margin-right: 0.04rem;
 	}
 	.item-header-row {
 		display: flex;
@@ -1728,14 +1733,14 @@ function selectIntent(intentLabel: string | null) {
 		display: flex;
 		align-items: center;
 		gap: 0.4rem;
-		padding-left: 1.55rem;
+		padding-left: 1.2rem;
 		flex-wrap: wrap;
 	}
 	.outcome-contrib-card {
 		display: flex;
 		flex-direction: column;
 		gap: 0.35rem;
-		margin-left: 1.55rem;
+		margin-left: 1.2rem;
 		padding: 0.5rem 0.6rem;
 		border: 1px solid #e5e7eb;
 		border-radius: 12px;

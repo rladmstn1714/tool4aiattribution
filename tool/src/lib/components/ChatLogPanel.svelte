@@ -7,6 +7,22 @@
 		utteranceAvatarInitial,
 		utteranceDisplayName
 	} from '$lib/speakerUtils';
+	import {
+		getTurnIdFromActionId,
+		getOriginTurnFromEntry,
+		getRequirementEntryById as findRequirementEntryById,
+		filteredImplementationActions,
+		collectActionIds,
+		collectActionIdsWithDirect,
+		extractActionVerb,
+		groupedAnnotationLabel,
+		groupedReasonLabel,
+		normalizeRole,
+		roleEmoji,
+		roleRankForMerge,
+		type TurnActionAnnotation,
+		type GroupedTurnActionAnnotation
+	} from '$lib/chatLogUtils';
 	import { isEunsuSpeakerName } from '$lib/contribPeerBar';
 	import type { RequirementActionMap, UtteranceListData, ActionUtteranceMap, OutcomeActionItem } from '$lib/data/dataLoader';
 
@@ -17,16 +33,6 @@
 		return marked.parse(text) as string;
 	}
 
-	function getTurnIdFromActionId(actionId: string): number {
-		const parts = actionId.split('-');
-		return parseInt(parts[0], 10) || 0;
-	}
-
-	function getOriginTurnFromEntry(entry: Record<string, unknown>): number | null {
-		const origin = Array.isArray(entry?.origin_actions) ? (entry.origin_actions as { action_id: string }[]) : [];
-		const turns = origin.map(a => getTurnIdFromActionId(a.action_id)).filter(t => Number.isFinite(t));
-		return turns.length > 0 ? Math.min(...turns) : null;
-	}
 
 	let {
 		requirementId = null,
@@ -69,12 +75,7 @@
 	} = $props();
 
 	function getRequirementEntryById(reqId: string | null | undefined) {
-		if (!reqId) return undefined;
-		return (
-			requirementActionMap[reqId] ??
-			requirementActionMap[reqId.replace(/^r/, '')] ??
-			requirementActionMap[/^r/.test(reqId) ? reqId : `r${reqId}`]
-		);
+		return findRequirementEntryById(requirementActionMap, reqId);
 	}
 
 	const combinedOutcomeActions = $derived.by((): OutcomeActionItem[] | null => {
@@ -112,76 +113,6 @@
 		const fromOutcome = combinedOutcomeActions?.find((a) => a.action_id === hoveredActionId);
 		return fromOutcome?.turn_id ?? null;
 	});
-	/** Collect action_ids from entry; if maxTurn != null, only those with getTurnIdFromActionId(id) <= maxTurn */
-	function filteredImplementationActions<T extends { action_id: string }>(
-		entry: Record<string, unknown>
-	): T[] {
-		const impl = Array.isArray((entry as { implementation_actions?: unknown[] }).implementation_actions)
-			? (entry as { implementation_actions: T[] }).implementation_actions
-			: [];
-		const origin = Array.isArray((entry as { origin_actions?: unknown[] }).origin_actions)
-			? (entry as { origin_actions: { action_id: string }[] }).origin_actions
-			: [];
-		if (origin.length === 0 || impl.length === 0) return impl;
-		const minOriginTurn = Math.min(...origin.map((a) => getTurnIdFromActionId(a.action_id)));
-		return impl.filter((a) => getTurnIdFromActionId(a.action_id) >= minOriginTurn);
-	}
-
-	/** Collect action_ids from entry; if maxTurn != null, only those with getTurnIdFromActionId(id) <= maxTurn */
-	function collectActionIds(
-		entry: Record<string, unknown>,
-		maxTurn: number | null,
-		cb: (actionId: string) => void
-	) {
-		const origin = Array.isArray(entry?.origin_actions) ? entry.origin_actions : [];
-		for (const a of origin) {
-			if (maxTurn == null || getTurnIdFromActionId(a.action_id) <= maxTurn) cb(a.action_id);
-		}
-		const contrib = Array.isArray((entry as { contributing_actions?: unknown[] }).contributing_actions)
-			? (entry as { contributing_actions: { action_id: string }[] }).contributing_actions
-			: [];
-		for (const a of contrib) {
-			if (maxTurn == null || getTurnIdFromActionId(a.action_id) <= maxTurn) cb(a.action_id);
-		}
-		const impl = filteredImplementationActions<{ action_id: string }>(entry);
-		for (const a of impl) {
-			if (maxTurn == null || getTurnIdFromActionId(a.action_id) <= maxTurn) cb(a.action_id);
-		}
-		const related = Array.isArray(entry?.related_actions) ? entry.related_actions : [];
-		const _oTurn = getOriginTurnFromEntry(entry);
-		for (const a of related) {
-			if (a && typeof a === 'object' && 'action_id' in a) {
-				const id = (a as { action_id: string }).action_id;
-				if (_oTurn != null && (a as { influence?: string }).influence === 'indirect' && getTurnIdFromActionId(id) > _oTurn) continue;
-				if (maxTurn == null || getTurnIdFromActionId(id) <= maxTurn) cb(id);
-			}
-		}
-	}
-	/** Collect (actionId, direct) from entry; direct = origin/implementation, indirect = contributing/related */
-	function collectActionIdsWithDirect(
-		entry: Record<string, unknown>,
-		maxTurn: number | null,
-		cb: (actionId: string, direct: boolean) => void
-	) {
-		const add = (list: { action_id: string }[] | undefined, direct: boolean) => {
-			if (!Array.isArray(list)) return;
-			for (const a of list) {
-				if (maxTurn == null || getTurnIdFromActionId(a.action_id) <= maxTurn) cb(a.action_id, direct);
-			}
-		};
-		add(Array.isArray(entry?.origin_actions) ? entry.origin_actions : [], true);
-		add((entry as { contributing_actions?: { action_id: string }[] }).contributing_actions, false);
-		add(filteredImplementationActions<{ action_id: string }>(entry), true);
-		const related = Array.isArray(entry?.related_actions) ? entry.related_actions : [];
-		const _oTurn2 = getOriginTurnFromEntry(entry);
-		for (const a of related) {
-			if (a && typeof a === 'object' && 'action_id' in a) {
-				const id = (a as { action_id: string }).action_id;
-				if (_oTurn2 != null && (a as { influence?: string }).influence === 'indirect' && getTurnIdFromActionId(id) > _oTurn2) continue;
-				if (maxTurn == null || getTurnIdFromActionId(id) <= maxTurn) cb(id, false);
-			}
-		}
-	}
 
 	/** turn_id -> first action_id for this requirement (for hover sync from chat to action/timeline) */
 	const turnToActionId = $derived.by((): Map<number, string> => {
@@ -339,31 +270,6 @@
 	type StripMarker = { turnIndex: number; turnId: number; speaker: string; actionId: string; role: 'SHAPER' | 'EXECUTOR'; direct: boolean };
 
 	/** Per-turn list of actions with relation type and evidence for the annotation popover */
-	type TurnActionAnnotation = {
-		actionId: string;
-		relationType: string;
-		direct: boolean;
-		evidence_quote?: string;
-		action_text?: string;
-		reason?: string;
-		role?: string;
-		actionVerb?: string;
-	};
-
-	type GroupedTurnActionAnnotation = {
-		relationType: string;
-		direct: boolean;
-		role?: string;
-		actionVerb?: string;
-		items: TurnActionAnnotation[];
-	};
-
-	function extractActionVerb(actionText: string | undefined): string | undefined {
-		if (!actionText) return undefined;
-		const parts = actionText.trim().split(/\s+/);
-		const candidate = (parts[1] ?? parts[0] ?? '').replace(/[^a-zA-Z_-]/g, '').toLowerCase();
-		return candidate || undefined;
-	}
 
 	const annotationByTurn = $derived.by((): Map<number, TurnActionAnnotation[]> => {
 		const map = new Map<number, TurnActionAnnotation[]>();
@@ -555,35 +461,6 @@
 		return grouped;
 	});
 
-	function groupedAnnotationLabel(group: GroupedTurnActionAnnotation): string {
-		const texts = group.items
-			.map((item) => item.action_text?.trim())
-			.filter((text): text is string => !!text);
-		if (texts.length === 0) return `${group.relationType} (${group.items.length})`;
-		const uniqueTexts = Array.from(new Set(texts));
-		if (uniqueTexts.length === 1) return uniqueTexts[0];
-		if (uniqueTexts.length === 2) return `${uniqueTexts[0]} / ${uniqueTexts[1]}`;
-		return `${uniqueTexts[0]} / ${uniqueTexts[1]} +${uniqueTexts.length - 2}`;
-	}
-
-	function groupedReasonLabel(group: GroupedTurnActionAnnotation): string {
-		const reasons = group.items
-			.map((item) => item.reason?.trim())
-			.filter((reason): reason is string => !!reason);
-		const uniqueReasons = Array.from(new Set(reasons));
-		if (uniqueReasons.length === 0) return 'No reason provided';
-		if (uniqueReasons.length === 1) return uniqueReasons[0];
-		if (uniqueReasons.length === 2) return `${uniqueReasons[0]} / ${uniqueReasons[1]}`;
-		return `${uniqueReasons[0]} / ${uniqueReasons[1]} +${uniqueReasons.length - 2}`;
-	}
-
-	function normalizeRole(r: string | undefined): 'SHAPER' | 'EXECUTOR' {
-		const u = (r ?? 'EXECUTOR').toUpperCase();
-		return u === 'CREATOR' || u === 'SHAPER' ? 'SHAPER' : 'EXECUTOR';
-	}
-	function roleEmoji(role: 'SHAPER' | 'EXECUTOR'): string {
-		return role === 'SHAPER' ? '💡' : '🔧';
-	}
 
 	const speakerByTurn = $derived.by(() => {
 		const map = new Map<number, string>();
@@ -629,10 +506,6 @@
 		utteranceList.utterances.forEach((u, i) => map.set(u.turn_id, i));
 		return map;
 	});
-
-	function roleRankForMerge(r: 'SHAPER' | 'EXECUTOR'): number {
-		return r === 'SHAPER' ? 1 : 0;
-	}
 
 	const actionRoleByActionId = $derived.by((): Map<string, 'SHAPER' | 'EXECUTOR'> => {
 		const map = new Map<string, 'SHAPER' | 'EXECUTOR'>();

@@ -6,7 +6,8 @@ import type {
 	RequirementRow,
 	NodeAnalysisData,
 	NodeAnalysis,
-	RelatedUtterance
+	RelatedUtterance,
+	OutputsDependencyEdge
 } from '$lib/types';
 import { compareOutcomeIds, outcomeSortKey } from '$lib/utils';
 

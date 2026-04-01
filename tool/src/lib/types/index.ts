@@ -127,32 +127,3 @@ export interface NodeAnalysisData {
 	final_turn: number;
 	node_analyses: Record<string, NodeAnalysis>;
 }
-
-/** `requirement` = legacy req-op graph; `role_action` = SHAPER/EXECUTOR history per action_id */
-export type GraphNodeKind = 'requirement' | 'role_action';
-
-// Graph for requirement visualization or role history
-export interface GraphNode {
-	id: string;
-	requirement_id?: string;
-	content: string;
-	operation_type?: OperationType;
-	node_type: GraphNodeKind;
-	/** Set when node_type === 'role_action' (aligned with ChatLogPanel normalizeRole). */
-	role_kind?: 'SHAPER' | 'EXECUTOR' | 'OTHER';
-	speaker?: string;
-	created_at: number;
-	is_deleted?: boolean;
-	is_modified?: boolean;
-}
-
-export interface GraphEdge {
-	source: string;
-	target: string;
-	type: 'parent' | 'merge' | 'split';
-}
-
-export interface GraphState {
-	nodes: Map<string, GraphNode>;
-	edges: GraphEdge[];
-}

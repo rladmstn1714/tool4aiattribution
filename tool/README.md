@@ -1,63 +1,90 @@
-# Chatvis2 — Requirement evolution visualization
+# Dialogue Outcome Attribution Explorer
 
-Visualizes requirement evolution from dialogue: outcome boards, requirement graphs, and related utterances. .
+Interactive SvelteKit app for exploring how outcomes evolve through dialogue, with hierarchy/timeline views and role-based contribution summaries.
 
-## Using another dataset
+## Project scope
 
-1. Put your data under `static/<folder>/` with the same file names and structure as `static/wine3/<run>/` (e.g. `utterance_list.json`, `requirement_action_map.json`, `requirement_output_dependency.json`, `requirements_outputs_lists.json`, `requirement_relations.jsonl`, `action_utterance_map.json`, `output_contributions.json`; see `static/wine3/` for the full set).
+This README only documents this repository's app and data workflow.
 
-2. Run the app with that folder as the data base:
-
-   ```sh
-   VITE_DATA_BASE=your_folder_name npm run dev
-   ```
-
-   **High-level folder (multiple runs):** If you point `VITE_DATA_BASE` to a folder that contains *subfolders* (e.g. `results/wine/` with `xinran`, `chenyang_simple`, etc.), the app will list them in a **Run** dropdown. Choose a run to load that dataset.
-
-   **Single run:** If your data is in one folder (e.g. `results/wine/xinran/`), set `VITE_DATA_BASE` to that folder; no dropdown is shown.
-
-   Or for production build:
-
-   ```sh
-   VITE_DATA_BASE=your_folder_name npm run build
-   npm run preview
-   ```
-
-   If you don’t set `VITE_DATA_BASE`, the app uses `wine3` (static/wine3) so the Run dropdown lists bundled runs.
-
-## Creating a project
-
-If you're seeing this, you've probably already done this step. Congrats!
+## Setup
 
 ```sh
-# create a new project
-npx sv create my-app
+npm install
 ```
 
-To recreate this project with the same configuration:
-
-```sh
-# recreate this project
-npx sv create --template minimal --types ts --install npm chatvis2
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+## Local development
 
 ```sh
 npm run dev
+```
 
-# or start the server and open the app in a new browser tab
+Optional: open directly in browser.
+
+```sh
 npm run dev -- --open
 ```
 
-## Building
+Optional: run with a specific data base folder.
 
-To create a production version of your app:
+```sh
+VITE_DATA_BASE=<folder> npm run dev
+```
+
+Helper script (same behavior, with optional port):
+
+```sh
+./run.sh <folder> --port 5173
+```
+
+## Data base and run selection
+
+The app reads data from `static/<VITE_DATA_BASE>/`.
+
+- If `VITE_DATA_BASE` points to a folder containing multiple run subfolders, the UI shows a Run dropdown.
+- If it points to a single run folder, that run is loaded directly.
+- If omitted, the default is `wine3`.
+
+## Required data files (per run)
+
+Place these files in each run directory:
+
+- `requirement_output_dependency.json`
+- `requirements_outputs_lists.json`
+- `requirement_relations.jsonl`
+- `output_contributions.json`
+- `requirement_action_map.json`
+- `action_utterance_map.json`
+- `utterance_list.json`
+
+Optional file:
+
+- `outcome_action_map.json`
+
+Reference example data under `static/wine3/` and `static/user_study/`.
+
+## Quality checks
+
+```sh
+npm run check
+```
+
+Watch mode:
+
+```sh
+npm run check:watch
+```
+
+## Build and preview
 
 ```sh
 npm run build
+npm run preview
 ```
 
-You can preview the production build with `npm run preview`.
+## Utility script
+
+Generate user-study run index data:
+
+```sh
+npm run write-user-study-runs
+```
